@@ -1,0 +1,1332 @@
+fileFormatVersion: 2
+guid: 30ec835505d5cb64ea48985a7a765729
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6406658640180123582
+    second: rhyhorn_0
+  - first:
+      213: -1788841110383103959
+    second: rhyhorn_1
+  - first:
+      213: 2211535516988136005
+    second: rhyhorn_2
+  - first:
+      213: -4757701003850658354
+    second: rhyhorn_3
+  - first:
+      213: 3750776603282089633
+    second: rhyhorn_4
+  - first:
+      213: -7558525129254401329
+    second: rhyhorn_5
+  - first:
+      213: -7970870225534755475
+    second: rhyhorn_6
+  - first:
+      213: 4065115007449844291
+    second: rhyhorn_7
+  - first:
+      213: -3184120934400430298
+    second: rhyhorn_8
+  - first:
+      213: 7886284189488686895
+    second: rhyhorn_38
+  - first:
+      213: 1751384339151260808
+    second: rhyhorn_39
+  - first:
+      213: 8837862459183696197
+    second: rhyhorn_40
+  - first:
+      213: -1527172372866442486
+    second: rhyhorn_62
+  - first:
+      213: -2764716273013635633
+    second: rhyhorn_63
+  - first:
+      213: -6785387247945975009
+    second: walk1
+  - first:
+      213: -346626186040715434
+    second: walk2
+  - first:
+      213: 7056875026504207579
+    second: walk6
+  - first:
+      213: -7683502246484069394
+    second: rhyhorn_67
+  - first:
+      213: 3946554563704456273
+    second: rhyhorn_68
+  - first:
+      213: -4969176054256965957
+    second: rhyhorn_69
+  - first:
+      213: -4525038661332579948
+    second: rhyhorn_70
+  - first:
+      213: 3756566641281417472
+    second: walk3
+  - first:
+      213: 4251554265762019274
+    second: walk4
+  - first:
+      213: -8094127624377816882
+    second: walk5
+  - first:
+      213: 7399218503318454040
+    second: rhyhorn_74
+  - first:
+      213: 7551550363504318714
+    second: rhyhorn_75
+  - first:
+      213: 3499790220373552417
+    second: rhyhorn_76
+  - first:
+      213: 7577765632108362815
+    second: rhyhorn_77
+  - first:
+      213: 2800538682759000400
+    second: rhyhorn_78
+  - first:
+      213: 275809350790461603
+    second: rhyhorn_79
+  - first:
+      213: -6737007670799704440
+    second: rhyhorn_80
+  - first:
+      213: -2851725591724899888
+    second: rhyhorn_81
+  - first:
+      213: 5733160764848325529
+    second: rhyhorn_82
+  - first:
+      213: -6399022837973851109
+    second: rhyhorn_83
+  - first:
+      213: 5125130533729043056
+    second: rhyhorn_84
+  - first:
+      213: -2835230391964456988
+    second: rhyhorn_85
+  - first:
+      213: 4241848352251794536
+    second: rhyhorn_86
+  - first:
+      213: -1338285869449408826
+    second: rhyhorn_87
+  - first:
+      213: 5660104383961928918
+    second: rhyhorn_88
+  - first:
+      213: -5038242895876797194
+    second: rhyhorn_89
+  - first:
+      213: 6322792947243852849
+    second: rhyhorn_90
+  - first:
+      213: 5852728120343969060
+    second: rhyhorn_91
+  - first:
+      213: -4786878907829076824
+    second: rhyhorn_92
+  - first:
+      213: -5941873296160533557
+    second: rhyhorn_93
+  - first:
+      213: -17206097822790933
+    second: rhyhorn_94
+  - first:
+      213: 8014601663230532346
+    second: rhyhorn_95
+  - first:
+      213: -3982476833025520812
+    second: rhyhorn_96
+  - first:
+      213: -2223313509505146057
+    second: rhyhorn_97
+  - first:
+      213: -7068282481986987183
+    second: rhyhorn_98
+  - first:
+      213: -3153945520474899790
+    second: rhyhorn_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rhyhorn_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 201
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24860e229e9f617a0800000000000000
+      internalID: -6406658640180123582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 201
+        width: 67
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920ffffdc72cc27e0800000000000000
+      internalID: -1788841110383103959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 201
+        width: 67
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54adc32e5d3f0be10800000000000000
+      internalID: 2211535516988136005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 201
+        width: 67
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd46f5f42049fdb0800000000000000
+      internalID: -4757701003850658354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 201
+        width: 67
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6a97eb27f6d0430800000000000000
+      internalID: 3750776603282089633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 203
+        width: 66
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca8de41179ba1790800000000000000
+      internalID: -7558525129254401329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 203
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d5348e2c7c16190800000000000000
+      internalID: -7970870225534755475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_7
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 203
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a4826bf803a6830800000000000000
+      internalID: 4065115007449844291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f6d2f51eabfc3d0800000000000000
+      internalID: -3184120934400430298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_38
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 160
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27a040efa5b17d60800000000000000
+      internalID: 7886284189488686895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 160
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c0b48f6ca2e4810800000000000000
+      internalID: 1751384339151260808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_40
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 162
+        width: 47
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498765e41566aa70800000000000000
+      internalID: 8837862459183696197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_62
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 160
+        width: 21
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b518471d46ecae0800000000000000
+      internalID: -1527172372866442486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_63
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 160
+        width: 21
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5c742a231c1a9d0800000000000000
+      internalID: -2764716273013635633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 102
+        width: 67
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bf6be9f3675d1a0800000000000000
+      internalID: -6785387247945975009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 104
+        width: 70
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657d13ff159803bf0800000000000000
+      internalID: -346626186040715434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk6
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 102
+        width: 75
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdccb1b927e0fe160800000000000000
+      internalID: 7056875026504207579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_67
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 147
+        width: 17
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3b66f6a67be5590800000000000000
+      internalID: -7683502246484069394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_68
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 147
+        width: 17
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1540d48477af4c630800000000000000
+      internalID: 3946554563704456273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_69
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 116
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6e2abd4b0f90bb0800000000000000
+      internalID: -4969176054256965957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_70
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 138
+        width: 24
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499cc5cef45d331c0800000000000000
+      internalID: -4525038661332579948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 101
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00149a40571022430800000000000000
+      internalID: 3756566641281417472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 101
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7ba0a341e800b30800000000000000
+      internalID: 4251554265762019274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 101
+        width: 67
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8a8466fc1ebaf80800000000000000
+      internalID: -8094127624377816882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_74
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 127
+        width: 16
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f3bc9a60e4fa660800000000000000
+      internalID: 7399218503318454040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_75
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 129
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af89528bb0f7cc860800000000000000
+      internalID: 7551550363504318714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_76
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 119
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d60c9a9a0c19030800000000000000
+      internalID: 3499790220373552417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_77
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 130
+        width: 16
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c7bf491b1a92960800000000000000
+      internalID: 7577765632108362815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_78
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 135
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051379518138dd620800000000000000
+      internalID: 2800538682759000400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_79
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 128
+        width: 13
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8b89ba42fd3d300800000000000000
+      internalID: 275809350790461603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 67
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ed6e4b7375182a0800000000000000
+      internalID: -6737007670799704440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_81
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 51
+        width: 67
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c854fea2ac68d0800000000000000
+      internalID: -2851725591724899888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_82
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 51
+        width: 72
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993cdfc0757409f40800000000000000
+      internalID: 5733160764848325529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_83
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 51
+        width: 70
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14e4f0e1aa1237a0800000000000000
+      internalID: -6399022837973851109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_84
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 51
+        width: 70
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0728d6af01f102740800000000000000
+      internalID: 5125130533729043056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 51
+        width: 67
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7219eeafc37a8d0800000000000000
+      internalID: -2835230391964456988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_86
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 79
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8645b032a921eda30800000000000000
+      internalID: 4241848352251794536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_87
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 77
+        width: 40
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce0b8f97147d6de0800000000000000
+      internalID: -1338285869449408826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_88
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 79
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d49eadd2fabc8e40800000000000000
+      internalID: 5660104383961928918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_89
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 77
+        width: 39
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcc02ba7c0941ab0800000000000000
+      internalID: -5038242895876797194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_90
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 67
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134a0d89fa21fb750800000000000000
+      internalID: 6322792947243852849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_91
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 67
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dba046731193150800000000000000
+      internalID: 5852728120343969060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_92
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 72
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acb90ccef6919db0800000000000000
+      internalID: -4786878907829076824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_93
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1
+        width: 73
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d8f1f7b93a8da0800000000000000
+      internalID: -5941873296160533557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_94
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1
+        width: 73
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea4d4b252fd2cff0800000000000000
+      internalID: -17206097822790933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_95
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1
+        width: 71
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa5c11efb5993f60800000000000000
+      internalID: 8014601663230532346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_96
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 42
+        width: 39
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b8a41ab666bb8c0800000000000000
+      internalID: -3982476833025520812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_97
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 40
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7336e9984243521e0800000000000000
+      internalID: -2223313509505146057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_98
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 42
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b9c01388a68ed90800000000000000
+      internalID: -7068282481986987183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rhyhorn_99
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 40
+        width: 36
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bab82b624fea34d0800000000000000
+      internalID: -3153945520474899790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2724 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19045.3448; Version 2009; 64bit' Language: 'es' Physical Memory: 5056 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity Editors\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lalo_/Documents/Run Hilda!
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53324
+Successfully changed project path to: C:/Users/lalo_/Documents/Run Hilda!
+C:/Users/lalo_/Documents/Run Hilda!
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 200.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity Editors/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lalo_/Documents/Run Hilda!/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 Graphics (ID=0x9851)
+    Vendor:   
+    VRAM:     2528 MB
+    Driver:   27.20.21003.8013
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity Editors/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity Editors/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity Editors/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity Editors/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006872 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 171.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.557 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11558ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1536ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (568ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (171ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 174.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.991 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3994ms)
+		BeginReloadAssembly (511ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (3256ms)
+			LoadAssemblies (308ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (176ms)
+			SetupLoadedEditorAssemblies (1214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (277ms)
+				ProcessInitializeOnLoadAttributes (675ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2142 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 10.220500 ms (FindLiveObjects: 0.700200 ms CreateObjectMapping: 0.171600 ms MarkObjects: 9.128700 ms  DeleteObjects: 0.214800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Rhyhorn.prefab
+  artifactKey: Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rhyhorn.prefab using Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43539d43fb3fd25197889ae8cc12034') in 0.385719 seconds 
+  Import took 0.399171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015711 seconds.
+  path: Assets/Prefabs/Rhyhorn.prefab
+  artifactKey: Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rhyhorn.prefab using Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43539d43fb3fd25197889ae8cc12034') in 0.043590 seconds 
+  Import took 0.053851 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010859 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4426ms)
+		BeginReloadAssembly (349ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (3847ms)
+			LoadAssemblies (302ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1346ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (160ms)
+			SetupLoadedEditorAssemblies (1471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (405ms)
+				ProcessInitializeOnLoadAttributes (935ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (60ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2578.
+Total: 13.932400 ms (FindLiveObjects: 2.040700 ms CreateObjectMapping: 0.439300 ms MarkObjects: 11.374700 ms  DeleteObjects: 0.073300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.443 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5444ms)
+		BeginReloadAssembly (377ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (4785ms)
+			LoadAssemblies (352ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1702ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (254ms)
+			SetupLoadedEditorAssemblies (1709ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (449ms)
+				ProcessInitializeOnLoadAttributes (1149ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 15.175200 ms (FindLiveObjects: 1.203200 ms CreateObjectMapping: 0.401500 ms MarkObjects: 13.422900 ms  DeleteObjects: 0.139400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.298655 seconds.
+  path: Assets/Prefabs/Rhyhorn.prefab
+  artifactKey: Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rhyhorn.prefab using Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e81ae3f0d64d2992c13c82be313511') in 0.296731 seconds 
+  Import took 0.315869 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3580ms)
+		BeginReloadAssembly (336ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (3010ms)
+			LoadAssemblies (294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1042ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (997ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (281ms)
+				ProcessInitializeOnLoadAttributes (658ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 10.043500 ms (FindLiveObjects: 0.788000 ms CreateObjectMapping: 0.171600 ms MarkObjects: 9.019000 ms  DeleteObjects: 0.060500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7208.242957 seconds.
+  path: Assets/Sprites/Enemies/dog.gif
+  artifactKey: Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/dog.gif using Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2814c2480467c9ecb4e811dd69a7db0') in 0.846282 seconds 
+  Import took 0.859357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.551302 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde7a76d2f59c51fbd65c4eb34c473ec') in 0.036462 seconds 
+  Import took 0.046204 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017136 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.506 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3507ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2921ms)
+			LoadAssemblies (312ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1048ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (156ms)
+			SetupLoadedEditorAssemblies (963ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (279ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.1 MB.
+System memory in use after: 97.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2639.
+Total: 9.473500 ms (FindLiveObjects: 0.710500 ms CreateObjectMapping: 0.165000 ms MarkObjects: 8.522900 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1478.262400 seconds.
+  path: Assets/Sprites/Enemies/dog.gif
+  artifactKey: Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/dog.gif using Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b76df41ca97e7c26e2d995c20bcd1c9') in 0.694898 seconds 
+  Import took 0.711196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.525697 seconds.
+  path: Assets/Sprites/Enemies/dog.gif
+  artifactKey: Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Enemies/dog.gif using Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa02cac447fffe7866665a2d9ba1265') in 0.504529 seconds 
+  Import took 0.573146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.942528 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 3.689213 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 3.697528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062463 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006131 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053658 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005436 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053426 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005629 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058267 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005631 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053428 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006272 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053277 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009438 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.017592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065642 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005251 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051838 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006114 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055318 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007056 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052947 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005754 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055055 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007204 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053679 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006104 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074906 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006352 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059354 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005266 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058953 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005812 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057678 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006576 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.016876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056358 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004974 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.013484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055269 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007695 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059472 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006084 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069519 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005194 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.013311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052002 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006764 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052315 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004882 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.013258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055427 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005559 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057090 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004905 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052198 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005510 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058142 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005699 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060592 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008543 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.018415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064164 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006315 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061189 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006675 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055753 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006311 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057063 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007198 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.017126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059235 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006118 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062520 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005228 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.014089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066289 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005206 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.012944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059097 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007265 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.015754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066856 seconds.
+  path: Assets/Animations/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006451 seconds  code(4) message(Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/animations/wolf.controller in SourceAssetDB has modification time of '2023-10-02T03:50:18.8167058Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff680d248bc (Unity) StackWalker::GetCurrentCallstack
+0x00007ff680d2cf59 (Unity) StackWalker::ShowCallstack
+0x00007ff68224be7c (Unity) GetStacktrace
+0x00007ff68242f117 (Unity) GetAssetHashAndValidate
+0x00007ff68242a2e3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff682428252 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff6824026cd (Unity) CreateAssetVersionBuilder
+0x00007ff6824093cd (Unity) ImportToObjects
+0x00007ff6824081e8 (Unity) ImportAsset
+0x00007ff682369ff8 (Unity) AssetImportWorker::Import
+0x00007ff6823bd38a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff682461612 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff682463770 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff682466efe (Unity) asio::io_service::run
+0x00007ff6823ea13b (Unity) RunAssetImportWorkerClientV2
+0x00007ff6823ea190 (Unity) RunAssetImporterV2
+0x00007ff6818b1596 (Unity) Application::InitializeProject
+0x00007ff6822593e2 (Unity) WinMain
+0x00007ff6840abf46 (Unity) __scrt_common_main_seh
+0x00007ffd204d7344 (KERNEL32) BaseThreadInitThunk
+0x00007ffd210a26b1 (ntdll) RtlUserThreadStart
+
+  Import took 0.016282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.342156 seconds.
+  path: Assets/Animations/Wolf
+  artifactKey: Guid(e4cf1be355a1f824a93b6d88b5823027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf using Guid(e4cf1be355a1f824a93b6d88b5823027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae024df08cea76964b60a62497d892f') in 0.048201 seconds 
+  Import took 0.060625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.255395 seconds.
+  path: Assets/Animations/Wolf/walk.anim
+  artifactKey: Guid(33152346cc4cbd840be0c2b8f65d49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/walk.anim using Guid(33152346cc4cbd840be0c2b8f65d49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd318b7e909ef31f554a6bde935a37') in 0.037308 seconds 
+  Import took 0.049173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002107 seconds.
+  path: Assets/Animations/Wolf/walk.anim
+  artifactKey: Guid(33152346cc4cbd840be0c2b8f65d49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/walk.anim using Guid(33152346cc4cbd840be0c2b8f65d49dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd318b7e909ef31f554a6bde935a37') in 0.018301 seconds 
+  Import took 0.031588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.735292 seconds.
+  path: Assets/Animations/Wolf/prepare.anim
+  artifactKey: Guid(d230df8f3b4aecb4499e721a9df6a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/prepare.anim using Guid(d230df8f3b4aecb4499e721a9df6a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4ce115397eca807e142d3770435d3') in 0.055816 seconds 
+  Import took 0.069015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004657 seconds.
+  path: Assets/Animations/Wolf/prepare.anim
+  artifactKey: Guid(d230df8f3b4aecb4499e721a9df6a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/prepare.anim using Guid(d230df8f3b4aecb4499e721a9df6a112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4ce115397eca807e142d3770435d3') in 0.027169 seconds 
+  Import took 0.040190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524835 seconds.
+  path: Assets/Animations/Wolf/jump.anim
+  artifactKey: Guid(51cdff578e5b0744ba51968d67274f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/jump.anim using Guid(51cdff578e5b0744ba51968d67274f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe903c409b5b983c9be683ec000b5bd') in 0.055165 seconds 
+  Import took 0.069821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.394370 seconds.
+  path: Assets/Animations/Wolf/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2df1d324f68e91c77d9ed83092087be') in 0.019684 seconds 
+  Import took 0.036758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013967 seconds.
+  path: Assets/Animations/Wolf/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2df1d324f68e91c77d9ed83092087be') in 0.030450 seconds 
+  Import took 0.043987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.458714 seconds.
+  path: Assets/Prefabs/Wolf.prefab
+  artifactKey: Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wolf.prefab using Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c31b77c9945e8bd9607bee263b8f4c1') in 0.124677 seconds 
+  Import took 0.140052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.763776 seconds.
+  path: Assets/Prefabs/Wolf.prefab
+  artifactKey: Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wolf.prefab using Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e34b4edbbc22342e837360d49494a95') in 0.148992 seconds 
+  Import took 0.158994 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022271 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5057ms)
+		BeginReloadAssembly (654ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (91ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (139ms)
+		EndReloadAssembly (3874ms)
+			LoadAssemblies (720ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1394ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (1192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (338ms)
+				ProcessInitializeOnLoadAttributes (778ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 11.093400 ms (FindLiveObjects: 0.911900 ms CreateObjectMapping: 0.308200 ms MarkObjects: 9.790300 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1072.094587 seconds.
+  path: Assets/Animations/Wolf/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Wolf/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e389fe37c695062d6c59f6f3b854db') in 0.059007 seconds 
+  Import took 0.073601 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6377ms)
+		BeginReloadAssembly (470ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (22ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (174ms)
+		EndReloadAssembly (5594ms)
+			LoadAssemblies (415ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1851ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (266ms)
+			SetupLoadedEditorAssemblies (2054ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (585ms)
+				ProcessInitializeOnLoadAttributes (1371ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2646.
+Total: 11.124000 ms (FindLiveObjects: 0.950600 ms CreateObjectMapping: 0.327200 ms MarkObjects: 9.756100 ms  DeleteObjects: 0.084000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.297 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5298ms)
+		BeginReloadAssembly (411ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (4624ms)
+			LoadAssemblies (402ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1572ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (298ms)
+			SetupLoadedEditorAssemblies (1441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (71ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (413ms)
+				ProcessInitializeOnLoadAttributes (888ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 15.646500 ms (FindLiveObjects: 0.746100 ms CreateObjectMapping: 0.164100 ms MarkObjects: 14.647100 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108.616647 seconds.
+  path: Assets/Prefabs/Wolf.prefab
+  artifactKey: Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Wolf.prefab using Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b7b15d46ea550b2501441ff745e3c5') in 0.246566 seconds 
+  Import took 0.259496 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
