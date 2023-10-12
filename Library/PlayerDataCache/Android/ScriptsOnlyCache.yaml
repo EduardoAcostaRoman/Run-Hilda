@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - GenericEnemy
     - MusicController
     - SpeedController
+    - Wolf
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -28,11 +29,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateMachineInspector
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -71,15 +69,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3808}
+      Script: {instanceID: 2952}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 4008}
     - Class: 114
-      Script: {instanceID: 24182}
+      Script: {instanceID: 4936}
     - Class: 114
-      Script: {instanceID: 24294}
+      Script: {instanceID: 5154}
+    - Class: 114
+      Script: {instanceID: 5238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -265,6 +265,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GenericEnemy
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -561,6 +567,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
+      Hash: e79d733a276c7c31b911c89943978495
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemySpawnController
+  - hash:
+      serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -579,7 +591,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: df98dd2c20b4191d534e5204b93dbdda
+      Hash: 0c7a54a482517e7c7748eb1983c3e05d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SpeedController
@@ -595,6 +607,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 532ba6a9292c57d10d738a22f8b91a47
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Wolf
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -631,18 +649,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 77a63343556080215712312a6173386c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemySpawnController
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GenericEnemy
   platform: 13
   scenePathNames:
   - Assets/Scenes/main.unity

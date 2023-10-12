@@ -89,7 +89,7 @@ public class CharacterMainController : MonoBehaviour
         {
             if (touch.phase == TouchPhase.Began && boxCollider.IsTouchingLayers(groundLayer))
             {
-                audioPlayer(audioJump, 0.8f);
+                audioPlayer(audioJump, 0.3f);
                 body.velocity = new Vector2(0, jumpForce);
             }
         }
@@ -103,7 +103,7 @@ public class CharacterMainController : MonoBehaviour
         {
             if (animator.GetBool("fall") == true)
             {
-                audioPlayer(audioFall, 1f);
+                audioPlayer(audioFall, 0.5f);
             }
             animator.SetBool("fall", false);
         }

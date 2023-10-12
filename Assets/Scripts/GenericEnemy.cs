@@ -19,7 +19,7 @@ public class GenericEnemy : MonoBehaviour
     {
         body.velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.velocity.y);
 
-        if (transform.position.x <= -25)
+        if (transform.position.x <= -18)
         {
             Object.Destroy(gameObject);
         }
