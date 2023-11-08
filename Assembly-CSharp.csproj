@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\EnemySpawnController.cs" />
     <Compile Include="Assets\Scripts\SpeedController.cs" />
     <Compile Include="Assets\Scripts\Wolf.cs" />
+    <Compile Include="Assets\Scripts\Buff.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
