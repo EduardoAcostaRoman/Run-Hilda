@@ -333,6 +333,8 @@ GameObject:
   - component: {fileID: 359716288}
   - component: {fileID: 359716287}
   - component: {fileID: 359716286}
+  - component: {fileID: 359716290}
+  - component: {fileID: 359716289}
   m_Layer: 0
   m_Name: dust
   m_TagString: Untagged
@@ -399,7 +401,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1595736872862477925, guid: 5d7a2af42593a6d429cca4e68189c3c8, type: 3}
+  m_Sprite: {fileID: -7737183391038755057, guid: 5d7a2af42593a6d429cca4e68189c3c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -419,11 +421,45 @@ Transform:
   m_GameObject: {fileID: 359716285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.97, y: -3.54, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &359716289
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359716285}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &359716290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359716285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,6 +1101,7 @@ MonoBehaviour:
   audioFall: {fileID: 8300000, guid: 9cd8bdfda5e15764f886f057dcfd7853, type: 3}
   shaderGUItext: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
   shaderSpritesDefault: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  dust: {fileID: 359716285}
 --- !u!95 &1885324823
 Animator:
   serializedVersion: 3
@@ -1143,7 +1180,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885324818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.52, y: -3.342, z: 0}
+  m_LocalPosition: {x: -6.7, y: -3.45, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 52360437}

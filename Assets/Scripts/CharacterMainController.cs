@@ -28,6 +28,9 @@ public class CharacterMainController : MonoBehaviour
     int colorCount;
     bool blink;
 
+    public GameObject dust;
+    private GameObject speedReference;
+
     void clearSprite()
     {
         sprites.material.shader = shaderSpritesDefault;
@@ -61,7 +64,8 @@ public class CharacterMainController : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         sprites = GetComponent<SpriteRenderer>();
 
-        
+        speedReference = GameObject.FindGameObjectWithTag("Background");
+
         Physics2D.IgnoreLayerCollision(6, 7); // Ignores collision between layers: (6 = player || 7 = enemy) 
         Physics2D.IgnoreLayerCollision(6, 8); // Ignores collision between layers: (6 = player || 8 = intangible) 
     }
@@ -104,6 +108,9 @@ public class CharacterMainController : MonoBehaviour
             if (animator.GetBool("fall") == true)
             {
                 audioPlayer(audioFall, 0.5f);
+                dust.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+                dust.transform.position = new Vector3(transform.position.x -0.45f, -3.54f, dust.transform.position.z);
+                dust.GetComponent<Animator>().SetBool("dust", true);
             }
             animator.SetBool("fall", false);
         }
@@ -117,6 +124,12 @@ public class CharacterMainController : MonoBehaviour
             {
                 animator.SetBool("jump", true);
             }
+        }
+
+        if (dust.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("dust"))
+        {
+            dust.GetComponent<Rigidbody2D>().velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -8, 0);
+            dust.GetComponent<Animator>().SetBool("dust", false);
         }
 
         // --- DAMAGES ---//
