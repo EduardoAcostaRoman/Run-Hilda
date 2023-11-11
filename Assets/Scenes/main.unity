@@ -420,7 +420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359716285}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.97, y: -3.54, z: 0}
+  m_LocalPosition: {x: -7.04, y: -3.51, z: 0.1}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -471,6 +471,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -486,6 +487,21 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e771233f78e4d8449803e33be5ab8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCamX: 0
+  initialCamY: 0
+  camShakeMultiplier: 0.05
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1099,9 +1115,15 @@ MonoBehaviour:
     m_Bits: 128
   audioJump: {fileID: 8300000, guid: af15071bc2f590447a673e4fe51ecab8, type: 3}
   audioFall: {fileID: 8300000, guid: 9cd8bdfda5e15764f886f057dcfd7853, type: 3}
+  audioHit: {fileID: 8300000, guid: 609fd302a4cbda54fab44ce18a73922f, type: 3}
+  audioHurt1: {fileID: 8300000, guid: 316184adcdb9a7f419c246a61ebda207, type: 3}
+  audioHurt2: {fileID: 8300000, guid: a95330149892fac4ba3ceb3cda2016b8, type: 3}
+  audioHurt3: {fileID: 8300000, guid: f2c80b1dfc9e1b14d9bfb3804e8f9d6a, type: 3}
+  audioHurt4: {fileID: 8300000, guid: 55bcdd3dfd8fc2e42955836c3ea533d3, type: 3}
   shaderGUItext: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
   shaderSpritesDefault: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
   dust: {fileID: 359716285}
+  hitEffect: {fileID: 6271137983989546239, guid: 97e203e5ca2ea1d4e8fb94fe822b13fd, type: 3}
 --- !u!95 &1885324823
 Animator:
   serializedVersion: 3

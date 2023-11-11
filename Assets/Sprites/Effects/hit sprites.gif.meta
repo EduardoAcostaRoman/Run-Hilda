@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: eb11c3e336fe3ab4abc7576ffd784e1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5672709144500631328
+    second: hit sprites_0
+  - first:
+      213: -7789316621504047869
+    second: hit sprites_1
+  - first:
+      213: -8077733008198936570
+    second: hit sprites_2
+  - first:
+      213: -4072336918398488749
+    second: hit sprites_3
+  - first:
+      213: 8306361283188406340
+    second: hit sprites_4
+  - first:
+      213: -2158885276467216043
+    second: hit sprites_5
+  - first:
+      213: 1298864545369837520
+    second: hit sprites_6
+  - first:
+      213: -3367783304052054038
+    second: hit sprites_7
+  - first:
+      213: -960668308174455315
+    second: hit sprites_8
+  - first:
+      213: -8733658313136312602
+    second: hit sprites_9
+  - first:
+      213: 7652045072075348099
+    second: blank
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hit sprites_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 210
+        width: 42
+        height: 38
+      alignment: 9
+      pivot: {x: 0.47044882, y: 0.53266144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027f11069e289be40800000000000000
+      internalID: 5672709144500631328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 214
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0.45815295, y: 0.4712305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30594346dc9c6e390800000000000000
+      internalID: -7789316621504047869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 110
+        width: 57
+        height: 64
+      alignment: 9
+      pivot: {x: 0.4412922, y: 0.5935662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608dadf60a026ef80800000000000000
+      internalID: -8077733008198936570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_3
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 111
+        width: 61
+        height: 64
+      alignment: 9
+      pivot: {x: 0.46587986, y: 0.5433607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f262d16272c77c0800000000000000
+      internalID: -4072336918398488749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 123
+        width: 50
+        height: 56
+      alignment: 9
+      pivot: {x: 0.53217775, y: 0.44664356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448b08cf39f164370800000000000000
+      internalID: 8306361283188406340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 123
+        width: 54
+        height: 63
+      alignment: 9
+      pivot: {x: 0.59741324, y: 0.36716473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551c95187491a02e0800000000000000
+      internalID: -2158885276467216043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 124
+        width: 54
+        height: 61
+      alignment: 9
+      pivot: {x: 0.58237034, y: 0.3771885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df4e1e1c6e760210800000000000000
+      internalID: 1298864545369837520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 25
+        width: 63
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5293494, y: 0.43937722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae76c71adea3341d0800000000000000
+      internalID: -3367783304052054038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 22
+        width: 62
+        height: 63
+      alignment: 9
+      pivot: {x: 0.52982306, y: 0.4496873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded394873450ba2f0800000000000000
+      internalID: -960668308174455315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hit sprites_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 19
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee6fdf7900dbc680800000000000000
+      internalID: -8733658313136312602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blank
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 55
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38854566376813a60800000000000000
+      internalID: 7652045072075348099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

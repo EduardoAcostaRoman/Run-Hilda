@@ -17,6 +17,10 @@ public class CharacterMainController : MonoBehaviour
 
     public AudioClip audioJump;
     public AudioClip audioFall;
+    public AudioClip audioHurt1;
+    public AudioClip audioHurt2;
+    public AudioClip audioHurt3;
+    public AudioClip audioHurt4;
 
     public Shader shaderGUItext;
     public Shader shaderSpritesDefault;
@@ -30,6 +34,10 @@ public class CharacterMainController : MonoBehaviour
 
     public GameObject dust;
     private GameObject speedReference;
+
+    public GameObject hitEffect;
+
+    private float randomValue;
 
     void clearSprite()
     {
@@ -76,12 +84,13 @@ public class CharacterMainController : MonoBehaviour
         // --- CONFIGURATIONS --- //
 
         realtime = Time.fixedTime;
+        randomValue = Random.value;
 
         // For PC tests (delete/comment for build)
 
         if (Input.GetKeyDown(KeyCode.W) && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
         {
-            audioPlayer(audioJump, 0.8f);
+            audioPlayer(audioJump, 0.5f);
             body.velocity = new Vector2(0, jumpForce);       
         }
 
@@ -93,7 +102,7 @@ public class CharacterMainController : MonoBehaviour
         {
             if (touch.phase == TouchPhase.Began && boxCollider.IsTouchingLayers(groundLayer))
             {
-                audioPlayer(audioJump, 0.3f);
+                audioPlayer(audioJump, 0.5f);
                 body.velocity = new Vector2(0, jumpForce);
             }
         }
@@ -109,7 +118,7 @@ public class CharacterMainController : MonoBehaviour
             {
                 audioPlayer(audioFall, 0.5f);
                 dust.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
-                dust.transform.position = new Vector3(transform.position.x -0.45f, -3.54f, dust.transform.position.z);
+                dust.transform.position = new Vector3(transform.position.x -0.45f, dust.transform.position.y, dust.transform.position.z);
                 dust.GetComponent<Animator>().SetBool("dust", true);
             }
             animator.SetBool("fall", false);
@@ -137,6 +146,26 @@ public class CharacterMainController : MonoBehaviour
         if (transform.GetChild(0).GetComponent<BoxCollider2D>().IsTouchingLayers(enemyLayer) && !blink)
         {
             animator.SetBool("hurt", true);
+
+            if (randomValue < 0.25)
+            {
+                audioPlayer(audioHurt1, 1f);
+            }
+            else if (randomValue < 0.5)
+            {
+                audioPlayer(audioHurt2, 1f);
+            }
+            else if (randomValue < 0.75)
+            {
+                audioPlayer(audioHurt3, 1f);
+            }
+            else
+            {
+                audioPlayer(audioHurt4, 0.7f);
+            }
+
+            Instantiate(hitEffect, new Vector3(transform.position.x,transform.position.y +1.08f, -1f), hitEffect.transform.rotation);
+
             prevtime = realtime;
             blink = true;
         }
