@@ -36,7 +36,7 @@ TextureImporter:
       213: 7652045072075348099
     second: blank
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -53,10 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -95,6 +97,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -388,9 +392,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      blank: 7652045072075348099
+      hit sprites_0: 5672709144500631328
+      hit sprites_1: -7789316621504047869
+      hit sprites_2: -8077733008198936570
+      hit sprites_3: -4072336918398488749
+      hit sprites_4: 8306361283188406340
+      hit sprites_5: -2158885276467216043
+      hit sprites_6: 1298864545369837520
+      hit sprites_7: -3367783304052054038
+      hit sprites_8: -960668308174455315
+      hit sprites_9: -8733658313136312602
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -153,7 +153,7 @@ TextureImporter:
       213: -3153945520474899790
     second: rhyhorn_99
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -170,10 +170,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -212,6 +214,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1324,9 +1328,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      rhyhorn_0: -6406658640180123582
+      rhyhorn_1: -1788841110383103959
+      rhyhorn_2: 2211535516988136005
+      rhyhorn_3: -4757701003850658354
+      rhyhorn_38: 7886284189488686895
+      rhyhorn_39: 1751384339151260808
+      rhyhorn_4: 3750776603282089633
+      rhyhorn_40: 8837862459183696197
+      rhyhorn_5: -7558525129254401329
+      rhyhorn_6: -7970870225534755475
+      rhyhorn_62: -1527172372866442486
+      rhyhorn_63: -2764716273013635633
+      rhyhorn_67: -7683502246484069394
+      rhyhorn_68: 3946554563704456273
+      rhyhorn_69: -4969176054256965957
+      rhyhorn_7: 4065115007449844291
+      rhyhorn_70: -4525038661332579948
+      rhyhorn_74: 7399218503318454040
+      rhyhorn_75: 7551550363504318714
+      rhyhorn_76: 3499790220373552417
+      rhyhorn_77: 7577765632108362815
+      rhyhorn_78: 2800538682759000400
+      rhyhorn_79: 275809350790461603
+      rhyhorn_8: -3184120934400430298
+      rhyhorn_80: -6737007670799704440
+      rhyhorn_81: -2851725591724899888
+      rhyhorn_82: 5733160764848325529
+      rhyhorn_83: -6399022837973851109
+      rhyhorn_84: 5125130533729043056
+      rhyhorn_85: -2835230391964456988
+      rhyhorn_86: 4241848352251794536
+      rhyhorn_87: -1338285869449408826
+      rhyhorn_88: 5660104383961928918
+      rhyhorn_89: -5038242895876797194
+      rhyhorn_90: 6322792947243852849
+      rhyhorn_91: 5852728120343969060
+      rhyhorn_92: -4786878907829076824
+      rhyhorn_93: -5941873296160533557
+      rhyhorn_94: -17206097822790933
+      rhyhorn_95: 8014601663230532346
+      rhyhorn_96: -3982476833025520812
+      rhyhorn_97: -2223313509505146057
+      rhyhorn_98: -7068282481986987183
+      rhyhorn_99: -3153945520474899790
+      walk1: -6785387247945975009
+      walk2: -346626186040715434
+      walk3: 3756566641281417472
+      walk4: 4251554265762019274
+      walk5: -8094127624377816882
+      walk6: 7056875026504207579
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

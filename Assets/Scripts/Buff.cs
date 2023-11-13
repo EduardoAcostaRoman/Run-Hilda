@@ -24,5 +24,14 @@ public class Buff : MonoBehaviour
         transform.position = new Vector3(Mathf.Lerp(transform.position.x, startPosX, 0.1f),
                                          Mathf.Lerp(transform.position.y, startPosY, 0.1f),
                                          transform.position.z);
+
+        if (player.GetComponent<CharacterMainController>().blink)
+        {
+            GetComponent<Animator>().SetBool("hurt", true);
+        }
+        else
+        {
+            GetComponent<Animator>().SetBool("hurt", false);
+        }
     }
 }

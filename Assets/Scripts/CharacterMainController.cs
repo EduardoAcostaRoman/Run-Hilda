@@ -30,7 +30,7 @@ public class CharacterMainController : MonoBehaviour
     float prevtime;
     bool colorChange = false;
     int colorCount;
-    bool blink;
+    public bool blink = false;
 
     public GameObject dust;
     private GameObject speedReference;

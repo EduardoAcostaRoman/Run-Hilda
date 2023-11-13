@@ -90,7 +90,7 @@ TextureImporter:
       213: 8313473317791350454
     second: dog_28
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -107,10 +107,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -149,6 +151,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -820,9 +824,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      dog_0: 1480917699468073914
+      dog_1: 9118213209582376027
+      dog_18: 4993545163547775211
+      dog_19: -6014123522726495864
+      dog_2: -1146434942223613854
+      dog_20: 7602628643585851816
+      dog_21: -762420203692235231
+      dog_22: -4168059837554779552
+      dog_23: 4568656549451717228
+      dog_24: -3831826684521258958
+      dog_25: -6539853958443133476
+      dog_26: 7313846962444467159
+      dog_27: 6200431335010797962
+      dog_28: 8313473317791350454
+      dog_3: 4232618656017457076
+      dog_4: 8622651429821660651
+      dog_5: 6148440367437093035
+      jump1: 7923082762766684019
+      jump2: -9029403309599034968
+      jump3: 2803988006505525306
+      jump4: 3400923815045601055
+      jump5: 4718554174849645675
+      jump6: -6530142070266967631
+      walk1: 7623178905550315798
+      walk2: 1172281312028412848
+      walk3: -5732640591474583860
+      walk4: 324536050776143305
+      walk5: 8665259525798903360
+      walk6: -5571043160711537403
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
