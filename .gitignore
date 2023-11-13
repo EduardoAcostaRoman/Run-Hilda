@@ -1,0 +1,3 @@
+# ignores library folder due to high file volume
+
+Library/
