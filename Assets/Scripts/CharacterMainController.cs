@@ -76,6 +76,8 @@ public class CharacterMainController : MonoBehaviour
 
         Physics2D.IgnoreLayerCollision(6, 7); // Ignores collision between layers: (6 = player || 7 = enemy) 
         Physics2D.IgnoreLayerCollision(6, 8); // Ignores collision between layers: (6 = player || 8 = intangible) 
+
+        
     }
 
     void Update()
@@ -93,6 +95,8 @@ public class CharacterMainController : MonoBehaviour
             audioPlayer(audioJump, 0.5f);
             body.velocity = new Vector2(0, jumpForce);       
         }
+
+        Debug.Log(sprites.material.shader);
 
         // For PC tests (delete/comment for build)
 

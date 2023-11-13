@@ -15,7 +15,7 @@ C:/Users/lalo_/Documents/Run Hilda!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54206
+54369
 Successfully changed project path to: C:/Users/lalo_/Documents/Run Hilda!
 C:/Users/lalo_/Documents/Run Hilda!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/lalo_/Documents/Run Hilda!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4270400852 [EditorId] 4270400852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15296] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 41818667 [EditorId] 41818667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14500] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4270400852 [EditorId] 4270400852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15296] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 41818667 [EditorId] 41818667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 825.48 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 938.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.19f1 (629111e352bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/Resources/UnitySubsystems
@@ -66,11 +66,12 @@ Direct3D:
     Vendor:   ATI
     VRAM:     2528 MB
     Driver:   27.20.21003.8013
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -86,46 +87,46 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.070863 seconds.
-- Loaded All Assemblies, in  7.519 seconds
+Registered in 0.196994 seconds.
+- Loaded All Assemblies, in 11.468 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 4395 ms
+Android Extension - Scanning For ADB Devices 89717 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  8.780 seconds
-Domain Reload Profiling: 16285ms
-	BeginReloadAssembly (2636ms)
+- Finished resetting the current domain, in 97.629 seconds
+Domain Reload Profiling: 109087ms
+	BeginReloadAssembly (4899ms)
 		ExecutionOrderSort (1ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (9ms)
-	RebuildCommonClasses (1201ms)
-	RebuildNativeTypeToScriptingClass (319ms)
-	initialDomainReloadingComplete (1362ms)
-	LoadAllAssembliesAndSetupDomain (1983ms)
-		LoadAssemblies (2614ms)
+	RebuildCommonClasses (2603ms)
+	RebuildNativeTypeToScriptingClass (207ms)
+	initialDomainReloadingComplete (1416ms)
+	LoadAllAssembliesAndSetupDomain (2329ms)
+		LoadAssemblies (4890ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1919ms)
-			TypeCache.Refresh (1913ms)
-				TypeCache.ScanAssembly (1757ms)
-			ScanForSourceGeneratedMonoScriptInfo (2ms)
+		AnalyzeDomain (2278ms)
+			TypeCache.Refresh (2271ms)
+				TypeCache.ScanAssembly (2161ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (8783ms)
+	FinalizeReload (97632ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (8324ms)
+		SetupLoadedEditorAssemblies (96939ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6458ms)
-			SetLoadedEditorAssemblies (22ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (1396ms)
-			ProcessInitializeOnLoadMethodAttributes (379ms)
+			InitializePlatformSupportModulesInManaged (92650ms)
+			SetLoadedEditorAssemblies (45ms)
+			BeforeProcessingInitializeOnLoad (1321ms)
+			ProcessInitializeOnLoadAttributes (2104ms)
+			ProcessInitializeOnLoadMethodAttributes (817ms)
 			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (2ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 ========================================================================
@@ -144,77 +145,1393 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Loaded All Assemblies, in 14.180 seconds
-Refreshing native plugins compatible for Editor in 73.41 ms, found 3 plugins.
+- Loaded All Assemblies, in 18.851 seconds
+Refreshing native plugins compatible for Editor in 51.21 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  8.896 seconds
-Domain Reload Profiling: 23032ms
-	BeginReloadAssembly (3949ms)
+- Finished resetting the current domain, in  8.092 seconds
+Domain Reload Profiling: 26937ms
+	BeginReloadAssembly (3239ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (60ms)
+		DisableScriptedObjects (49ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (299ms)
-	RebuildCommonClasses (355ms)
-	RebuildNativeTypeToScriptingClass (100ms)
-	initialDomainReloadingComplete (785ms)
-	LoadAllAssembliesAndSetupDomain (8934ms)
-		LoadAssemblies (5749ms)
+		ReleaseScriptingObjects (14ms)
+		CreateAndSetChildDomain (260ms)
+	RebuildCommonClasses (245ms)
+	RebuildNativeTypeToScriptingClass (97ms)
+	initialDomainReloadingComplete (300ms)
+	LoadAllAssembliesAndSetupDomain (14961ms)
+		LoadAssemblies (11623ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (4693ms)
-			TypeCache.Refresh (4441ms)
-				TypeCache.ScanAssembly (4201ms)
-			ScanForSourceGeneratedMonoScriptInfo (145ms)
-			ResolveRequiredComponents (103ms)
-	FinalizeReload (8908ms)
+		AnalyzeDomain (4402ms)
+			TypeCache.Refresh (4160ms)
+				TypeCache.ScanAssembly (3837ms)
+			ScanForSourceGeneratedMonoScriptInfo (164ms)
+			ResolveRequiredComponents (77ms)
+	FinalizeReload (8095ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (6056ms)
+		SetupLoadedEditorAssemblies (5035ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (195ms)
-			SetLoadedEditorAssemblies (23ms)
-			BeforeProcessingInitializeOnLoad (1111ms)
-			ProcessInitializeOnLoadAttributes (3922ms)
-			ProcessInitializeOnLoadMethodAttributes (759ms)
-			AfterProcessingInitializeOnLoad (44ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (68ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
-Refreshing native plugins compatible for Editor in 51.30 ms, found 3 plugins.
+			InitializePlatformSupportModulesInManaged (259ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (581ms)
+			ProcessInitializeOnLoadAttributes (3287ms)
+			ProcessInitializeOnLoadMethodAttributes (860ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 38.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (59.1 KB). Loaded Objects now: 3103.
-Memory consumption went from 123.0 MB to 122.9 MB.
-Total: 34.031500 ms (FindLiveObjects: 1.445400 ms CreateObjectMapping: 0.902500 ms MarkObjects: 29.072900 ms  DeleteObjects: 2.164800 ms)
+Unloading 4186 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.3 MB). Loaded Objects now: 4718.
+Memory consumption went from 189.2 MB to 187.0 MB.
+Total: 72.602700 ms (FindLiveObjects: 5.930700 ms CreateObjectMapping: 1.357100 ms MarkObjects: 59.194700 ms  DeleteObjects: 6.106500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/VSCodeDiscovery.cs: d83b4aff57b85f583bfc60cfbb7e527e -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/GUIDGenerator.cs: 6dd6e35608006bcfade7642e5de04c6b -> 
+  custom:scripting/monoscript/fileName/VSCodeScriptEditor.cs: 976f19e81f1a1748ecd5ce0eeab6e373 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/FileIO.cs: e12d7b1846fe00e4e229609939e0062b -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 7c3150a04cd2de8ef9bdd48a0f99701a -> 9a60ae906ea060222f7967033c27f7ed
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 7145090b977b4a4af2c7ee452bb803ed -> 5210529ddc67cdb852122f447527c528
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  6.720 seconds
+Refreshing native plugins compatible for Editor in 18.61 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.705 seconds
+Domain Reload Profiling: 15372ms
+	BeginReloadAssembly (2008ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (79ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (271ms)
+	RebuildCommonClasses (599ms)
+	RebuildNativeTypeToScriptingClass (98ms)
+	initialDomainReloadingComplete (186ms)
+	LoadAllAssembliesAndSetupDomain (3770ms)
+		LoadAssemblies (3544ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1708ms)
+			TypeCache.Refresh (1620ms)
+				TypeCache.ScanAssembly (1571ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (83ms)
+	FinalizeReload (8710ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (414ms)
+			ProcessInitializeOnLoadAttributes (2526ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 34.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (2.2 MB). Loaded Objects now: 4721.
+Memory consumption went from 167.4 MB to 165.2 MB.
+Total: 1850.387200 ms (FindLiveObjects: 4.313900 ms CreateObjectMapping: 5.011000 ms MarkObjects: 1836.410200 ms  DeleteObjects: 4.646500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/VSCodeDiscovery.cs: d83b4aff57b85f583bfc60cfbb7e527e -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GUIDGenerator.cs: 6dd6e35608006bcfade7642e5de04c6b -> 
+  custom:scripting/monoscript/fileName/VSCodeScriptEditor.cs: 976f19e81f1a1748ecd5ce0eeab6e373 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FileIO.cs: e12d7b1846fe00e4e229609939e0062b -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 7c3150a04cd2de8ef9bdd48a0f99701a -> 9a60ae906ea060222f7967033c27f7ed
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 7145090b977b4a4af2c7ee452bb803ed -> 5210529ddc67cdb852122f447527c528
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 65945.879254 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(cf8302494d754f84485f4b73be6e2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(cf8302494d754f84485f4b73be6e2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b36779db73c3e43e3ae469601b2b3d') in 0.029024 seconds
+  Time since last request: 80019.035122 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(b3998d7bccdec094c908c7247b33f2b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(b3998d7bccdec094c908c7247b33f2b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29165948d764710d3596a717612acc78') in 5.685046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002321 seconds.
+  path: Assets/Animations/Rhyhorn/walk.anim
+  artifactKey: Guid(c6066a0ad479f464cbccd9a277f7f994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Rhyhorn/walk.anim using Guid(c6066a0ad479f464cbccd9a277f7f994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '167815b21b7ce40cfe361b15f09f6b21') in 0.288555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002933 seconds.
+  path: Assets/Sprites/Hilda/jump7.gif
+  artifactKey: Guid(08e638e3bc6b4d043bbca83e5f3108fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump7.gif using Guid(08e638e3bc6b4d043bbca83e5f3108fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f065aeaa7590632887b7c7f1e110a945') in 0.600192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/Icons/Icon216.png
+  artifactKey: Guid(107e29ceefd2d9645a7befe96db62aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Icons/Icon216.png using Guid(107e29ceefd2d9645a7befe96db62aba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e16bdcd967a0524289c8c36151cbef0f') in 0.193862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Sprites/Hilda/frame-04.gif
+  artifactKey: Guid(66d457abc217a974291061f95954229b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-04.gif using Guid(66d457abc217a974291061f95954229b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21e85498bbe0f9b63d36c682a84dd252') in 0.229414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Sprites/Hilda/frame-34.gif
+  artifactKey: Guid(08b4424c7dc54d7458be3e9fdb23f70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-34.gif using Guid(08b4424c7dc54d7458be3e9fdb23f70c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c462ade4fa952b4239d726d74880d21') in 0.133326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scripts/EnemySpawnController.cs
+  artifactKey: Guid(88fb5027979651c45b90d1140581947e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/EnemySpawnController.cs using Guid(88fb5027979651c45b90d1140581947e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0896acc67a6e5d28d36fbfff2affcff') in 0.083614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002726 seconds.
+  path: Assets/Audio/Hilda/hurt1.wav
+  artifactKey: Guid(316184adcdb9a7f419c246a61ebda207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/hurt1.wav using Guid(316184adcdb9a7f419c246a61ebda207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '938e998e5769ece3755a6efd34f3a646') in 0.363278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Animations/Buff/Hurt.anim
+  artifactKey: Guid(9911fdab2d786124bb1719c8493d1c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Buff/Hurt.anim using Guid(9911fdab2d786124bb1719c8493d1c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e3687610dd9d651f5b255a1e837184e') in 0.122791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Enemies/bat and missile.gif
+  artifactKey: Guid(d613e0ebb7a48b440a62e3b443342406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Enemies/bat and missile.gif using Guid(d613e0ebb7a48b440a62e3b443342406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17eb2c79cac78816784c5ac5527a84b1') in 0.245293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/Animations/Effects/Hit/hit.anim
+  artifactKey: Guid(345bdffd401829f4dbe1ba7155118f22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Effects/Hit/hit.anim using Guid(345bdffd401829f4dbe1ba7155118f22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ca42dbc9a7698182ce70eb57e8cee97') in 0.061516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Effects/dust.gif
+  artifactKey: Guid(5d7a2af42593a6d429cca4e68189c3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/dust.gif using Guid(5d7a2af42593a6d429cca4e68189c3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04b6849c9a3d69153a7d7202181dc4ba') in 0.244758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/Hilda/run1.gif
+  artifactKey: Guid(e605359243e22614e8943ff13679ec2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run1.gif using Guid(e605359243e22614e8943ff13679ec2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c5ac218dfa5e59a318144bbf3c3a5a5') in 0.278736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprites/Hilda/frame-28.gif
+  artifactKey: Guid(6f8f5d46209b5234ab5aee82b5fca912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-28.gif using Guid(6f8f5d46209b5234ab5aee82b5fca912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88a8c5a3f21e757237b898d1ea95280a') in 0.155560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Audio/Enemies/Wolf/dogAttack.ogg
+  artifactKey: Guid(21a3ca5be5430934a9267f8d252ceccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Enemies/Wolf/dogAttack.ogg using Guid(21a3ca5be5430934a9267f8d252ceccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1d32b9fd8d822a33d51a36852c2d6a5') in 0.269577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/Hilda/run4.gif
+  artifactKey: Guid(53b1dbe1235b2db4292584682a2e907a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run4.gif using Guid(53b1dbe1235b2db4292584682a2e907a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76227ee79e15d3127c0a5088a5297d47') in 0.128506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Sprites/Hilda/frame-31.gif
+  artifactKey: Guid(3d7bc41e71ff4c7428722e05a842ff6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-31.gif using Guid(3d7bc41e71ff4c7428722e05a842ff6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50c3dc0792758f44eed40e6d47f6a4f7') in 0.114688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprites/Hilda/Hilda additional sprites.gif
+  artifactKey: Guid(2a3609af7f43be84e9673c5798bd14e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/Hilda additional sprites.gif using Guid(2a3609af7f43be84e9673c5798bd14e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bec9df8e5598ab0187ff769fd3624967') in 0.372413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Animations/Background/meadow.controller
+  artifactKey: Guid(30f400df4f330a1418b10eaff82d9996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Background/meadow.controller using Guid(30f400df4f330a1418b10eaff82d9996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30b243d22238cf6842b913ac831c8a4d') in 0.195606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Animations/Hilda/run.anim
+  artifactKey: Guid(5a1f70b24dc756a4a93985db1468d3e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Hilda/run.anim using Guid(5a1f70b24dc756a4a93985db1468d3e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '329cf602c6fb4c56aa9a97f0c5896bcd') in 0.115296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/CharacterMainController.cs
+  artifactKey: Guid(29b0916c55fbad84f803b068cc98513f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CharacterMainController.cs using Guid(29b0916c55fbad84f803b068cc98513f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3c3b79d5a6df97df1a508bc875f51fd') in 0.068750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001103 seconds.
+  path: Assets/Animations/Hilda/Hilda.controller
+  artifactKey: Guid(5fb1e54915ebeae4db5a8d4083ee3eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Hilda/Hilda.controller using Guid(5fb1e54915ebeae4db5a8d4083ee3eaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd2b937cdebc88288f71d6f47ca492ba') in 0.262546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Audio/Enemies/Wolf/dogAttackPrepare.ogg
+  artifactKey: Guid(01a4c9e721445eb4baaafec8459229c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Enemies/Wolf/dogAttackPrepare.ogg using Guid(01a4c9e721445eb4baaafec8459229c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48d3a2f40f4ab6ba27d17334f3cd7c7c') in 0.233845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Audio/Hilda/strongHit.wav
+  artifactKey: Guid(b51c08998305b6842a173be8def36751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/strongHit.wav using Guid(b51c08998305b6842a173be8def36751) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8038ba2ea64dc288694dd15e25178583') in 0.449909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Icons/Icon81.png
+  artifactKey: Guid(99d5ab9827e8fcc4a998f03caba58723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Icons/Icon81.png using Guid(99d5ab9827e8fcc4a998f03caba58723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8410485ea36d63ba9a8ccf522cb84d7f') in 0.102067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Prefabs/Wolf.prefab
+  artifactKey: Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Wolf.prefab using Guid(5aed28c4879277d4caee37be40c0ec7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b645e6479a3dfa56d9ed26f9d0fd6d3') in 0.365941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites/Hilda/frame-25.gif
+  artifactKey: Guid(914e3f713990a8b47b0d869c0c3d2d31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-25.gif using Guid(914e3f713990a8b47b0d869c0c3d2d31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a86c1483221b14d6e5ccba46ab37c6b4') in 0.111048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scripts/Wolf.cs
+  artifactKey: Guid(dc8b2853e2cb90d4d8615fa9f61c5aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Wolf.cs using Guid(dc8b2853e2cb90d4d8615fa9f61c5aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '73d5acbc4e38e3ed28bee2f5f6665204') in 0.051239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animations/Hilda/jump.anim
+  artifactKey: Guid(6f1d85e585c946d47a6cf4e168b30230) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Hilda/jump.anim using Guid(6f1d85e585c946d47a6cf4e168b30230) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85acd74f9a67406f03aff5ad95f2d745') in 0.107023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/Hilda/frame-05.gif
+  artifactKey: Guid(3312ad798aa6b824db2918b6fad964c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-05.gif using Guid(3312ad798aa6b824db2918b6fad964c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41b9b6b8f45c48f28935c8794c27603f') in 0.383501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprites/Hilda/frame-09.gif
+  artifactKey: Guid(408a86209621f1f49a21a6fbb47af6fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-09.gif using Guid(408a86209621f1f49a21a6fbb47af6fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b4f620f49573e31ef007823811da895') in 0.162721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Hilda/run8.gif
+  artifactKey: Guid(23fe035f215b66543b6ea0afb1ff8f81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run8.gif using Guid(23fe035f215b66543b6ea0afb1ff8f81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1989dd63970b36d0a73fa3128670f849') in 0.179761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Hilda/frame-24.gif
+  artifactKey: Guid(14a07cba506ab9b4487e3bea508f04f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-24.gif using Guid(14a07cba506ab9b4487e3bea508f04f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd7a7183d6f3a417008994e67b070239') in 0.160771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Audio/Hilda/fall.wav
+  artifactKey: Guid(9cd8bdfda5e15764f886f057dcfd7853) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/fall.wav using Guid(9cd8bdfda5e15764f886f057dcfd7853) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5dfc5447f7000800c1cf83f671d6fc1c') in 0.449863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Sprites/Hilda/run7.gif
+  artifactKey: Guid(afe16e002261f0549a8f12d148a6422c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run7.gif using Guid(afe16e002261f0549a8f12d148a6422c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cda677d42ee59356193ee09cbc188681') in 0.655699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/Effects/hit sprites.gif
+  artifactKey: Guid(eb11c3e336fe3ab4abc7576ffd784e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Effects/hit sprites.gif using Guid(eb11c3e336fe3ab4abc7576ffd784e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '115c56e0f1a74614dfe56a209a8f9860') in 0.393076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Sprites/Hilda/run12.gif
+  artifactKey: Guid(e9e2d45237955bd4faf50ae8059ffb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run12.gif using Guid(e9e2d45237955bd4faf50ae8059ffb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8d4829700a3889f2edc838247214637') in 0.425533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Audio/Enemies/Wolf/Dog Panting Sound Effect.mp3
+  artifactKey: Guid(b28e37d780a2dd84ba4d1bdd6261ea6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Enemies/Wolf/Dog Panting Sound Effect.mp3 using Guid(b28e37d780a2dd84ba4d1bdd6261ea6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13a70bf20c5e5da7bf5f033e17f37be5') in 0.738611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/Hilda/run10.gif
+  artifactKey: Guid(ffcd30cc73b52f4439ab9aab78c0c7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run10.gif using Guid(ffcd30cc73b52f4439ab9aab78c0c7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31b9210387e6d18b0df2662ea7b0d7ed') in 0.168373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Hilda/jump3.gif
+  artifactKey: Guid(f85e646fbf78ef24e825c63ca741d44e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump3.gif using Guid(f85e646fbf78ef24e825c63ca741d44e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd00e53a44659972ef042bcf2b02c8723') in 0.125246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Hilda/frame-32.gif
+  artifactKey: Guid(f114f8cdcbc05ef439b914787dd4b098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-32.gif using Guid(f114f8cdcbc05ef439b914787dd4b098) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34bae7eb112fdc007c8ee154f857fcfb') in 0.086232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/Hilda/frame-01.gif
+  artifactKey: Guid(a09e159507aa0a84db1049479a834ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-01.gif using Guid(a09e159507aa0a84db1049479a834ed6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcd3938e51d3625294f8fa4b6eb0723e') in 0.110827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animations/Wolf/walk.anim
+  artifactKey: Guid(33152346cc4cbd840be0c2b8f65d49dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Wolf/walk.anim using Guid(33152346cc4cbd840be0c2b8f65d49dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d16ca8df110267dc119605fdc6b55ee') in 0.051437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Hilda/frame-07.gif
+  artifactKey: Guid(6438c272dffd5a1438658f444c06adec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-07.gif using Guid(6438c272dffd5a1438658f444c06adec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aecd5f544e898c4dade2fda578f8376f') in 0.098379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Hilda/run11.gif
+  artifactKey: Guid(b82857e7ab796f44fa96bbc7980c76c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run11.gif using Guid(b82857e7ab796f44fa96bbc7980c76c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f253e7d8597bc4736fe9744b7d2e1191') in 0.109233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Hilda/jump2.gif
+  artifactKey: Guid(cdebcaebb6e33334b9e7281be683c426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump2.gif using Guid(cdebcaebb6e33334b9e7281be683c426) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e81e607152bcbc8a0372051c698b1137') in 0.097056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Hilda/frame-08.gif
+  artifactKey: Guid(bf0ddef31f77f0e45ab7ecdc966d5fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-08.gif using Guid(bf0ddef31f77f0e45ab7ecdc966d5fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f1a5927cd27ea5acda2b2c58409bd90') in 0.393545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Sprites/Hilda/frame-27.gif
+  artifactKey: Guid(31653c444ee75614e8c3a77a21f8ed75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-27.gif using Guid(31653c444ee75614e8c3a77a21f8ed75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99e85c8f2bc5e19f8f09d6c58df6e1bd') in 0.139118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Hilda/frame-33.gif
+  artifactKey: Guid(b3c9ef9491cdbbd4580a0ab098e3cc07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-33.gif using Guid(b3c9ef9491cdbbd4580a0ab098e3cc07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a6abedf267bdcce6d2e538987d955f6') in 0.127607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Hilda/run9.gif
+  artifactKey: Guid(9b72cbf4f4634db43a7681cb30ce0a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run9.gif using Guid(9b72cbf4f4634db43a7681cb30ce0a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1947bbae57d11582ed8e57040e56dd7d') in 0.151839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Animations/Hilda/fall.anim
+  artifactKey: Guid(0847e231613b229418b8f3364bb2fe11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Hilda/fall.anim using Guid(0847e231613b229418b8f3364bb2fe11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e21661433c7d279f13e79261ea69d41a') in 0.064894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Enemies/dog.gif
+  artifactKey: Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Enemies/dog.gif using Guid(83ffdd6004ecf394ca2f241eaecba77e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35d5d055bd4bae7256a53b3a877dde35') in 0.492921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scripts/SelfDestructTimer.cs
+  artifactKey: Guid(b074053ae44dcde4dbda7ebeade06e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/SelfDestructTimer.cs using Guid(b074053ae44dcde4dbda7ebeade06e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecf2d22f3bf02af69415c6e84ce2e769') in 0.082056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/Hilda/frame-42.gif
+  artifactKey: Guid(0444c50a500340749bc51c12d0bab8d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-42.gif using Guid(0444c50a500340749bc51c12d0bab8d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70296e5ffe186171e3d2243e040548d1') in 0.106775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scripts/GenericEnemy.cs
+  artifactKey: Guid(dadce24fbd8d3c34586ac5223ed08f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/GenericEnemy.cs using Guid(dadce24fbd8d3c34586ac5223ed08f47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26b8a2e33192ae07dd76ea5252208b24') in 0.091427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Audio/Hilda/hurt3.wav
+  artifactKey: Guid(f2c80b1dfc9e1b14d9bfb3804e8f9d6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/hurt3.wav using Guid(f2c80b1dfc9e1b14d9bfb3804e8f9d6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e16e258a3f773d7411ccec94aac75b83') in 0.842066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Animations/Rhyhorn/Rhyhorn.controller
+  artifactKey: Guid(2a8b1753f2ad5ef4bbe9a1e0cd36fe25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Rhyhorn/Rhyhorn.controller using Guid(2a8b1753f2ad5ef4bbe9a1e0cd36fe25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bc1919987b9edb08a120ef7f439fbd3') in 0.208267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Audio/Hilda/hurt2.wav
+  artifactKey: Guid(a95330149892fac4ba3ceb3cda2016b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/hurt2.wav using Guid(a95330149892fac4ba3ceb3cda2016b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e1d991a4c271a4bb283cd463633e3d2') in 0.288728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Prefabs/Hit.prefab
+  artifactKey: Guid(97e203e5ca2ea1d4e8fb94fe822b13fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Hit.prefab using Guid(97e203e5ca2ea1d4e8fb94fe822b13fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61964527e4aa421278d82fc0278a6d1d') in 0.114585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Hilda/run5.gif
+  artifactKey: Guid(39718abf62879234fa446ee5ec829998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run5.gif using Guid(39718abf62879234fa446ee5ec829998) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '432481e04bd21b19d449a42b271ab5b8') in 0.212517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Sprites/Hilda/run13.gif
+  artifactKey: Guid(3003db916a859064a920eb73e392678c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run13.gif using Guid(3003db916a859064a920eb73e392678c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b512e2c0f49031eab12dc8e5ca51888e') in 0.108009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Audio/Hilda/Jump.wav
+  artifactKey: Guid(af15071bc2f590447a673e4fe51ecab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/Jump.wav using Guid(af15071bc2f590447a673e4fe51ecab8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1aca13f2050c67613ef6046c4783b4cf') in 0.356026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Audio/Enemies/Wolf/dogAttackPrepare2.wav
+  artifactKey: Guid(9db6fc57e49c8ed4b906de40342990f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Enemies/Wolf/dogAttackPrepare2.wav using Guid(9db6fc57e49c8ed4b906de40342990f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '644d49a22bfb20124b41364803b9bdb7') in 0.179830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/Icons/Icon162.png
+  artifactKey: Guid(cc2787bd1d292d844a94fa184c0b0dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Icons/Icon162.png using Guid(cc2787bd1d292d844a94fa184c0b0dc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '975a8f1367723eb7a92dd8ef8967ba41') in 0.095462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animations/Background/scroll.anim
+  artifactKey: Guid(d470e2510a3824a41ae556a0d14ea8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Background/scroll.anim using Guid(d470e2510a3824a41ae556a0d14ea8fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '467b7dd19bbc41f74e69626ed00c776b') in 0.113985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007714 seconds.
+  path: Assets/Sprites/Hilda/jump8.gif
+  artifactKey: Guid(498fc0a00ec28b54da9d9af23052d33d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump8.gif using Guid(498fc0a00ec28b54da9d9af23052d33d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69cb755d8756362f3fe8b4b28bf5355b') in 0.580878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Icons/Icon432.png
+  artifactKey: Guid(069ba098f0e82a949b1a93f846d5813e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Icons/Icon432.png using Guid(069ba098f0e82a949b1a93f846d5813e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8642f76c565ce1d9f4678dd809f80fb1') in 4.509460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000658 seconds.
+  path: Assets/Sprites/Hilda/Tiny girl original gif.gif
+  artifactKey: Guid(4a082fa84f9af364e89b28f02fd6e5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/Tiny girl original gif.gif using Guid(4a082fa84f9af364e89b28f02fd6e5a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5b76dcf66146c186919291886a22a7e') in 0.171983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Audio/Hilda/Hit.wav
+  artifactKey: Guid(609fd302a4cbda54fab44ce18a73922f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/Hit.wav using Guid(609fd302a4cbda54fab44ce18a73922f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0f8a44bf5bf442615907aed806b07ef') in 1.233947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Animations/Buff/Buff.controller
+  artifactKey: Guid(9063275adbfef9b408a66b65ab752e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Buff/Buff.controller using Guid(9063275adbfef9b408a66b65ab752e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94cde60e3206645acdc101ced687bcea') in 0.118180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/Hilda/run2.gif
+  artifactKey: Guid(2e1bd618dcaf0704aa23f4a3edb25606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run2.gif using Guid(2e1bd618dcaf0704aa23f4a3edb25606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5e47231e613d5955b9cc6030d0a908f') in 0.138338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Hilda/jump5.gif
+  artifactKey: Guid(c207756a93ab2334eb0f2f29015d530e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump5.gif using Guid(c207756a93ab2334eb0f2f29015d530e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01f3cb0b1908243812fad5a94c65cc9c') in 0.153213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/Icons/Icon108.png
+  artifactKey: Guid(96230daa5b5779c48924043ff38edb7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Icons/Icon108.png using Guid(96230daa5b5779c48924043ff38edb7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5339d1e8c4a57902c3a086e4d80c530b') in 0.117057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Sprites/Items/buff.gif
+  artifactKey: Guid(6c98971a791584b49aea37d89ebcbfe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Items/buff.gif using Guid(6c98971a791584b49aea37d89ebcbfe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '693384c306dc6407b14e84d114047a63') in 0.299052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scripts/MusicController.cs
+  artifactKey: Guid(21648d4fcbc8d144bb97793f3fddc352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MusicController.cs using Guid(21648d4fcbc8d144bb97793f3fddc352) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60708126fdee0012d009bbfdac559f56') in 0.214788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites/Hilda/frame-10.gif
+  artifactKey: Guid(c5eb37fc900250243b6ea53ee36a88c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-10.gif using Guid(c5eb37fc900250243b6ea53ee36a88c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e6e059418349e0c0a1e096ad7068b79') in 0.136202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Hilda/frame-26.gif
+  artifactKey: Guid(367f0e8149398ff43b632311b3e26ac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-26.gif using Guid(367f0e8149398ff43b632311b3e26ac7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48e9b08e7de7da07ed45bd8ff3fdff2f') in 0.141853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Animations/Effects/Hit/hit.controller
+  artifactKey: Guid(5946adbe8b5ed5e43a807eaca68874a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Effects/Hit/hit.controller using Guid(5946adbe8b5ed5e43a807eaca68874a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9c45426fbd0b3fba13b53aea3f130c8') in 0.066300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/Hilda/frame-41.gif
+  artifactKey: Guid(0121cc3c01a5bec419c8c2c9773d6712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-41.gif using Guid(0121cc3c01a5bec419c8c2c9773d6712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0f1dd44ac0915bbfe80a2cb7af3d8d7') in 0.198086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites/Hilda/frame-06.gif
+  artifactKey: Guid(512ad63e4cb9d694eaa41f265fe5b3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-06.gif using Guid(512ad63e4cb9d694eaa41f265fe5b3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '468e1b4faf4c26d4c18c26c207c337a6') in 0.222694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/Hilda/frame-03.gif
+  artifactKey: Guid(e08947180de3fe5438867c39211a27a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-03.gif using Guid(e08947180de3fe5438867c39211a27a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0e07a2dbd6b10aff59019fe4e1a1343') in 0.241772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(0e771233f78e4d8449803e33be5ab8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/CameraController.cs using Guid(0e771233f78e4d8449803e33be5ab8d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e5d2b1ef61a95938d89029b7ca7ec18') in 0.390271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Animations/Hilda/stand.anim
+  artifactKey: Guid(df89844e0784e6e45ae38926da079cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Hilda/stand.anim using Guid(df89844e0784e6e45ae38926da079cd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20424a9ffa65197d6c9722a65d365551') in 0.104775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scripts/Buff.cs
+  artifactKey: Guid(aeb929b5a75c9414c8342aed61a7c32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Buff.cs using Guid(aeb929b5a75c9414c8342aed61a7c32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26b84332bda728da914d18433a39a106') in 0.088380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprites/Enemies/gulpin.gif
+  artifactKey: Guid(6769ebffd97a0fc41abc62b1115affd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Enemies/gulpin.gif using Guid(6769ebffd97a0fc41abc62b1115affd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae5cb9c68504b2466956d498d0685e0c') in 0.211505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Hilda/jump10.gif
+  artifactKey: Guid(b538f034573169441b7fe6ab195bb118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump10.gif using Guid(b538f034573169441b7fe6ab195bb118) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6d1d1f32d0098c0556a7e257c3e365b') in 0.165386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Scripts/ParticlesController.cs
+  artifactKey: Guid(f1fe9b2f6365c6948aec584ab489fc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/ParticlesController.cs using Guid(f1fe9b2f6365c6948aec584ab489fc8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '591e62a8fafc4d5ac86d7fe323e10d15') in 0.141330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Sprites/Hilda/jump1.gif
+  artifactKey: Guid(a97166d25817f694c9368554a4e38a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump1.gif using Guid(a97166d25817f694c9368554a4e38a61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2097694ec16ea758c1ce00bbf7e8980') in 0.127217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Audio/Music/main theme (part 1).mp3
+  artifactKey: Guid(fc261d86ba3733542aaf8026d079f789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Music/main theme (part 1).mp3 using Guid(fc261d86ba3733542aaf8026d079f789) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28d82f76e7a9d671871d82c078b4d2b3') in 0.586161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/Hilda/frame-30.gif
+  artifactKey: Guid(e4614f79bc658d24a9db1cce0d4aafcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-30.gif using Guid(e4614f79bc658d24a9db1cce0d4aafcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd8b5c07e4a365712edb3bd256a982cf') in 0.494369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Scenes/main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca8d8f41ce7448f2bdd6780d0d528863') in 0.069623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Animations/Wolf/jump.anim
+  artifactKey: Guid(51cdff578e5b0744ba51968d67274f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Wolf/jump.anim using Guid(51cdff578e5b0744ba51968d67274f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d10079df6aa9f71b3ff4ca588b8e018') in 0.193369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Audio/Effects/spotted sound.mp3
+  artifactKey: Guid(b256f2d935e937a478736abc4a6f57c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Effects/spotted sound.mp3 using Guid(b256f2d935e937a478736abc4a6f57c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1af46629349fa72b3bec2e12a7c12655') in 1.032450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/Enemies/rhyhorn.gif
+  artifactKey: Guid(30ec835505d5cb64ea48985a7a765729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Enemies/rhyhorn.gif using Guid(30ec835505d5cb64ea48985a7a765729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2d1e404f049afe577dadd13bd4c5551') in 1.248675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Audio/Hilda/hurt4.wav
+  artifactKey: Guid(55bcdd3dfd8fc2e42955836c3ea533d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Hilda/hurt4.wav using Guid(55bcdd3dfd8fc2e42955836c3ea533d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4c33236946a6cb2eeeb22b5ccf79ba2') in 0.256336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Animations/Buff/Stand.anim
+  artifactKey: Guid(283b1757085834545a5c54c4ca6ca487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Buff/Stand.anim using Guid(283b1757085834545a5c54c4ca6ca487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f678f768cb88e7b470676007e06b68b') in 0.116869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Stages/meadow.png
+  artifactKey: Guid(cb68211aafb19b049bcd5ed1ada0f35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Stages/meadow.png using Guid(cb68211aafb19b049bcd5ed1ada0f35e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b949929ac8aed543cc61f2b4ab4fccd9') in 0.236424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/Hilda/frame-40.gif
+  artifactKey: Guid(c8910fb1c486cdb4bb36aab1474d3b93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-40.gif using Guid(c8910fb1c486cdb4bb36aab1474d3b93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06121b7db033a67f1ad628ee26143820') in 0.116925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprites/Hilda/frame-29.gif
+  artifactKey: Guid(d79a7168f199616488cb8d71f8390985) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-29.gif using Guid(d79a7168f199616488cb8d71f8390985) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e847f0ee9c995dea76447d6c280e7f43') in 0.082043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Hilda/run6.gif
+  artifactKey: Guid(4074595748ac70f4c967af8b74298ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run6.gif using Guid(4074595748ac70f4c967af8b74298ab6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07f3e508de5536c8e74056bc6b448366') in 0.138391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Rhyhorn.prefab
+  artifactKey: Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Rhyhorn.prefab using Guid(35b7a9fdf10a22f438281d5aeaa6fc58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c8f63def4c3d5d3bf9000a1a857193b') in 0.091788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scripts/SpeedController.cs
+  artifactKey: Guid(c48438773d6e47b4b9c3f850a71fdf22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/SpeedController.cs using Guid(c48438773d6e47b4b9c3f850a71fdf22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc6cafc96aab61a2f6d8e2311d79c0e5') in 0.098649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/Hilda/jump4.gif
+  artifactKey: Guid(8fd4505d144b4d849b5f274ef1b8b278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump4.gif using Guid(8fd4505d144b4d849b5f274ef1b8b278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b680e8391711af10aabc83f12781c0b5') in 0.158336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animations/Wolf/Wolf.controller
+  artifactKey: Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Wolf/Wolf.controller using Guid(82bfb8f87c700fc4ab7cd02a74de52e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfd2660cac4ff0258f7f431d0bebb6e9') in 0.089487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Icons/Icon324.png
+  artifactKey: Guid(5b0308027a062794992f0f05eb64b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Icons/Icon324.png using Guid(5b0308027a062794992f0f05eb64b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '782f20daf5ad0acbb970b350d2348012') in 0.382298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/Hilda/jump9.gif
+  artifactKey: Guid(8c7daff9524949e429b49eab6ee3c5b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/jump9.gif using Guid(8c7daff9524949e429b49eab6ee3c5b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbb7f727b2bf4a39538c1c50c5e61230') in 0.485474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Sprites/Hilda/frame-02.gif
+  artifactKey: Guid(af7b5f67c9781b144943f291c6c7b06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/frame-02.gif using Guid(af7b5f67c9781b144943f291c6c7b06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd513380bf8ca218973f060c7dbb49e52') in 0.180293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001069 seconds.
+  path: Assets/Animations/Wolf/prepare.anim
+  artifactKey: Guid(d230df8f3b4aecb4499e721a9df6a112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Wolf/prepare.anim using Guid(d230df8f3b4aecb4499e721a9df6a112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f9b24e7fba0012b3ff7687bb3e6634d') in 0.067643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Animations/Effects/Dust/dust.anim
+  artifactKey: Guid(f2225ddc60838d342925ae412ca10231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Effects/Dust/dust.anim using Guid(f2225ddc60838d342925ae412ca10231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cbf81e826b757e3b9cc6d6b7d4aaf2f') in 0.087566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Audio/Music/main theme (part 2).mp3
+  artifactKey: Guid(62ae070c6f2cc0d4183214d4d2ac9c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Audio/Music/main theme (part 2).mp3 using Guid(62ae070c6f2cc0d4183214d4d2ac9c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f174b9902591ba6a79cb5da80c3e21d') in 3.345364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/Hilda/run3.gif
+  artifactKey: Guid(4e4436f92accc034192d442534e4a226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sprites/Hilda/run3.gif using Guid(4e4436f92accc034192d442534e4a226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea5d03a0d1908be0e3fc3d9f96ceb20a') in 0.414929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Animations/Hilda/hurt.anim
+  artifactKey: Guid(d595d0594f7af8042ae1f156be9749e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Hilda/hurt.anim using Guid(d595d0594f7af8042ae1f156be9749e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4308b202985d1b0b3abd2d9b60553f6b') in 0.061495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Animations/Effects/Dust/dust.controller
+  artifactKey: Guid(fb6b7b969e3794646a84d0dc50a9fb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Animations/Effects/Dust/dust.controller using Guid(fb6b7b969e3794646a84d0dc50a9fb00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e55a989fb3d2638bda98d3a863147501') in 0.101581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 1081.565112 seconds.
+  path: Assets/Scripts/MusicController.cs
+  artifactKey: Guid(21648d4fcbc8d144bb97793f3fddc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MusicController.cs using Guid(21648d4fcbc8d144bb97793f3fddc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69679bf0ebf30ad3b78d0e69d077cda4') in 0.010037 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Animations/Background
-  artifactKey: Guid(7af6e95a477b50840b2a950a46460165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Background using Guid(7af6e95a477b50840b2a950a46460165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1463fd9992bc181ce39ae5e39093a01') in 0.003149 seconds
+  Time since last request: 0.364351 seconds.
+  path: Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset using Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1af588846711a43a048411aea760c010') in 0.691478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scripts/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(d57329413a2440e45bbd259daef01aaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/New Universal Render Pipeline Asset.asset using Guid(d57329413a2440e45bbd259daef01aaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3419f3ebb1558f316e7aae4d9f3a652') in 0.548782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scripts/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(d57329413a2440e45bbd259daef01aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Universal Render Pipeline Asset.asset using Guid(d57329413a2440e45bbd259daef01aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f4324c7471eef4615a2bfbaf682b56') in 0.605887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 50.385995 seconds.
+  path: Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset using Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142079f9baa3b6c4fd159e6b5d4e8b12') in 0.097823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 34.348539 seconds.
+  path: Assets/Scripts/EnemySpawnController.cs
+  artifactKey: Guid(88fb5027979651c45b90d1140581947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemySpawnController.cs using Guid(88fb5027979651c45b90d1140581947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397774cbe65fafb2e1856515cd268812') in 0.003503 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.756638 seconds.
+  path: Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset using Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01e1deabc8b2a4840428efe512b27713') in 0.252408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 4.349316 seconds.
+  path: Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Universal Render Pipeline Asset_Renderer.asset using Guid(ed023f9a507bd5a4da2c3076de4eee74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdade2e465ebc44ab683f57b7a6b713') in 0.091855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 17.288648 seconds.
+  path: Assets/Scripts/URP Asset_Renderer.asset
+  artifactKey: Guid(8a523a0139cf28040a730699ec307d06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/URP Asset_Renderer.asset using Guid(8a523a0139cf28040a730699ec307d06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4ab07d2b1027f12acd0970ccd29715f') in 0.167794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scripts/URP Asset.asset
+  artifactKey: Guid(8ae6ee51dee84fb47a131baedae88fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/URP Asset.asset using Guid(8ae6ee51dee84fb47a131baedae88fe6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6848160af61b8e67c99ca75f558ce37e') in 0.185512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 90.476358 seconds.
+  path: Assets/Scripts/URP Asset.asset
+  artifactKey: Guid(8ae6ee51dee84fb47a131baedae88fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/URP Asset.asset using Guid(8ae6ee51dee84fb47a131baedae88fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ea4abaf9332b36462e743399cd6966') in 0.158466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.496233 seconds.
+  path: Assets/Scripts/URP Asset_Renderer.asset
+  artifactKey: Guid(8a523a0139cf28040a730699ec307d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/URP Asset_Renderer.asset using Guid(8a523a0139cf28040a730699ec307d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bc100e5dedc859132a233408c402ba') in 0.109759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 48.604084 seconds.
+  path: Assets/URP Assets
+  artifactKey: Guid(f43f4810c8364c84db471aef841dc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP Assets using Guid(f43f4810c8364c84db471aef841dc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e682fa6b459484c3c072ac851465b1ee') in 0.004599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.809377 seconds.
+  path: Assets/URP Assets
+  artifactKey: Guid(f43f4810c8364c84db471aef841dc47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URP Assets using Guid(f43f4810c8364c84db471aef841dc47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f105b42513e23dc11e24c39827397485') in 0.068687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 4.659321 seconds.
+  path: Assets/URPAssets
+  artifactKey: Guid(f43f4810c8364c84db471aef841dc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URPAssets using Guid(f43f4810c8364c84db471aef841dc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a389a4289515683f67ad8556da1101') in 0.002125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.845834 seconds.
+  path: Assets/URPAssets
+  artifactKey: Guid(f43f4810c8364c84db471aef841dc47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URPAssets using Guid(f43f4810c8364c84db471aef841dc47a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59c4645fe41df3b78c4625ecd11b553d') in 0.037240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.206326 seconds.
+  path: Assets/URPAssets/URP Asset_Renderer.asset
+  artifactKey: Guid(6c617d6d6df4fce4f80bee82421085a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URPAssets/URP Asset_Renderer.asset using Guid(6c617d6d6df4fce4f80bee82421085a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46e3cf15519a4586278ffdd908a955cf') in 0.249539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/URPAssets/URP Asset.asset
+  artifactKey: Guid(4ef98dab39ca15e4ca9715798f06fcae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URPAssets/URP Asset.asset using Guid(4ef98dab39ca15e4ca9715798f06fcae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '492326b6b734d501e4db1ccbf617fb10') in 0.246953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> 4ef98dab39ca15e4ca9715798f06fcae
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 18.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 63 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (2.2 MB). Loaded Objects now: 4778.
+Memory consumption went from 113.6 MB to 111.4 MB.
+Total: 518.259600 ms (FindLiveObjects: 5.338600 ms CreateObjectMapping: 0.942500 ms MarkObjects: 508.297500 ms  DeleteObjects: 3.672900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/VSCodeDiscovery.cs: d83b4aff57b85f583bfc60cfbb7e527e -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GUIDGenerator.cs: 6dd6e35608006bcfade7642e5de04c6b -> 
+  custom:scripting/monoscript/fileName/VSCodeScriptEditor.cs: 976f19e81f1a1748ecd5ce0eeab6e373 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FileIO.cs: e12d7b1846fe00e4e229609939e0062b -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 7c3150a04cd2de8ef9bdd48a0f99701a -> 9a60ae906ea060222f7967033c27f7ed
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 7145090b977b4a4af2c7ee452bb803ed -> 5210529ddc67cdb852122f447527c528
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 26.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (1.8 MB). Loaded Objects now: 4791.
+Memory consumption went from 115.9 MB to 114.1 MB.
+Total: 24.110800 ms (FindLiveObjects: 1.281300 ms CreateObjectMapping: 0.564100 ms MarkObjects: 20.793800 ms  DeleteObjects: 1.467100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/VSCodeDiscovery.cs: d83b4aff57b85f583bfc60cfbb7e527e -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GUIDGenerator.cs: 6dd6e35608006bcfade7642e5de04c6b -> 
+  custom:scripting/monoscript/fileName/VSCodeScriptEditor.cs: 976f19e81f1a1748ecd5ce0eeab6e373 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/FileIO.cs: e12d7b1846fe00e4e229609939e0062b -> 
+  custom:scripting/monoscript/fileName/ProjectGeneration.cs: 7c3150a04cd2de8ef9bdd48a0f99701a -> 9a60ae906ea060222f7967033c27f7ed
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:ShaderGraph/RenderPipelineChanged: 6d447d27a811028bd26b82b76768d375 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AssemblyNameProvider.cs: 7145090b977b4a4af2c7ee452bb803ed -> 5210529ddc67cdb852122f447527c528
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1240.924830 seconds.
+  path: Assets/Scenes/main.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/main.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3705ed37e317ecae6efcc6251b8546b') in 0.076358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
