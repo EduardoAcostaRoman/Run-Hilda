@@ -11,7 +11,7 @@ namespace UnityEditor.Tilemaps
         private static class Styles
         {
             public static string tooltipStringFormat = "|Paint with active brush ({0})";
-            public static string shortcutId = "Grid Painting/Brush";
+            public static string shortcutId = GridPaintPaletteWindow.ShortcutIds.k_Brush;
             public static GUIContent toolContent = EditorGUIUtility.IconContent("Grid.PaintTool", GetTooltipText(tooltipStringFormat, shortcutId));
         }
 

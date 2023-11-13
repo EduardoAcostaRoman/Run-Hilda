@@ -7,10 +7,32 @@ namespace UnityEditor.Tilemaps
 {
     internal class GridPaintPaletteWindowPreferences
     {
+        private static IEnumerable<string> GetSearchWords()
+        {
+            foreach (var ss in SettingsProvider
+                         .GetSearchKeywordsFromGUIContentProperties<TilePaletteActiveTargetsProperties>())
+                yield return ss;
+            foreach (var ss in SettingsProvider
+                         .GetSearchKeywordsFromGUIContentProperties<GridPaintActiveTargetsPreferences>())
+                yield return ss;
+            foreach (var ss in SettingsProvider
+                         .GetSearchKeywordsFromGUIContentProperties<SceneViewOpenTilePaletteHelper.SceneViewOpenTilePaletteProperties>())
+                yield return ss;
+            foreach (var ss in SettingsProvider
+                         .GetSearchKeywordsFromGUIContentProperties<TilemapPrefabStageHelper.OpenTilemapInPrefabModeProperties>())
+                yield return ss;
+            foreach (var ss in SettingsProvider
+                         .GetSearchKeywordsFromGUIContentProperties<TilemapEditorToolPreferences.TilemapEditorToolProperties>())
+                yield return ss;
+            foreach (var ss in SettingsProvider
+                         .GetSearchKeywordsFromGUIContentProperties<GridBrushPickStoreSettingsProvider.SettingsProperties>())
+                yield return ss;
+        }
+
         [SettingsProvider]
         internal static SettingsProvider CreateSettingsProvider()
         {
-            var settingsProvider = new SettingsProvider("Preferences/2D/Tile Palette", SettingsScope.User, SettingsProvider.GetSearchKeywordsFromGUIContentProperties<GridPaintPaletteWindowPreferences>())
+            var settingsProvider = new SettingsProvider("Preferences/2D/Tile Palette", SettingsScope.User, GetSearchWords())
             {
                 guiHandler = searchContext =>
                 {
@@ -18,6 +40,8 @@ namespace UnityEditor.Tilemaps
                     GridPaintActiveTargetsPreferences.PreferencesGUI();
                     SceneViewOpenTilePaletteHelper.PreferencesGUI();
                     TilemapPrefabStageHelper.PreferencesGUI();
+                    TilemapEditorToolPreferences.PreferencesGUI();
+                    GridBrushPickStoreSettingsProvider.PreferencesGUI();
                 }
             };
             return settingsProvider;

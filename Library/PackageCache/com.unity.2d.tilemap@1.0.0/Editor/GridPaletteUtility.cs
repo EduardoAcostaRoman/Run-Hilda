@@ -9,7 +9,37 @@ namespace UnityEditor.Tilemaps
     /// </summary>
     public static class GridPaletteUtility
     {
+        internal enum GridPaletteType
+        {
+            Rectangle,
+            HexagonalPointTop,
+            HexagonalFlatTop,
+            Isometric,
+            IsometricZAsY,
+        };
+
         internal static readonly Vector3 defaultSortAxis = new Vector3(0f, 0f, 1f);
+
+        internal static GridLayout.CellLayout GetCellLayoutFromGridPaletteType(GridPaletteType paletteType)
+        {
+            switch (paletteType)
+            {
+                case GridPaletteType.HexagonalPointTop:
+                case GridPaletteType.HexagonalFlatTop:
+                {
+                    return GridLayout.CellLayout.Hexagon;
+                }
+                case GridPaletteType.Isometric:
+                {
+                    return GridLayout.CellLayout.Isometric;
+                }
+                case GridPaletteType.IsometricZAsY:
+                {
+                    return GridLayout.CellLayout.IsometricZAsY;
+                }
+            }
+            return GridLayout.CellLayout.Rectangle;
+        }
 
         internal static RectInt GetBounds(GameObject palette)
         {
@@ -202,11 +232,20 @@ namespace UnityEditor.Tilemaps
         internal static Vector3 CalculateAutoCellSize(Grid grid, Vector3 defaultValue)
         {
             Tilemap[] tilemaps = grid.GetComponentsInChildren<Tilemap>();
+            Sprite[] sprites = null;
+            var maxSize = Vector2.negativeInfinity;
+            var minSize = Vector2.positiveInfinity;
+
+            // Get minimum and maximum sizes for Sprites
             foreach (var tilemap in tilemaps)
             {
-                foreach (var position in tilemap.cellBounds.allPositionsWithin)
+                var spriteCount = tilemap.GetUsedSpritesCount();
+                if (sprites == null || sprites.Length < spriteCount)
+                    sprites = new Sprite[spriteCount];
+                tilemap.GetUsedSpritesNonAlloc(sprites);
+                for (int i = 0; i < spriteCount; ++i)
                 {
-                    Sprite sprite = tilemap.GetSprite(position);
+                    Sprite sprite = sprites[i];
                     if (sprite != null)
                     {
                         var cellSize = new Vector3(sprite.rect.width, sprite.rect.height, 0f) / sprite.pixelsPerUnit;
@@ -216,11 +255,41 @@ namespace UnityEditor.Tilemaps
                             cellSize.x = cellSize.y;
                             cellSize.y = swap;
                         }
-                        return cellSize;
+                        minSize.x = Mathf.Min(cellSize.x, minSize.x);
+                        minSize.y = Mathf.Min(cellSize.y, minSize.y);
+                        maxSize.x = Mathf.Max(cellSize.x, maxSize.x);
+                        maxSize.y = Mathf.Max(cellSize.y, maxSize.y);
                     }
                 }
             }
-            return defaultValue;
+            // Validate that Sprites are in multiples of sizes
+            foreach (var tilemap in tilemaps)
+            {
+                var spriteCount = tilemap.GetUsedSpritesCount();
+                if (sprites == null || sprites.Length < spriteCount)
+                    sprites = new Sprite[spriteCount];
+                tilemap.GetUsedSpritesNonAlloc(sprites);
+                for (int i = 0; i < spriteCount; ++i)
+                {
+                    Sprite sprite = sprites[i];
+                    if (sprite != null)
+                    {
+                        var cellSize = new Vector3(sprite.rect.width, sprite.rect.height, 0f) / sprite.pixelsPerUnit;
+                        if (tilemap.cellSwizzle == GridLayout.CellSwizzle.YXZ)
+                        {
+                            var swap = cellSize.x;
+                            cellSize.x = cellSize.y;
+                            cellSize.y = swap;
+                        }
+                        // Return maximum size if sprites are not multiples of the smallest size
+                        if (cellSize.x % minSize.x > 0)
+                            return maxSize.x * maxSize.y <= 0f ? defaultValue : new Vector3(maxSize.x, maxSize.y, 0f);
+                        if (cellSize.y % minSize.y > 0)
+                            return maxSize.x * maxSize.y <= 0f ? defaultValue : new Vector3(maxSize.x, maxSize.y, 0f);
+                    }
+                }
+            }
+            return minSize.x * minSize.y <= 0f || minSize == Vector2.positiveInfinity ? defaultValue : new Vector3(minSize.x, minSize.y, 0f);
         }
     }
 }

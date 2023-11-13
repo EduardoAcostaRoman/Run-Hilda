@@ -10,7 +10,7 @@ namespace UnityEditor.Tilemaps
         private static class Styles
         {
             public static string tooltipStringFormat = "|Select an area of the grid ({0})";
-            public static string shortcutId = "Grid Painting/Select";
+            public static string shortcutId = GridPaintPaletteWindow.ShortcutIds.k_Select;
             public static GUIContent toolContent = EditorGUIUtility.IconContent("Grid.Default", GetTooltipText(tooltipStringFormat, shortcutId));
         }
 

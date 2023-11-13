@@ -11,7 +11,7 @@ namespace UnityEditor.Tilemaps
         private static class Styles
         {
             public static string tooltipStringFormat = "|Move selection with active brush ({0})";
-            public static string shortcutId = "Grid Painting/Move";
+            public static string shortcutId = GridPaintPaletteWindow.ShortcutIds.k_Move;
             public static GUIContent toolContent = EditorGUIUtility.IconContent("Grid.MoveTool", GetTooltipText(tooltipStringFormat, shortcutId));
         }
 

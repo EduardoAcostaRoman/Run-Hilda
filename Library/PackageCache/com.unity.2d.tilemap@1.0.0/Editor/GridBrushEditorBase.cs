@@ -1,3 +1,4 @@
+using UnityEditor.EditorTools;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 using UnityEngine.Tilemaps;
@@ -15,6 +16,18 @@ namespace UnityEditor.Tilemaps
             public static readonly Color executingColor = new Color(1f, .75f, 0.25f);
         }
 
+        /// <summary>Returns a tooltip describing the usage of the brush and other helpful information.</summary>
+        public virtual string tooltip
+        {
+            get { return null; }
+        }
+
+        /// <summary>Returns a texture used as an icon to identify this brush.</summary>
+        public virtual Texture2D icon
+        {
+            get { return null; }
+        }
+
         /// <summary>Checks if the Brush allows the changing of Z Position.</summary>
         /// <returns>Whether the Brush can change Z Position.</returns>
         public virtual bool canChangeZPosition
@@ -22,6 +35,11 @@ namespace UnityEditor.Tilemaps
             get { return true; }
             set {}
         }
+
+        /// <summary>
+        /// Whether the Brush is in a state that should be saved for selection.
+        /// </summary>
+        public virtual bool shouldSaveBrushForSelection => true;
 
         /// <summary>Callback for painting the GUI for the GridBrush in the Scene view.</summary>
         /// <param name="gridLayout">Grid that the brush is being used on.</param>
@@ -114,8 +132,9 @@ namespace UnityEditor.Tilemaps
             if (Event.current.type != EventType.Repaint)
                 return;
 
-            if (tool == GridBrushBase.Tool.Select ||
-                tool == GridBrushBase.Tool.Move)
+            if (tool == GridBrushBase.Tool.Select
+                || tool == GridBrushBase.Tool.Move
+                || GridSelectionTool.IsActive())
             {
                 if (GridSelection.active && !executing)
                 {
@@ -136,13 +155,21 @@ namespace UnityEditor.Tilemaps
             if (tool == GridBrushBase.Tool.Paint && executing)
                 color = Color.yellow;
 
-            if (tool == GridBrushBase.Tool.Select ||
-                tool == GridBrushBase.Tool.Move)
+            if (tool == GridBrushBase.Tool.Select
+                || tool == GridBrushBase.Tool.Move
+                || GridSelectionTool.IsActive())
             {
                 if (executing)
                     color = Styles.executingColor;
                 else if (GridSelection.active)
                     color = Styles.activeColor;
+            }
+
+            if (brushTarget != null)
+            {
+                var targetLayout = brushTarget.GetComponent<GridLayout>();
+                if (targetLayout != null)
+                    gridLayout = targetLayout;
             }
 
             if (position.zMin != 0)
