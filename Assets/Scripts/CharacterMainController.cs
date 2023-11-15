@@ -39,23 +39,26 @@ public class CharacterMainController : MonoBehaviour
 
     private float randomValue;
 
-    void clearSprite()
-    {
-        sprites.material.shader = shaderSpritesDefault;
-        sprites.color = Color.clear;
-    }
 
-    void whiteSprite()
-    {
-        sprites.material.shader = shaderGUItext;
-        sprites.color = Color.white;
-    }
+    // --- CHANGING SPRITE SHADERS BUGS THE SPRITE --- //
 
-    void normalSprite()
-    {
-        sprites.material.shader = shaderSpritesDefault;
-        sprites.color = Color.white;
-    }
+    //void clearSprite()
+    //{
+    //    sprites.material.shader = shaderSpritesDefault;
+    //    sprites.color = Color.clear;
+    //}
+
+    //void whiteSprite()
+    //{
+    //    sprites.material.shader = shaderGUItext;
+    //    sprites.color = Color.white;
+    //}
+
+    //void normalSprite()
+    //{
+    //    sprites.material.shader = shaderSpritesDefault;
+    //    sprites.color = Color.white;
+    //}
 
     void audioPlayer(AudioClip clip, float volume)
     {
@@ -180,18 +183,20 @@ public class CharacterMainController : MonoBehaviour
             {
                 if (!colorChange)
                 {
-                    if (colorCount < 4)
+                    if (animator.GetCurrentAnimatorStateInfo(0).IsName("hurt"))
                     {
-                        whiteSprite();
+                        transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
                     }
                     else
                     {
-                        clearSprite();
+                        transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
+                        sprites.color = Color.clear;
                     }                 
                 }
                 else
                 {
-                    normalSprite();
+                    sprites.color = Color.white;
+                    transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
                 }
 
                 colorChange = !colorChange;
@@ -203,9 +208,9 @@ public class CharacterMainController : MonoBehaviour
 
             if (colorCount >= invicibilityTime)
             {
-                sprites.color = new Color(255, 255, 255, 255);
                 colorCount = 0;
-                normalSprite();
+                sprites.color = Color.white;
+                transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
                 blink = false;
             }
         }

@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 14e8ac3d40a5ed748817c841daf83397
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2573031777059970578
+    second: hurt white sprites_0
+  - first:
+      213: -6544535510476711985
+    second: hurt white sprites_1
+  - first:
+      213: -7969748419191499062
+    second: hurt white sprites_2
+  - first:
+      213: -6162164119274148819
+    second: hurt white sprites_3
+  - first:
+      213: -2608871506298144824
+    second: hurt white sprites_4
+  - first:
+      213: 1358087861681616678
+    second: hurt white sprites_5
+  - first:
+      213: -1614032854588145636
+    second: hurt white sprites_6
+  - first:
+      213: 7967091704976303750
+    second: hurt white sprites_7
+  - first:
+      213: 6267072971109796422
+    second: hurt white sprites_8
+  - first:
+      213: -4655532201801799938
+    second: hurt white sprites_9
+  - first:
+      213: 403927771407436268
+    second: hurt white sprites_10
+  - first:
+      213: -7640430808977751731
+    second: hurt white sprites_11
+  - first:
+      213: -2556288440598507434
+    second: hurt white sprites_12
+  - first:
+      213: 827478367214889234
+    second: hurt white sprites_13
+  - first:
+      213: -2951856751469166125
+    second: hurt white sprites_14
+  - first:
+      213: 2626695930384706688
+    second: hurt white sprites_15
+  - first:
+      213: -5601463566609200729
+    second: hurt white sprites_16
+  - first:
+      213: 1102877363982758848
+    second: hurt white sprites_17
+  - first:
+      213: 643245813417945344
+    second: hurt white sprites_18
+  - first:
+      213: 5756390347654805585
+    second: hurt white sprites_19
+  - first:
+      213: 8760309541445034614
+    second: hurt white sprites_20
+  - first:
+      213: 2247123573176242326
+    second: hurt white sprites_21
+  - first:
+      213: -4240063718095480897
+    second: hurt white sprites_22
+  - first:
+      213: 6812614703709138108
+    second: hurt white sprites_23
+  - first:
+      213: 2492375652477551011
+    second: hurt white sprites_24
+  - first:
+      213: 3625984868695533466
+    second: hurt white sprites_25
+  - first:
+      213: -1720218827961172498
+    second: hurt white sprites_26
+  - first:
+      213: -6989834237521103075
+    second: hurt white sprites_27
+  - first:
+      213: 7189383489451952432
+    second: hurt white sprites_28
+  - first:
+      213: -8490929012703377429
+    second: hurt white sprites_29
+  - first:
+      213: 2164291183706013176
+    second: hurt white sprites_30
+  - first:
+      213: -5363389410732126424
+    second: hurt white sprites_31
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: white sprite
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 952
+        width: 78
+        height: 123
+      alignment: 9
+      pivot: {x: 0.5386065, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc71b1ea0a32d25a0800000000000000
+      internalID: -6544535510476711985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 83f0dee4b2b0d084f998c546d4b3ec5d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hurt white sprites_0: 2573031777059970578
+      hurt white sprites_10: 403927771407436268
+      hurt white sprites_11: -7640430808977751731
+      hurt white sprites_12: -2556288440598507434
+      hurt white sprites_13: 827478367214889234
+      hurt white sprites_14: -2951856751469166125
+      hurt white sprites_15: 2626695930384706688
+      hurt white sprites_16: -5601463566609200729
+      hurt white sprites_17: 1102877363982758848
+      hurt white sprites_18: 643245813417945344
+      hurt white sprites_19: 5756390347654805585
+      hurt white sprites_2: -7969748419191499062
+      hurt white sprites_20: 8760309541445034614
+      hurt white sprites_21: 2247123573176242326
+      hurt white sprites_22: -4240063718095480897
+      hurt white sprites_23: 6812614703709138108
+      hurt white sprites_24: 2492375652477551011
+      hurt white sprites_25: 3625984868695533466
+      hurt white sprites_26: -1720218827961172498
+      hurt white sprites_27: -6989834237521103075
+      hurt white sprites_28: 7189383489451952432
+      hurt white sprites_29: -8490929012703377429
+      hurt white sprites_3: -6162164119274148819
+      hurt white sprites_30: 2164291183706013176
+      hurt white sprites_31: -5363389410732126424
+      hurt white sprites_4: -2608871506298144824
+      hurt white sprites_5: 1358087861681616678
+      hurt white sprites_6: -1614032854588145636
+      hurt white sprites_7: 7967091704976303750
+      hurt white sprites_8: 6267072971109796422
+      hurt white sprites_9: -4655532201801799938
+      white sprite: -6544535510476711985
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
