@@ -1,0 +1,45 @@
+<libraries>
+  <library
+      name="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\bbfdfc51c8bda72ca706aaae8d53aa7c\transformed\out\jars\classes.jar;C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\bbfdfc51c8bda72ca706aaae8d53aa7c\transformed\out\jars\libs\R.jar;C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\bbfdfc51c8bda72ca706aaae8d53aa7c\transformed\out\jars\libs\unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\bbfdfc51c8bda72ca706aaae8d53aa7c\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+  <library
+      name="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+      jars="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\build\.transforms\2bc6be82f43a2e07e0fe8a307e9488a3\transformed\out\jars\classes.jar;C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\build\.transforms\2bc6be82f43a2e07e0fe8a307e9488a3\transformed\out\jars\libs\R.jar"
+      resolved="Gradle.unityLibrary:mobilenotifications.androidlib:unspecified"
+      folder="C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\build\.transforms\2bc6be82f43a2e07e0fe8a307e9488a3\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.games:games-frame-pacing:1.10.0@aar"
+      jars="C:\Users\lalo_\.gradle\caches\transforms-3\121b6b243cedf8bef90d462440e4bf24\transformed\jetified-games-frame-pacing-1.10.0\jars\classes.jar"
+      resolved="androidx.games:games-frame-pacing:1.10.0"
+      folder="C:\Users\lalo_\.gradle\caches\transforms-3\121b6b243cedf8bef90d462440e4bf24\transformed\jetified-games-frame-pacing-1.10.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+</libraries>

@@ -1,0 +1,173 @@
+{
+  "abi": "ARMEABI_V7A",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a",
+  "soFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\l67m5135\\obj\\armeabi-v7a",
+  "soRepublishFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
+  "abiPlatformVersion": 22,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DBUILD_GRADLE_DIRECTORY\u003dC:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary",
+      "-DANDROID_STL\u003dc++_shared"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp",
+      "intermediatesBaseFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates",
+      "intermediatesFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":unityLibrary",
+      "moduleRootFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary",
+      "moduleBuildFile": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build.gradle",
+      "makeFile": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+      "ndkVersion": "23.1.7779620",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 31,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmake\\3.22.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.22.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle",
+        "sdkFolder": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": true
+      },
+      "outputOptions": [],
+      "ninjaExe": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmake\\3.22.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [
+      "C:\\Users\\lalo_\\.gradle\\caches\\modules-2\\files-2.1\\com.google.prefab\\cli\\2.0.0\\f2702b5ca13df54e3ca92f29d6b403fb6285d8df\\cli-2.0.0-all.jar"
+    ],
+    "prefabPackages": [
+      "C:\\Users\\lalo_\\.gradle\\caches\\transforms-3\\121b6b243cedf8bef90d462440e4bf24\\transformed\\jetified-games-frame-pacing-1.10.0\\prefab"
+    ],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_shared",
+    "optimizationTag": "RelWithDebInfo"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\prefab\\armeabi-v7a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "l67m51352u2x3i2w68456y6f2e6v291bh4o6f5f1n0h1g1f5m4d5lc71",
+  "configurationArguments": [
+    "-HC:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d22",
+    "-DANDROID_PLATFORM\u003dandroid-22",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DANDROID_NDK\u003dC:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\l67m5135\\obj\\armeabi-v7a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\l67m5135\\obj\\armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo",
+    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\prefab\\armeabi-v7a\\prefab",
+    "-BC:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a",
+    "-GNinja",
+    "-DBUILD_GRADLE_DIRECTORY\u003dC:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary",
+    "-DANDROID_STL\u003dc++_shared"
+  ],
+  "stlLibraryFile": "C:\\Program Files\\Unity Editors\\2023.1.19f1\\Editor\\Data\\PlaybackEngines\\AndroidPlayer\\NDK\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+  "intermediatesParentFolder": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\cxx\\RelWithDebInfo\\l67m5135"
+}

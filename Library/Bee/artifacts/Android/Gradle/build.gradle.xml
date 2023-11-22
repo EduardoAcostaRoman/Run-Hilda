@@ -1,0 +1,13 @@
+<root name="" element-id="1" assign-type="None" type="Unity.Android.Gradle.ProjectLevelBuildGradleFile" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
+  <element name="plugins" element-id="2" assign-type="None" type="Unity.Android.Gradle.Plugins" base-type="Unity.Android.Gradle.BaseBlock" is-default="true" dependencies="">
+    <element name="" element-id="3" assign-type="None" raw-value="// If you are changing the Android Gradle Plugin version, make sure it is compatible with the Gradle version preinstalled with Unity" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+    <element name="" element-id="4" assign-type="None" raw-value="// See which Gradle version is preinstalled with Unity here https://docs.unity3d.com/Manual/android-gradle-overview.html" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+    <element name="" element-id="5" assign-type="None" raw-value="// See official Gradle and Android Gradle Plugin compatibility table here https://developer.android.com/studio/releases/gradle-plugin#updating-gradle" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+    <element name="" element-id="6" assign-type="None" raw-value="// To specify a custom Gradle version in Unity, go do &quot;Preferences &gt; External Tools&quot;, uncheck &quot;Gradle Installed with Unity (recommended)&quot; and specify a path to a custom Gradle version" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+    <element name="" element-id="7" assign-type="None" raw-value="id 'com.android.application' version '7.3.1' apply false" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+    <element name="" element-id="8" assign-type="None" raw-value="id 'com.android.library' version '7.3.1' apply false" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+  </element>
+  <element name="task clean(type: Delete)" element-id="9" assign-type="None" type="Unity.Android.Gradle.Block" base-type="Unity.Android.Gradle.BaseBlock" is-default="false" dependencies="">
+    <element name="" element-id="10" assign-type="None" raw-value="delete rootProject.buildDir" type="Unity.Android.Gradle.Element" base-type="Unity.Android.Gradle.Element" is-default="false" dependencies="" />
+  </element>
+</root>

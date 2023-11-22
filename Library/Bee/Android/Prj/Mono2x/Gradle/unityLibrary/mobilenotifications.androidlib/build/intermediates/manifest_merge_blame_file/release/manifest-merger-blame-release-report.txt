@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity.androidnotifications" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="22"
+6-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="22" />
+7-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+9-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:12:3-75
+9-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:12:20-72
+10    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+10-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:13:3-79
+10-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:13:20-76
+11    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+11-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:3-77
+11-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:20-74
+12
+13    <application>
+13-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:2:3-11:17
+14        <receiver
+14-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:5-113
+15            android:name="com.unity.androidnotifications.UnityNotificationManager"
+15-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:15-85
+16            android:exported="false" />
+16-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:86-110
+17        <receiver
+17-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:5-8:16
+18            android:name="com.unity.androidnotifications.UnityNotificationRestartReceiver"
+18-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:15-93
+19            android:enabled="false"
+19-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:94-117
+20            android:exported="false" >
+20-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:118-142
+21            <intent-filter>
+21-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:5:7-7:23
+22                <action android:name="android.intent.action.BOOT_COMPLETED" />
+22-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:6:9-71
+22-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:6:17-68
+23            </intent-filter>
+24        </receiver>
+25
+26        <meta-data
+26-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:5-90
+27            android:name="reschedule_notifications_on_restart"
+27-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:16-66
+28            android:value="true" />
+28-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:67-87
+29        <meta-data
+29-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:5-99
+30            android:name="com.unity.androidnotifications.exact_scheduling"
+30-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:16-78
+31            android:value="0" />
+31-->C:\Users\lalo_\Documents\Run Hilda!\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:79-96
+32    </application>
+33
+34</manifest>

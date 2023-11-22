@@ -99,8 +99,6 @@ public class CharacterMainController : MonoBehaviour
             body.velocity = new Vector2(0, jumpForce);       
         }
 
-        Debug.Log(sprites.material.shader);
-
         // For PC tests (delete/comment for build)
 
         // --- MOVEMENT --- //
@@ -181,22 +179,13 @@ public class CharacterMainController : MonoBehaviour
         {
             if (realtime - prevtime > 0.08f)
             {
-                if (!colorChange)
+                if (!colorChange && !animator.GetCurrentAnimatorStateInfo(0).IsName("hurt"))
                 {
-                    if (animator.GetCurrentAnimatorStateInfo(0).IsName("hurt"))
-                    {
-                        transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
-                    }
-                    else
-                    {
-                        transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
-                        sprites.color = Color.clear;
-                    }                 
+                    sprites.color = Color.clear;
                 }
                 else
                 {
                     sprites.color = Color.white;
-                    transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
                 }
 
                 colorChange = !colorChange;
@@ -210,7 +199,6 @@ public class CharacterMainController : MonoBehaviour
             {
                 colorCount = 0;
                 sprites.color = Color.white;
-                transform.GetChild(1).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
                 blink = false;
             }
         }

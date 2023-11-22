@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638354306895876111
-    m_Hash: 4248637583
+      ticks: 638361966979696692
+    m_Hash: 314789659
   m_LockFileStatus:
     m_FilePath: C:/Users/lalo_/Documents/Run Hilda!/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638354306896084023
-    m_Hash: 2424809360
+      ticks: 638361966979846692
+    m_Hash: 4135731347
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1396,6 +1396,113 @@ m_ResolvedPackages:
     Fix large icon not displayed when privided as file path."}'
   assetStore:
     productId: 
+- packageId: com.unity.postprocessing@3.3.0
+  testable: 0
+  isDirectDependency: 1
+  version: 3.3.0
+  source: 1
+  resolvedPath: C:\Users\lalo_\Documents\Run Hilda!\Library\PackageCache\com.unity.postprocessing@3.3.0
+  assetPath: Packages/com.unity.postprocessing
+  name: com.unity.postprocessing
+  displayName: Post Processing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The post-processing stack (v2) comes with a collection of effects
+    and image filters you can apply to your cameras to improve the visuals of your
+    games.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.7
+    - 0.1.8
+    - 2.0.0-beta
+    - 2.0.1-beta
+    - 2.0.2-preview
+    - 2.0.3-preview
+    - 2.0.5-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 2.0.9-preview
+    - 2.0.10-preview
+    - 2.0.11-preview
+    - 2.0.12-preview
+    - 2.0.13-preview
+    - 2.0.14-preview
+    - 2.0.15-preview
+    - 2.0.16-preview
+    - 2.0.17-preview
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.7
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0
+    - 3.0.1
+    - 3.0.3
+    - 3.1.0
+    - 3.1.1
+    - 3.2.0
+    - 3.2.1
+    - 3.2.2
+    - 3.3.0
+    compatible:
+    - 3.3.0
+    recommended: 3.3.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638197390240000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.postprocessing@3.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Graphics.git
+    revision: 28cd9b8713470614fe9a99cd6096069f2631a903
+    path: 
+  unityLifecycle:
+    version: 3.3.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed some post effects not scaling correctly
+    when dynamic resolution is enabled on a camera''s target texture (case 1166603)\n-
+    Fixed obsolete API call GetScriptingDefineSymbolsForGroup\n- Remove support for
+    OpenGL ES 2.0 in Unity 2023.1 or newer"}'
+  assetStore:
+    productId: 
 - packageId: com.unity.render-pipelines.universal@15.0.7
   testable: 0
   isDirectDependency: 1
@@ -1605,12 +1712,14 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -4579,10 +4688,12 @@ m_ResolvedPackages:
     - 1.8.8
     - 1.8.9
     - 1.8.10
+    - 1.8.11
     compatible:
     - 1.8.9
     - 1.8.10
-    recommended: 1.8.10
+    - 1.8.11
+    recommended: 1.8.11
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5222,6 +5333,7 @@ m_ResolvedPackages:
     - 2.2.1
     - 2.3.0-exp.1
     - 2.3.0-pre.3
+    - 2.4.0-exp.2
     compatible:
     - 1.2.4
     - 1.3.1
@@ -5238,6 +5350,7 @@ m_ResolvedPackages:
     - 2.2.1
     - 2.3.0-exp.1
     - 2.3.0-pre.3
+    - 2.4.0-exp.2
     recommended: 1.2.4
     deprecated: []
   dependencies:
@@ -5310,13 +5423,28 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -5337,9 +5465,9 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:

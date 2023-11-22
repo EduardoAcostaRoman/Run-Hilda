@@ -1,0 +1,64 @@
+apply plugin: 'com.android.library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project('mobilenotifications.androidlib')
+    implementation 'androidx.games:games-frame-pacing:1.10.0'
+}
+
+android {
+    ndkPath "C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
+    compileSdkVersion 33
+    buildToolsVersion "32.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    defaultConfig {
+        consumerProguardFiles "proguard-unity.txt"
+        versionName "1.0"
+        minSdkVersion 22
+        targetSdkVersion 33
+        versionCode 1
+
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+
+        externalNativeBuild {
+            cmake {
+                arguments "-DBUILD_GRADLE_DIRECTORY=${projectDir}", "-DANDROID_STL=c++_shared"
+            }
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    aaptOptions {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+        noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + unityStreamingAssets.tokenize(', ')
+    }
+
+    packagingOptions {
+        doNotStrip "*/armeabi-v7a/*.so"
+    }
+
+    namespace "com.unity3d.player"
+}
+
+
+android.externalNativeBuild {
+    cmake {
+        version "3.22.1"
+        // Workaround for CMake long path issue on Windows, place CMake intermediate files next to Unity project
+        buildStagingDirectory "${unityProjectPath}/.utmp"
+        path "src/main/cpp/CMakeLists.txt"
+    }
+}
+android.buildFeatures {
+    prefab true
+}

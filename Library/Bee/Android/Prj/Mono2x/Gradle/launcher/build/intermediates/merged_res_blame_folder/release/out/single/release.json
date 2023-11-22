@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-mdpi_app_icon.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "com.EduardosProductions.RunHilda.launcher-merged_res-5:/mipmap-ldpi_ic_launcher_background.png.flat",
+        "source": "com.EduardosProductions.RunHilda.launcher-main-6:/mipmap-ldpi/ic_launcher_background.png"
+    }
+]
