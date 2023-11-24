@@ -1,4 +1,9 @@
 <linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CameraController">
+			<method name="MenuHandler"/>
+		</type>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
 			<method name="OnDecrement"/>
@@ -20,11 +25,6 @@
 			<method name="OnDecrement"/>
 			<method name="OnIncrement"/>
 			<method name="OnIncrement"/>
-		</type>
-	</assembly>
-	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
-		<type fullname="UnityEngine.Object">
-			<method name="set_name"/>
 		</type>
 	</assembly>
 </linker>
