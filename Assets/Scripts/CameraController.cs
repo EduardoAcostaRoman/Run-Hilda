@@ -65,7 +65,7 @@ public class CameraController : MonoBehaviour
         Time.timeScale = 0f;
         pause = true;
         blurEffect.active = true;
-        pauseCanvas.transform.GetChild(0).GetComponent<TMP_Text>().text = "PAUSE";
+        pauseCanvas.transform.GetChild(0).gameObject.SetActive(true);
     }
 
     private void ResumeGame()
@@ -73,7 +73,7 @@ public class CameraController : MonoBehaviour
         Time.timeScale = 1f;
         pause = false;
         blurEffect.active = false;
-        pauseCanvas.transform.GetChild(0).GetComponent<TMP_Text>().text = "";
+        pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
     }
 
     void Start()

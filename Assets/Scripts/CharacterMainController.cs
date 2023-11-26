@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CharacterMainController : MonoBehaviour
 {
@@ -105,8 +106,11 @@ public class CharacterMainController : MonoBehaviour
 
         foreach (Touch touch in Input.touches)
         {
-            if (touch.phase == TouchPhase.Began && boxCollider.IsTouchingLayers(groundLayer))
+            if (touch.phase == TouchPhase.Began && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run") && Time.timeScale == 1f)
             {
+                // if its touching UI canvas, player is not going to jump
+                if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
+                    return;         
                 audioPlayer(audioJump, 0.5f);
                 body.velocity = new Vector2(0, jumpForce);
             }

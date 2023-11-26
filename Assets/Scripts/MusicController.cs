@@ -4,30 +4,26 @@ using UnityEngine;
 
 public class MusicController : MonoBehaviour
 {
-    public AudioClip mainThemeStart;
-    public AudioClip mainThemeLoop;
+    public AudioSource mainThemeStart;
+    public AudioSource mainThemeLoop;
 
-    private AudioSource audioSource;
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        audioSource.clip = mainThemeStart;
-        audioSource.Play();
+        mainThemeStart.Play();
     }
 
-    
+
     void Update()
     {
         
     }
 
     private void FixedUpdate()
-    {
-        if (!audioSource.isPlaying)
+    {       
+        if (!mainThemeStart.isPlaying && !mainThemeLoop.isPlaying)
         {
-            audioSource.clip = mainThemeLoop;
-            audioSource.Play();
+            mainThemeLoop.Play();
         }
     }
 }
