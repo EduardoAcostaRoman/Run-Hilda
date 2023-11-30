@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using TMPro;
+using System;
 
 public class CameraController : MonoBehaviour
 {
@@ -21,9 +22,13 @@ public class CameraController : MonoBehaviour
 
     public GameObject pauseCanvas;
 
+    public float distanceIncrementRatio = 0.05f;
+    private float rawDistance;
+    public static int distance;
+
     void CameraShake(bool activate)
     {
-        angle = 360 * Random.value;
+        angle = 360 * UnityEngine.Random.value;
         camX = camShakeMultiplier * Mathf.Cos(angle);
         camY = camShakeMultiplier * Mathf.Sin(angle);
 
@@ -98,6 +103,18 @@ public class CameraController : MonoBehaviour
         {
             CameraShake(false);
         }
+
+        // Distance measurements
+
+        if (!pause)
+        {
+            rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
+        }
+        
+
+        distance = Mathf.RoundToInt(rawDistance);
+
+        pauseCanvas.transform.GetChild(2).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m";
 
         // For game pausing on PC
 
