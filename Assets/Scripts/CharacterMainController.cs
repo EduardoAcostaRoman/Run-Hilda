@@ -22,13 +22,15 @@ public class CharacterMainController : MonoBehaviour
     public AudioClip audioHurt2;
     public AudioClip audioHurt3;
     public AudioClip audioHurt4;
+    public AudioSource audioDeath2;
+    public AudioClip audioDeath2Effect;
 
     public Shader shaderGUItext;
     public Shader shaderSpritesDefault;
     private SpriteRenderer sprites;
 
-    float realtime;
-    float prevtime;
+    double realtime;
+    double prevtime;
     bool colorChange = false;
     int colorCount;
     public bool blink = false;
@@ -40,8 +42,14 @@ public class CharacterMainController : MonoBehaviour
 
     private float randomValue;
 
+    private double prevTimeDeath2Effect;
+    private int death2EffectCounter;
+    public GameObject death2Effect;
+    public float death2EffectDistance = 0.1f;
+    public float death2EffectAngle = 0;
 
-    // --- CHANGING SPRITE SHADERS BUGS THE SPRITE --- //
+
+    // --- CHANGING SPRITE SHADERS SINCE IT BUGS THE SPRITE --- //
 
     //void clearSprite()
     //{
@@ -80,8 +88,6 @@ public class CharacterMainController : MonoBehaviour
 
         Physics2D.IgnoreLayerCollision(6, 7); // Ignores collision between layers: (6 = player || 7 = enemy) 
         Physics2D.IgnoreLayerCollision(6, 8); // Ignores collision between layers: (6 = player || 8 = intangible) 
-
-        
     }
 
     void Update()
@@ -94,7 +100,7 @@ public class CharacterMainController : MonoBehaviour
 
         // For PC tests (delete/comment for build)
 
-        if (Input.GetKeyDown(KeyCode.W) && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run"))
+        if (Input.GetKeyDown(KeyCode.W) && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run") && Time.timeScale == 1f && !animator.GetBool("death"))
         {
             audioPlayer(audioJump, 0.5f);
             body.velocity = new Vector2(0, jumpForce);       
@@ -152,7 +158,7 @@ public class CharacterMainController : MonoBehaviour
 
         // --- DAMAGES ---//
 
-        if (transform.GetChild(0).GetComponent<BoxCollider2D>().IsTouchingLayers(enemyLayer) && !blink)
+        if (transform.GetChild(0).GetComponent<BoxCollider2D>().IsTouchingLayers(enemyLayer) && !blink && !animator.GetBool("death"))
         {
             animator.SetBool("hurt", true);
 
@@ -213,8 +219,43 @@ public class CharacterMainController : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("hurt") && animator.GetBool("hurt"))
         {
+            animator.SetBool("death", true);
             animator.SetBool("hurt", false);
         }
 
+        // --- CHARACTER DEATH ---//
+
+
+        if (Input.GetKeyDown(KeyCode.G))
+        { 
+            
+        }
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("death2"))
+        {
+            if (realtime - prevTimeDeath2Effect > 0.7 && death2EffectCounter < 2)
+            {
+                if (death2EffectCounter == 0)
+                {
+                    audioPlayer(audioDeath2Effect, 0.5f);
+                    audioDeath2.Play();
+                }
+
+                for (int i = 0; i < 8; i++)
+                {
+                    GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x + (death2EffectDistance * Mathf.Sin(death2EffectAngle)),
+                        transform.position.y + 1.08f + (death2EffectDistance * Mathf.Cos(death2EffectAngle)),
+                        transform.position.z),
+                    death2Effect.transform.rotation);
+
+                    effect.transform.GetChild(0).transform.position = new Vector2(death2EffectAngle, 0);
+
+                    death2EffectAngle += 0.785f; // 1.57 is 90° rotation, then 0.785 is 45°, which makes effect spawn in 8 ways
+                }
+
+                death2EffectCounter += 1;
+                prevTimeDeath2Effect = realtime;
+            }
+        }
     }
 }

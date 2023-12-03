@@ -397,6 +397,7 @@
 "Assets/Scripts/Buff.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CharacterMainController.cs"
+"Assets/Scripts/Death2Effect.cs"
 "Assets/Scripts/EnemySpawnController.cs"
 "Assets/Scripts/GenericEnemy.cs"
 "Assets/Scripts/MusicController.cs"

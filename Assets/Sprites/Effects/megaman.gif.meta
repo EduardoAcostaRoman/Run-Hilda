@@ -1,0 +1,343 @@
+fileFormatVersion: 2
+guid: 189588355751f154a94b12efc641961e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4447214450015512886
+    second: megaman_0
+  - first:
+      213: -1194286133699934751
+    second: megaman_1
+  - first:
+      213: -4280799735105132626
+    second: megaman_2
+  - first:
+      213: -3436638402010850838
+    second: megaman_3
+  - first:
+      213: -3479955252747988287
+    second: megaman_4
+  - first:
+      213: -5244280776950939149
+    second: megaman_5
+  - first:
+      213: 1167060217537761210
+    second: megaman_6
+  - first:
+      213: -6869773987950756324
+    second: megaman_7
+  - first:
+      213: -1479413579526604112
+    second: megaman_8
+  - first:
+      213: -5532630123933048144
+    second: megaman_9
+  - first:
+      213: -2390051876051868894
+    second: megaman_10
+  - first:
+      213: -4974244922683379988
+    second: megaman_11
+  - first:
+      213: -8430374177127291492
+    second: megaman_12
+  - first:
+      213: 4955803101228726426
+    second: megaman_13
+  - first:
+      213: -7141315805745326948
+    second: megaman_14
+  - first:
+      213: 4894272199637467181
+    second: megaman_15
+  - first:
+      213: 7585541589069253088
+    second: megaman_16
+  - first:
+      213: 6161574225529127072
+    second: megaman_17
+  - first:
+      213: -8297404022594335140
+    second: megaman_18
+  - first:
+      213: 4529873522826154548
+    second: megaman_19
+  - first:
+      213: 8549604156506240704
+    second: megaman_20
+  - first:
+      213: -2509409283837290187
+    second: megaman_21
+  - first:
+      213: -1399579157637678138
+    second: megaman_22
+  - first:
+      213: 6399420990518643534
+    second: megaman_23
+  - first:
+      213: -6406552658929891274
+    second: megaman_24
+  - first:
+      213: -228279824579969307
+    second: megaman_25
+  - first:
+      213: 3349554426705406375
+    second: megaman_26
+  - first:
+      213: -6080921661540654342
+    second: megaman_27
+  - first:
+      213: 6307124420216283377
+    second: megaman_28
+  - first:
+      213: -2128342209404728171
+    second: megaman_29
+  - first:
+      213: 1012688299619394988
+    second: megaman_30
+  - first:
+      213: -8179058805152030290
+    second: megaman_31
+  - first:
+      213: -5102532173381922275
+    second: megaman_32
+  - first:
+      213: 8419506674217279071
+    second: megaman_33
+  - first:
+      213: -7161082993080780609
+    second: megaman_34
+  - first:
+      213: 5560589235883687161
+    second: megaman_35
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: megamanDeath_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c06f7790c9672e0800000000000000
+      internalID: -2128342209404728171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanDeath_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5220f94aacd0e00800000000000000
+      internalID: 1012688299619394988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megamanDeath_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1e1e9e9552e7e80800000000000000
+      internalID: -8179058805152030290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fe9433fd7d0c94147bf0c6850131eed3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      megamanDeath_1: -2128342209404728171
+      megamanDeath_2: 1012688299619394988
+      megamanDeath_3: -8179058805152030290
+      megaman_0: 4447214450015512886
+      megaman_1: -1194286133699934751
+      megaman_10: -2390051876051868894
+      megaman_11: -4974244922683379988
+      megaman_12: -8430374177127291492
+      megaman_13: 4955803101228726426
+      megaman_14: -7141315805745326948
+      megaman_15: 4894272199637467181
+      megaman_16: 7585541589069253088
+      megaman_17: 6161574225529127072
+      megaman_18: -8297404022594335140
+      megaman_19: 4529873522826154548
+      megaman_2: -4280799735105132626
+      megaman_20: 8549604156506240704
+      megaman_21: -2509409283837290187
+      megaman_22: -1399579157637678138
+      megaman_23: 6399420990518643534
+      megaman_24: -6406552658929891274
+      megaman_25: -228279824579969307
+      megaman_26: 3349554426705406375
+      megaman_27: -6080921661540654342
+      megaman_28: 6307124420216283377
+      megaman_3: -3436638402010850838
+      megaman_32: -5102532173381922275
+      megaman_33: 8419506674217279071
+      megaman_34: -7161082993080780609
+      megaman_35: 5560589235883687161
+      megaman_4: -3479955252747988287
+      megaman_5: -5244280776950939149
+      megaman_6: 1167060217537761210
+      megaman_7: -6869773987950756324
+      megaman_8: -1479413579526604112
+      megaman_9: -5532630123933048144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
