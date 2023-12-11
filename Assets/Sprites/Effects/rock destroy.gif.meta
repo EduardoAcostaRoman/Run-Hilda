@@ -1,0 +1,1411 @@
+fileFormatVersion: 2
+guid: 5a138f91d3331bf49b470e8fc529d102
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3240654466377806266
+    second: rock destroy_0
+  - first:
+      213: 1811666987175994144
+    second: rock destroy_1
+  - first:
+      213: 5790810091438863336
+    second: rock destroy_2
+  - first:
+      213: 8571046646031296460
+    second: rock destroy_3
+  - first:
+      213: 6569377906331522339
+    second: rock destroy_4
+  - first:
+      213: -9038316743249738609
+    second: rock destroy_5
+  - first:
+      213: -400476769691780826
+    second: rock destroy_6
+  - first:
+      213: 707794799221479782
+    second: rock destroy_7
+  - first:
+      213: -335852419685764799
+    second: rock destroy_8
+  - first:
+      213: 2935430107103850070
+    second: rock destroy_9
+  - first:
+      213: 6009159660473501828
+    second: rock destroy_10
+  - first:
+      213: -7054031941501657439
+    second: rock destroy_11
+  - first:
+      213: 2692008745776972686
+    second: rock destroy_12
+  - first:
+      213: 797831051113681937
+    second: rock destroy_13
+  - first:
+      213: -5545022979814293530
+    second: rock destroy_14
+  - first:
+      213: -6549848899410427869
+    second: rock destroy_15
+  - first:
+      213: -9045429573409132216
+    second: rock destroy_16
+  - first:
+      213: -6721708043087194988
+    second: rock destroy_17
+  - first:
+      213: 3990362848188382195
+    second: rock destroy_18
+  - first:
+      213: 3680041442823451226
+    second: rock destroy_19
+  - first:
+      213: 7420785684495919243
+    second: rock destroy_20
+  - first:
+      213: 7401456197434735178
+    second: rock destroy_21
+  - first:
+      213: 1409239220329962317
+    second: rock destroy_22
+  - first:
+      213: -2671258114453118344
+    second: rock destroy_23
+  - first:
+      213: 6905138667477343592
+    second: rock destroy_24
+  - first:
+      213: -6605711414648295167
+    second: rock destroy_25
+  - first:
+      213: 7633629165749414421
+    second: rock destroy_26
+  - first:
+      213: -8745980731112270009
+    second: rock destroy_27
+  - first:
+      213: -4889268380802565924
+    second: rock destroy_28
+  - first:
+      213: -4930891071763375203
+    second: rock destroy_29
+  - first:
+      213: -4225659277409608785
+    second: rock destroy_30
+  - first:
+      213: 4066432453212503663
+    second: rock destroy_31
+  - first:
+      213: 6258162965472871114
+    second: rock destroy_32
+  - first:
+      213: -8293621791968807866
+    second: rock destroy_33
+  - first:
+      213: -738489423747118988
+    second: rock destroy_34
+  - first:
+      213: 1986389409209557558
+    second: rock destroy_35
+  - first:
+      213: -2137211923865382124
+    second: rock destroy_36
+  - first:
+      213: -1799303051818601479
+    second: rock destroy_37
+  - first:
+      213: 7325354522726298332
+    second: rock destroy_38
+  - first:
+      213: -4589336276783634008
+    second: rock destroy_39
+  - first:
+      213: 7002086116920971650
+    second: rock destroy_40
+  - first:
+      213: 698735143012825096
+    second: rock destroy_41
+  - first:
+      213: 8626583796718113894
+    second: rock destroy_42
+  - first:
+      213: 2737155272883442954
+    second: rock destroy_43
+  - first:
+      213: 8856475125107221887
+    second: rock destroy_44
+  - first:
+      213: -3957750621224324858
+    second: rock destroy_45
+  - first:
+      213: 1085712465284481714
+    second: rock destroy_46
+  - first:
+      213: 3047014688726711742
+    second: rock destroy_47
+  - first:
+      213: 5437391823572181022
+    second: rock destroy_48
+  - first:
+      213: 2514183828809025621
+    second: rock destroy_49
+  - first:
+      213: -5542413898921414578
+    second: rock destroy_50
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rock destroy_0
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 326
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab17b34411e19fc20800000000000000
+      internalID: 3240654466377806266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_1
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 331
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0236de5b685542910800000000000000
+      internalID: 1811666987175994144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_2
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 331
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3f5fdd8171d5050800000000000000
+      internalID: 5790810091438863336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 326
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7aff1638972f670800000000000000
+      internalID: 8571046646031296460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 257
+        width: 176
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3259036566e1b2b50800000000000000
+      internalID: 6569377906331522339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_5
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 304
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84422f1fc2719280800000000000000
+      internalID: -9038316743249738609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_6
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 304
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629b9b1ff78317af0800000000000000
+      internalID: -400476769691780826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_7
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 256
+        width: 206
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669177dae9792d900800000000000000
+      internalID: 707794799221479782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 315
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141bca3f000d65bf0800000000000000
+      internalID: -335852419685764799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_9
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 315
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e69ec312ebcb820800000000000000
+      internalID: 2935430107103850070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_10
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 309
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48841219fd2d46350800000000000000
+      internalID: 6009159660473501828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_11
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 309
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aed884b25b0b1e90800000000000000
+      internalID: -7054031941501657439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_12
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 256
+        width: 180
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83084001bfeb5520800000000000000
+      internalID: 2692008745776972686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_13
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 297
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11458682d17721b00800000000000000
+      internalID: 797831051113681937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 297
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef7ac88afe1c03b0800000000000000
+      internalID: -5545022979814293530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_15
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 256
+        width: 206
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320882ae0234a15a0800000000000000
+      internalID: -6549848899410427869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 256
+        width: 94
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841b22c4abd287280800000000000000
+      internalID: -9045429573409132216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 208
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d6efd522b7b2a0800000000000000
+      internalID: -6721708043087194988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 208
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb3f2b5edd906730800000000000000
+      internalID: 3990362848188382195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_19
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 193
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52353ec132221330800000000000000
+      internalID: 3680041442823451226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_20
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 193
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88eea6534debf660800000000000000
+      internalID: 7420785684495919243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_21
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 140
+        width: 226
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4af5bc623147b660800000000000000
+      internalID: 7401456197434735178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_22
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 191
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bd05bba9f9e8310800000000000000
+      internalID: 1409239220329962317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 191
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87264a8d5e8cdead0800000000000000
+      internalID: -2671258114453118344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 167
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d1dc7780bf3df50800000000000000
+      internalID: 6905138667477343592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 132
+        width: 226
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1013529877cc354a0800000000000000
+      internalID: -6605711414648295167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 172
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a2e83184910f960800000000000000
+      internalID: 7633629165749414421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 172
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74754adfcd800a680800000000000000
+      internalID: -8745980731112270009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 167
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8b6b6ef44d52cb0800000000000000
+      internalID: -4889268380802565924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 166
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b1669f1b4f19bb0800000000000000
+      internalID: -4930891071763375203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_30
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 132
+        width: 236
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab9a2496417b55c0800000000000000
+      internalID: -4225659277409608785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_31
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 166
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ef9d475cede6830800000000000000
+      internalID: 4066432453212503663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_32
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 171
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac204875f0679d650800000000000000
+      internalID: 6258162965472871114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_33
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 171
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644b244fbe227ec80800000000000000
+      internalID: -8293621791968807866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_34
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 155
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4788b2328cb50c5f0800000000000000
+      internalID: -738489423747118988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_35
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 155
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632a881b4a2119b10800000000000000
+      internalID: 1986389409209557558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_36
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413564424191752e0800000000000000
+      internalID: -2137211923865382124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_37
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 158
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3731158679707e0800000000000000
+      internalID: -1799303051818601479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_38
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 161
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f6e48023e8a560800000000000000
+      internalID: 7325354522726298332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_39
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 161
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a96f7bb8f66f40c0800000000000000
+      internalID: -4589336276783634008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 53
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281d4c589386c2160800000000000000
+      internalID: 7002086116920971650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 41
+        width: 220
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8087c5719e762b900800000000000000
+      internalID: 698735143012825096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_42
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 53
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664168ce148c7b770800000000000000
+      internalID: 8626583796718113894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_43
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 48
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a051e47f7345cf520800000000000000
+      internalID: 2737155272883442954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_44
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 41
+        width: 110
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f756912e33588ea70800000000000000
+      internalID: 8856475125107221887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_45
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 41
+        width: 110
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601b75077ce3319c0800000000000000
+      internalID: -3957750621224324858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_46
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 48
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2ce7d1cb9311f00800000000000000
+      internalID: 1085712465284481714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_47
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 41
+        width: 73
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdf3f237bb294a20800000000000000
+      internalID: 3047014688726711742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_48
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 41
+        width: 165
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1022a41e0f757b40800000000000000
+      internalID: 5437391823572181022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_49
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 44
+        width: 90
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55881302fdc24e220800000000000000
+      internalID: 2514183828809025621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rock destroy_50
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 44
+        width: 90
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40f9948ce36513b0800000000000000
+      internalID: -5542413898921414578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      rock destroy_0: 3240654466377806266
+      rock destroy_1: 1811666987175994144
+      rock destroy_10: 6009159660473501828
+      rock destroy_11: -7054031941501657439
+      rock destroy_12: 2692008745776972686
+      rock destroy_13: 797831051113681937
+      rock destroy_14: -5545022979814293530
+      rock destroy_15: -6549848899410427869
+      rock destroy_16: -9045429573409132216
+      rock destroy_17: -6721708043087194988
+      rock destroy_18: 3990362848188382195
+      rock destroy_19: 3680041442823451226
+      rock destroy_2: 5790810091438863336
+      rock destroy_20: 7420785684495919243
+      rock destroy_21: 7401456197434735178
+      rock destroy_22: 1409239220329962317
+      rock destroy_23: -2671258114453118344
+      rock destroy_24: 6905138667477343592
+      rock destroy_25: -6605711414648295167
+      rock destroy_26: 7633629165749414421
+      rock destroy_27: -8745980731112270009
+      rock destroy_28: -4889268380802565924
+      rock destroy_29: -4930891071763375203
+      rock destroy_3: 8571046646031296460
+      rock destroy_30: -4225659277409608785
+      rock destroy_31: 4066432453212503663
+      rock destroy_32: 6258162965472871114
+      rock destroy_33: -8293621791968807866
+      rock destroy_34: -738489423747118988
+      rock destroy_35: 1986389409209557558
+      rock destroy_36: -2137211923865382124
+      rock destroy_37: -1799303051818601479
+      rock destroy_38: 7325354522726298332
+      rock destroy_39: -4589336276783634008
+      rock destroy_4: 6569377906331522339
+      rock destroy_40: 7002086116920971650
+      rock destroy_41: 698735143012825096
+      rock destroy_42: 8626583796718113894
+      rock destroy_43: 2737155272883442954
+      rock destroy_44: 8856475125107221887
+      rock destroy_45: -3957750621224324858
+      rock destroy_46: 1085712465284481714
+      rock destroy_47: 3047014688726711742
+      rock destroy_48: 5437391823572181022
+      rock destroy_49: 2514183828809025621
+      rock destroy_5: -9038316743249738609
+      rock destroy_50: -5542413898921414578
+      rock destroy_6: -400476769691780826
+      rock destroy_7: 707794799221479782
+      rock destroy_8: -335852419685764799
+      rock destroy_9: 2935430107103850070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

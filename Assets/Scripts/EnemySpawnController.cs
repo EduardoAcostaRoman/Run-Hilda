@@ -13,12 +13,14 @@ public class EnemySpawnController : MonoBehaviour
 
     public float spawnRate = 3;
 
+    private GameObject player;
+
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    
+
     void Update()
     {
         // --- CONFIGURATIONS --- //
@@ -36,7 +38,7 @@ public class EnemySpawnController : MonoBehaviour
 
         // --- SPAWN ALGORITHM --- //
 
-        if (realtime - prevtime >= spawnRate)
+        if (realtime - prevtime >= spawnRate && !player.GetComponent<Animator>().GetBool("death"))
         {
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);

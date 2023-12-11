@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Background
+  - Buff
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Player
   - Enemy
   - Intangible
-  - 
+  - Item
   - 
   - 
   - 

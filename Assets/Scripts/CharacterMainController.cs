@@ -15,6 +15,7 @@ public class CharacterMainController : MonoBehaviour
     public LayerMask groundLayer;
     public LayerMask playerLayer;
     public LayerMask enemyLayer;
+    public LayerMask itemLayer;
 
     public AudioClip audioJump;
     public AudioClip audioFall;
@@ -48,26 +49,20 @@ public class CharacterMainController : MonoBehaviour
     public float death2EffectDistance = 0.1f;
     public float death2EffectAngle = 0;
 
+    public static bool buffTrigger = false;
 
-    // --- CHANGING SPRITE SHADERS SINCE IT BUGS THE SPRITE --- //
+    // --- ITEMS ---//
 
-    //void clearSprite()
-    //{
-    //    sprites.material.shader = shaderSpritesDefault;
-    //    sprites.color = Color.clear;
-    //}
+    private void OnTriggerEnter2D(Collider2D collisionObject)
+    {
 
-    //void whiteSprite()
-    //{
-    //    sprites.material.shader = shaderGUItext;
-    //    sprites.color = Color.white;
-    //}
-
-    //void normalSprite()
-    //{
-    //    sprites.material.shader = shaderSpritesDefault;
-    //    sprites.color = Color.white;
-    //}
+        // Buff item 
+        if (collisionObject.tag == "buff")
+        {
+            buffTrigger = true;
+            transform.GetChild(2).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, Mathf.Lerp(0, 0.2f, 0.1f)); 
+        }
+    }
 
     void audioPlayer(AudioClip clip, float volume)
     {
@@ -211,6 +206,13 @@ public class CharacterMainController : MonoBehaviour
                 sprites.color = Color.white;
                 blink = false;
             }
+
+            // if dead, make player not move
+            if (animator.GetBool("death"))
+            {
+                body.velocity = new Vector2(0, 0);
+                body.gravityScale = 0;
+            }
         }
         else
         {
@@ -219,20 +221,21 @@ public class CharacterMainController : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("hurt") && animator.GetBool("hurt"))
         {
-            animator.SetBool("death", true);
+            //animator.SetBool("death", true);
             animator.SetBool("hurt", false);
         }
 
         // --- CHARACTER DEATH ---//
 
+        // death animation 1 (explosion)
 
-        if (Input.GetKeyDown(KeyCode.G))
-        { 
-            
-        }
+        // death animation 2 (megaman-like)
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("death2"))
         {
+            body.velocity = new Vector2(0, 0);
+            body.gravityScale = 0;
+
             if (realtime - prevTimeDeath2Effect > 0.7 && death2EffectCounter < 2)
             {
                 if (death2EffectCounter == 0)
@@ -257,5 +260,13 @@ public class CharacterMainController : MonoBehaviour
                 prevTimeDeath2Effect = realtime;
             }
         }
+
+
+        // --- ITEMS ---//
+
+
+        // Buff
+
+
     }
 }

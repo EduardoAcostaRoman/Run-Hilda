@@ -1,0 +1,4386 @@
+fileFormatVersion: 2
+guid: 59eb5c1a92351fa4391e90bb19d0ee4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8263218085349641281
+    second: buff item_0
+  - first:
+      213: 8259765628011278829
+    second: buff item_1
+  - first:
+      213: 2474155164175322156
+    second: buff item_2
+  - first:
+      213: 1396463586861337704
+    second: buff item_3
+  - first:
+      213: -10507115672725219
+    second: buff item_4
+  - first:
+      213: 1611996046292937896
+    second: buff item_5
+  - first:
+      213: -7753504879677279253
+    second: buff item_6
+  - first:
+      213: 168713556281781159
+    second: buff item_7
+  - first:
+      213: -6129314097536166129
+    second: buff item_8
+  - first:
+      213: 542524144246724793
+    second: buff item_9
+  - first:
+      213: 8765596245915151780
+    second: buff item_10
+  - first:
+      213: -7464881070612290360
+    second: buff item_11
+  - first:
+      213: -1535457957473398539
+    second: buff item_12
+  - first:
+      213: -878382776568028185
+    second: buff item_13
+  - first:
+      213: 6475815437427396138
+    second: buff item_14
+  - first:
+      213: -2943565646940106819
+    second: buff item_15
+  - first:
+      213: 1434226968577465843
+    second: buff item_16
+  - first:
+      213: -952319235475472172
+    second: buff item_17
+  - first:
+      213: 724059479588313218
+    second: buff item_18
+  - first:
+      213: 4779729136198467892
+    second: buff item_19
+  - first:
+      213: -6270144203212790735
+    second: buff item_20
+  - first:
+      213: 2248269125943277306
+    second: buff item_21
+  - first:
+      213: -6967144612500955991
+    second: buff item_22
+  - first:
+      213: -1219874417956452819
+    second: buff item_23
+  - first:
+      213: 3671577932836870320
+    second: buff item_24
+  - first:
+      213: -277654908385077103
+    second: buff item_25
+  - first:
+      213: 8304816936610256821
+    second: buff item_26
+  - first:
+      213: -887803933628421286
+    second: buff item_27
+  - first:
+      213: -2775643365730641895
+    second: buff item_28
+  - first:
+      213: 1667765011020460752
+    second: buff item_29
+  - first:
+      213: -5538503853471699510
+    second: buff item_30
+  - first:
+      213: 3503071203781416083
+    second: buff item_31
+  - first:
+      213: -8559417888944349165
+    second: buff item_32
+  - first:
+      213: 590302832334241145
+    second: buff item_33
+  - first:
+      213: -2397537562461642649
+    second: buff item_34
+  - first:
+      213: 7470759194983284285
+    second: buff item_35
+  - first:
+      213: 6098319802249743501
+    second: buff item_36
+  - first:
+      213: -3825282625855394861
+    second: buff item_37
+  - first:
+      213: 4241627109534787763
+    second: buff item_38
+  - first:
+      213: 5182508652882843065
+    second: buff item_39
+  - first:
+      213: 6701330996768963281
+    second: buff item_40
+  - first:
+      213: -3364800536736413121
+    second: buff item_41
+  - first:
+      213: -7649599067070675026
+    second: buff item_42
+  - first:
+      213: 4309461555056862466
+    second: buff item_43
+  - first:
+      213: 1218534788228568146
+    second: buff item_44
+  - first:
+      213: 8096049730038717912
+    second: buff item_45
+  - first:
+      213: -9154357324599376193
+    second: buff item_46
+  - first:
+      213: -8516528600071457371
+    second: buff item_47
+  - first:
+      213: 5872931980035308526
+    second: buff item_48
+  - first:
+      213: -8376513107137337533
+    second: buff item_49
+  - first:
+      213: 2533781355098666399
+    second: buff item_50
+  - first:
+      213: 3502931194062509006
+    second: buff item_51
+  - first:
+      213: 3663295592961163331
+    second: buff item_52
+  - first:
+      213: 2603647054434062609
+    second: buff item_53
+  - first:
+      213: -1418875189262978256
+    second: buff item_54
+  - first:
+      213: -7705953996483880116
+    second: buff item_55
+  - first:
+      213: -4043744410058008719
+    second: buff item_56
+  - first:
+      213: 3263434758572399343
+    second: buff item_57
+  - first:
+      213: 520731377917081529
+    second: buff item_58
+  - first:
+      213: -3867774813128598978
+    second: buff item_59
+  - first:
+      213: -6211749355330920751
+    second: buff item_60
+  - first:
+      213: 3046206775433227930
+    second: buff item_61
+  - first:
+      213: 4466748557902788279
+    second: buff item_62
+  - first:
+      213: -1443519694167367414
+    second: buff item_63
+  - first:
+      213: -5694769030102462823
+    second: buff item_64
+  - first:
+      213: 3355937817362208850
+    second: buff item_65
+  - first:
+      213: 6481574800285857555
+    second: buff item_66
+  - first:
+      213: 9095429681092571522
+    second: buff item_67
+  - first:
+      213: -7912577860775741496
+    second: buff item_68
+  - first:
+      213: 7340294357720358370
+    second: buff item_69
+  - first:
+      213: 7301801416955799469
+    second: buff item_70
+  - first:
+      213: 5384465536446165577
+    second: buff item_71
+  - first:
+      213: -5441715690217372891
+    second: buff item_72
+  - first:
+      213: -657554218124812723
+    second: buff item_73
+  - first:
+      213: -7828192997168319723
+    second: buff item_74
+  - first:
+      213: 1345993106230558749
+    second: buff item_75
+  - first:
+      213: -8336283075442959213
+    second: buff item_76
+  - first:
+      213: -3730263660018055880
+    second: buff item_77
+  - first:
+      213: -8298211474083825425
+    second: buff item_78
+  - first:
+      213: 6691094948819038924
+    second: buff item_79
+  - first:
+      213: -4723886760220239480
+    second: buff item_80
+  - first:
+      213: -5098000093152824743
+    second: buff item_81
+  - first:
+      213: -3254837539968385984
+    second: buff item_82
+  - first:
+      213: 1140118649562857478
+    second: buff item_83
+  - first:
+      213: 2302637216210344266
+    second: buff item_84
+  - first:
+      213: -2057716399526046682
+    second: buff item_85
+  - first:
+      213: -5683453820260564005
+    second: buff item_86
+  - first:
+      213: 347315454211915638
+    second: buff item_87
+  - first:
+      213: -8110090311160729588
+    second: buff item_88
+  - first:
+      213: 6893823641293489406
+    second: buff item_89
+  - first:
+      213: 1991536598363044585
+    second: buff item_90
+  - first:
+      213: -337569304684425201
+    second: buff item_91
+  - first:
+      213: 3220952553368052153
+    second: buff item_92
+  - first:
+      213: -2791523792429753461
+    second: buff item_93
+  - first:
+      213: -635341731580423869
+    second: buff item_94
+  - first:
+      213: 3560855732350872265
+    second: buff item_95
+  - first:
+      213: -7514442197436899710
+    second: buff item_96
+  - first:
+      213: -9220439571376062754
+    second: buff item_97
+  - first:
+      213: -8438339304875881760
+    second: buff item_98
+  - first:
+      213: -3554715093408331398
+    second: buff item_99
+  - first:
+      213: -4559143226369315957
+    second: buff item_100
+  - first:
+      213: -1653493439840053629
+    second: buff item_101
+  - first:
+      213: -1330719601222761256
+    second: buff item_102
+  - first:
+      213: 6669414727964740301
+    second: buff item_103
+  - first:
+      213: -6146806995296531989
+    second: buff item_104
+  - first:
+      213: 3304936311756036978
+    second: buff item_105
+  - first:
+      213: -1076335745273784718
+    second: buff item_106
+  - first:
+      213: -4017254742900797830
+    second: buff item_107
+  - first:
+      213: 1722228185343149293
+    second: buff item_108
+  - first:
+      213: 3437650034463898425
+    second: buff item_109
+  - first:
+      213: -384452148436612108
+    second: buff item_110
+  - first:
+      213: 3664448260718722591
+    second: buff item_111
+  - first:
+      213: 258740622625940443
+    second: buff item_112
+  - first:
+      213: 2450899352900842963
+    second: buff item_113
+  - first:
+      213: 8762477325237432208
+    second: buff item_114
+  - first:
+      213: -2346963450241814054
+    second: buff item_115
+  - first:
+      213: 4946865111242977020
+    second: buff item_116
+  - first:
+      213: -8908742001773731209
+    second: buff item_117
+  - first:
+      213: 1006025409044123025
+    second: buff item_118
+  - first:
+      213: -5262696390014806829
+    second: buff item_119
+  - first:
+      213: 424922712604428884
+    second: buff item_120
+  - first:
+      213: -3745192784724925987
+    second: buff item_121
+  - first:
+      213: -3175013286020293471
+    second: buff item_122
+  - first:
+      213: 4235871998737660149
+    second: buff item_123
+  - first:
+      213: -7586087863205083513
+    second: buff item_124
+  - first:
+      213: -1033704609844092986
+    second: buff item_125
+  - first:
+      213: -7787160165719178189
+    second: buff item_126
+  - first:
+      213: -90381739066672160
+    second: buff item_127
+  - first:
+      213: 6404379282028137375
+    second: buff item_128
+  - first:
+      213: 552647094672591288
+    second: buff item_129
+  - first:
+      213: -5825036483016413733
+    second: buff item_130
+  - first:
+      213: 425155978356286876
+    second: buff item_131
+  - first:
+      213: -7380638744109821950
+    second: buff item_132
+  - first:
+      213: 414061014619652332
+    second: buff item_133
+  - first:
+      213: 2770540234566691116
+    second: buff item_134
+  - first:
+      213: -5861912102609429702
+    second: buff item_135
+  - first:
+      213: -6703995393760123941
+    second: buff item_136
+  - first:
+      213: -7440487061590800643
+    second: buff item_137
+  - first:
+      213: -78028370399022241
+    second: buff item_138
+  - first:
+      213: 4477317116777651543
+    second: buff item_139
+  - first:
+      213: 1216464567431442073
+    second: buff item_140
+  - first:
+      213: 6903755968720647593
+    second: buff item_141
+  - first:
+      213: 4342442241982163937
+    second: buff item_142
+  - first:
+      213: 2394230814887670777
+    second: buff item_143
+  - first:
+      213: -4437550857167697401
+    second: buff item_144
+  - first:
+      213: -2229053301378808774
+    second: buff item_145
+  - first:
+      213: -9082115443515427758
+    second: buff item_146
+  - first:
+      213: 5938707676180189805
+    second: buff item_147
+  - first:
+      213: 3003212977882376160
+    second: buff item_148
+  - first:
+      213: -6332999643068469307
+    second: buff item_149
+  - first:
+      213: 5829485830965448742
+    second: buff item_150
+  - first:
+      213: 7838954198821370440
+    second: buff item_151
+  - first:
+      213: 1483773209012655311
+    second: buff item_152
+  - first:
+      213: -8315323367870180001
+    second: buff item_153
+  - first:
+      213: -6089778922404303285
+    second: buff item_154
+  - first:
+      213: 8054452293429711753
+    second: buff item_155
+  - first:
+      213: -3964349413354186583
+    second: buff item_156
+  - first:
+      213: -1196981085226015267
+    second: buff item_157
+  - first:
+      213: 297881827476334771
+    second: buff item_158
+  - first:
+      213: 4921731360738422235
+    second: buff item_159
+  - first:
+      213: 3628875633479494954
+    second: buff item_160
+  - first:
+      213: 7921781795514615070
+    second: buff item_161
+  - first:
+      213: 1045262256857570597
+    second: buff item_162
+  - first:
+      213: -6298813297176091387
+    second: buff item_163
+  - first:
+      213: -626402180149998974
+    second: buff item_164
+  - first:
+      213: -2391108035802132409
+    second: buff item_165
+  - first:
+      213: -5249969216112514938
+    second: buff item_166
+  - first:
+      213: -5453079744397315799
+    second: buff item_167
+  - first:
+      213: 7288876390815489941
+    second: buff item_168
+  - first:
+      213: 7580375036948324802
+    second: buff item_169
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buff item_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1192
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c49d67119dca270800000000000000
+      internalID: 8263218085349641281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1192
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1f799931590a270800000000000000
+      internalID: 8259765628011278829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1192
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c4edf5307f55220800000000000000
+      internalID: 2474155164175322156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1192
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c43a4cb3c316310800000000000000
+      internalID: 1396463586861337704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1191
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1996be75dbaadff0800000000000000
+      internalID: -10507115672725219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_5
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1191
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acef960dd5fe5610800000000000000
+      internalID: 1611996046292937896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1191
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3f39a4464066490800000000000000
+      internalID: -7753504879677279253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_7
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1191
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abe7f6e514675200800000000000000
+      internalID: 168713556281781159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_8
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1208
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0710938d4d40faa0800000000000000
+      internalID: -6129314097536166129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_9
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1208
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b816e3b5de678700800000000000000
+      internalID: 542524144246724793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_10
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1208
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad2542f757a5a970800000000000000
+      internalID: 8765596245915151780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_11
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1208
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4ed97873a676890800000000000000
+      internalID: -7464881070612290360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1198
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f050457f15f0bae0800000000000000
+      internalID: -1535457957473398539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_13
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 1198
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e367d1c48b5fc3f0800000000000000
+      internalID: -878382776568028185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_14
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1198
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ec9da74d7bed950800000000000000
+      internalID: 6475815437427396138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_15
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1198
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf8719c3aa5627d0800000000000000
+      internalID: -2943565646940106819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1140
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd585d34d567e310800000000000000
+      internalID: 1434226968577465843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1140
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d086b073bea8c2f0800000000000000
+      internalID: -952319235475472172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1140
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2889d1da2406c0a00800000000000000
+      internalID: 724059479588313218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_19
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1140
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431c1b54352055240800000000000000
+      internalID: 4779729136198467892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_20
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1140
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134e60d5119fbf8a0800000000000000
+      internalID: -6270144203212790735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_21
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1140
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6b353bbd4733f10800000000000000
+      internalID: 2248269125943277306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_22
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1162
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac9a1173eabf4f90800000000000000
+      internalID: -6967144612500955991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_23
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1162
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d268e171ea2221fe0800000000000000
+      internalID: -1219874417956452819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_24
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b897e35da014f230800000000000000
+      internalID: 3671577932836870320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_25
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1985097f452952cf0800000000000000
+      internalID: -277654908385077103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_26
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1152
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b75d47c003a04370800000000000000
+      internalID: 8304816936610256821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1152
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b22e1b603eda3f0800000000000000
+      internalID: -887803933628421286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_28
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1152
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918947a901fea79d0800000000000000
+      internalID: -2775643365730641895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_29
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 1152
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d233baf077152710800000000000000
+      internalID: 1667765011020460752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1088
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdefaae6184323b0800000000000000
+      internalID: -5538503853471699510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_31
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1088
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3949a4423b86d9030800000000000000
+      internalID: 3503071203781416083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1088
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310295d97c6d63980800000000000000
+      internalID: -8559417888944349165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1088
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d70376c4d213800800000000000000
+      internalID: 590302832334241145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1088
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76061d52a4c3abed0800000000000000
+      internalID: -2397537562461642649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_35
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1088
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e3673f7e77da760800000000000000
+      internalID: 7470759194983284285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1028
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c83d3cc8591a450800000000000000
+      internalID: 6098319802249743501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1028
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db6a6018bdd9eac0800000000000000
+      internalID: -3825282625855394861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_38
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1028
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8ec7d02694dda30800000000000000
+      internalID: 4241627109534787763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 968
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b558746928fbe740800000000000000
+      internalID: 5182508652882843065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 968
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da7ab05909effc50800000000000000
+      internalID: 6701330996768963281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 968
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a48c34db3dd41d0800000000000000
+      internalID: -3364800536736413121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 884
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7c7158d2a27d590800000000000000
+      internalID: -7649599067070675026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 884
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205ed5aa3784ecb30800000000000000
+      internalID: 4309461555056862466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 884
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254d1de0fea19e010800000000000000
+      internalID: 1218534788228568146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_45
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 884
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dddad2b552fa5070800000000000000
+      internalID: 8096049730038717912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_46
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 884
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb64240e38035f080800000000000000
+      internalID: -9154357324599376193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_47
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 884
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a539495c563fc980800000000000000
+      internalID: -8516528600071457371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_48
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 884
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb390c0588d08150800000000000000
+      internalID: 5872931980035308526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347eca0b5b5a0cb80800000000000000
+      internalID: -8376513107137337533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95f929c7bcc92320800000000000000
+      internalID: 2533781355098666399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec31bb69c59ec9030800000000000000
+      internalID: 3502931194062509006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34044bdcee3a6d230800000000000000
+      internalID: 3663295592961163331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_53
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111d8088333022420800000000000000
+      internalID: 2603647054434062609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_54
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0337d5b68842f4ce0800000000000000
+      internalID: -1418875189262978256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_55
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b93180ba3fe0590800000000000000
+      internalID: -7705953996483880116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_56
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 824
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177550c32ebb1e7c0800000000000000
+      internalID: -4043744410058008719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_57
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feade5c5f9c0a4d20800000000000000
+      internalID: 3263434758572399343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7b524ed620a3700800000000000000
+      internalID: 520731377917081529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_59
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a5440cc47e25ac0800000000000000
+      internalID: -3867774813128598978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_60
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de1db16fde6bc9a0800000000000000
+      internalID: -6211749355330920751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_61
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ee51a3cec464a20800000000000000
+      internalID: 3046206775433227930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_62
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6b8c6c5241dfd30800000000000000
+      internalID: 4466748557902788279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_63
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 764
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01afda7c7697fbe0800000000000000
+      internalID: -1443519694167367414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_64
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ec8d24dbd18f0b0800000000000000
+      internalID: -5694769030102462823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_65
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2589c241aafa29e20800000000000000
+      internalID: 3355937817362208850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_66
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3177924a0fd23f950800000000000000
+      internalID: 6481574800285857555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_67
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2813115fa15793e70800000000000000
+      internalID: 9095429681092571522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_68
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c777d6bb50e03290800000000000000
+      internalID: -7912577860775741496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_69
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edd9bae3d6fdd560800000000000000
+      internalID: 7340294357720358370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_70
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7281eb3b5355560800000000000000
+      internalID: 7301801416955799469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f43590e679ba40800000000000000
+      internalID: 5384465536446165577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_72
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5238ce349642b74b0800000000000000
+      internalID: -5441715690217372891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_73
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e5c182ce5efd6f0800000000000000
+      internalID: -657554218124812723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_74
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 703
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513f492d1fbac5390800000000000000
+      internalID: -7828192997168319723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_75
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 704
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d104ff6499deda210800000000000000
+      internalID: 1345993106230558749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_76
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 636
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c1f1dd5b29f4c80800000000000000
+      internalID: -8336283075442959213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_77
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 636
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835431a07f07b3cc0800000000000000
+      internalID: -3730263660018055880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_78
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 636
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8b92051a4d6dc80800000000000000
+      internalID: -8298211474083825425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_79
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 636
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2f4cea76b8bdc50800000000000000
+      internalID: 6691094948819038924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_80
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 636
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889d6e11502617eb0800000000000000
+      internalID: -4723886760220239480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_81
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952b7b6fce34049b0800000000000000
+      internalID: -5098000093152824743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_82
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cf394908e74d2d0800000000000000
+      internalID: -3254837539968385984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_83
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6000ef40fd382df00800000000000000
+      internalID: 1140118649562857478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49dfc6295c94ff10800000000000000
+      internalID: 2302637216210344266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_85
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62411cd36d58173e0800000000000000
+      internalID: -2057716399526046682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_86
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3480adcd05021b0800000000000000
+      internalID: -5683453820260564005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_87
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ffd41c099e1d400800000000000000
+      internalID: 347315454211915638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_88
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c007de2c4db237f80800000000000000
+      internalID: -8110090311160729588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_89
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef40d73a318cbaf50800000000000000
+      internalID: 6893823641293489406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_90
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea7e9e0cfb53ab10800000000000000
+      internalID: 1991536598363044585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_91
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 576
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0095338186b05bf0800000000000000
+      internalID: -337569304684425201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_92
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 600
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1e3ed284f13bc20800000000000000
+      internalID: 3220952553368052153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_93
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 600
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b5c22a6e38249d0800000000000000
+      internalID: -2791523792429753461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_94
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 600
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341da22bf00de27f0800000000000000
+      internalID: -635341731580423869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_95
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 600
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caef2f1c63ba6130800000000000000
+      internalID: 3560855732350872265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_96
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e519872a657b790800000000000000
+      internalID: -7514442197436899710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_97
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edebc23df0b6a0080800000000000000
+      internalID: -9220439571376062754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_98
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 600
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea08a64c1ff4ea80800000000000000
+      internalID: -8438339304875881760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_99
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 600
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a794dabc47d1baec0800000000000000
+      internalID: -3554715093408331398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_100
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8be028146baab0c0800000000000000
+      internalID: -4559143226369315957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_101
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38615ef1a7c9d09e0800000000000000
+      internalID: -1653493439840053629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_102
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 597
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4c779b295588de0800000000000000
+      internalID: -1330719601222761256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_103
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcac818eb558e8c50800000000000000
+      internalID: 6669414727964740301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_104
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 600
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9c67eda9722baa0800000000000000
+      internalID: -6146806995296531989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_105
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b1283b01e7ddd20800000000000000
+      internalID: 3304936311756036978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_106
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27696e3a7561011f0800000000000000
+      internalID: -1076335745273784718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_107
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e052d7818df38c0800000000000000
+      internalID: -4017254742900797830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de44b89e86596e710800000000000000
+      internalID: 1722228185343149293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_109
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b745e2e7cf4bf20800000000000000
+      internalID: 3437650034463898425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_110
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fbcc43dec62aaaf0800000000000000
+      internalID: -384452148436612108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_111
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1effed274cbad230800000000000000
+      internalID: 3664448260718722591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_112
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd32594b93b379300800000000000000
+      internalID: 258740622625940443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_113
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5b3edd9f7530220800000000000000
+      internalID: 2450899352900842963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_114
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2133a3b29a9970800000000000000
+      internalID: 8762477325237432208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_115
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1f28f3d29ed6fd0800000000000000
+      internalID: -2346963450241814054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_116
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe296beb9bc6a440800000000000000
+      internalID: 4946865111242977020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_117
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 516
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772aca4995acd5480800000000000000
+      internalID: -8908742001773731209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_118
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 464
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d871587ce16fd00800000000000000
+      internalID: 1006025409044123025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4df68248527f6b0800000000000000
+      internalID: -5262696390014806829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_120
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 464
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a48cda4f0a5e500800000000000000
+      internalID: 424922712604428884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_121
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 396
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd16d135107660cc0800000000000000
+      internalID: -3745192784724925987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_122
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 396
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac5d910d3610f3d0800000000000000
+      internalID: -3175013286020293471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_123
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 396
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f838c6e327d8ca30800000000000000
+      internalID: 4235871998737660149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_124
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 396
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78642cef74dc8b690800000000000000
+      internalID: -7586087863205083513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_125
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf1f87522b87a1f0800000000000000
+      internalID: -1033704609844092986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_126
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3348c3166137ee390800000000000000
+      internalID: -7787160165719178189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_127
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebbfb48946eebef0800000000000000
+      internalID: -90381739066672160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_128
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b8820760de0e850800000000000000
+      internalID: 6404379282028137375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_129
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b98c14ca956ba700800000000000000
+      internalID: 552647094672591288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_130
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddad1a5e20592fa0800000000000000
+      internalID: -5825036483016413733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_131
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c956f081c1576e500800000000000000
+      internalID: 425155978356286876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_132
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20059d1aa24b29990800000000000000
+      internalID: -7380638744109821950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_133
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce00ebb8c4a0fb500800000000000000
+      internalID: 414061014619652332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_134
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2966451aafe27620800000000000000
+      internalID: 2770540234566691116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_135
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bd66b100e46aea0800000000000000
+      internalID: -5861912102609429702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_136
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3a21b65bf96f2a0800000000000000
+      internalID: -6703995393760123941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_137
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 296
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df68df950741eb890800000000000000
+      internalID: -7440487061590800643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_138
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 296
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53b6fb4c99caeef0800000000000000
+      internalID: -78028370399022241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_139
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 268
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dde442230a22e30800000000000000
+      internalID: 4477317116777651543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_140
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 268
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ea9973410c1e010800000000000000
+      internalID: 1216464567431442073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_141
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 268
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5b393d9711fcf50800000000000000
+      internalID: 6903755968720647593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_142
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 268
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb6ffa3634734c30800000000000000
+      internalID: 4342442241982163937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_143
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 232
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f37cafad340a3120800000000000000
+      internalID: 2394230814887670777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 232
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a0acda107aa62c0800000000000000
+      internalID: -4437550857167697401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_145
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 232
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3487e915dfc011e0800000000000000
+      internalID: -2229053301378808774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_146
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 232
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2547c2c8f18d5f180800000000000000
+      internalID: -9082115443515427758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_147
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 196
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d621b97ba278a6250800000000000000
+      internalID: 5938707676180189805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_148
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 196
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7a58baa4e8da920800000000000000
+      internalID: 3003212977882376160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_149
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 196
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf6a38d06aac18a0800000000000000
+      internalID: -6332999643068469307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_150
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 196
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6205ed13a7e76e050800000000000000
+      internalID: 5829485830965448742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_151
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84afd4faf4f89cc60800000000000000
+      internalID: 7838954198821370440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_152
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4d07a4fdb679410800000000000000
+      internalID: 1483773209012655311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_153
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55d79114790a9c80800000000000000
+      internalID: -8315323367870180001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_154
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 156
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e2e69c552cc7ba0800000000000000
+      internalID: -6089778922404303285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buf_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 158
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9835532cfa927cf60800000000000000
+      internalID: 8054452293429711753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buf_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 158
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8de7b663dcbf8c0800000000000000
+      internalID: -3964349413354186583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buf_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 158
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5ed3c7b08736fe0800000000000000
+      internalID: -1196981085226015267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buf_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 158
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b865cf91f9422400800000000000000
+      internalID: 297881827476334771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buf_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 158
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdda6bc98908d4440800000000000000
+      internalID: 4921731360738422235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_160
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dad9b792b5c5230800000000000000
+      internalID: 3628875633479494954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_161
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e150ec55292dfed60800000000000000
+      internalID: 7921781795514615070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_162
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d5e1d0c74818e00800000000000000
+      internalID: 1045262256857570597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_163
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505ef43cdae1698a0800000000000000
+      internalID: -6298813297176091387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_164
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a01a539829e47f0800000000000000
+      internalID: -626402180149998974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_165
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7409e6af8e311ded0800000000000000
+      internalID: -2391108035802132409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_166
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688a0ef30dc5427b0800000000000000
+      internalID: -5249969216112514938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_167
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921f1573dd4c254b0800000000000000
+      internalID: -5453079744397315799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_168
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fd946957a472560800000000000000
+      internalID: 7288876390815489941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buff item_169
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c12b8dfee6e23960800000000000000
+      internalID: 7580375036948324802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c4830e133a2cefa4ea899fe894f2a862
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buf_1: 8054452293429711753
+      buf_2: -3964349413354186583
+      buf_3: -1196981085226015267
+      buf_4: 297881827476334771
+      buf_5: 4921731360738422235
+      buff item_0: 8263218085349641281
+      buff item_1: 8259765628011278829
+      buff item_10: 8765596245915151780
+      buff item_100: -4559143226369315957
+      buff item_101: -1653493439840053629
+      buff item_102: -1330719601222761256
+      buff item_103: 6669414727964740301
+      buff item_104: -6146806995296531989
+      buff item_105: 3304936311756036978
+      buff item_106: -1076335745273784718
+      buff item_107: -4017254742900797830
+      buff item_108: 1722228185343149293
+      buff item_109: 3437650034463898425
+      buff item_11: -7464881070612290360
+      buff item_110: -384452148436612108
+      buff item_111: 3664448260718722591
+      buff item_112: 258740622625940443
+      buff item_113: 2450899352900842963
+      buff item_114: 8762477325237432208
+      buff item_115: -2346963450241814054
+      buff item_116: 4946865111242977020
+      buff item_117: -8908742001773731209
+      buff item_118: 1006025409044123025
+      buff item_119: -5262696390014806829
+      buff item_12: -1535457957473398539
+      buff item_120: 424922712604428884
+      buff item_121: -3745192784724925987
+      buff item_122: -3175013286020293471
+      buff item_123: 4235871998737660149
+      buff item_124: -7586087863205083513
+      buff item_125: -1033704609844092986
+      buff item_126: -7787160165719178189
+      buff item_127: -90381739066672160
+      buff item_128: 6404379282028137375
+      buff item_129: 552647094672591288
+      buff item_13: -878382776568028185
+      buff item_130: -5825036483016413733
+      buff item_131: 425155978356286876
+      buff item_132: -7380638744109821950
+      buff item_133: 414061014619652332
+      buff item_134: 2770540234566691116
+      buff item_135: -5861912102609429702
+      buff item_136: -6703995393760123941
+      buff item_137: -7440487061590800643
+      buff item_138: -78028370399022241
+      buff item_139: 4477317116777651543
+      buff item_14: 6475815437427396138
+      buff item_140: 1216464567431442073
+      buff item_141: 6903755968720647593
+      buff item_142: 4342442241982163937
+      buff item_143: 2394230814887670777
+      buff item_144: -4437550857167697401
+      buff item_145: -2229053301378808774
+      buff item_146: -9082115443515427758
+      buff item_147: 5938707676180189805
+      buff item_148: 3003212977882376160
+      buff item_149: -6332999643068469307
+      buff item_15: -2943565646940106819
+      buff item_150: 5829485830965448742
+      buff item_151: 7838954198821370440
+      buff item_152: 1483773209012655311
+      buff item_153: -8315323367870180001
+      buff item_154: -6089778922404303285
+      buff item_16: 1434226968577465843
+      buff item_160: 3628875633479494954
+      buff item_161: 7921781795514615070
+      buff item_162: 1045262256857570597
+      buff item_163: -6298813297176091387
+      buff item_164: -626402180149998974
+      buff item_165: -2391108035802132409
+      buff item_166: -5249969216112514938
+      buff item_167: -5453079744397315799
+      buff item_168: 7288876390815489941
+      buff item_169: 7580375036948324802
+      buff item_17: -952319235475472172
+      buff item_18: 724059479588313218
+      buff item_19: 4779729136198467892
+      buff item_2: 2474155164175322156
+      buff item_20: -6270144203212790735
+      buff item_21: 2248269125943277306
+      buff item_22: -6967144612500955991
+      buff item_23: -1219874417956452819
+      buff item_24: 3671577932836870320
+      buff item_25: -277654908385077103
+      buff item_26: 8304816936610256821
+      buff item_27: -887803933628421286
+      buff item_28: -2775643365730641895
+      buff item_29: 1667765011020460752
+      buff item_3: 1396463586861337704
+      buff item_30: -5538503853471699510
+      buff item_31: 3503071203781416083
+      buff item_32: -8559417888944349165
+      buff item_33: 590302832334241145
+      buff item_34: -2397537562461642649
+      buff item_35: 7470759194983284285
+      buff item_36: 6098319802249743501
+      buff item_37: -3825282625855394861
+      buff item_38: 4241627109534787763
+      buff item_39: 5182508652882843065
+      buff item_4: -10507115672725219
+      buff item_40: 6701330996768963281
+      buff item_41: -3364800536736413121
+      buff item_42: -7649599067070675026
+      buff item_43: 4309461555056862466
+      buff item_44: 1218534788228568146
+      buff item_45: 8096049730038717912
+      buff item_46: -9154357324599376193
+      buff item_47: -8516528600071457371
+      buff item_48: 5872931980035308526
+      buff item_49: -8376513107137337533
+      buff item_5: 1611996046292937896
+      buff item_50: 2533781355098666399
+      buff item_51: 3502931194062509006
+      buff item_52: 3663295592961163331
+      buff item_53: 2603647054434062609
+      buff item_54: -1418875189262978256
+      buff item_55: -7705953996483880116
+      buff item_56: -4043744410058008719
+      buff item_57: 3263434758572399343
+      buff item_58: 520731377917081529
+      buff item_59: -3867774813128598978
+      buff item_6: -7753504879677279253
+      buff item_60: -6211749355330920751
+      buff item_61: 3046206775433227930
+      buff item_62: 4466748557902788279
+      buff item_63: -1443519694167367414
+      buff item_64: -5694769030102462823
+      buff item_65: 3355937817362208850
+      buff item_66: 6481574800285857555
+      buff item_67: 9095429681092571522
+      buff item_68: -7912577860775741496
+      buff item_69: 7340294357720358370
+      buff item_7: 168713556281781159
+      buff item_70: 7301801416955799469
+      buff item_71: 5384465536446165577
+      buff item_72: -5441715690217372891
+      buff item_73: -657554218124812723
+      buff item_74: -7828192997168319723
+      buff item_75: 1345993106230558749
+      buff item_76: -8336283075442959213
+      buff item_77: -3730263660018055880
+      buff item_78: -8298211474083825425
+      buff item_79: 6691094948819038924
+      buff item_8: -6129314097536166129
+      buff item_80: -4723886760220239480
+      buff item_81: -5098000093152824743
+      buff item_82: -3254837539968385984
+      buff item_83: 1140118649562857478
+      buff item_84: 2302637216210344266
+      buff item_85: -2057716399526046682
+      buff item_86: -5683453820260564005
+      buff item_87: 347315454211915638
+      buff item_88: -8110090311160729588
+      buff item_89: 6893823641293489406
+      buff item_9: 542524144246724793
+      buff item_90: 1991536598363044585
+      buff item_91: -337569304684425201
+      buff item_92: 3220952553368052153
+      buff item_93: -2791523792429753461
+      buff item_94: -635341731580423869
+      buff item_95: 3560855732350872265
+      buff item_96: -7514442197436899710
+      buff item_97: -9220439571376062754
+      buff item_98: -8438339304875881760
+      buff item_99: -3554715093408331398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

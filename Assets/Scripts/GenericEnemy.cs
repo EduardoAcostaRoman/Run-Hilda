@@ -8,16 +8,20 @@ public class GenericEnemy : MonoBehaviour
     private GameObject speedReference;
     private Rigidbody2D body;
 
+
     void Start()
     {
         speedReference = GameObject.FindGameObjectWithTag("Background");
         body = GetComponent<Rigidbody2D>();
+
+        
     }
 
     
     void Update()
     {
         body.velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.velocity.y);
+
 
         if (transform.position.x <= -18)
         {

@@ -28,7 +28,7 @@ public class Buff : MonoBehaviour
                                          transform.position.z);
         }
 
-        if (player.GetComponent<CharacterMainController>().blink)
+        if (player.GetComponent<CharacterMainController>().blink || player.GetComponent<Animator>().GetBool("death"))
         {
             GetComponent<Animator>().SetBool("hurt", true);
         }

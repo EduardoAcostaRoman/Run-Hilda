@@ -1,0 +1,1036 @@
+fileFormatVersion: 2
+guid: 892a4b4d5cec9ea4ba6ad304c81f6e55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1588792061686171292
+    second: daggers_0
+  - first:
+      213: 7073970511976678143
+    second: daggers_1
+  - first:
+      213: -8399785229351242589
+    second: daggers_2
+  - first:
+      213: -6132787639909658052
+    second: daggers_3
+  - first:
+      213: -1725056965566100636
+    second: daggers_4
+  - first:
+      213: -5430432402135735205
+    second: daggers_5
+  - first:
+      213: 371844439385521380
+    second: daggers_6
+  - first:
+      213: 944819636903966716
+    second: daggers_7
+  - first:
+      213: -4722322576805216608
+    second: daggers_8
+  - first:
+      213: -5424789048435176239
+    second: daggers_9
+  - first:
+      213: 6639981349827529641
+    second: daggers_10
+  - first:
+      213: 1185668462761801311
+    second: daggers_11
+  - first:
+      213: -778373878681576315
+    second: daggers_12
+  - first:
+      213: 4040585051380492025
+    second: daggers_13
+  - first:
+      213: 4755748595595515177
+    second: daggers_14
+  - first:
+      213: 8386556494893762683
+    second: daggers_15
+  - first:
+      213: 9083961275304247924
+    second: daggers_16
+  - first:
+      213: 2506060830070106428
+    second: daggers_17
+  - first:
+      213: -3267601215723557292
+    second: daggers_18
+  - first:
+      213: 6042601053018328863
+    second: daggers_19
+  - first:
+      213: -5904853639018435230
+    second: daggers_20
+  - first:
+      213: -522590642849334641
+    second: daggers_21
+  - first:
+      213: 5093639467624588974
+    second: daggers_22
+  - first:
+      213: -6019264983978890880
+    second: daggers_23
+  - first:
+      213: -5891451894738432776
+    second: daggers_24
+  - first:
+      213: 4648927467452727218
+    second: daggers_25
+  - first:
+      213: 9222624654752653446
+    second: daggers_26
+  - first:
+      213: -6362101265912131029
+    second: daggers_27
+  - first:
+      213: 7071943627196992605
+    second: daggers_28
+  - first:
+      213: -5338524090140040214
+    second: daggers_29
+  - first:
+      213: -2312159663172421598
+    second: daggers_30
+  - first:
+      213: 6805914955496650122
+    second: daggers_31
+  - first:
+      213: 3054585997241483175
+    second: daggers_32
+  - first:
+      213: 5889434848658191369
+    second: daggers_33
+  - first:
+      213: 2019589905997033416
+    second: daggers_34
+  - first:
+      213: 243085240162985870
+    second: daggers_35
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daggers_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 322
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4693c35a90a73f9e0800000000000000
+      internalID: -1588792061686171292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 325
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff245fd73bacb2260800000000000000
+      internalID: 7073970511976678143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 325
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a432fe76d7fd6b80800000000000000
+      internalID: -8399785229351242589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 337
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3257486226f3eaa0800000000000000
+      internalID: -6132787639909658052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 326
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b8e1e54dd5f08e0800000000000000
+      internalID: -1725056965566100636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_5
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 326
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54aded708a33a4b0800000000000000
+      internalID: -5430432402135735205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_6
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 260
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec37492c8e092500800000000000000
+      internalID: 371844439385521380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 261
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf77972347cac1d00800000000000000
+      internalID: 944819636903966716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 261
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aeb7b6e2a0f67eb0800000000000000
+      internalID: -4722322576805216608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 270
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc879a2a1747b4b0800000000000000
+      internalID: -5424789048435176239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 270
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab40b78bd3f52c50800000000000000
+      internalID: 6639981349827529641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 270
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56fc485f27547010800000000000000
+      internalID: 1185668462761801311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 194
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cddb2d419a235f0800000000000000
+      internalID: -778373878681576315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 197
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6a94042ba031830800000000000000
+      internalID: 4040585051380492025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 197
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92598819620dff140800000000000000
+      internalID: 4755748595595515177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_15
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 206
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7843eeb2b8036470800000000000000
+      internalID: 8386556494893762683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 206
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4720ae7a6a6b01e70800000000000000
+      internalID: 9083961275304247924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_17
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 206
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3969d91c0157c220800000000000000
+      internalID: 2506060830070106428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 130
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ea92db10627a2d0800000000000000
+      internalID: -3267601215723557292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 133
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f0f8484a1abd350800000000000000
+      internalID: 6042601053018328863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_20
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 133
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d22ab86eebd0ea0800000000000000
+      internalID: -5904853639018435230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_21
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 140
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ab50244926fb8f0800000000000000
+      internalID: -522590642849334641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 140
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea66ca9cb1e30b640800000000000000
+      internalID: 5093639467624588974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 140
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089adf47366477ca0800000000000000
+      internalID: -6019264983978890880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_24
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 63
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc40da47bb5d3ea0800000000000000
+      internalID: -5891451894738432776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_25
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 69
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf731c86ee448040800000000000000
+      internalID: 4648927467452727218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_26
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 69
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680aa4b82485dff70800000000000000
+      internalID: 9222624654752653446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_27
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 79
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b229e344b9645b7a0800000000000000
+      internalID: -6362101265912131029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_28
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 79
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c0aaa9247942260800000000000000
+      internalID: 7071943627196992605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_29
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 79
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3665eef90c9e5b0800000000000000
+      internalID: -5338524090140040214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228fe94690f89efd0800000000000000
+      internalID: -2312159663172421598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_31
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8575edb797737e50800000000000000
+      internalID: 6805914955496650122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 5
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aff575d7c1146a20800000000000000
+      internalID: 3054585997241483175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_33
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904f3129ac97bb150800000000000000
+      internalID: 5889434848658191369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_34
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfeaeab156070c10800000000000000
+      internalID: 2019589905997033416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daggers_35
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e872e0eecbc9f5300800000000000000
+      internalID: 243085240162985870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      daggers_0: -1588792061686171292
+      daggers_1: 7073970511976678143
+      daggers_10: 6639981349827529641
+      daggers_11: 1185668462761801311
+      daggers_12: -778373878681576315
+      daggers_13: 4040585051380492025
+      daggers_14: 4755748595595515177
+      daggers_15: 8386556494893762683
+      daggers_16: 9083961275304247924
+      daggers_17: 2506060830070106428
+      daggers_18: -3267601215723557292
+      daggers_19: 6042601053018328863
+      daggers_2: -8399785229351242589
+      daggers_20: -5904853639018435230
+      daggers_21: -522590642849334641
+      daggers_22: 5093639467624588974
+      daggers_23: -6019264983978890880
+      daggers_24: -5891451894738432776
+      daggers_25: 4648927467452727218
+      daggers_26: 9222624654752653446
+      daggers_27: -6362101265912131029
+      daggers_28: 7071943627196992605
+      daggers_29: -5338524090140040214
+      daggers_3: -6132787639909658052
+      daggers_30: -2312159663172421598
+      daggers_31: 6805914955496650122
+      daggers_32: 3054585997241483175
+      daggers_33: 5889434848658191369
+      daggers_34: 2019589905997033416
+      daggers_35: 243085240162985870
+      daggers_4: -1725056965566100636
+      daggers_5: -5430432402135735205
+      daggers_6: 371844439385521380
+      daggers_7: 944819636903966716
+      daggers_8: -4722322576805216608
+      daggers_9: -5424789048435176239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

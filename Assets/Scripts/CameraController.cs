@@ -5,6 +5,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour
 {
@@ -53,16 +54,20 @@ public class CameraController : MonoBehaviour
 
     public void MenuHandler()
     {
-        CameraShake(false);
+        if (!player.GetComponent<Animator>().GetBool("death"))
+        {
+            CameraShake(false);
 
-        if (pause)
-        {
-            ResumeGame();
+            if (pause)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
         }
-        else
-        {
-            PauseGame();
-        }
+        
     }
 
     private void PauseGame()
@@ -106,7 +111,7 @@ public class CameraController : MonoBehaviour
 
         // Distance measurements
 
-        if (!pause)
+        if (!pause && !player.GetComponent<Animator>().GetBool("death"))
         {
             rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
         }
@@ -130,6 +135,13 @@ public class CameraController : MonoBehaviour
             {
                 PauseGame();
             }
+        }
+
+        // to reset game testing
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }

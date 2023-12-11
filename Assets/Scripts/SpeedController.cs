@@ -19,6 +19,8 @@ public class SpeedController : MonoBehaviour
    
     void Update()
     {
+
+        // manual speed control testing
         if (Input.GetKey(KeyCode.A))
         {
             if (speed <= speedMin)
@@ -42,14 +44,24 @@ public class SpeedController : MonoBehaviour
             }
         }
 
+        // background speed
         animator.speed = speed;
+
+
+        // player speed
         if (player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("hurt"))
         {
             player.GetComponent<Animator>().speed = 1;
             speed = speedMin;
         }
+        else if (player.GetComponent<Animator>().GetBool("death"))
+        {
+            speed = Mathf.Lerp(speed, 0, 0.1f);
+        }
         else
         {
+
+            // speed clamp (min & max)
             player.GetComponent<Animator>().speed = speed;
             if (speed >= speedMax)
             {
@@ -61,6 +73,7 @@ public class SpeedController : MonoBehaviour
             }
         }
 
+        // enemies speed
         foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
         {
             enemy.GetComponent<Animator>().speed = speed;
