@@ -23,10 +23,20 @@ public class Buff : MonoBehaviour
 
         if (!CameraController.pause)
         {
-            transform.position = new Vector3(Mathf.Lerp(transform.position.x, startPosX, 0.1f),
-                                         Mathf.Lerp(transform.position.y, startPosY, 0.1f),
-                                         transform.position.z);
+            if (CharacterMainController.buffTrigger)
+            {
+                transform.position = new Vector3(Mathf.Lerp(transform.position.x, startPosX, 0.04f),
+                                             Mathf.Lerp(transform.position.y, startPosY, 0.1f),
+                                             transform.position.z);
+            }
+            else
+            {
+                transform.position = new Vector3(Mathf.Lerp(transform.position.x, -13, 0.02f),
+                                             Mathf.Lerp(transform.position.y, 0.62f, 0.1f),
+                                             transform.position.z);
+            }
         }
+        
 
         if (player.GetComponent<CharacterMainController>().blink || player.GetComponent<Animator>().GetBool("death"))
         {

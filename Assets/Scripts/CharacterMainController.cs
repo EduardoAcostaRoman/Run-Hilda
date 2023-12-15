@@ -50,6 +50,8 @@ public class CharacterMainController : MonoBehaviour
     public float death2EffectAngle = 0;
 
     public static bool buffTrigger = false;
+    public float shieldColor = 4;
+    private bool shieldActivated = false;
 
     // --- ITEMS ---//
 
@@ -57,10 +59,11 @@ public class CharacterMainController : MonoBehaviour
     {
 
         // Buff item 
-        if (collisionObject.tag == "buff")
+        if (collisionObject.tag == "Buff" && !animator.GetBool("death"))
         {
             buffTrigger = true;
-            transform.GetChild(2).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, Mathf.Lerp(0, 0.2f, 0.1f)); 
+            transform.GetChild(3).GetComponent<AudioSource>().Play();
+            Destroy(collisionObject.gameObject);
         }
     }
 
@@ -221,7 +224,13 @@ public class CharacterMainController : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("hurt") && animator.GetBool("hurt"))
         {
-            //animator.SetBool("death", true);
+            //if no shield up, then character dies
+            if (!shieldActivated)
+            {
+                animator.SetBool("death", true);
+            }
+            
+            buffTrigger = false;
             animator.SetBool("hurt", false);
         }
 
@@ -267,6 +276,17 @@ public class CharacterMainController : MonoBehaviour
 
         // Buff
 
-
+        if (buffTrigger && !animator.GetBool("death"))
+        {
+            shieldActivated = true;
+            transform.GetChild(2).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 
+                Mathf.Lerp(transform.GetChild(2).GetComponent<SpriteRenderer>().color.a, shieldColor, 0.1f));
+        }
+        else
+        {
+            shieldActivated = false;
+            transform.GetChild(2).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1,
+                Mathf.Lerp(transform.GetChild(2).GetComponent<SpriteRenderer>().color.a, 0, 0.1f));
+        }
     }
 }

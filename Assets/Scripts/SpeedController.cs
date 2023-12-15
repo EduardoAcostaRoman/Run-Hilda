@@ -78,6 +78,12 @@ public class SpeedController : MonoBehaviour
         {
             enemy.GetComponent<Animator>().speed = speed;
         }
-        
+
+        // buff item speed
+        foreach (GameObject buffItem in GameObject.FindGameObjectsWithTag("Buff"))
+        {
+            buffItem.GetComponent<Rigidbody2D>().velocity = new Vector2((speed + 0.3f) * -11, 0);
+        }
+
     }
 }
