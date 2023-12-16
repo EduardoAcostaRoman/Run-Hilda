@@ -32,7 +32,7 @@ public class Buff : MonoBehaviour
             else
             {
                 transform.position = new Vector3(Mathf.Lerp(transform.position.x, -13, 0.02f),
-                                             Mathf.Lerp(transform.position.y, 0.62f, 0.1f),
+                                             transform.position.y,
                                              transform.position.z);
             }
         }

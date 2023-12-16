@@ -10,6 +10,8 @@ public class ItemSpawner : MonoBehaviour
     private double realtime;
     private double prevSpawnTime;
 
+    private bool spawnTrigger = true;
+
     void Start()
     {
         
@@ -19,10 +21,34 @@ public class ItemSpawner : MonoBehaviour
     {
         realtime = Time.fixedTime;
 
-        if (realtime - prevSpawnTime > buffItemSpawnTime)
+        if (!CharacterMainController.buffTrigger)
         {
-            Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z),buffItem.transform.rotation);
+            if (realtime - prevSpawnTime > buffItemSpawnTime)
+            {
+                Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z), buffItem.transform.rotation);
+                prevSpawnTime = realtime;
+            }
+        }
+
+
+
+        // --- SPAWN CONTROL --- //
+
+        // buff item control
+        if (!CharacterMainController.buffTrigger)
+        {
+            if (realtime - prevSpawnTime > buffItemSpawnTime)
+            {
+                Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z), buffItem.transform.rotation);
+                prevSpawnTime = realtime;
+            }
+        }
+        else
+        {
             prevSpawnTime = realtime;
         }
+
+
+
     }
 }
