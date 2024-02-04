@@ -5,9 +5,12 @@ ScriptsOnlyBuild:
     - Buff
     - CameraController
     - CharacterMainController
+    - Death2Effect
     - EnemySpawnController
     - GenericEnemy
+    - ItemSpawner
     - MusicController
+    - SelfDestructByPosition
     - SelfDestructTimer
     - SpeedController
     - Wolf
@@ -74,6 +77,7 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
     - UnityEngine.Rendering.Universal.DepthOfField
     - UnityEngine.Rendering.Universal.PostProcessData
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
@@ -81,7 +85,10 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
+    - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
@@ -95,8 +102,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -131,15 +140,18 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.BoolParameter
     - UnityEngine.Rendering.ClampedFloatParameter
     - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
     - UnityEngine.Rendering.MinFloatParameter
     - UnityEngine.Rendering.ProbeVolumeSHBands
     - UnityEngine.Rendering.ProbeVolumeSceneData
     - UnityEngine.Rendering.ProbeVolumeTextureMemoryBudget
+    - UnityEngine.Rendering.TextureParameter
     - UnityEngine.Rendering.UI.DebugUIPrefabBundle
     Unity.RenderPipelines.Universal.2D.Runtime:
     - UnityEngine.Rendering.Universal.Light2DBlendStyle
     Unity.RenderPipelines.Universal.Runtime:
     - UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+    - UnityEngine.Rendering.Universal.DownscaleParameter
     - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
     - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
     - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
@@ -185,6 +197,15 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraController
+    methodName: RestartHandler
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraController
+    methodName: ExitHandler
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraController
+    methodName: MenuHandler
   - assembly: Assembly-CSharp
     fullTypeName: CameraController
     methodName: MenuHandler
@@ -278,125 +299,135 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17654}
     - Class: 114
-      Script: {instanceID: 17836}
+      Script: {instanceID: 17838}
     - Class: 114
-      Script: {instanceID: 18144}
+      Script: {instanceID: 18148}
     - Class: 114
-      Script: {instanceID: 18252}
+      Script: {instanceID: 18256}
     - Class: 114
-      Script: {instanceID: 18348}
+      Script: {instanceID: 18352}
     - Class: 114
-      Script: {instanceID: 18452}
+      Script: {instanceID: 18456}
     - Class: 114
-      Script: {instanceID: 18568}
+      Script: {instanceID: 18572}
     - Class: 114
-      Script: {instanceID: 18856}
+      Script: {instanceID: 18862}
     - Class: 114
-      Script: {instanceID: 18992}
+      Script: {instanceID: 19000}
     - Class: 114
-      Script: {instanceID: 19102}
+      Script: {instanceID: 19110}
     - Class: 114
-      Script: {instanceID: 19220}
+      Script: {instanceID: 19228}
     - Class: 114
-      Script: {instanceID: 19386}
+      Script: {instanceID: 19394}
     - Class: 114
-      Script: {instanceID: 19568}
+      Script: {instanceID: 19580}
     - Class: 114
-      Script: {instanceID: 19650}
+      Script: {instanceID: 19662}
     - Class: 114
-      Script: {instanceID: 19744}
+      Script: {instanceID: 19756}
     - Class: 114
-      Script: {instanceID: 19896}
+      Script: {instanceID: 19910}
     - Class: 114
-      Script: {instanceID: 19946}
+      Script: {instanceID: 19962}
     - Class: 114
-      Script: {instanceID: 20034}
+      Script: {instanceID: 20050}
     - Class: 114
-      Script: {instanceID: 20354}
+      Script: {instanceID: 20374}
     - Class: 114
-      Script: {instanceID: 20404}
+      Script: {instanceID: 20426}
     - Class: 114
-      Script: {instanceID: 20546}
+      Script: {instanceID: 20568}
     - Class: 114
-      Script: {instanceID: 20724}
+      Script: {instanceID: 20612}
     - Class: 114
-      Script: {instanceID: 20936}
+      Script: {instanceID: 20746}
     - Class: 114
-      Script: {instanceID: 21066}
+      Script: {instanceID: 20788}
     - Class: 114
-      Script: {instanceID: 21072}
+      Script: {instanceID: 20960}
     - Class: 114
-      Script: {instanceID: 21742}
+      Script: {instanceID: 20998}
     - Class: 114
-      Script: {instanceID: 21812}
+      Script: {instanceID: 21092}
     - Class: 114
-      Script: {instanceID: 21886}
+      Script: {instanceID: 21098}
     - Class: 114
-      Script: {instanceID: 21928}
+      Script: {instanceID: 21780}
     - Class: 114
-      Script: {instanceID: 21986}
+      Script: {instanceID: 21850}
     - Class: 114
-      Script: {instanceID: 22006}
+      Script: {instanceID: 21926}
     - Class: 114
-      Script: {instanceID: 22074}
+      Script: {instanceID: 21968}
     - Class: 114
-      Script: {instanceID: 22090}
+      Script: {instanceID: 22026}
     - Class: 114
-      Script: {instanceID: 22344}
+      Script: {instanceID: 22046}
     - Class: 114
-      Script: {instanceID: 22346}
+      Script: {instanceID: 22116}
     - Class: 114
-      Script: {instanceID: 22370}
+      Script: {instanceID: 22132}
     - Class: 114
-      Script: {instanceID: 22716}
+      Script: {instanceID: 22228}
     - Class: 114
-      Script: {instanceID: 23046}
+      Script: {instanceID: 22390}
     - Class: 114
-      Script: {instanceID: 23052}
+      Script: {instanceID: 22392}
     - Class: 114
-      Script: {instanceID: 23132}
+      Script: {instanceID: 22416}
     - Class: 114
-      Script: {instanceID: 23152}
+      Script: {instanceID: 22762}
     - Class: 114
-      Script: {instanceID: 23158}
+      Script: {instanceID: 23096}
     - Class: 114
-      Script: {instanceID: 23296}
+      Script: {instanceID: 23102}
+    - Class: 114
+      Script: {instanceID: 23182}
+    - Class: 114
+      Script: {instanceID: 23202}
+    - Class: 114
+      Script: {instanceID: 23208}
     - Class: 114
       Script: {instanceID: 23346}
     - Class: 114
-      Script: {instanceID: 23412}
+      Script: {instanceID: 23396}
     - Class: 114
-      Script: {instanceID: 23488}
+      Script: {instanceID: 23464}
     - Class: 114
-      Script: {instanceID: 23502}
+      Script: {instanceID: 23540}
     - Class: 114
-      Script: {instanceID: 23630}
+      Script: {instanceID: 23554}
     - Class: 114
-      Script: {instanceID: 23786}
+      Script: {instanceID: 23682}
     - Class: 114
-      Script: {instanceID: 23928}
+      Script: {instanceID: 23838}
     - Class: 114
-      Script: {instanceID: 23990}
+      Script: {instanceID: 23982}
     - Class: 114
-      Script: {instanceID: 24024}
+      Script: {instanceID: 24044}
     - Class: 114
-      Script: {instanceID: 24026}
+      Script: {instanceID: 24078}
     - Class: 114
-      Script: {instanceID: 24218}
+      Script: {instanceID: 24080}
     - Class: 114
-      Script: {instanceID: 24390}
+      Script: {instanceID: 24274}
     - Class: 114
-      Script: {instanceID: 24398}
+      Script: {instanceID: 24448}
     - Class: 114
-      Script: {instanceID: 25098}
+      Script: {instanceID: 24456}
     - Class: 114
-      Script: {instanceID: 25202}
+      Script: {instanceID: 24564}
     - Class: 114
-      Script: {instanceID: 25388}
+      Script: {instanceID: 25162}
     - Class: 114
-      Script: {instanceID: 25396}
+      Script: {instanceID: 25266}
     - Class: 114
-      Script: {instanceID: 25612}
+      Script: {instanceID: 25458}
+    - Class: 114
+      Script: {instanceID: 25468}
+    - Class: 114
+      Script: {instanceID: 25686}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -514,6 +545,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: 454fd3834dc328ef5399a9a42e53d592
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
       Hash: ea1569413d805748b7cef2dcb4622c85
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -524,6 +561,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: SimpleScript
   - hash:
       serializedVersion: 2
       Hash: b6a10a9552d8bd091fa8657445f2ed4b
@@ -646,6 +689,12 @@ ScriptsOnlyBuild:
     className: LensFlareComponentSRP
   - hash:
       serializedVersion: 2
+      Hash: 1bfcfbce150993e56fae19f40f3da27f
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
       Hash: bcdedb1b3a567eb05111be4716618ce1
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -668,6 +717,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
   - hash:
       serializedVersion: 2
       Hash: a7a4f96d026b10ead36f70cf6402f61d
@@ -730,7 +785,7 @@ ScriptsOnlyBuild:
     className: CullingManager
   - hash:
       serializedVersion: 2
-      Hash: 220ffb4e3ae38c495831026e9ab36aef
+      Hash: 245c13fda8565c900308d42476b6862d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraController
@@ -748,6 +803,12 @@ ScriptsOnlyBuild:
     className: SelfDestructTimer
   - hash:
       serializedVersion: 2
+      Hash: 9f5cca8c22d9a2d2a819c5ba5c0675a8
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
       Hash: a4d905db69ca7f45f45458ae380fb66f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -758,6 +819,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
     className: Bone
+  - hash:
+      serializedVersion: 2
+      Hash: 85000d725b3d59681683bd7467fe9099
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark04
   - hash:
       serializedVersion: 2
       Hash: 2426be942e4ebb5aff115325103b797f
@@ -796,6 +863,12 @@ ScriptsOnlyBuild:
     className: ScreenSpaceShadows
   - hash:
       serializedVersion: 2
+      Hash: 4aeaabfb5368e1c79d66e90575c29ce1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
@@ -812,6 +885,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 995ded12fd23487c35be69ad8c37f000
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
   - hash:
       serializedVersion: 2
       Hash: 7a0dffef755dbed4f4799f891b173e23
@@ -856,6 +935,12 @@ ScriptsOnlyBuild:
     className: ColorAdjustments
   - hash:
       serializedVersion: 2
+      Hash: b6e08e9716184d5736af5af9ffaf1513
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
       Hash: 0286ed84936a6e3c4dba049ae21a7b1c
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -868,10 +953,22 @@ ScriptsOnlyBuild:
     className: FullScreenPassRendererFeature
   - hash:
       serializedVersion: 2
+      Hash: 8a64c0f8522bcdc3b5511041fb34cc1e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
       Hash: dd04d5a33ec8e24ee5f12e24d3ead211
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AspectUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 098f025716fad3521c89a222b6058556
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
   - hash:
       serializedVersion: 2
       Hash: b18151310f999106767addd7177d1a99
@@ -952,6 +1049,12 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
+      Hash: 9fd8740de42a4337a3f3676ce2914c04
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
       Hash: 832b2f9239974c6973b49acbcc1f5777
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -988,6 +1091,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerEnumHistory
   - hash:
       serializedVersion: 2
+      Hash: 2fff34fad14d2fea9111ccb0992b8346
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Death2Effect
+  - hash:
+      serializedVersion: 2
       Hash: 408293f89d4950546351fcf0e974583f
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1006,6 +1115,24 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 8092d6aa649f9a77e3aaba32d32d0107
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: f6bf0fc71f5b6dfe19329b1c4df9fee0
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
       Hash: 91fba0a2850ee2dd5a8a1e782bba2e26
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1016,6 +1143,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 26dacff44c1c1bb89901b0b06dafc1de
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
   - hash:
       serializedVersion: 2
       Hash: bda7bb16fefdce6ac2b9a4abce1c9087
@@ -1043,6 +1176,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
@@ -1052,6 +1191,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6fc777aac0ea7171de5755ec920b26c3
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
       Hash: e44c1964aad6fb40563573cf6608be1c
@@ -1096,6 +1241,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerObject
   - hash:
       serializedVersion: 2
+      Hash: 32dfe76194c51f0d62549c972eb43775
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
       Hash: b34d1a74e3bc4f15d725cdad24279997
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1138,6 +1289,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerVector3
   - hash:
       serializedVersion: 2
+      Hash: 50ff3748c8810a6032e49b292aa2bda3
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
       Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1172,6 +1329,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 2a5105f90c5c4d179b3a5769b437b069
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SelfDestructByPosition
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_DigitValidator
   - hash:
       serializedVersion: 2
       Hash: e7161dfe3ef51f33f03c54de37ba3ca2
@@ -1252,6 +1421,18 @@ ScriptsOnlyBuild:
     className: ProbeVolumesOptions
   - hash:
       serializedVersion: 2
+      Hash: d2938fd574d28d48888d4f06beab689c
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 925a889a282ea89c4d9bd41afd22e4c2
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 3d4b74a0e8c53bf894df989e6e66d368
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
@@ -1316,6 +1497,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
     className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: af33740fd008fddf067c2bd4ecacf9c0
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark03
   - hash:
       serializedVersion: 2
       Hash: e4831ed1a755ad7c8aee34e90d9016ed
@@ -1396,6 +1583,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerColor
   - hash:
       serializedVersion: 2
+      Hash: 098f025716fad3521c89a222b6058556
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
       Hash: ad0eda518d43b4ecaa586237c08aa4b2
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1438,7 +1631,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: ab14f430cbbc20581218a487495b2da0
+      Hash: 70cffa574eabe10ae1cbfba8a5d7df14
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MusicController
@@ -1454,6 +1647,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: ScreenSpaceLensFlare
+  - hash:
+      serializedVersion: 2
+      Hash: b6e08e9716184d5736af5af9ffaf1513
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexJitter
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1474,7 +1673,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: b414459a3a14e545cc5d32f72fdcd4b3
+      Hash: 977bd2e54894265dbb9579910ed71f9a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CharacterMainController
@@ -1484,6 +1683,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6829bea31b0631acecdc94f44ca7ede8
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
   - hash:
       serializedVersion: 2
       Hash: c92e03126f82226c2e517b0c562a3094
@@ -1508,6 +1713,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: db24c14ae10f047e8e0bd6db86fb61c2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: a31fd79490479c7454bc49ff7ef65bbf
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
   - hash:
       serializedVersion: 2
       Hash: ff06596e682343f04b451cdb376b1850
@@ -1612,16 +1829,34 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerButton
   - hash:
       serializedVersion: 2
+      Hash: 783de51efb343429d5d4c515cb889d12
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: CinemachineUniversalPixelPerfect
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
       Hash: e0959e6b1ac2cd5e8efb65362252ce93
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
   - hash:
       serializedVersion: 2
       Hash: 7543b0db88b07d3c2165bdbf1833524e
@@ -1648,10 +1883,22 @@ ScriptsOnlyBuild:
     className: Wolf
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
       Hash: 737b3cd4e6a12ba8d9db2fe2b614f203
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
     className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: b6e08e9716184d5736af5af9ffaf1513
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: VertexZoom
   - hash:
       serializedVersion: 2
       Hash: 116a5d45ac93b8a51d0a895f4b9c4df2
@@ -1670,6 +1917,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 86b3f904003c4ef3e621cd0f54dbdc40
+    assemblyName: Assembly-CSharp
+    namespaceName: TMPro.Examples
+    className: Benchmark01
   - hash:
       serializedVersion: 2
       Hash: d4b400c39712735d4d35a58bb8164133

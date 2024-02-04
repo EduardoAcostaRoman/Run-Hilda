@@ -11,11 +11,11 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -116477561
+    "memoizedHashCode": 769147214
   },
   {
     "level_": 0,
-    "message_": "JSON \u0027C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\\android_gradle_build.json\u0027 was up-to-date",
+    "message_": "rebuilding JSON C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\\android_gradle_build.json due to:",
     "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
     "tag_": "release|armeabi-v7a",
     "diagnosticCode_": 0,
@@ -25,7 +25,175 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -601346001
+    "memoizedHashCode": -1130787969
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 809801239
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -166520971
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1443214995
+  },
+  {
+    "level_": 0,
+    "message_": "- prefab configuration has changed",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 590642678
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\OpenJDK\\\\bin\\\\java\" ^\n  --class-path ^\n  \"C:\\\\Users\\\\lalo_\\\\.gradle\\\\caches\\\\modules-2\\\\files-2.1\\\\com.google.prefab\\\\cli\\\\2.0.0\\\\f2702b5ca13df54e3ca92f29d6b403fb6285d8df\\\\cli-2.0.0-all.jar\" ^\n  com.google.prefab.cli.AppKt ^\n  --build-system ^\n  cmake ^\n  --platform ^\n  android ^\n  --abi ^\n  armeabi-v7a ^\n  --os-version ^\n  22 ^\n  --stl ^\n  c++_shared ^\n  --ndk-version ^\n  23 ^\n  --output ^\n  \"C:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\.utmp\\\\RelWithDebInfo\\\\l67m5135\\\\prefab\\\\armeabi-v7a\\\\prefab-configure\" ^\n  \"C:\\\\Users\\\\lalo_\\\\.gradle\\\\caches\\\\transforms-3\\\\121b6b243cedf8bef90d462440e4bf24\\\\transformed\\\\jetified-games-frame-pacing-1.10.0\\\\prefab\"\n",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -341481485
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\u0027",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 142397087
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\u0027",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2125447339
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"C:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d22\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-22\" ^\n  \"-DANDROID_ABI\u003darmeabi-v7a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\l67m5135\\\\obj\\\\armeabi-v7a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\l67m5135\\\\obj\\\\armeabi-v7a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\.utmp\\\\RelWithDebInfo\\\\l67m5135\\\\prefab\\\\armeabi-v7a\\\\prefab\" ^\n  \"-BC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\.utmp\\\\RelWithDebInfo\\\\l67m5135\\\\armeabi-v7a\" ^\n  -GNinja ^\n  \"-DBUILD_GRADLE_DIRECTORY\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\" ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1200385530
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d22\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-22\" ^\n  \"-DANDROID_ABI\u003darmeabi-v7a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\NDK\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Program Files\\\\Unity Editors\\\\2023.1.19f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\l67m5135\\\\obj\\\\armeabi-v7a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\l67m5135\\\\obj\\\\armeabi-v7a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\.utmp\\\\RelWithDebInfo\\\\l67m5135\\\\prefab\\\\armeabi-v7a\\\\prefab\" ^\n  \"-BC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\.utmp\\\\RelWithDebInfo\\\\l67m5135\\\\armeabi-v7a\" ^\n  -GNinja ^\n  \"-DBUILD_GRADLE_DIRECTORY\u003dC:\\\\Users\\\\lalo_\\\\Documents\\\\Run Hilda!\\\\Library\\\\Bee\\\\Android\\\\Prj\\\\Mono2x\\\\Gradle\\\\unityLibrary\" ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 445352807
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -788221695
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1130868744
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\lalo_\\Documents\\Run Hilda!\\.utmp\\RelWithDebInfo\\l67m5135\\armeabi-v7a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\lalo_\\Documents\\Run Hilda!\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1097096973
   },
   {
     "level_": 0,
@@ -39,6 +207,6 @@
       "fieldsDescending": {}
     },
     "memoizedSize": -1,
-    "memoizedHashCode": -2111650243
+    "memoizedHashCode": -1226025468
   }
 ]

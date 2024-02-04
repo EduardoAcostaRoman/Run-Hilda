@@ -1,7 +1,10 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="CameraController">
+			<method name="ExitHandler"/>
 			<method name="MenuHandler"/>
+			<method name="MenuHandler"/>
+			<method name="RestartHandler"/>
 		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">

@@ -15,7 +15,7 @@ C:/Users/lalo_/Documents/Run Hilda!
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55061
+50141
 Successfully changed project path to: C:/Users/lalo_/Documents/Run Hilda!
 C:/Users/lalo_/Documents/Run Hilda!
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/lalo_/Documents/Run Hilda!
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14492] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2029081183 [EditorId] 2029081183 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12184] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3206188747 [EditorId] 3206188747 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14492] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2029081183 [EditorId] 2029081183 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12184] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3206188747 [EditorId] 3206188747 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-85V0LIL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 4025.15 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 4443.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.19f1 (629111e352bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/Resources/UnitySubsystems
@@ -71,48 +71,60 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.972138 seconds.
-- Loaded All Assemblies, in 22.007 seconds
+Registered in 0.030553 seconds.
+- Loaded All Assemblies, in  3.539 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1342 ms
+Android Extension - Scanning For ADB Devices 2247 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.731 seconds
-Domain Reload Profiling: 24732ms
-	BeginReloadAssembly (18616ms)
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  7.152 seconds
+Domain Reload Profiling: 10679ms
+	BeginReloadAssembly (2094ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (149ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (1151ms)
-	LoadAllAssembliesAndSetupDomain (2036ms)
-		LoadAssemblies (18606ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (6ms)
+	RebuildCommonClasses (176ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (248ms)
+	LoadAllAssembliesAndSetupDomain (955ms)
+		LoadAssemblies (2080ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2015ms)
-			TypeCache.Refresh (2012ms)
-				TypeCache.ScanAssembly (1969ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2733ms)
+		AnalyzeDomain (925ms)
+			TypeCache.Refresh (918ms)
+				TypeCache.ScanAssembly (827ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (7153ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2568ms)
+		SetupLoadedEditorAssemblies (6856ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1835ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (26ms)
-			ProcessInitializeOnLoadAttributes (473ms)
-			ProcessInitializeOnLoadMethodAttributes (222ms)
+			InitializePlatformSupportModulesInManaged (3821ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (2264ms)
+			ProcessInitializeOnLoadMethodAttributes (703ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,84 +133,66 @@ Domain Reload Profiling: 24732ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 22.545 seconds
-Refreshing native plugins compatible for Editor in 18.94 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  7.732 seconds
+Refreshing native plugins compatible for Editor in 27.92 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.816 seconds
-Domain Reload Profiling: 25324ms
-	BeginReloadAssembly (1026ms)
+- Finished resetting the current domain, in  5.628 seconds
+Domain Reload Profiling: 13330ms
+	BeginReloadAssembly (2064ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
+		DisableScriptedObjects (27ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (94ms)
-	RebuildCommonClasses (178ms)
-	RebuildNativeTypeToScriptingClass (47ms)
-	initialDomainReloadingComplete (135ms)
-	LoadAllAssembliesAndSetupDomain (21122ms)
-		LoadAssemblies (20046ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (168ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (234ms)
+	LoadAllAssembliesAndSetupDomain (5183ms)
+		LoadAssemblies (3556ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1398ms)
-			TypeCache.Refresh (1279ms)
-				TypeCache.ScanAssembly (1224ms)
-			ScanForSourceGeneratedMonoScriptInfo (82ms)
-			ResolveRequiredComponents (36ms)
-	FinalizeReload (2817ms)
+		AnalyzeDomain (2142ms)
+			TypeCache.Refresh (1884ms)
+				TypeCache.ScanAssembly (1815ms)
+			ScanForSourceGeneratedMonoScriptInfo (213ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (5629ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1752ms)
+		SetupLoadedEditorAssemblies (3454ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (301ms)
-			ProcessInitializeOnLoadAttributes (1212ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (109ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (515ms)
+			ProcessInitializeOnLoadAttributes (2502ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (3ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 12.26 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.61 seconds
+Refreshing native plugins compatible for Editor in 53.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4438 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 100 unused Assets / (3.0 MB). Loaded Objects now: 4987.
-Memory consumption went from 238.4 MB to 235.5 MB.
-Total: 18.790600 ms (FindLiveObjects: 1.445600 ms CreateObjectMapping: 0.645300 ms MarkObjects: 14.354000 ms  DeleteObjects: 2.341200 ms)
+Memory consumption went from 238.6 MB to 235.7 MB.
+Total: 36.524100 ms (FindLiveObjects: 2.342700 ms CreateObjectMapping: 3.013500 ms MarkObjects: 28.449600 ms  DeleteObjects: 2.708400 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 265510.734299 seconds.
-  path: Assets/Scripts/CharacterMainController.cs
-  artifactKey: Guid(29b0916c55fbad84f803b068cc98513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterMainController.cs using Guid(29b0916c55fbad84f803b068cc98513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf8e731eb3bd21ff3be442f14824c3e') in 0.011349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 328.08 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 4987.
-Memory consumption went from 134.0 MB to 131.0 MB.
-Total: 19.095000 ms (FindLiveObjects: 1.343400 ms CreateObjectMapping: 0.655400 ms MarkObjects: 14.726200 ms  DeleteObjects: 2.364300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -215,52 +209,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.357 seconds
-Refreshing native plugins compatible for Editor in 12.70 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  4.440 seconds
+Refreshing native plugins compatible for Editor in 23.98 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 17.739 seconds
-Domain Reload Profiling: 21080ms
-	BeginReloadAssembly (687ms)
+- Finished resetting the current domain, in 12.444 seconds
+Domain Reload Profiling: 16861ms
+	BeginReloadAssembly (1005ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (58ms)
+		DisableScriptedObjects (74ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (163ms)
-	RebuildCommonClasses (149ms)
-	RebuildNativeTypeToScriptingClass (53ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (2351ms)
-		LoadAssemblies (1323ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (208ms)
+	RebuildNativeTypeToScriptingClass (71ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (2996ms)
+		LoadAssemblies (2036ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1374ms)
-			TypeCache.Refresh (1334ms)
-				TypeCache.ScanAssembly (1288ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (1506ms)
+			TypeCache.Refresh (1467ms)
+				TypeCache.ScanAssembly (1420ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (38ms)
-	FinalizeReload (17741ms)
+	FinalizeReload (12446ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2955ms)
+		SetupLoadedEditorAssemblies (4370ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (133ms)
-			SetLoadedEditorAssemblies (22ms)
-			BeforeProcessingInitializeOnLoad (642ms)
-			ProcessInitializeOnLoadAttributes (1918ms)
-			ProcessInitializeOnLoadMethodAttributes (215ms)
-			AfterProcessingInitializeOnLoad (25ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (249ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (815ms)
+			ProcessInitializeOnLoadAttributes (3033ms)
+			ProcessInitializeOnLoadMethodAttributes (211ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (54ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 32.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4226 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 4992.
-Memory consumption went from 200.4 MB to 197.4 MB.
-Total: 39.828700 ms (FindLiveObjects: 4.006600 ms CreateObjectMapping: 1.319800 ms MarkObjects: 30.851000 ms  DeleteObjects: 3.643000 ms)
+Memory consumption went from 200.5 MB to 197.5 MB.
+Total: 158.291500 ms (FindLiveObjects: 7.132200 ms CreateObjectMapping: 6.126400 ms MarkObjects: 139.422500 ms  DeleteObjects: 5.603800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -279,52 +285,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 15.385 seconds
-Refreshing native plugins compatible for Editor in 32.38 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in 13.510 seconds
+Refreshing native plugins compatible for Editor in 58.17 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 42.613 seconds
-Domain Reload Profiling: 57984ms
-	BeginReloadAssembly (2604ms)
+- Finished resetting the current domain, in 23.548 seconds
+Domain Reload Profiling: 37002ms
+	BeginReloadAssembly (2334ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (241ms)
+		DisableScriptedObjects (207ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (722ms)
-	RebuildCommonClasses (481ms)
-	RebuildNativeTypeToScriptingClass (57ms)
-	initialDomainReloadingComplete (132ms)
-	LoadAllAssembliesAndSetupDomain (12095ms)
-		LoadAssemblies (10023ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (452ms)
+	RebuildCommonClasses (357ms)
+	RebuildNativeTypeToScriptingClass (89ms)
+	initialDomainReloadingComplete (541ms)
+	LoadAllAssembliesAndSetupDomain (10128ms)
+		LoadAssemblies (5979ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3424ms)
-			TypeCache.Refresh (3320ms)
-				TypeCache.ScanAssembly (2907ms)
-			ScanForSourceGeneratedMonoScriptInfo (62ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (42615ms)
+		AnalyzeDomain (5461ms)
+			TypeCache.Refresh (5358ms)
+				TypeCache.ScanAssembly (5174ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (99ms)
+	FinalizeReload (23553ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2390ms)
-			LogAssemblyErrors (1ms)
-			InitializePlatformSupportModulesInManaged (132ms)
-			SetLoadedEditorAssemblies (22ms)
-			BeforeProcessingInitializeOnLoad (394ms)
-			ProcessInitializeOnLoadAttributes (1704ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (18ms)
-			EditorAssembliesLoaded (1ms)
+		SetupLoadedEditorAssemblies (8505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (283ms)
+			SetLoadedEditorAssemblies (27ms)
+			BeforeProcessingInitializeOnLoad (2335ms)
+			ProcessInitializeOnLoadAttributes (5239ms)
+			ProcessInitializeOnLoadMethodAttributes (571ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (4ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
+		AwakeInstancesAfterBackupRestoration (295ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 24.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 4995.
-Memory consumption went from 202.2 MB to 199.2 MB.
-Total: 42.503000 ms (FindLiveObjects: 1.973700 ms CreateObjectMapping: 0.705100 ms MarkObjects: 35.238400 ms  DeleteObjects: 4.117800 ms)
+Memory consumption went from 202.3 MB to 199.3 MB.
+Total: 21.797300 ms (FindLiveObjects: 1.389900 ms CreateObjectMapping: 0.902300 ms MarkObjects: 15.926300 ms  DeleteObjects: 3.574200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -342,69 +360,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4740.489169 seconds.
-  path: Assets/Scripts/Wolf.cs
-  artifactKey: Guid(dc8b2853e2cb90d4d8615fa9f61c5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Wolf.cs using Guid(dc8b2853e2cb90d4d8615fa9f61c5aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb817064fc3b9fc57b6f70128e57f14') in 0.053049 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.152812 seconds.
-  path: Assets/Scripts/SpeedController.cs
-  artifactKey: Guid(c48438773d6e47b4b9c3f850a71fdf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpeedController.cs using Guid(c48438773d6e47b4b9c3f850a71fdf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536669b4bdf94014ca585e15cf2b41d5') in 0.002553 seconds
+  Time since last request: 224928.513881 seconds.
+  path: Assets/Scripts/CharacterMainController.cs
+  artifactKey: Guid(29b0916c55fbad84f803b068cc98513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterMainController.cs using Guid(29b0916c55fbad84f803b068cc98513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e34647c819135c46208f4c5b79c04f') in 0.014809 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  9.254 seconds
-Refreshing native plugins compatible for Editor in 29.39 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.828 seconds
+Refreshing native plugins compatible for Editor in 12.72 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 10.650 seconds
-Domain Reload Profiling: 19890ms
-	BeginReloadAssembly (2991ms)
+- Finished resetting the current domain, in 11.864 seconds
+Domain Reload Profiling: 15671ms
+	BeginReloadAssembly (750ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (552ms)
+		DisableScriptedObjects (59ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (4ms)
-		CreateAndSetChildDomain (1055ms)
-	RebuildCommonClasses (212ms)
-	RebuildNativeTypeToScriptingClass (55ms)
-	initialDomainReloadingComplete (289ms)
-	LoadAllAssembliesAndSetupDomain (5689ms)
-		LoadAssemblies (3354ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (181ms)
+	RebuildCommonClasses (205ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (162ms)
+	LoadAllAssembliesAndSetupDomain (2615ms)
+		LoadAssemblies (1520ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3284ms)
-			TypeCache.Refresh (3188ms)
-				TypeCache.ScanAssembly (2576ms)
-			ScanForSourceGeneratedMonoScriptInfo (52ms)
-			ResolveRequiredComponents (43ms)
-	FinalizeReload (10653ms)
+		AnalyzeDomain (1468ms)
+			TypeCache.Refresh (1425ms)
+				TypeCache.ScanAssembly (1380ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (11867ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2336ms)
+		SetupLoadedEditorAssemblies (4081ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (162ms)
-			SetLoadedEditorAssemblies (32ms)
-			BeforeProcessingInitializeOnLoad (454ms)
-			ProcessInitializeOnLoadAttributes (1532ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			InitializePlatformSupportModulesInManaged (208ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (694ms)
+			ProcessInitializeOnLoadAttributes (2854ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (33ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (111ms)
+		AwakeInstancesAfterBackupRestoration (77ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 54.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 4998.
-Memory consumption went from 204.1 MB to 201.1 MB.
-Total: 39.801500 ms (FindLiveObjects: 2.185100 ms CreateObjectMapping: 2.091500 ms MarkObjects: 28.694300 ms  DeleteObjects: 6.818700 ms)
+Memory consumption went from 204.3 MB to 201.3 MB.
+Total: 32.113000 ms (FindLiveObjects: 2.042900 ms CreateObjectMapping: 1.404800 ms MarkObjects: 23.952600 ms  DeleteObjects: 4.706200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -423,52 +445,64 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.842 seconds
-Refreshing native plugins compatible for Editor in 68.69 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.970 seconds
+Refreshing native plugins compatible for Editor in 13.81 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 12.238 seconds
-Domain Reload Profiling: 20059ms
-	BeginReloadAssembly (1624ms)
+- Finished resetting the current domain, in  4.910 seconds
+Domain Reload Profiling: 8861ms
+	BeginReloadAssembly (1187ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (114ms)
+		DisableScriptedObjects (120ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (7ms)
-		CreateAndSetChildDomain (340ms)
-	RebuildCommonClasses (272ms)
-	RebuildNativeTypeToScriptingClass (80ms)
-	initialDomainReloadingComplete (230ms)
-	LoadAllAssembliesAndSetupDomain (5605ms)
-		LoadAssemblies (3639ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (206ms)
+	RebuildCommonClasses (169ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (2428ms)
+		LoadAssemblies (1718ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2886ms)
-			TypeCache.Refresh (2797ms)
-				TypeCache.ScanAssembly (2677ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (87ms)
-	FinalizeReload (12247ms)
+		AnalyzeDomain (1306ms)
+			TypeCache.Refresh (1246ms)
+				TypeCache.ScanAssembly (1149ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (4911ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4792ms)
+		SetupLoadedEditorAssemblies (1636ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (166ms)
-			SetLoadedEditorAssemblies (28ms)
-			BeforeProcessingInitializeOnLoad (709ms)
-			ProcessInitializeOnLoadAttributes (3510ms)
-			ProcessInitializeOnLoadMethodAttributes (348ms)
-			AfterProcessingInitializeOnLoad (28ms)
-			EditorAssembliesLoaded (4ms)
+			InitializePlatformSupportModulesInManaged (74ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (359ms)
+			ProcessInitializeOnLoadAttributes (1058ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (63ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 26.62 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5001.
-Memory consumption went from 206.0 MB to 203.1 MB.
-Total: 32.608400 ms (FindLiveObjects: 2.788800 ms CreateObjectMapping: 1.157900 ms MarkObjects: 24.221800 ms  DeleteObjects: 4.434700 ms)
+Memory consumption went from 206.2 MB to 203.2 MB.
+Total: 57.920100 ms (FindLiveObjects: 1.386900 ms CreateObjectMapping: 2.656600 ms MarkObjects: 49.631000 ms  DeleteObjects: 4.241300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -487,52 +521,737 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.061 seconds
-Refreshing native plugins compatible for Editor in 15.81 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.596 seconds
+Refreshing native plugins compatible for Editor in 13.00 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  7.680 seconds
-Domain Reload Profiling: 12664ms
-	BeginReloadAssembly (1219ms)
+- Finished resetting the current domain, in  7.587 seconds
+Domain Reload Profiling: 11162ms
+	BeginReloadAssembly (710ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (72ms)
+		DisableScriptedObjects (51ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (315ms)
-	RebuildCommonClasses (307ms)
-	RebuildNativeTypeToScriptingClass (168ms)
-	initialDomainReloadingComplete (178ms)
-	LoadAllAssembliesAndSetupDomain (3110ms)
-		LoadAssemblies (2258ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (168ms)
+	RebuildCommonClasses (163ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (116ms)
+	LoadAllAssembliesAndSetupDomain (2522ms)
+		LoadAssemblies (1384ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1482ms)
-			TypeCache.Refresh (1372ms)
-				TypeCache.ScanAssembly (1303ms)
-			ScanForSourceGeneratedMonoScriptInfo (66ms)
-			ResolveRequiredComponents (42ms)
-	FinalizeReload (7682ms)
+		AnalyzeDomain (1487ms)
+			TypeCache.Refresh (1428ms)
+				TypeCache.ScanAssembly (1382ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (7589ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1927ms)
+		SetupLoadedEditorAssemblies (2016ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (89ms)
-			SetLoadedEditorAssemblies (17ms)
-			BeforeProcessingInitializeOnLoad (430ms)
-			ProcessInitializeOnLoadAttributes (1255ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
+			InitializePlatformSupportModulesInManaged (83ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (376ms)
+			ProcessInitializeOnLoadAttributes (1399ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (129ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 14.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5004.
+Memory consumption went from 208.1 MB to 205.2 MB.
+Total: 21.522700 ms (FindLiveObjects: 1.704700 ms CreateObjectMapping: 1.200700 ms MarkObjects: 15.842100 ms  DeleteObjects: 2.770800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  4.297 seconds
+Refreshing native plugins compatible for Editor in 26.61 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.637 seconds
+Domain Reload Profiling: 12917ms
+	BeginReloadAssembly (825ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (60ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (153ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (3118ms)
+		LoadAssemblies (1483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2058ms)
+			TypeCache.Refresh (1983ms)
+				TypeCache.ScanAssembly (1849ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (64ms)
+	FinalizeReload (8640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (143ms)
+			SetLoadedEditorAssemblies (28ms)
+			BeforeProcessingInitializeOnLoad (689ms)
+			ProcessInitializeOnLoadAttributes (2298ms)
+			ProcessInitializeOnLoadMethodAttributes (220ms)
+			AfterProcessingInitializeOnLoad (51ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (68ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5007.
+Memory consumption went from 210.1 MB to 207.1 MB.
+Total: 18.859000 ms (FindLiveObjects: 1.401600 ms CreateObjectMapping: 0.817800 ms MarkObjects: 14.096900 ms  DeleteObjects: 2.537900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  7.946 seconds
+Refreshing native plugins compatible for Editor in 48.57 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.315 seconds
+Domain Reload Profiling: 27246ms
+	BeginReloadAssembly (1797ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (167ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (780ms)
+	RebuildCommonClasses (244ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (130ms)
+	LoadAllAssembliesAndSetupDomain (5697ms)
+		LoadAssemblies (3182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3063ms)
+			TypeCache.Refresh (2975ms)
+				TypeCache.ScanAssembly (2712ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (86ms)
+	FinalizeReload (19318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (7826ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (282ms)
+			SetLoadedEditorAssemblies (61ms)
+			BeforeProcessingInitializeOnLoad (1591ms)
+			ProcessInitializeOnLoadAttributes (5272ms)
+			ProcessInitializeOnLoadMethodAttributes (537ms)
+			AfterProcessingInitializeOnLoad (80ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (131ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 76.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5010.
+Memory consumption went from 211.9 MB to 208.9 MB.
+Total: 41.178500 ms (FindLiveObjects: 3.261900 ms CreateObjectMapping: 2.025900 ms MarkObjects: 31.729800 ms  DeleteObjects: 4.155700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3956.678907 seconds.
+  path: Assets/Sprites/Hilda/jump2.gif
+  artifactKey: Guid(cdebcaebb6e33334b9e7281be683c426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/jump2.gif using Guid(cdebcaebb6e33334b9e7281be683c426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7040819876cdc46efb7bbcc16f4a1301') in 0.644300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites/Hilda/jump4.gif
+  artifactKey: Guid(8fd4505d144b4d849b5f274ef1b8b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/jump4.gif using Guid(8fd4505d144b4d849b5f274ef1b8b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ec25afa4b067821f47c3e5e1abb185') in 0.108911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.793385 seconds.
+  path: Assets/Sprites/Hilda/run4.gif
+  artifactKey: Guid(53b1dbe1235b2db4292584682a2e907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/run4.gif using Guid(53b1dbe1235b2db4292584682a2e907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e586275bcbe5fce3108f2a1655a7e902') in 0.074491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.420363 seconds.
+  path: Assets/Sprites/Hilda/run6.gif
+  artifactKey: Guid(4074595748ac70f4c967af8b74298ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/run6.gif using Guid(4074595748ac70f4c967af8b74298ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cee75abb451c74eec21f82ffa919781') in 0.092787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.350008 seconds.
+  path: Assets/Sprites/Hilda/run8.gif
+  artifactKey: Guid(23fe035f215b66543b6ea0afb1ff8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/run8.gif using Guid(23fe035f215b66543b6ea0afb1ff8f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10619f17cbf84d6f26e714473f60ab7c') in 0.083537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.276309 seconds.
+  path: Assets/Sprites/Hilda/run10.gif
+  artifactKey: Guid(ffcd30cc73b52f4439ab9aab78c0c7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/run10.gif using Guid(ffcd30cc73b52f4439ab9aab78c0c7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d45ac6d65fbcb4d0c57c633c3ec8a92') in 0.094771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.277952 seconds.
+  path: Assets/Sprites/Hilda/run12.gif
+  artifactKey: Guid(e9e2d45237955bd4faf50ae8059ffb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/run12.gif using Guid(e9e2d45237955bd4faf50ae8059ffb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd86f61cd6f2ab197ac37d0384e3072') in 0.100972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.462753 seconds.
+  path: Assets/Sprites/Hilda/run13.gif
+  artifactKey: Guid(3003db916a859064a920eb73e392678c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Hilda/run13.gif using Guid(3003db916a859064a920eb73e392678c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e391b7c4b0e2dc5b0810e7b80813d7') in 0.102174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in 11.080 seconds
+Refreshing native plugins compatible for Editor in 97.05 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.684 seconds
+Domain Reload Profiling: 25832ms
+	BeginReloadAssembly (3389ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (644ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (1272ms)
+	RebuildCommonClasses (182ms)
+	RebuildNativeTypeToScriptingClass (59ms)
+	initialDomainReloadingComplete (157ms)
+	LoadAllAssembliesAndSetupDomain (7350ms)
+		LoadAssemblies (4161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3633ms)
+			TypeCache.Refresh (3384ms)
+				TypeCache.ScanAssembly (2354ms)
+			ScanForSourceGeneratedMonoScriptInfo (171ms)
+			ResolveRequiredComponents (76ms)
+	FinalizeReload (14695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3548ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (162ms)
+			SetLoadedEditorAssemblies (40ms)
+			BeforeProcessingInitializeOnLoad (689ms)
+			ProcessInitializeOnLoadAttributes (2255ms)
+			ProcessInitializeOnLoadMethodAttributes (342ms)
+			AfterProcessingInitializeOnLoad (59ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (283ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 32.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5033.
+Memory consumption went from 214.0 MB to 211.0 MB.
+Total: 45.576700 ms (FindLiveObjects: 3.231300 ms CreateObjectMapping: 0.955100 ms MarkObjects: 35.789700 ms  DeleteObjects: 5.580400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in 24.432 seconds
+Refreshing native plugins compatible for Editor in 27.76 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 69.226 seconds
+Domain Reload Profiling: 93617ms
+	BeginReloadAssembly (2009ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (63ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (420ms)
+	RebuildCommonClasses (1065ms)
+	RebuildNativeTypeToScriptingClass (92ms)
+	initialDomainReloadingComplete (226ms)
+	LoadAllAssembliesAndSetupDomain (20997ms)
+		LoadAssemblies (16455ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5901ms)
+			TypeCache.Refresh (5768ms)
+				TypeCache.ScanAssembly (5221ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (129ms)
+	FinalizeReload (69228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (312ms)
+			ProcessInitializeOnLoadAttributes (1230ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
 			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 41.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5036.
+Memory consumption went from 215.9 MB to 213.0 MB.
+Total: 28.684800 ms (FindLiveObjects: 1.485900 ms CreateObjectMapping: 1.150000 ms MarkObjects: 23.046900 ms  DeleteObjects: 2.993300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  5.706 seconds
+Refreshing native plugins compatible for Editor in 18.78 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.007 seconds
+Domain Reload Profiling: 12695ms
+	BeginReloadAssembly (1158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (59ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (191ms)
+	RebuildCommonClasses (241ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (4121ms)
+		LoadAssemblies (3196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1673ms)
+			TypeCache.Refresh (1604ms)
+				TypeCache.ScanAssembly (1547ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (7009ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (116ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (704ms)
+			ProcessInitializeOnLoadAttributes (1703ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 15.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5039.
+Memory consumption went from 217.9 MB to 214.9 MB.
+Total: 20.300700 ms (FindLiveObjects: 1.921400 ms CreateObjectMapping: 0.881800 ms MarkObjects: 14.867800 ms  DeleteObjects: 2.625300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  9.321 seconds
+Refreshing native plugins compatible for Editor in 56.88 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 14.423 seconds
+Domain Reload Profiling: 23717ms
+	BeginReloadAssembly (1378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (66ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (450ms)
+	RebuildCommonClasses (179ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (132ms)
+	LoadAllAssembliesAndSetupDomain (7548ms)
+		LoadAssemblies (4597ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3570ms)
+			TypeCache.Refresh (3477ms)
+				TypeCache.ScanAssembly (3129ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (90ms)
+	FinalizeReload (14426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (241ms)
+			SetLoadedEditorAssemblies (37ms)
+			BeforeProcessingInitializeOnLoad (921ms)
+			ProcessInitializeOnLoadAttributes (1724ms)
+			ProcessInitializeOnLoadMethodAttributes (361ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (95ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 55.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5042.
+Memory consumption went from 219.8 MB to 216.8 MB.
+Total: 74.763200 ms (FindLiveObjects: 8.229000 ms CreateObjectMapping: 1.441300 ms MarkObjects: 60.065700 ms  DeleteObjects: 4.997000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in 12.783 seconds
+Refreshing native plugins compatible for Editor in 43.92 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.324 seconds
+Domain Reload Profiling: 26104ms
+	BeginReloadAssembly (1808ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (124ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (561ms)
+	RebuildCommonClasses (436ms)
+	RebuildNativeTypeToScriptingClass (63ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (10303ms)
+		LoadAssemblies (5844ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5306ms)
+			TypeCache.Refresh (5120ms)
+				TypeCache.ScanAssembly (4749ms)
+			ScanForSourceGeneratedMonoScriptInfo (108ms)
+			ResolveRequiredComponents (75ms)
+	FinalizeReload (13328ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3309ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (127ms)
+			SetLoadedEditorAssemblies (32ms)
+			BeforeProcessingInitializeOnLoad (740ms)
+			ProcessInitializeOnLoadAttributes (2186ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Script is not up to date after domain reload: guid(0e771233f78e4d8449803e33be5ab8d9) path("Assets/Scripts/CameraController.cs") state(2)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 45.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5044.
+Memory consumption went from 221.6 MB to 218.6 MB.
+Total: 31.309100 ms (FindLiveObjects: 2.793100 ms CreateObjectMapping: 1.057100 ms MarkObjects: 24.089500 ms  DeleteObjects: 3.357500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  4.421 seconds
+Refreshing native plugins compatible for Editor in 22.14 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.956 seconds
+Domain Reload Profiling: 10350ms
+	BeginReloadAssembly (1306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (352ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (191ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (133ms)
+	LoadAllAssembliesAndSetupDomain (2734ms)
+		LoadAssemblies (2028ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1293ms)
+			TypeCache.Refresh (1210ms)
+				TypeCache.ScanAssembly (1166ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (59ms)
+	FinalizeReload (5957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1944ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (1381ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (37ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 13.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 12.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5004.
-Memory consumption went from 207.9 MB to 204.9 MB.
-Total: 24.421400 ms (FindLiveObjects: 4.255500 ms CreateObjectMapping: 1.051400 ms MarkObjects: 16.528400 ms  DeleteObjects: 2.576600 ms)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5048.
+Memory consumption went from 223.6 MB to 220.6 MB.
+Total: 19.784800 ms (FindLiveObjects: 1.442400 ms CreateObjectMapping: 0.848100 ms MarkObjects: 14.695900 ms  DeleteObjects: 2.793400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -551,52 +1270,671 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.844 seconds
-Refreshing native plugins compatible for Editor in 56.43 ms, found 3 plugins.
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.915 seconds
+Refreshing native plugins compatible for Editor in 14.12 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 20.912 seconds
-Domain Reload Profiling: 26741ms
-	BeginReloadAssembly (1180ms)
+- Finished resetting the current domain, in 12.501 seconds
+Domain Reload Profiling: 16392ms
+	BeginReloadAssembly (787ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (125ms)
+		DisableScriptedObjects (58ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (211ms)
-	RebuildCommonClasses (256ms)
-	RebuildNativeTypeToScriptingClass (78ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (4163ms)
-		LoadAssemblies (1813ms)
+		CreateAndSetChildDomain (183ms)
+	RebuildCommonClasses (250ms)
+	RebuildNativeTypeToScriptingClass (71ms)
+	initialDomainReloadingComplete (136ms)
+	LoadAllAssembliesAndSetupDomain (2644ms)
+		LoadAssemblies (1544ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (2977ms)
-			TypeCache.Refresh (2831ms)
-				TypeCache.ScanAssembly (2731ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (140ms)
-	FinalizeReload (20916ms)
+		AnalyzeDomain (1501ms)
+			TypeCache.Refresh (1455ms)
+				TypeCache.ScanAssembly (1404ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (44ms)
+	FinalizeReload (12504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (9816ms)
+		SetupLoadedEditorAssemblies (4376ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (241ms)
-			SetLoadedEditorAssemblies (45ms)
-			BeforeProcessingInitializeOnLoad (2448ms)
-			ProcessInitializeOnLoadAttributes (6639ms)
-			ProcessInitializeOnLoadMethodAttributes (395ms)
-			AfterProcessingInitializeOnLoad (47ms)
+			InitializePlatformSupportModulesInManaged (176ms)
+			SetLoadedEditorAssemblies (33ms)
+			BeforeProcessingInitializeOnLoad (937ms)
+			ProcessInitializeOnLoadAttributes (2936ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+			AfterProcessingInitializeOnLoad (34ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (173ms)
+		AwakeInstancesAfterBackupRestoration (105ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 25.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5007.
-Memory consumption went from 209.9 MB to 206.9 MB.
-Total: 36.055900 ms (FindLiveObjects: 1.999900 ms CreateObjectMapping: 1.784300 ms MarkObjects: 28.072900 ms  DeleteObjects: 4.194400 ms)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5051.
+Memory consumption went from 225.5 MB to 222.5 MB.
+Total: 38.728000 ms (FindLiveObjects: 2.918700 ms CreateObjectMapping: 1.805900 ms MarkObjects: 29.930200 ms  DeleteObjects: 4.068800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 218.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (2.4 MB). Loaded Objects now: 5051.
+Memory consumption went from 158.2 MB to 155.7 MB.
+Total: 3462.895600 ms (FindLiveObjects: 675.751000 ms CreateObjectMapping: 2.002300 ms MarkObjects: 2782.595300 ms  DeleteObjects: 2.529600 ms)
+
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Prepare: number of updated asset objects reloaded= 139
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 230.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (2.4 MB). Loaded Objects now: 5051.
+Memory consumption went from 157.9 MB to 155.4 MB.
+Total: 41.433800 ms (FindLiveObjects: 11.278700 ms CreateObjectMapping: 1.314600 ms MarkObjects: 25.877200 ms  DeleteObjects: 2.956700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in 14.117 seconds
+Refreshing native plugins compatible for Editor in 35.01 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 37.026 seconds
+Domain Reload Profiling: 51124ms
+	BeginReloadAssembly (4071ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (477ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (2103ms)
+	RebuildCommonClasses (188ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (9629ms)
+		LoadAssemblies (4775ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (5720ms)
+			TypeCache.Refresh (5342ms)
+				TypeCache.ScanAssembly (3237ms)
+			ScanForSourceGeneratedMonoScriptInfo (319ms)
+			ResolveRequiredComponents (56ms)
+	FinalizeReload (37029ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (21326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (302ms)
+			SetLoadedEditorAssemblies (56ms)
+			BeforeProcessingInitializeOnLoad (3223ms)
+			ProcessInitializeOnLoadAttributes (17421ms)
+			ProcessInitializeOnLoadMethodAttributes (296ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Switching build target platform(13) subTarget(5) extendedPlatform(0) -> platform(19) subTarget(2) extendedPlatform(0)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 47.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (2.5 MB). Loaded Objects now: 5054.
+Memory consumption went from 226.0 MB to 223.5 MB.
+Total: 65.872600 ms (FindLiveObjects: 3.562300 ms CreateObjectMapping: 2.316900 ms MarkObjects: 57.530400 ms  DeleteObjects: 2.445400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 25.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (3.0 MB). Loaded Objects now: 5054.
+Memory consumption went from 163.7 MB to 160.7 MB.
+Total: 31.125200 ms (FindLiveObjects: 1.921500 ms CreateObjectMapping: 1.164100 ms MarkObjects: 24.470100 ms  DeleteObjects: 3.563600 ms)
+
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Prepare: number of updated asset objects reloaded= 139
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  6.126 seconds
+Refreshing native plugins compatible for Editor in 23.66 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.682 seconds
+Domain Reload Profiling: 13783ms
+	BeginReloadAssembly (1142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (82ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (299ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (122ms)
+	LoadAllAssembliesAndSetupDomain (4615ms)
+		LoadAssemblies (3459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1745ms)
+			TypeCache.Refresh (1562ms)
+				TypeCache.ScanAssembly (1454ms)
+			ScanForSourceGeneratedMonoScriptInfo (116ms)
+			ResolveRequiredComponents (64ms)
+	FinalizeReload (7684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (105ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (512ms)
+			ProcessInitializeOnLoadAttributes (1621ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 26.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5057.
+Memory consumption went from 231.3 MB to 228.3 MB.
+Total: 20.957300 ms (FindLiveObjects: 1.492600 ms CreateObjectMapping: 0.853800 ms MarkObjects: 15.879500 ms  DeleteObjects: 2.726900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in 26.483 seconds
+Refreshing native plugins compatible for Editor in 116.69 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 57.762 seconds
+Domain Reload Profiling: 84275ms
+	BeginReloadAssembly (6517ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (310ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (2089ms)
+	RebuildCommonClasses (748ms)
+	RebuildNativeTypeToScriptingClass (79ms)
+	initialDomainReloadingComplete (188ms)
+	LoadAllAssembliesAndSetupDomain (18941ms)
+		LoadAssemblies (18762ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3795ms)
+			TypeCache.Refresh (3581ms)
+				TypeCache.ScanAssembly (3167ms)
+			ScanForSourceGeneratedMonoScriptInfo (91ms)
+			ResolveRequiredComponents (121ms)
+	FinalizeReload (57803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3532ms)
+			LogAssemblyErrors (2ms)
+			InitializePlatformSupportModulesInManaged (141ms)
+			SetLoadedEditorAssemblies (23ms)
+			BeforeProcessingInitializeOnLoad (541ms)
+			ProcessInitializeOnLoadAttributes (2311ms)
+			ProcessInitializeOnLoadMethodAttributes (494ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 32.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5060.
+Memory consumption went from 233.2 MB to 230.2 MB.
+Total: 33.794900 ms (FindLiveObjects: 1.660800 ms CreateObjectMapping: 1.236200 ms MarkObjects: 26.661200 ms  DeleteObjects: 4.224000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  6.765 seconds
+Refreshing native plugins compatible for Editor in 30.16 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.894 seconds
+Domain Reload Profiling: 14641ms
+	BeginReloadAssembly (2080ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (114ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (42ms)
+		CreateAndSetChildDomain (804ms)
+	RebuildCommonClasses (726ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (3736ms)
+		LoadAssemblies (2561ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2111ms)
+			TypeCache.Refresh (1990ms)
+				TypeCache.ScanAssembly (1840ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (64ms)
+	FinalizeReload (7897ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (151ms)
+			SetLoadedEditorAssemblies (48ms)
+			BeforeProcessingInitializeOnLoad (481ms)
+			ProcessInitializeOnLoadAttributes (1924ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 25.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5063.
+Memory consumption went from 235.1 MB to 232.1 MB.
+Total: 23.191700 ms (FindLiveObjects: 1.410100 ms CreateObjectMapping: 0.832000 ms MarkObjects: 17.850700 ms  DeleteObjects: 3.090000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  7.970 seconds
+Refreshing native plugins compatible for Editor in 26.97 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.924 seconds
+Domain Reload Profiling: 15887ms
+	BeginReloadAssembly (2298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (382ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (900ms)
+	RebuildCommonClasses (192ms)
+	RebuildNativeTypeToScriptingClass (62ms)
+	initialDomainReloadingComplete (364ms)
+	LoadAllAssembliesAndSetupDomain (5044ms)
+		LoadAssemblies (3756ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1958ms)
+			TypeCache.Refresh (1843ms)
+				TypeCache.ScanAssembly (1488ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (7927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2035ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (131ms)
+			SetLoadedEditorAssemblies (18ms)
+			BeforeProcessingInitializeOnLoad (410ms)
+			ProcessInitializeOnLoadAttributes (1329ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5066.
+Memory consumption went from 237.0 MB to 234.0 MB.
+Total: 34.529100 ms (FindLiveObjects: 2.149600 ms CreateObjectMapping: 0.661700 ms MarkObjects: 28.792700 ms  DeleteObjects: 2.914700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.922 seconds
+Refreshing native plugins compatible for Editor in 11.66 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.835 seconds
+Domain Reload Profiling: 9733ms
+	BeginReloadAssembly (884ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (56ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (200ms)
+	RebuildCommonClasses (202ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (169ms)
+	LoadAllAssembliesAndSetupDomain (2583ms)
+		LoadAssemblies (1836ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1223ms)
+			TypeCache.Refresh (1166ms)
+				TypeCache.ScanAssembly (1115ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (5836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1622ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (79ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (311ms)
+			ProcessInitializeOnLoadAttributes (1093ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 24.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5069.
+Memory consumption went from 239.0 MB to 236.0 MB.
+Total: 17.894900 ms (FindLiveObjects: 1.366300 ms CreateObjectMapping: 0.568900 ms MarkObjects: 13.348900 ms  DeleteObjects: 2.606500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  3.607 seconds
+Refreshing native plugins compatible for Editor in 12.11 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.261 seconds
+Domain Reload Profiling: 10847ms
+	BeginReloadAssembly (778ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (57ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (158ms)
+	RebuildCommonClasses (164ms)
+	RebuildNativeTypeToScriptingClass (57ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (2473ms)
+		LoadAssemblies (1659ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1240ms)
+			TypeCache.Refresh (1186ms)
+				TypeCache.ScanAssembly (1141ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (7263ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2748ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (219ms)
+			SetLoadedEditorAssemblies (40ms)
+			BeforeProcessingInitializeOnLoad (600ms)
+			ProcessInitializeOnLoadAttributes (1683ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (83ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (3.0 MB). Loaded Objects now: 5072.
+Memory consumption went from 240.9 MB to 237.9 MB.
+Total: 19.653300 ms (FindLiveObjects: 1.442200 ms CreateObjectMapping: 0.655000 ms MarkObjects: 15.043500 ms  DeleteObjects: 2.507600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

@@ -52,6 +52,21 @@ public class CameraController : MonoBehaviour
         //}
     }
 
+    public void ResumeHandler()
+    {
+
+    }
+    public void ExitHandler()
+    {
+        Application.Quit();
+    }
+
+    public void RestartHandler()
+    {
+        ResumeGame();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     public void MenuHandler()
     {
         if (!player.GetComponent<Animator>().GetBool("death"))
@@ -89,6 +104,8 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+        pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
 
         if (globalVolume.profile.TryGet(out DepthOfField tmp))
         {

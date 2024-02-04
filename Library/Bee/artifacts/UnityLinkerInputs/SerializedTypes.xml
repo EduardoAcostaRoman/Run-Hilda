@@ -3,10 +3,12 @@
 		<type fullname="UnityEngine.Rendering.BoolParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.ClampedIntParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.ColorParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.MinFloatParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.ProbeVolumeSceneData" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.ProbeVolumeSHBands" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.ProbeVolumeTextureMemoryBudget" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.TextureParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.UI.DebugUIPrefabBundle" preserve="nothing" serialized="true"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.2D.Runtime">
@@ -14,6 +16,7 @@
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
 		<type fullname="UnityEngine.Rendering.Universal.DepthOfFieldModeParameter" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Rendering.Universal.DownscaleParameter" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/ShaderResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData/TextureResources" preserve="nothing" serialized="true"/>
 		<type fullname="UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources" preserve="nothing" serialized="true"/>

@@ -110,7 +110,7 @@ public class CharacterMainController : MonoBehaviour
 
         foreach (Touch touch in Input.touches)
         {
-            if (touch.phase == TouchPhase.Began && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run") && Time.timeScale == 1f)
+            if (touch.phase == TouchPhase.Began && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run") && Time.timeScale == 1f && !animator.GetBool("death"))
             {
                 // if its touching UI canvas, player is not going to jump
                 if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
@@ -127,13 +127,14 @@ public class CharacterMainController : MonoBehaviour
 
         if (boxCollider.IsTouchingLayers(groundLayer))
         {
-            if (animator.GetBool("fall") == true)
+            if (animator.GetBool("fall"))
             {
                 audioPlayer(audioFall, 0.5f);
                 dust.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
                 dust.transform.position = new Vector3(transform.position.x -0.45f, dust.transform.position.y, dust.transform.position.z);
                 dust.GetComponent<Animator>().SetBool("dust", true);
             }
+            animator.SetBool("jump", false);
             animator.SetBool("fall", false);
         }
         else

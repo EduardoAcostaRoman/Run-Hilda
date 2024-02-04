@@ -12,9 +12,11 @@ public class ItemSpawner : MonoBehaviour
 
     private bool spawnTrigger = true;
 
+    private GameObject player;
+
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void Update()
@@ -35,7 +37,7 @@ public class ItemSpawner : MonoBehaviour
         // --- SPAWN CONTROL --- //
 
         // buff item control
-        if (!CharacterMainController.buffTrigger)
+        if (!CharacterMainController.buffTrigger && !player.GetComponent<Animator>().GetBool("death"))
         {
             if (realtime - prevSpawnTime > buffItemSpawnTime)
             {

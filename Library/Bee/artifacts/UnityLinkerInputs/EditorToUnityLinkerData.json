@@ -37,6 +37,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Death2Effect",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "DelayedCallManager",
             "fullManagedTypeName": "",
@@ -80,6 +87,13 @@
             "nativeClass": "GlobalGameManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ItemSpawner",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -145,6 +159,13 @@
             "usedInScenes": [
                 "Assets/Scenes/main.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SelfDestructByPosition",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -542,6 +563,13 @@
             "nativeClass": "GraphicsSettings",
             "fullManagedTypeName": "UnityEngine.Rendering.GraphicsSettings",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.Universal.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.Universal.Bloom",
+            "moduleName": "",
             "usedInScenes": []
         },
         {

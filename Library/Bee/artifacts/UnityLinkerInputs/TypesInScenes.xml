@@ -4,9 +4,12 @@
 		<type fullname="Buff" preserve="nothing"/>
 		<type fullname="CameraController" preserve="nothing"/>
 		<type fullname="CharacterMainController" preserve="nothing"/>
+		<type fullname="Death2Effect" preserve="nothing"/>
 		<type fullname="EnemySpawnController" preserve="nothing"/>
 		<type fullname="GenericEnemy" preserve="nothing"/>
+		<type fullname="ItemSpawner" preserve="nothing"/>
 		<type fullname="MusicController" preserve="nothing"/>
+		<type fullname="SelfDestructByPosition" preserve="nothing"/>
 		<type fullname="SelfDestructTimer" preserve="nothing"/>
 		<type fullname="SpeedController" preserve="nothing"/>
 		<type fullname="Wolf" preserve="nothing"/>
@@ -25,6 +28,7 @@
 		<type fullname="UnityEngine.Rendering.Universal.Renderer2DData" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
+		<type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="nothing"/>
