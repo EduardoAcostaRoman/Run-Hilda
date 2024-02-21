@@ -56,6 +56,7 @@ public class CameraController : MonoBehaviour
     {
 
     }
+
     public void ExitHandler()
     {
         Application.Quit();
@@ -85,20 +86,29 @@ public class CameraController : MonoBehaviour
         
     }
 
+    private void GameStop(float timeScale, bool pauseState, bool blurEffectState)
+    {
+        Time.timeScale = timeScale;
+        pause = pauseState;
+        blurEffect.active = blurEffectState;
+    }
+
     private void PauseGame()
     {
-        Time.timeScale = 0f;
-        pause = true;
-        blurEffect.active = true;
+        GameStop(0f, true, true);
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(true);
     }
 
     private void ResumeGame()
     {
-        Time.timeScale = 1f;
-        pause = false;
-        blurEffect.active = false;
+        GameStop(1f, false, false);
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
+    }
+
+    void PlayerDead(Notification notificacion)
+    {
+        GameStop(0f, true, true);
+        pauseCanvas.transform.GetChild(1).gameObject.SetActive(true);
     }
 
     void Start()
@@ -106,15 +116,18 @@ public class CameraController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
 
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
+        pauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
 
         if (globalVolume.profile.TryGet(out DepthOfField tmp))
         {
             blurEffect = tmp;
         }
         blurEffect.gaussianMaxRadius = new ClampedFloatParameter(1,0,1);
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
     }
 
-   
+
     void Update()
     {
         if (player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("hurt") && !pause)
@@ -136,7 +149,7 @@ public class CameraController : MonoBehaviour
 
         distance = Mathf.RoundToInt(rawDistance);
 
-        pauseCanvas.transform.GetChild(2).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m";
+        pauseCanvas.transform.GetChild(3).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m";
 
         // For game pausing on PC
 

@@ -229,6 +229,7 @@ public class CharacterMainController : MonoBehaviour
             if (!shieldActivated)
             {
                 animator.SetBool("death", true);
+                NotificationCenter.DefaultCenter().PostNotification(this, "PlayerDead");
             }
             
             buffTrigger = false;
