@@ -52,11 +52,6 @@ public class CameraController : MonoBehaviour
         //}
     }
 
-    public void ResumeHandler()
-    {
-
-    }
-
     public void ExitHandler()
     {
         Application.Quit();
@@ -70,20 +65,17 @@ public class CameraController : MonoBehaviour
 
     public void MenuHandler()
     {
-        if (!player.GetComponent<Animator>().GetBool("death"))
-        {
-            CameraShake(false);
+        CameraShake(false);
 
-            if (pause)
-            {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
-            }
+        if (pause)
+        {
+            ResumeGame();
         }
-        
+        else
+        {
+            PauseGame();
+        }
+
     }
 
     private void GameStop(float timeScale, bool pauseState, bool blurEffectState)
@@ -103,6 +95,7 @@ public class CameraController : MonoBehaviour
     {
         GameStop(1f, false, false);
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
+        pauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
     }
 
     void PlayerDead(Notification notificacion)
