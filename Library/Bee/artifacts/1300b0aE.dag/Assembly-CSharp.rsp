@@ -394,6 +394,7 @@
 -analyzer:"C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity Editors/2023.1.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AspectUtility.cs"
+"Assets/Scripts/AutoSceneChanger.cs"
 "Assets/Scripts/Buff.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CharacterMainController.cs"

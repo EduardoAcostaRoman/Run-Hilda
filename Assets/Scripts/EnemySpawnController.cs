@@ -25,7 +25,7 @@ public class EnemySpawnController : MonoBehaviour
     {
         // --- CONFIGURATIONS --- //
 
-        realtime = Time.fixedTime;
+        realtime = Time.timeSinceLevelLoad;
 
         // For PC tests (delete/comment for build)
 

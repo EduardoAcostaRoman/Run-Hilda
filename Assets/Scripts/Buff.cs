@@ -10,9 +10,39 @@ public class Buff : MonoBehaviour
     public float posOffsetY = 3.11f;
     private GameObject player;
 
+    private bool gamePaused = false;
+
+    private bool buffActivated = false;
+
+    void BuffActivated(Notification notificacion)
+    {
+        buffActivated = true;
+    }
+
+    void BuffNotActivated(Notification notificacion)
+    {
+        buffActivated = false;
+    }
+
+    void GamePaused(Notification notificacion)
+    {
+        gamePaused = true;
+    }
+
+    void GameNotPaused(Notification notificacion)
+    {
+        gamePaused = false;
+    }
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "GamePaused");
+        NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "BuffActivated");
+        NotificationCenter.DefaultCenter().AddObserver(this, "BuffNotActivated");
     }
 
     
@@ -21,9 +51,9 @@ public class Buff : MonoBehaviour
         startPosX = player.transform.position.x - posOffsetX;
         startPosY = player.transform.position.y + posOffsetY;
 
-        if (!CameraController.pause)
+        if (!gamePaused)
         {
-            if (CharacterMainController.buffTrigger)
+            if (buffActivated)
             {
                 transform.position = new Vector3(Mathf.Lerp(transform.position.x, startPosX, 0.04f),
                                              Mathf.Lerp(transform.position.y, startPosY, 0.1f),

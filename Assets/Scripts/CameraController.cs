@@ -17,7 +17,7 @@ public class CameraController : MonoBehaviour
     public float camShakeMultiplier = 0.1f;
     private GameObject player;
 
-    public static bool pause = false;
+    private bool pause = false;
     public Volume globalVolume;
     private DepthOfField blurEffect;
 
@@ -59,7 +59,6 @@ public class CameraController : MonoBehaviour
 
     public void RestartHandler()
     {
-        ResumeGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -117,6 +116,9 @@ public class CameraController : MonoBehaviour
         }
         blurEffect.gaussianMaxRadius = new ClampedFloatParameter(1,0,1);
 
+        // reset camera values so time.scale resets its value when level reloads
+        GameStop(1f, false, false);
+
         NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
     }
 
@@ -130,6 +132,18 @@ public class CameraController : MonoBehaviour
         else
         {
             CameraShake(false);
+        }
+
+        // Game pause notifications
+
+        if (pause)
+        {
+            NotificationCenter.DefaultCenter().PostNotification(this, "GamePaused");
+        }
+        else
+        {
+            NotificationCenter.DefaultCenter().PostNotification(this, "GameNotPaused");
+
         }
 
         // Distance measurements

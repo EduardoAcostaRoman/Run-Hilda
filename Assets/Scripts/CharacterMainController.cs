@@ -51,7 +51,7 @@ public class CharacterMainController : MonoBehaviour
     public float death2EffectDistance = 0.1f;
     public float death2EffectAngle = 0;
 
-    public static bool buffTrigger = false;
+    private bool buffTrigger = false;
     public float shieldColor = 4;
     private bool shieldActivated = false;
 
@@ -95,7 +95,7 @@ public class CharacterMainController : MonoBehaviour
 
         // --- CONFIGURATIONS --- //
 
-        realtime = Time.fixedTime;
+        realtime = Time.timeSinceLevelLoad;
         randomValue = Random.value;
 
         // For PC tests (delete/comment for build)
@@ -295,12 +295,16 @@ public class CharacterMainController : MonoBehaviour
             shieldActivated = true;
             transform.GetChild(2).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 
                 Mathf.Lerp(transform.GetChild(2).GetComponent<SpriteRenderer>().color.a, shieldColor, 0.1f));
+
+            NotificationCenter.DefaultCenter().PostNotification(this, "BuffActivated");
         }
         else
         {
             shieldActivated = false;
             transform.GetChild(2).GetComponent<SpriteRenderer>().color = new Color(1, 1, 1,
                 Mathf.Lerp(transform.GetChild(2).GetComponent<SpriteRenderer>().color.a, 0, 0.1f));
+
+            NotificationCenter.DefaultCenter().PostNotification(this, "BuffNotActivated");
         }
     }
 }

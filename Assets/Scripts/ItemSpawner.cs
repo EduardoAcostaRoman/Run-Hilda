@@ -5,25 +5,38 @@ using UnityEngine;
 public class ItemSpawner : MonoBehaviour
 {
     public GameObject buffItem;
-    public double buffItemSpawnTime = 5;
+    public double buffItemSpawnTime = 3;
 
     private double realtime;
     private double prevSpawnTime;
 
-    private bool spawnTrigger = true;
-
     private GameObject player;
+
+    private bool buffActivated = false;
+
+    void BuffActivated(Notification notificacion)
+    {
+        buffActivated = true;
+    }
+
+    void BuffNotActivated(Notification notificacion)
+    {
+        buffActivated = false;
+    }
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "BuffActivated");
+        NotificationCenter.DefaultCenter().AddObserver(this, "BuffNotActivated");
     }
 
     void Update()
     {
-        realtime = Time.fixedTime;
+        realtime = Time.timeSinceLevelLoad;
 
-        if (!CharacterMainController.buffTrigger)
+        if (buffActivated)
         {
             if (realtime - prevSpawnTime > buffItemSpawnTime)
             {
@@ -37,7 +50,7 @@ public class ItemSpawner : MonoBehaviour
         // --- SPAWN CONTROL --- //
 
         // buff item control
-        if (!CharacterMainController.buffTrigger && !player.GetComponent<Animator>().GetBool("death"))
+        if (!buffActivated && !player.GetComponent<Animator>().GetBool("death"))
         {
             if (realtime - prevSpawnTime > buffItemSpawnTime)
             {
