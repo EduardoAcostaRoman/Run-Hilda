@@ -267,16 +267,25 @@ public class CharacterMainController : MonoBehaviour
                     audioDeath2.Play();
                 }
 
-                for (int i = 0; i < 8; i++)
+                for (int i = 1; i < 9; i++)
                 {
-                    GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x + (death2EffectDistance * Mathf.Sin(death2EffectAngle)),
-                        transform.position.y + 1.08f + (death2EffectDistance * Mathf.Cos(death2EffectAngle)),
+                    //GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x + (death2EffectDistance * Mathf.Sin(death2EffectAngle)),
+                    //    transform.position.y + 1.08f + (death2EffectDistance * Mathf.Cos(death2EffectAngle)),
+                    //    transform.position.z),
+                    //death2Effect.transform.rotation);
+
+                    //effect.transform.GetChild(0).transform.position = new Vector2(death2EffectAngle, 0);
+
+                    //death2EffectAngle += 0.785f; // 1.57 is 90° rotation, then 0.785 is 45°, which makes effect spawn in 8 ways
+
+                    GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x,
+                        transform.position.y + 1.08f,
                         transform.position.z),
-                    death2Effect.transform.rotation);
+                        death2Effect.transform.rotation);
+
+                    death2EffectAngle = i;
 
                     effect.transform.GetChild(0).transform.position = new Vector2(death2EffectAngle, 0);
-
-                    death2EffectAngle += 0.785f; // 1.57 is 90° rotation, then 0.785 is 45°, which makes effect spawn in 8 ways
                 }
 
                 death2EffectCounter += 1;

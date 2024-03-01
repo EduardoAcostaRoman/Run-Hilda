@@ -2,8 +2,10 @@
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
 		<type fullname="CameraController">
 			<method name="ExitHandler"/>
+			<method name="ExitHandler"/>
 			<method name="MenuHandler"/>
 			<method name="MenuHandler"/>
+			<method name="RestartHandler"/>
 			<method name="RestartHandler"/>
 		</type>
 	</assembly>

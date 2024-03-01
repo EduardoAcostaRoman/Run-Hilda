@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AspectUtility
+    - AutoSceneChanger
     - Buff
     - CameraController
     - CharacterMainController
@@ -85,8 +86,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
@@ -202,6 +201,9 @@ ScriptsOnlyBuild:
     methodName: RestartHandler
   - assembly: Assembly-CSharp
     fullTypeName: CameraController
+    methodName: RestartHandler
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraController
     methodName: ExitHandler
   - assembly: Assembly-CSharp
     fullTypeName: CameraController
@@ -209,6 +211,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CameraController
     methodName: MenuHandler
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraController
+    methodName: ExitHandler
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: OnScrollbarClicked
@@ -249,7 +254,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   sceneClasses:
-    Assets/Scenes/main.unity:
+    Assets/Scenes/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -301,133 +306,133 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17838}
     - Class: 114
-      Script: {instanceID: 18148}
+      Script: {instanceID: 18150}
     - Class: 114
-      Script: {instanceID: 18256}
+      Script: {instanceID: 18258}
     - Class: 114
-      Script: {instanceID: 18352}
+      Script: {instanceID: 18354}
     - Class: 114
-      Script: {instanceID: 18456}
+      Script: {instanceID: 18458}
     - Class: 114
-      Script: {instanceID: 18572}
+      Script: {instanceID: 18574}
     - Class: 114
-      Script: {instanceID: 18862}
+      Script: {instanceID: 18864}
     - Class: 114
-      Script: {instanceID: 19000}
+      Script: {instanceID: 19002}
     - Class: 114
-      Script: {instanceID: 19110}
+      Script: {instanceID: 19112}
     - Class: 114
-      Script: {instanceID: 19228}
+      Script: {instanceID: 19230}
     - Class: 114
-      Script: {instanceID: 19394}
+      Script: {instanceID: 19396}
     - Class: 114
-      Script: {instanceID: 19580}
+      Script: {instanceID: 19582}
     - Class: 114
-      Script: {instanceID: 19662}
+      Script: {instanceID: 19664}
     - Class: 114
-      Script: {instanceID: 19756}
+      Script: {instanceID: 19758}
     - Class: 114
-      Script: {instanceID: 19910}
+      Script: {instanceID: 19912}
     - Class: 114
-      Script: {instanceID: 19962}
+      Script: {instanceID: 19964}
     - Class: 114
-      Script: {instanceID: 20050}
+      Script: {instanceID: 20052}
     - Class: 114
-      Script: {instanceID: 20374}
+      Script: {instanceID: 20376}
     - Class: 114
-      Script: {instanceID: 20426}
+      Script: {instanceID: 20428}
     - Class: 114
-      Script: {instanceID: 20568}
+      Script: {instanceID: 20570}
     - Class: 114
-      Script: {instanceID: 20612}
+      Script: {instanceID: 20614}
     - Class: 114
-      Script: {instanceID: 20746}
+      Script: {instanceID: 20748}
     - Class: 114
-      Script: {instanceID: 20788}
+      Script: {instanceID: 20790}
     - Class: 114
-      Script: {instanceID: 20960}
+      Script: {instanceID: 20962}
     - Class: 114
-      Script: {instanceID: 20998}
+      Script: {instanceID: 21000}
     - Class: 114
-      Script: {instanceID: 21092}
+      Script: {instanceID: 21094}
     - Class: 114
-      Script: {instanceID: 21098}
+      Script: {instanceID: 21100}
     - Class: 114
-      Script: {instanceID: 21780}
+      Script: {instanceID: 21782}
     - Class: 114
-      Script: {instanceID: 21850}
+      Script: {instanceID: 21852}
     - Class: 114
-      Script: {instanceID: 21926}
+      Script: {instanceID: 21928}
     - Class: 114
-      Script: {instanceID: 21968}
+      Script: {instanceID: 21970}
     - Class: 114
-      Script: {instanceID: 22026}
+      Script: {instanceID: 22028}
     - Class: 114
-      Script: {instanceID: 22046}
+      Script: {instanceID: 22048}
     - Class: 114
-      Script: {instanceID: 22116}
+      Script: {instanceID: 22118}
     - Class: 114
-      Script: {instanceID: 22132}
+      Script: {instanceID: 22134}
     - Class: 114
-      Script: {instanceID: 22228}
+      Script: {instanceID: 22232}
     - Class: 114
-      Script: {instanceID: 22390}
+      Script: {instanceID: 22394}
     - Class: 114
-      Script: {instanceID: 22392}
+      Script: {instanceID: 22396}
     - Class: 114
-      Script: {instanceID: 22416}
+      Script: {instanceID: 22420}
     - Class: 114
-      Script: {instanceID: 22762}
+      Script: {instanceID: 22766}
     - Class: 114
-      Script: {instanceID: 23096}
+      Script: {instanceID: 23100}
     - Class: 114
-      Script: {instanceID: 23102}
+      Script: {instanceID: 23106}
     - Class: 114
-      Script: {instanceID: 23182}
+      Script: {instanceID: 23186}
     - Class: 114
-      Script: {instanceID: 23202}
+      Script: {instanceID: 23206}
     - Class: 114
-      Script: {instanceID: 23208}
+      Script: {instanceID: 23212}
     - Class: 114
-      Script: {instanceID: 23346}
+      Script: {instanceID: 23350}
     - Class: 114
-      Script: {instanceID: 23396}
+      Script: {instanceID: 23400}
     - Class: 114
-      Script: {instanceID: 23464}
+      Script: {instanceID: 23468}
     - Class: 114
-      Script: {instanceID: 23540}
+      Script: {instanceID: 23544}
     - Class: 114
-      Script: {instanceID: 23554}
+      Script: {instanceID: 23558}
     - Class: 114
-      Script: {instanceID: 23682}
+      Script: {instanceID: 23686}
     - Class: 114
-      Script: {instanceID: 23838}
+      Script: {instanceID: 23842}
     - Class: 114
-      Script: {instanceID: 23982}
+      Script: {instanceID: 23986}
     - Class: 114
-      Script: {instanceID: 24044}
+      Script: {instanceID: 24048}
     - Class: 114
-      Script: {instanceID: 24078}
+      Script: {instanceID: 24082}
     - Class: 114
-      Script: {instanceID: 24080}
+      Script: {instanceID: 24084}
     - Class: 114
-      Script: {instanceID: 24274}
+      Script: {instanceID: 24278}
     - Class: 114
-      Script: {instanceID: 24448}
+      Script: {instanceID: 24452}
     - Class: 114
-      Script: {instanceID: 24456}
+      Script: {instanceID: 24460}
     - Class: 114
-      Script: {instanceID: 24564}
+      Script: {instanceID: 24568}
     - Class: 114
-      Script: {instanceID: 25162}
+      Script: {instanceID: 25166}
     - Class: 114
-      Script: {instanceID: 25266}
+      Script: {instanceID: 25270}
     - Class: 114
-      Script: {instanceID: 25458}
+      Script: {instanceID: 25462}
     - Class: 114
-      Script: {instanceID: 25468}
+      Script: {instanceID: 25472}
     - Class: 114
-      Script: {instanceID: 25686}
+      Script: {instanceID: 25690}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -445,6 +450,29 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17840}
+    - Class: 114
+      Script: {instanceID: 19582}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -561,6 +589,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AutoSceneChanger
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1307,6 +1341,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerIndirectToggle
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NotificationCenter
+  - hash:
+      serializedVersion: 2
       Hash: 4862508a82e551bebf075a72a1084e27
     assemblyName: Unity.Postprocessing.Runtime
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1931,5 +1971,6 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   platform: 13
   scenePathNames:
-  - Assets/Scenes/main.unity
+  - Assets/Scenes/Game.unity
+  - Assets/Scenes/MainMenu.unity
   playerPath: C:/Users/lalo_/Documents/Run Hilda!/Run Hilda!.apk

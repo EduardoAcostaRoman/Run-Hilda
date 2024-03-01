@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 2178
+  controlID: 10716
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2179
+  controlID: 10717
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 2068
+  controlID: 10606
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2069
+  controlID: 10607
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -273,7 +273,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2132
+  controlID: 10670
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -496,7 +496,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e0faffff6e680000
+      m_ExpandedIDs: c06bffff4c6cffff6c6effff9a6effff62f5ffffeef5ffff16f8ffff4cf8ffffe0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1009,9 +1009,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 360.48584, y: 145.25497, z: -3.887654}
+    m_Target: {x: 14.699416, y: 0.7100122, z: -0.13127261}
     speed: 2
-    m_Value: {x: 360.48584, y: 145.25497, z: -3.887654}
+    m_Value: {x: 14.699416, y: 0.7100122, z: -0.13127261}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1061,9 +1061,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 223.08347
+    m_Target: 16.61428
     speed: 2
-    m_Value: 223.08347
+    m_Value: 16.61428
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1133,6 +1133,7 @@ MonoBehaviour:
     - {fileID: -3166374066599449419, guid: 9063275adbfef9b408a66b65ab752e2d, type: 2}
     - {fileID: 3220251579973421373, guid: 8838e1415377bc84a8cebd8c88376d56, type: 2}
     - {fileID: -4301859051530721618, guid: a3c4b9d93b96b4f44b02963598d9960b, type: 2}
+    - {fileID: 7430375091225069644, guid: 5946adbe8b5ed5e43a807eaca68874a6, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.5102612
       e01: 0
@@ -1246,10 +1247,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: a3c4b9d93b96b4f44b02963598d9960b, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: 5946adbe8b5ed5e43a807eaca68874a6, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -4301859051530721618, guid: a3c4b9d93b96b4f44b02963598d9960b, type: 2}
+  - m_Target: {fileID: 7430375091225069644, guid: 5946adbe8b5ed5e43a807eaca68874a6, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1427,7 +1444,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1437,15 +1454,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\lalo_\Documents\Run Hilda!
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e6c0000
-    m_LastClickedID: 27710
+    m_SelectedIDs: 306c0000
+    m_LastClickedID: 27696
     m_ExpandedIDs: 00000000146c0000166c0000186c00001a6c00001c6c00001e6c0000206c0000226c0000246c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0

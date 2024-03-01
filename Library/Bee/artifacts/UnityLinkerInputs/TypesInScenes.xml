@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AspectUtility" preserve="nothing"/>
+		<type fullname="AutoSceneChanger" preserve="nothing"/>
 		<type fullname="Buff" preserve="nothing"/>
 		<type fullname="CameraController" preserve="nothing"/>
 		<type fullname="CharacterMainController" preserve="nothing"/>
