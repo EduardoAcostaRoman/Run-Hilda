@@ -6,6 +6,7 @@ using UnityEngine.Rendering.Universal;
 using TMPro;
 using System;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CameraController : MonoBehaviour
 {
@@ -101,6 +102,7 @@ public class CameraController : MonoBehaviour
     {
         GameStop(0f, true, true);
         pauseCanvas.transform.GetChild(1).gameObject.SetActive(true);
+        pauseCanvas.transform.GetChild(2).gameObject.GetComponentInChildren<Button>().interactable = false;
     }
 
     void Start()

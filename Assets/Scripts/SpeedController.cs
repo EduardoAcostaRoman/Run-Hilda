@@ -11,9 +11,25 @@ public class SpeedController : MonoBehaviour
     public float speedIncrementRatio = 0.001f;
     public float speedMax = 1.7f;
     public float speedMin = 0.7f;
+
+    private bool gameIsPaused;
+
+    void GamePaused(Notification notificacion)
+    {
+        gameIsPaused = true;
+    }
+
+    void GameNotPaused(Notification notificacion)
+    {
+        gameIsPaused = false;
+    }
+
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "GamePaused");
+        NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
     }
 
    
@@ -58,9 +74,8 @@ public class SpeedController : MonoBehaviour
         {
             speed = Mathf.Lerp(speed, 0, 0.1f);
         }
-        else
+        else if (!gameIsPaused)    // ensures game speed doesn't increase while game is paused
         {
-
             // speed clamp (min & max)
             player.GetComponent<Animator>().speed = speed;
             if (speed >= speedMax)
