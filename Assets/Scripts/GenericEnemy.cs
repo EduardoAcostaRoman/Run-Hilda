@@ -8,19 +8,33 @@ public class GenericEnemy : MonoBehaviour
     private GameObject speedReference;
     private Rigidbody2D body;
 
+    bool playerIsDead;
+
+    void PlayerDead(Notification notificacion)
+    {
+        playerIsDead = true;
+    }
 
     void Start()
     {
         speedReference = GameObject.FindGameObjectWithTag("Background");
         body = GetComponent<Rigidbody2D>();
 
-        
+        NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
     }
 
     
     void Update()
     {
-        body.velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.velocity.y);
+        if (!playerIsDead)
+        {
+            body.velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.velocity.y);
+        }
+        else
+        {
+            body.velocity = new Vector2(body.velocity.x, body.velocity.y);
+        }
+        
 
 
         if (transform.position.x <= -18)

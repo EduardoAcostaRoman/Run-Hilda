@@ -231,6 +231,9 @@ public class CharacterMainController : MonoBehaviour
             if (!shieldActivated)
             {
                 animator.SetBool("death", true);
+
+                // player death notification
+                NotificationCenter.DefaultCenter().PostNotification(this, "PlayerDead");
             }
             
             buffTrigger = false;
@@ -239,16 +242,6 @@ public class CharacterMainController : MonoBehaviour
 
         // --- CHARACTER DEATH ---//
 
-        // player death notification
-
-        if (!animator.GetBool("death"))
-        {
-            deathWaitTime = realtime;
-        }
-        else if (realtime - deathWaitTime >= 3 )
-        {
-            NotificationCenter.DefaultCenter().PostNotification(this, "PlayerDead");
-        }
 
         // death animation 1 (explosion)
 

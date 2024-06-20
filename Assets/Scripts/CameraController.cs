@@ -28,6 +28,11 @@ public class CameraController : MonoBehaviour
     private float rawDistance;
     public static int distance;
 
+    double realtime;
+    double deathWaitTime;
+
+    bool playerIsDead;
+
     void CameraShake(bool activate)
     {
         angle = 360 * UnityEngine.Random.value;
@@ -100,9 +105,17 @@ public class CameraController : MonoBehaviour
 
     void PlayerDead(Notification notificacion)
     {
-        GameStop(0f, true, true);
-        pauseCanvas.transform.GetChild(1).gameObject.SetActive(true);
-        pauseCanvas.transform.GetChild(2).gameObject.GetComponentInChildren<Button>().interactable = false;
+        if (!playerIsDead)
+        {
+            deathWaitTime = realtime;
+            playerIsDead = true;
+        }
+        else if (realtime - deathWaitTime >= 3)
+        {
+            GameStop(0f, true, true);
+            pauseCanvas.transform.GetChild(1).gameObject.SetActive(true);
+            pauseCanvas.transform.GetChild(2).gameObject.GetComponentInChildren<Button>().interactable = false;
+        }
     }
 
     void Start()
@@ -116,6 +129,7 @@ public class CameraController : MonoBehaviour
         {
             blurEffect = tmp;
         }
+
         blurEffect.gaussianMaxRadius = new ClampedFloatParameter(1,0,1);
 
         // reset camera values so time.scale resets its value when level reloads
@@ -127,6 +141,15 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
+
+        // --- CONFIGURATIONS --- //
+
+        realtime = Time.timeSinceLevelLoad;
+
+
+
+        // Camera shake after player gets hit
+
         if (player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("hurt") && !pause)
         {
             CameraShake(true);
