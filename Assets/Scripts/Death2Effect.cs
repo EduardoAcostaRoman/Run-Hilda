@@ -17,8 +17,6 @@ public class Death2Effect : MonoBehaviour
         distanceAngle = transform.GetChild(0).transform.position.x;
         player = GameObject.FindGameObjectWithTag("Player");
         body = GetComponent<Rigidbody2D>();
-
-        print(distanceAngle);
     }
 
    

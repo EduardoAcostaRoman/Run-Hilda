@@ -14,6 +14,8 @@ public class SpeedController : MonoBehaviour
 
     private bool gameIsPaused;
 
+    private bool playerIsDead;
+
     void GamePaused(Notification notificacion)
     {
         gameIsPaused = true;
@@ -24,12 +26,19 @@ public class SpeedController : MonoBehaviour
         gameIsPaused = false;
     }
 
+    //void PlayerDead(Notification notificacion)
+    //{
+    //    playerIsDead = true; 
+    //}
+
     void Start()
     {
         animator = GetComponent<Animator>();
 
         NotificationCenter.DefaultCenter().AddObserver(this, "GamePaused");
         NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
+
+        // NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
     }
 
    

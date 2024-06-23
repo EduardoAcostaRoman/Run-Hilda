@@ -8,6 +8,8 @@ public class GenericEnemy : MonoBehaviour
     private GameObject speedReference;
     private Rigidbody2D body;
 
+    float lastVelocityValueX;
+
     bool playerIsDead;
 
     void PlayerDead(Notification notificacion)
@@ -29,10 +31,11 @@ public class GenericEnemy : MonoBehaviour
         if (!playerIsDead)
         {
             body.velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.velocity.y);
+            lastVelocityValueX = body.velocityX;
         }
         else
         {
-            body.velocity = new Vector2(body.velocity.x, body.velocity.y);
+            body.velocity = new Vector2(lastVelocityValueX, body.velocity.y);
         }
         
 
