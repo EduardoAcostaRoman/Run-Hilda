@@ -1799,7 +1799,7 @@ MonoBehaviour:
   camShakeMultiplier: 0.05
   globalVolume: {fileID: 778877741}
   pauseCanvas: {fileID: 1681804725}
-  distanceIncrementRatio: 0.045
+  distanceIncrementRatio: 0.04
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -3173,7 +3173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1885324818}
-  speed: 1
+  speed: 0.7
   speedIncrementRatio: 0.0002
   speedMax: 1.7
   speedMin: 0.7

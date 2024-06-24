@@ -33,6 +33,9 @@ public class CameraController : MonoBehaviour
 
     bool playerIsDead;
 
+    private bool distanceAddReset;
+    private int distanceAddPrevNum;
+
     void CameraShake(bool activate)
     {
         angle = 360 * UnityEngine.Random.value;
@@ -175,7 +178,18 @@ public class CameraController : MonoBehaviour
 
         if (!pause && !player.GetComponent<Animator>().GetBool("death"))
         {
-            rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
+            if (!distanceAddReset)  // this setup makes sure this adds values to the distance value only 10 per second on a controlled matter
+            {                       // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
+                rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
+                distanceAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime*10));
+                distanceAddReset = true;
+            }
+
+            if (distanceAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != distanceAddPrevNum)
+            {
+                distanceAddReset = false;
+            }
+            
         }
         
 

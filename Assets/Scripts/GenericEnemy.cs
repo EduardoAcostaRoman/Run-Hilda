@@ -23,6 +23,8 @@ public class GenericEnemy : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
 
         NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
+
+        gameObject.tag = "Enemy";
     }
 
     

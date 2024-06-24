@@ -18,6 +18,8 @@ public class EnemySpawnController : MonoBehaviour
 
     private GameObject player;
 
+    private bool spawnTrigger = true;
+
 
 
     void Start()
@@ -35,6 +37,11 @@ public class EnemySpawnController : MonoBehaviour
 
         // For PC tests (delete/comment for build)
 
+        if (Input.GetKeyDown(KeyCode.S)) // stops/starts spawning enemies
+        {
+            spawnTrigger = !spawnTrigger;
+        }
+
         if (Input.GetKeyDown(KeyCode.Z))
         {
             Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
@@ -50,11 +57,13 @@ public class EnemySpawnController : MonoBehaviour
             Instantiate(bat, new Vector3(14, -1f, -1), bat.transform.rotation);
         }
 
+
+
         // For PC tests (delete/comment for build)
 
         // --- SPAWN ALGORITHM --- //
 
-        if (realtime - prevtime >= spawnRate && !player.GetComponent<Animator>().GetBool("death"))
+        if (realtime - prevtime >= spawnRate && !player.GetComponent<Animator>().GetBool("death") && spawnTrigger)
         {
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             // Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);

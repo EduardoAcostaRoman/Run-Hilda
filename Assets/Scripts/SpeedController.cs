@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class SpeedController : MonoBehaviour
 {
@@ -15,6 +16,11 @@ public class SpeedController : MonoBehaviour
     private bool gameIsPaused;
 
     private bool playerIsDead;
+
+    private bool speedAddReset;
+    private int speedAddPrevNum;
+
+    double realtime;
 
     void GamePaused(Notification notificacion)
     {
@@ -39,13 +45,15 @@ public class SpeedController : MonoBehaviour
         NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
 
         // NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
-
-        animator.speed = speedMin;
     }
 
    
     void Update()
     {
+
+        // --- CONFIGURATIONS --- //
+
+        realtime = Time.timeSinceLevelLoad;
 
         // manual speed control testing
         if (Input.GetKey(KeyCode.A))
@@ -75,13 +83,14 @@ public class SpeedController : MonoBehaviour
         animator.speed = speed;
 
 
-        // player speed
-        if (player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("hurt"))
-        {
-            player.GetComponent<Animator>().speed = 1;
-            speed = speedMin;
-        }
-        else if (player.GetComponent<Animator>().GetBool("death"))
+        //// player speed
+        //if (player.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("hurt"))
+        //{
+        //    player.GetComponent<Animator>().speed = 1;
+        //    speed = speedMin;
+        //}
+        //else if (player.GetComponent<Animator>().GetBool("death"))
+        if (player.GetComponent<Animator>().GetBool("death"))
         {
             speed = Mathf.Lerp(speed, 0, 0.1f);
         }
@@ -95,8 +104,21 @@ public class SpeedController : MonoBehaviour
             }
             else
             {
-                speed += speedIncrementRatio;
+                if (!speedAddReset)  // this setup makes sure this adds values to the distance value only 10 per second on a controlled matter
+                {                       // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
+                    speed += speedIncrementRatio;
+                    speedAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime * 10));
+                    speedAddReset = true;
+                }
+
+                if (speedAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != speedAddPrevNum)
+                {
+                    speedAddReset = false;
+                }
+                
             }
+
+            
         }
 
         // enemies speed
