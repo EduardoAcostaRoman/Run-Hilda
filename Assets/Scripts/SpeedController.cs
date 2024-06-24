@@ -39,6 +39,8 @@ public class SpeedController : MonoBehaviour
         NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
 
         // NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
+
+        animator.speed = speedMin;
     }
 
    
