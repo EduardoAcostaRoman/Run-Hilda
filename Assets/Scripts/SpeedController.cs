@@ -9,7 +9,8 @@ public class SpeedController : MonoBehaviour
     private Animator animator;
 
     public float speed = 0.7f;
-    public float speedIncrementRatio = 0.001f;
+    public float speedTimeIncrementRatio = 0.001f;
+    public float speedValueIncrementRatio = 0.001f;
     public float speedMax = 1.7f;
     public float speedMin = 0.7f;
 
@@ -21,6 +22,9 @@ public class SpeedController : MonoBehaviour
     private int speedAddPrevNum;
 
     double realtime;
+    double speedUpdateTime;
+
+
 
     void GamePaused(Notification notificacion)
     {
@@ -104,18 +108,28 @@ public class SpeedController : MonoBehaviour
             }
             else
             {
-                if (!speedAddReset)  // this setup makes sure this adds values to the distance value only 10 per second on a controlled matter
-                {                       // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
-                    speed += speedIncrementRatio;
-                    speedAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime * 10));
-                    speedAddReset = true;
-                }
+                // old method
 
-                if (speedAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != speedAddPrevNum)
+                //if (!speedAddReset)  
+                //{                       
+                //    speed += speedIncrementRatio;
+                //    speedAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime * 10));
+                //    speedAddReset = true;
+                //}
+
+                //if (speedAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != speedAddPrevNum)
+                //{
+                //    speedAddReset = false;
+                //}
+
+                // this setup makes sure this adds values to the distance value using real time 
+                // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
+
+                if (realtime - speedUpdateTime >= speedTimeIncrementRatio)
                 {
-                    speedAddReset = false;
+                    speed += speedValueIncrementRatio;
+                    speedUpdateTime = realtime;
                 }
-                
             }
 
             

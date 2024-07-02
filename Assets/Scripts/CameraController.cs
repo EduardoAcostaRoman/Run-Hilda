@@ -30,11 +30,16 @@ public class CameraController : MonoBehaviour
 
     double realtime;
     double deathWaitTime;
+    double distanceUpdateTime;
 
-    bool playerIsDead;
+    float distanceUpdateValue = 1;
 
     private bool distanceAddReset;
     private int distanceAddPrevNum;
+
+    bool playerIsDead;
+
+    private GameObject speedReference;
 
     void CameraShake(bool activate)
     {
@@ -124,6 +129,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        speedReference = GameObject.FindGameObjectWithTag("Background");
 
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
         pauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
@@ -178,18 +184,33 @@ public class CameraController : MonoBehaviour
 
         if (!pause && !player.GetComponent<Animator>().GetBool("death"))
         {
-            if (!distanceAddReset)  // this setup makes sure this adds values to the distance value only 10 per second on a controlled matter
-            {                       // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
-                rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
-                distanceAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime*10));
-                distanceAddReset = true;
-            }
+            // old method
 
-            if (distanceAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != distanceAddPrevNum)
+            //if (!distanceAddReset)  
+            //{                       
+            //    rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
+            //    distanceAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime*10));
+            //    distanceAddReset = true;
+            //}
+
+            //if (distanceAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != distanceAddPrevNum)
+            //{
+            //    distanceAddReset = false;
+            //}
+
+
+
+            // this setup makes sure this adds values to the distance value based on real time at a maximum of 0.2 seconds refresh rate
+            // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
+
+            distanceUpdateValue = 1 - ((speedReference.GetComponent<Animator>().speed - 0.7f) * 0.8f);
+
+
+            if (realtime - distanceUpdateTime >= distanceUpdateValue)
             {
-                distanceAddReset = false;
+                rawDistance += 1;
+                distanceUpdateTime = realtime;
             }
-            
         }
         
 

@@ -3174,7 +3174,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1885324818}
   speed: 0.7
-  speedIncrementRatio: 0.0002
+  speedTimeIncrementRatio: 0.1
+  speedValueIncrementRatio: 0.001
   speedMax: 1.7
   speedMin: 0.7
 --- !u!95 &1312205574
