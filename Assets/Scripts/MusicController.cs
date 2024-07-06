@@ -35,7 +35,7 @@ public class MusicController : MonoBehaviour
         // Iterate through each audio source and pause it
         foreach (AudioSource audioSource in allAudioSourcesPlaying)
         {
-            if (audioSource.isPlaying)
+            if (audioSource && audioSource.isPlaying)
             {
                 audioSource.Pause();
             }
@@ -65,7 +65,7 @@ public class MusicController : MonoBehaviour
             // Iterate through each audio source and unpause it
             foreach (AudioSource audioSource in allAudioSourcesPlaying)
             {
-                if (!audioSource.isPlaying)
+                if (audioSource && !audioSource.isPlaying)
                 {
                     audioSource.UnPause();
                 }

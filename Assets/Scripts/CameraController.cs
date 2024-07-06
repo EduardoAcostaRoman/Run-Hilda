@@ -34,9 +34,6 @@ public class CameraController : MonoBehaviour
 
     float distanceUpdateValue = 1;
 
-    private bool distanceAddReset;
-    private int distanceAddPrevNum;
-
     bool playerIsDead;
 
     private GameObject speedReference;
@@ -93,6 +90,10 @@ public class CameraController : MonoBehaviour
 
     private void GameStop(float timeScale, bool pauseState, bool blurEffectState)
     {
+        // animation reset so it starts from scratch when game paused
+        pauseCanvas.transform.GetChild(3).gameObject.GetComponent<Animator>().Play("distancePanel", 0, 0.0f);
+        pauseCanvas.transform.GetChild(2).gameObject.GetComponent<Animator>().Play("pauseButton", 0, 0.0f);
+
         Time.timeScale = timeScale;
         pause = pauseState;
         blurEffect.active = blurEffectState;
@@ -100,6 +101,10 @@ public class CameraController : MonoBehaviour
 
     private void PauseGame()
     {
+        // animation reset so it starts from scratch when game paused
+        pauseCanvas.transform.GetChild(3).gameObject.GetComponent<Animator>().Play("distancePanel", 0, 0.0f);
+        pauseCanvas.transform.GetChild(2).gameObject.GetComponent<Animator>().Play("pauseButton", 0, 0.0f);
+
         GameStop(0f, true, true);
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(true);
     }
