@@ -221,7 +221,8 @@ public class CameraController : MonoBehaviour
 
         distance = Mathf.RoundToInt(rawDistance);
 
-        pauseCanvas.transform.GetChild(3).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m";
+        pauseCanvas.transform.GetChild(3).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (up-left corner)
+        pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (Dead UI)
 
         // For game pausing on PC
 
