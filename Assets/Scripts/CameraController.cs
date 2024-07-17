@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 using TMPro;
-using System;
+using System.IO;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -37,6 +37,8 @@ public class CameraController : MonoBehaviour
     bool playerIsDead;
 
     private GameObject speedReference;
+
+    private int distancePersistantData;
 
     void CameraShake(bool activate)
     {
