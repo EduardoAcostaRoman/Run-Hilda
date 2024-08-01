@@ -1,0 +1,529 @@
+fileFormatVersion: 2
+guid: 331437b1edd3e3844a309ba013bbedbe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 569055498668960721
+    second: Pterodactyl_0
+  - first:
+      213: -5775692252902185379
+    second: Pterodactyl_1
+  - first:
+      213: 7893079003898269060
+    second: Pterodactyl_2
+  - first:
+      213: -6554588076453619946
+    second: Pterodactyl_3
+  - first:
+      213: -2219839491912092103
+    second: Pterodactyl_4
+  - first:
+      213: 8160063634256275047
+    second: Pterodactyl_5
+  - first:
+      213: -4690499010714856083
+    second: Pterodactyl_6
+  - first:
+      213: 7030449544094840034
+    second: Pterodactyl_7
+  - first:
+      213: 2025009093294341456
+    second: Pterodactyl_8
+  - first:
+      213: 8620543134217381723
+    second: Pterodactyl_9
+  - first:
+      213: -714538042822827399
+    second: Pterodactyl_10
+  - first:
+      213: 8343155473737157562
+    second: Pterodactyl_11
+  - first:
+      213: 1232288439299047865
+    second: Pterodactyl_12
+  - first:
+      213: -339309470881524652
+    second: Pterodactyl_13
+  - first:
+      213: 4186622969783609508
+    second: Pterodactyl_14
+  - first:
+      213: 8707607284623090075
+    second: Pterodactyl_15
+  - first:
+      213: -7267707941213027255
+    second: Pterodactyl_16
+  - first:
+      213: 3201284782774731589
+    second: Pterodactyl_17
+  - first:
+      213: -5716173382532126038
+    second: Pterodactyl_18
+  - first:
+      213: -4435112852100104045
+    second: Pterodactyl_19
+  - first:
+      213: 8470912345697460772
+    second: Pterodactyl_20
+  - first:
+      213: -7891530815364593352
+    second: Pterodactyl_21
+  - first:
+      213: 2572226196125031926
+    second: Pterodactyl_22
+  - first:
+      213: 174041399975680296
+    second: Pterodactyl_23
+  - first:
+      213: -7500500888755316083
+    second: Pterodactyl_24
+  - first:
+      213: 6908720839741626379
+    second: Pterodactyl_25
+  - first:
+      213: -6198604055734235241
+    second: Pterodactyl_26
+  - first:
+      213: -4826998283855247530
+    second: Pterodactyl_27
+  - first:
+      213: 3239408891645520182
+    second: Pterodactyl_28
+  - first:
+      213: 4434808067536151742
+    second: Pterodactyl_29
+  - first:
+      213: 8054264755565401254
+    second: Pterodactyl_30
+  - first:
+      213: -5653462672680957918
+    second: Pterodactyl_31
+  - first:
+      213: -6833430973042581703
+    second: Pterodactyl_32
+  - first:
+      213: 4111418908786003744
+    second: Pterodactyl_33
+  - first:
+      213: -6862263707785113199
+    second: Pterodactyl_34
+  - first:
+      213: -7236290312861261100
+    second: Pterodactyl_35
+  - first:
+      213: 1426628016094022405
+    second: Pterodactyl_36
+  - first:
+      213: -3858810701939519583
+    second: Pterodactyl_37
+  - first:
+      213: 6454849321129100332
+    second: Pterodactyl_38
+  - first:
+      213: -2411102530134843219
+    second: Pterodactyl_39
+  - first:
+      213: 1491749310565069337
+    second: Pterodactyl_40
+  - first:
+      213: 8441578278205971577
+    second: Pterodactyl_41
+  - first:
+      213: -405469861409824213
+    second: Pterodactyl_42
+  - first:
+      213: -3048393317996031624
+    second: Pterodactyl_43
+  - first:
+      213: 2959114848562858883
+    second: Pterodactyl_44
+  - first:
+      213: -1003389353450682638
+    second: Pterodactyl_45
+  - first:
+      213: 6945002817750363035
+    second: Pterodactyl_46
+  - first:
+      213: -6622516042950291649
+    second: Pterodactyl_47
+  - first:
+      213: -182765911208232249
+    second: Pterodactyl_48
+  - first:
+      213: 7484632373465157520
+    second: Pterodactyl_49
+  - first:
+      213: -5341154680781785569
+    second: Pterodactyl_50
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fly_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 224
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db65a706f0b5e700800000000000000
+      internalID: 569055498668960721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 223
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d562ac53f7e98dfa0800000000000000
+      internalID: -5775692252902185379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d4373e889d98d60800000000000000
+      internalID: 7893079003898269060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 225
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61798f54fdc6905a0800000000000000
+      internalID: -6554588076453619946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 223
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936323a4ebb8131e0800000000000000
+      internalID: -2219839491912092103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fly_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 222
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766ad6834ae5e3170800000000000000
+      internalID: 8160063634256275047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 174
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d651507400008eeb0800000000000000
+      internalID: -4690499010714856083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 169
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e474178c9c219160800000000000000
+      internalID: 7030449544094840034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 171
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dbeb89a074a1c10800000000000000
+      internalID: 2025009093294341456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5152da3ed0caf2e4da11d7cd80949c08
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pterodactyl_10: -714538042822827399
+      Pterodactyl_11: 8343155473737157562
+      Pterodactyl_12: 1232288439299047865
+      Pterodactyl_13: -339309470881524652
+      Pterodactyl_14: 4186622969783609508
+      Pterodactyl_15: 8707607284623090075
+      Pterodactyl_16: -7267707941213027255
+      Pterodactyl_17: 3201284782774731589
+      Pterodactyl_18: -5716173382532126038
+      Pterodactyl_19: -4435112852100104045
+      Pterodactyl_20: 8470912345697460772
+      Pterodactyl_21: -7891530815364593352
+      Pterodactyl_22: 2572226196125031926
+      Pterodactyl_23: 174041399975680296
+      Pterodactyl_24: -7500500888755316083
+      Pterodactyl_25: 6908720839741626379
+      Pterodactyl_26: -6198604055734235241
+      Pterodactyl_27: -4826998283855247530
+      Pterodactyl_28: 3239408891645520182
+      Pterodactyl_29: 4434808067536151742
+      Pterodactyl_30: 8054264755565401254
+      Pterodactyl_31: -5653462672680957918
+      Pterodactyl_32: -6833430973042581703
+      Pterodactyl_33: 4111418908786003744
+      Pterodactyl_34: -6862263707785113199
+      Pterodactyl_35: -7236290312861261100
+      Pterodactyl_36: 1426628016094022405
+      Pterodactyl_37: -3858810701939519583
+      Pterodactyl_38: 6454849321129100332
+      Pterodactyl_39: -2411102530134843219
+      Pterodactyl_40: 1491749310565069337
+      Pterodactyl_41: 8441578278205971577
+      Pterodactyl_42: -405469861409824213
+      Pterodactyl_43: -3048393317996031624
+      Pterodactyl_44: 2959114848562858883
+      Pterodactyl_45: -1003389353450682638
+      Pterodactyl_46: 6945002817750363035
+      Pterodactyl_47: -6622516042950291649
+      Pterodactyl_48: -182765911208232249
+      Pterodactyl_49: 7484632373465157520
+      Pterodactyl_50: -5341154680781785569
+      Pterodactyl_9: 8620543134217381723
+      attack_0: -4690499010714856083
+      attack_1: 7030449544094840034
+      attack_2: 2025009093294341456
+      fly_0: 569055498668960721
+      fly_1: -5775692252902185379
+      fly_2: 7893079003898269060
+      fly_3: -6554588076453619946
+      fly_4: -2219839491912092103
+      fly_5: 8160063634256275047
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

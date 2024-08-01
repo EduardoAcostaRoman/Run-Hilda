@@ -12,6 +12,10 @@ public class GameDataController : MonoBehaviour
 
     public GameData gameData = new GameData();
 
+    private bool dataSaved;
+
+    public static int distanceRecordData;
+
 
     private void Awake()
     {
@@ -29,6 +33,7 @@ public class GameDataController : MonoBehaviour
         {
             string content = File.ReadAllText(saveFile);
             gameData = JsonUtility.FromJson<GameData>(content);
+            distanceRecordData = gameData.distanceRecord;
         }
         else
         {
@@ -48,11 +53,26 @@ public class GameDataController : MonoBehaviour
         File.WriteAllText(saveFile, stringJSON);
     }
 
+    void PlayerDead(Notification notificacion)
+    {
+        if (!dataSaved)
+        {
+            LoadData();
+
+            if (distanceRecordData < CameraController.distance)
+            {
+                SaveData();     //if the you get a higher record than previous, the data is saved
+                LoadData();     //in JSON file and loaded again to show current value in UI
+            }
+
+            dataSaved = true;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        NotificationCenter.DefaultCenter().AddObserver(this, "GamePaused");
-        NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
+        NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
     }
 
     // Update is called once per frame

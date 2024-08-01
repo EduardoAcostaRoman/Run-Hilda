@@ -191,22 +191,6 @@ public class CameraController : MonoBehaviour
 
         if (!pause && !player.GetComponent<Animator>().GetBool("death"))
         {
-            // old method
-
-            //if (!distanceAddReset)  
-            //{                       
-            //    rawDistance += distanceIncrementRatio * player.GetComponent<Animator>().speed;
-            //    distanceAddPrevNum = Mathf.RoundToInt(Convert.ToSingle(realtime*10));
-            //    distanceAddReset = true;
-            //}
-
-            //if (distanceAddReset && Mathf.RoundToInt(Convert.ToSingle(realtime)) != distanceAddPrevNum)
-            //{
-            //    distanceAddReset = false;
-            //}
-
-
-
             // this setup makes sure this adds values to the distance value based on real time at a maximum of 0.2 seconds refresh rate
             // (this is to avoid distance not being incremented depending on the device refresh ratio but on a fixed rate)
 
@@ -225,6 +209,7 @@ public class CameraController : MonoBehaviour
 
         pauseCanvas.transform.GetChild(3).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (up-left corner)
         pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (Dead UI)
+        pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(1).transform.GetChild(0).GetComponent<TMP_Text>().text = GameDataController.distanceRecordData + " m"; // distance printed in UI (Dead UI)
 
         // For game pausing on PC
 
