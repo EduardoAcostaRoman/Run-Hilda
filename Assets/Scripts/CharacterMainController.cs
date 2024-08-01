@@ -55,6 +55,8 @@ public class CharacterMainController : MonoBehaviour
     public float shieldColor = 4;
     private bool shieldActivated = false;
 
+    private bool characterIsInvincible = false;
+
     // --- ITEMS ---//
 
     private void OnTriggerEnter2D(Collider2D collisionObject)
@@ -104,6 +106,11 @@ public class CharacterMainController : MonoBehaviour
         {
             audioPlayer(audioJump, 0.5f);
             body.velocity = new Vector2(0, jumpForce);       
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            characterIsInvincible = !characterIsInvincible;
         }
 
         // For PC tests (delete/comment for build)
@@ -228,7 +235,7 @@ public class CharacterMainController : MonoBehaviour
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("hurt") && animator.GetBool("hurt"))
         {
             //if no shield up, then character dies
-            if (!shieldActivated)
+            if (!shieldActivated && !characterIsInvincible)
             {
                 animator.SetBool("death", true);
             }

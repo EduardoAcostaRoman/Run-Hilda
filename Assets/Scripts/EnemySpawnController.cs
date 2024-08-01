@@ -8,6 +8,7 @@ public class EnemySpawnController : MonoBehaviour
     public GameObject rhyhorn;
     public GameObject wolf;
     public GameObject bat;
+    public GameObject pterodactyl;
 
     float realtime;
     float prevtime;
@@ -67,16 +68,17 @@ public class EnemySpawnController : MonoBehaviour
         {
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             // Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            
+            Instantiate(pterodactyl, new Vector3(14, -1f, -1), bat.transform.rotation);
 
-            if (randomValue >= 0.5f)
-            {
-                Instantiate(bat, new Vector3(14, -1f, -1), bat.transform.rotation);
-            }
-            else
-            {
-                Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            }
+
+            //if (randomValue >= 0.5f)
+            //{
+            //    Instantiate(bat, new Vector3(14, -1f, -1), bat.transform.rotation);
+            //}
+            //else
+            //{
+            //    Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
+            //}
 
             prevtime = realtime;
         }

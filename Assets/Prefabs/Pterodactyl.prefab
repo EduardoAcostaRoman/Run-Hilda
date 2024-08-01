@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 2103492866845335110}
   - component: {fileID: 7752476675859677105}
   - component: {fileID: 5757274361488508243}
-  - component: {fileID: 4032267731891815030}
   - component: {fileID: 8518488821124878643}
+  - component: {fileID: 4032267731891815030}
+  - component: {fileID: 3220974856479875635}
   m_Layer: 7
   m_Name: Pterodactyl
   m_TagString: Enemy
@@ -156,19 +157,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.21460307, y: 0.18514563}
   m_EdgeRadius: 0
---- !u!114 &4032267731891815030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13192262381923197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dadce24fbd8d3c34586ac5223ed08f47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 11
 --- !u!50 &8518488821124878643
 Rigidbody2D:
   serializedVersion: 4
@@ -196,3 +184,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4032267731891815030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13192262381923197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dadce24fbd8d3c34586ac5223ed08f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 11
+--- !u!114 &3220974856479875635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13192262381923197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17fd76d5715e5944a609956e80edc6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
