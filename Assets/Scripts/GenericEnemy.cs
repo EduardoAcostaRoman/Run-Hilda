@@ -12,6 +12,8 @@ public class GenericEnemy : MonoBehaviour
 
     bool playerIsDead;
 
+    public Vector3 startingPosition;
+
     void PlayerDead(Notification notificacion)
     {
         playerIsDead = true;
@@ -25,6 +27,8 @@ public class GenericEnemy : MonoBehaviour
         NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
 
         gameObject.tag = "Enemy";
+
+        transform.position = startingPosition;
     }
 
     

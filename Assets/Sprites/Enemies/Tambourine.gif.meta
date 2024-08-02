@@ -1,0 +1,1792 @@
+fileFormatVersion: 2
+guid: 11ce06a4c0605ce4296439a3ef630d44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1782736308171033473
+    second: Tambourine_0
+  - first:
+      213: 345124924275408668
+    second: Tambourine_1
+  - first:
+      213: -158569045334565994
+    second: Tambourine_2
+  - first:
+      213: 7043586379866767843
+    second: Tambourine_3
+  - first:
+      213: -3994447338621385846
+    second: Tambourine_4
+  - first:
+      213: 115733740637534812
+    second: Tambourine_5
+  - first:
+      213: -5603664870833485454
+    second: Tambourine_6
+  - first:
+      213: -2909176081900936570
+    second: Tambourine_7
+  - first:
+      213: -4115770893125332188
+    second: Tambourine_8
+  - first:
+      213: 4601244014015472014
+    second: Tambourine_9
+  - first:
+      213: -3988837158919945802
+    second: Tambourine_10
+  - first:
+      213: 4138474432989690269
+    second: Tambourine_11
+  - first:
+      213: -1648157564673987700
+    second: Tambourine_12
+  - first:
+      213: -8654709600392403339
+    second: Tambourine_13
+  - first:
+      213: 3237341745891654164
+    second: Tambourine_14
+  - first:
+      213: -8210076953389920833
+    second: Tambourine_15
+  - first:
+      213: -5775254500254583202
+    second: Tambourine_16
+  - first:
+      213: 1817120293249840827
+    second: Tambourine_17
+  - first:
+      213: -2717944563279611443
+    second: Tambourine_18
+  - first:
+      213: -1897467332712902342
+    second: Tambourine_19
+  - first:
+      213: -8252152542766464203
+    second: Tambourine_20
+  - first:
+      213: 7850826607180857163
+    second: Tambourine_21
+  - first:
+      213: 767131259028442828
+    second: Tambourine_22
+  - first:
+      213: -314134126333260281
+    second: Tambourine_23
+  - first:
+      213: -4937446734285025410
+    second: Tambourine_24
+  - first:
+      213: 823058779489475511
+    second: Tambourine_25
+  - first:
+      213: -1458563977675697484
+    second: Tambourine_26
+  - first:
+      213: -2873526589955618151
+    second: Tambourine_27
+  - first:
+      213: 2295648452014190762
+    second: Tambourine_28
+  - first:
+      213: -8949024343671942628
+    second: Tambourine_29
+  - first:
+      213: -318363740072283359
+    second: Tambourine_30
+  - first:
+      213: -4269312649399411272
+    second: Tambourine_31
+  - first:
+      213: -6789054966016911870
+    second: Tambourine_32
+  - first:
+      213: 1610684952281995408
+    second: Tambourine_33
+  - first:
+      213: -2294042923763423737
+    second: Tambourine_34
+  - first:
+      213: 22090369830308745
+    second: Tambourine_35
+  - first:
+      213: -7237193876624896249
+    second: Tambourine_36
+  - first:
+      213: -1271950941551905237
+    second: Tambourine_37
+  - first:
+      213: 7673125296259598167
+    second: Tambourine_38
+  - first:
+      213: -3925284043828806040
+    second: Tambourine_39
+  - first:
+      213: -4282055839281871067
+    second: Tambourine_40
+  - first:
+      213: -2801471128248553684
+    second: Tambourine_41
+  - first:
+      213: 4988648199025834181
+    second: Tambourine_42
+  - first:
+      213: -4701579846030231771
+    second: Tambourine_43
+  - first:
+      213: -4666703061935384142
+    second: Tambourine_44
+  - first:
+      213: -4141703419165862835
+    second: Tambourine_45
+  - first:
+      213: -120260429740938127
+    second: Tambourine_46
+  - first:
+      213: -2973422357774661095
+    second: Tambourine_47
+  - first:
+      213: 6258278476464297232
+    second: Tambourine_48
+  - first:
+      213: 7023202995921423552
+    second: Tambourine_49
+  - first:
+      213: -3404295496458971974
+    second: Tambourine_50
+  - first:
+      213: -8478936794372126976
+    second: Tambourine_51
+  - first:
+      213: 3263786708619085777
+    second: Tambourine_52
+  - first:
+      213: -5861241996233414226
+    second: Tambourine_53
+  - first:
+      213: -8871953444752170838
+    second: Tambourine_54
+  - first:
+      213: 1193681438848015783
+    second: Tambourine_55
+  - first:
+      213: 1397809804637320989
+    second: Tambourine_56
+  - first:
+      213: 4185981010052555219
+    second: Tambourine_57
+  - first:
+      213: 220905390968145154
+    second: Tambourine_58
+  - first:
+      213: -6465173564272827559
+    second: Tambourine_59
+  - first:
+      213: 8437341645409903300
+    second: Tambourine_60
+  - first:
+      213: -6635740249531801587
+    second: Tambourine_61
+  - first:
+      213: -6220250810278940171
+    second: Tambourine_62
+  - first:
+      213: -3726185755722034970
+    second: Tambourine_63
+  - first:
+      213: 1732505196586112413
+    second: Tambourine_64
+  - first:
+      213: -4360485295064978212
+    second: Tambourine_65
+  - first:
+      213: -5767747420709724326
+    second: Tambourine_66
+  - first:
+      213: -7913647353995638241
+    second: Tambourine_67
+  - first:
+      213: 6032899590774067489
+    second: Tambourine_68
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tambourine_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 424
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bc9b81a3d8db810800000000000000
+      internalID: 1782736308171033473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 424
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1fb1924a412ac400800000000000000
+      internalID: 345124924275408668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 424
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bd57c1b46accdf0800000000000000
+      internalID: -158569045334565994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 424
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e10db47e78dfb160800000000000000
+      internalID: 7043586379866767843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 425
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83c77b1f4fd098c0800000000000000
+      internalID: -3994447338621385846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_5
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 425
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a3a33593b2b9100800000000000000
+      internalID: 115733740637534812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 423
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27982ad4d78cb32b0800000000000000
+      internalID: -5603664870833485454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_7
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 423
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6826b3954c780a7d0800000000000000
+      internalID: -2909176081900936570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_8
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 423
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4235f52dd28d1e6c0800000000000000
+      internalID: -4115770893125332188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_9
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 423
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81e8446d07eadf30800000000000000
+      internalID: 4601244014015472014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 346
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1c2bbdcbdc4a8c0800000000000000
+      internalID: -3988837158919945802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_11
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 346
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99f26af190de6930800000000000000
+      internalID: 4138474432989690269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 346
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bebbf5d619029e0800000000000000
+      internalID: -1648157564673987700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 346
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576a27a197b44e780800000000000000
+      internalID: -8654709600392403339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_14
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 346
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a3a6c6a295dec20800000000000000
+      internalID: 3237341745891654164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_15
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 346
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd829e7282ff0e80800000000000000
+      internalID: -8210076953389920833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_16
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 346
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5679d071ac2adfa0800000000000000
+      internalID: -5775254500254583202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_17
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 346
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb67f497745b73910800000000000000
+      internalID: 1817120293249840827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_18
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 346
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9b38ae1dbe74ad0800000000000000
+      internalID: -2717944563279611443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 382
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a315dbc9387daa5e0800000000000000
+      internalID: -1897467332712902342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_20
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 390
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5338110fbf67a7d80800000000000000
+      internalID: -8252152542766464203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 346
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f333a243db3fc60800000000000000
+      internalID: 7850826607180857163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 345
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce0d7ec0d565aa00800000000000000
+      internalID: 767131259028442828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_23
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 347
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e041c2da8f3abf0800000000000000
+      internalID: -314134126333260281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 262
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f4789da5aaa7bb0800000000000000
+      internalID: -4937446734285025410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 263
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb9cb469971c6b00800000000000000
+      internalID: 823058779489475511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_26
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 308
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b295744ac322cbe0800000000000000
+      internalID: -1458563977675697484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_27
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 265
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a4e018ace2f18d0800000000000000
+      internalID: -2873526589955618151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_28
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 265
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa03b7faa18cbdf10800000000000000
+      internalID: 2295648452014190762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 265
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c125c1df5cdaec380800000000000000
+      internalID: -8949024343671942628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_30
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 265
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12370ab7dd1f49bf0800000000000000
+      internalID: -318363740072283359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_31
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 265
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd5771e3ca50c4c0800000000000000
+      internalID: -4269312649399411272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_32
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 265
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206d5f57a7e68c1a0800000000000000
+      internalID: -6789054966016911870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_33
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 265
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098d5d92e6d4a5610800000000000000
+      internalID: 1610684952281995408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_34
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 209
+        width: 190
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706259d7d1ce920e0800000000000000
+      internalID: -2294042923763423737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 202
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b41b6031b7e4000800000000000000
+      internalID: 22090369830308745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 202
+        width: 70
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f04257382509b90800000000000000
+      internalID: -7237193876624896249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_37
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 191
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2633159b5f195ee0800000000000000
+      internalID: -1271950941551905237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 119
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7570e909dca6c7a60800000000000000
+      internalID: 7673125296259598167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e331d85f69689c0800000000000000
+      internalID: -3925284043828806040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 119
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5278737c6e41394c0800000000000000
+      internalID: -4282055839281871067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_41
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 119
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f6b380adc2f19d0800000000000000
+      internalID: -2801471128248553684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_42
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 119
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8b3542b1d3b3540800000000000000
+      internalID: 4988648199025834181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 119
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5277b324a02a0ceb0800000000000000
+      internalID: -4701579846030231771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 119
+        width: 57
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b91d195a4a8c3fb0800000000000000
+      internalID: -4666703061935384142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_45
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 119
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4419971fa6b586c0800000000000000
+      internalID: -4141703419165862835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 119
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c61ccb6cfb45ef0800000000000000
+      internalID: -120260429740938127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_47
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 119
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a03a59e184cb6d0800000000000000
+      internalID: -2973422357774661095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_48
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 119
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0159027dd1fd9d650800000000000000
+      internalID: 6258278476464297232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_49
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 119
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc0b5d0aed677160800000000000000
+      internalID: 7023202995921423552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_50
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 76
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4d91f584381c0d0800000000000000
+      internalID: -3404295496458971974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 76
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007c57aa8e3c45a80800000000000000
+      internalID: -8478936794372126976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_52
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 76
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7c1ed18bc4b4d20800000000000000
+      internalID: 3263786708619085777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_53
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 77
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9e7e7657fa8aea0800000000000000
+      internalID: -5861241996233414226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_54
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 78
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa06ebdf85d70e480800000000000000
+      internalID: -8871953444752170838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_55
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 80
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad5389b1fec09010800000000000000
+      internalID: 1193681438848015783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 82
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1737f48c94066310800000000000000
+      internalID: 1397809804637320989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_57
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 82
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1a6b4ec87971a30800000000000000
+      internalID: 4185981010052555219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20500ad5840d01300800000000000000
+      internalID: 220905390968145154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 6
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953a542b5e61746a0800000000000000
+      internalID: -6465173564272827559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_60
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 6
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c264470685771570800000000000000
+      internalID: 8437341645409903300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_61
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0025e4966d19e3a0800000000000000
+      internalID: -6635740249531801587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_62
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 6
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1fc7728da3da9a0800000000000000
+      internalID: -6220250810278940171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_63
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 6
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0511f1ccde94cc0800000000000000
+      internalID: -3726185755722034970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_64
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 6
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95980e0c481b0810800000000000000
+      internalID: 1732505196586112413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_65
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 6
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc665b1ab17c73c0800000000000000
+      internalID: -4360485295064978212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_66
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 6
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fdb6a9748d4ffa0800000000000000
+      internalID: -5767747420709724326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_67
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 6
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a416be8a31d2290800000000000000
+      internalID: -7913647353995638241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tambourine_68
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 6
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12110b1d63a29b350800000000000000
+      internalID: 6032899590774067489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

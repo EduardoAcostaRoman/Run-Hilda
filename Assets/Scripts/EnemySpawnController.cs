@@ -68,7 +68,7 @@ public class EnemySpawnController : MonoBehaviour
         {
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             // Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            Instantiate(pterodactyl, new Vector3(14, -1f, -1), bat.transform.rotation);
+            Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
 
 
             //if (randomValue >= 0.5f)

@@ -108,9 +108,10 @@ public class CharacterMainController : MonoBehaviour
             body.velocity = new Vector2(0, jumpForce);       
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))  // to make character invincible
         {
             characterIsInvincible = !characterIsInvincible;
+            Debug.Log("Invincibility: " + (characterIsInvincible ? "Active" : "Unactive"));
         }
 
         // For PC tests (delete/comment for build)
