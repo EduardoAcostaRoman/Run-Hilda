@@ -10,11 +10,16 @@ public class Pterodactyl : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float randomValue;
     public float attackDistanceValue = 5;
-    public float attackSpeedValue = -6;
+    public float attackSpeedValueY = -6;
+    public float attackVelocityDecreaseRatio = 0.1f;
+    public float attackSpeedValueX = -17;
 
     private bool wingSoundReset;
 
     public LayerMask groundLayer;
+
+    private double realTime;
+    private double timeReset;
 
     void Start()
     {
@@ -30,19 +35,31 @@ public class Pterodactyl : MonoBehaviour
 
     void Update()
     {
-        if (Mathf.Abs(transform.position.x - player.transform.position.x) <= attackDistanceValue && !boxCollider.IsTouchingLayers(groundLayer))
+        realTime = Time.timeSinceLevelLoad;
+
+        if (Mathf.Abs(transform.position.x - player.transform.position.x) <= attackDistanceValue && !animator.GetBool("attack"))
         {
 
             //transform.GetChild(1).GetComponent<AudioSource>().Play();
+            timeReset = realTime;
             animator.SetBool("attack", true);
-
-            body.velocity = new Vector2(body.velocity.x, attackSpeedValue);
         }
 
-        if (boxCollider.IsTouchingLayers(groundLayer))
+        if (body.velocityY > 0)
         {
             animator.SetBool("flyUp", true);
-            body.velocity = new Vector2(body.velocity.x, -attackSpeedValue);
+        }
+
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Stand"))
+        {
+            if (realTime - timeReset >= 0.01f)
+            {
+                attackSpeedValueY += attackVelocityDecreaseRatio;
+                timeReset = realTime;
+            }
+
+            body.velocity = new Vector2(0, 0);
+            body.velocity = new Vector2(attackSpeedValueX, attackSpeedValueY);
         }
     }
 

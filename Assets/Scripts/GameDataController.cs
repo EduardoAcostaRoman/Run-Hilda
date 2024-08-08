@@ -22,7 +22,7 @@ public class GameDataController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         cameraControl = GameObject.FindGameObjectWithTag("MainCamera");
 
-        saveFile = Application.dataPath + "/gameData.json";
+        saveFile = Application.persistentDataPath + "/gameData.json";
 
 
     }

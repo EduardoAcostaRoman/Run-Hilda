@@ -213,7 +213,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDistanceValue: 10
-  attackSpeedValue: -10
+  attackSpeedValueY: -15
+  attackVelocityDecreaseRatio: 0.4
+  attackSpeedValueX: -15
   groundLayer:
     serializedVersion: 2
     m_Bits: 8

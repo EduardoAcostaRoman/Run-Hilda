@@ -9,9 +9,11 @@ ScriptsOnlyBuild:
     - CharacterMainController
     - Death2Effect
     - EnemySpawnController
+    - GameDataController
     - GenericEnemy
     - ItemSpawner
     - MusicController
+    - Pterodactyl
     - SelfDestructByPosition
     - SelfDestructTimer
     - SpeedController
@@ -136,6 +138,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   serializedClasses:
+    Assembly-CSharp:
+    - .GameData
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.BoolParameter
     - UnityEngine.Rendering.ClampedFloatParameter
@@ -363,79 +367,83 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21852}
     - Class: 114
-      Script: {instanceID: 21928}
+      Script: {instanceID: 21930}
     - Class: 114
-      Script: {instanceID: 21970}
+      Script: {instanceID: 21972}
     - Class: 114
-      Script: {instanceID: 22028}
+      Script: {instanceID: 22030}
     - Class: 114
-      Script: {instanceID: 22048}
+      Script: {instanceID: 22050}
     - Class: 114
-      Script: {instanceID: 22118}
+      Script: {instanceID: 22120}
     - Class: 114
-      Script: {instanceID: 22134}
+      Script: {instanceID: 22136}
     - Class: 114
-      Script: {instanceID: 22232}
-    - Class: 114
-      Script: {instanceID: 22394}
+      Script: {instanceID: 22234}
     - Class: 114
       Script: {instanceID: 22396}
     - Class: 114
-      Script: {instanceID: 22420}
+      Script: {instanceID: 22398}
     - Class: 114
-      Script: {instanceID: 22766}
+      Script: {instanceID: 22422}
     - Class: 114
-      Script: {instanceID: 23100}
+      Script: {instanceID: 22768}
     - Class: 114
-      Script: {instanceID: 23106}
+      Script: {instanceID: 23102}
     - Class: 114
-      Script: {instanceID: 23186}
+      Script: {instanceID: 23108}
     - Class: 114
-      Script: {instanceID: 23206}
+      Script: {instanceID: 23188}
     - Class: 114
-      Script: {instanceID: 23212}
+      Script: {instanceID: 23208}
     - Class: 114
-      Script: {instanceID: 23350}
+      Script: {instanceID: 23214}
     - Class: 114
-      Script: {instanceID: 23400}
+      Script: {instanceID: 23352}
     - Class: 114
-      Script: {instanceID: 23468}
+      Script: {instanceID: 23402}
     - Class: 114
-      Script: {instanceID: 23544}
+      Script: {instanceID: 23470}
     - Class: 114
-      Script: {instanceID: 23558}
+      Script: {instanceID: 23546}
     - Class: 114
-      Script: {instanceID: 23686}
+      Script: {instanceID: 23560}
     - Class: 114
-      Script: {instanceID: 23842}
+      Script: {instanceID: 23688}
     - Class: 114
-      Script: {instanceID: 23986}
+      Script: {instanceID: 23748}
     - Class: 114
-      Script: {instanceID: 24048}
+      Script: {instanceID: 23810}
     - Class: 114
-      Script: {instanceID: 24082}
+      Script: {instanceID: 23848}
     - Class: 114
-      Script: {instanceID: 24084}
+      Script: {instanceID: 23992}
     - Class: 114
-      Script: {instanceID: 24278}
+      Script: {instanceID: 24054}
     - Class: 114
-      Script: {instanceID: 24452}
+      Script: {instanceID: 24088}
     - Class: 114
-      Script: {instanceID: 24460}
+      Script: {instanceID: 24090}
     - Class: 114
-      Script: {instanceID: 24568}
+      Script: {instanceID: 24284}
     - Class: 114
-      Script: {instanceID: 25166}
+      Script: {instanceID: 24458}
     - Class: 114
-      Script: {instanceID: 25270}
+      Script: {instanceID: 24466}
     - Class: 114
-      Script: {instanceID: 25462}
+      Script: {instanceID: 24574}
     - Class: 114
-      Script: {instanceID: 25472}
+      Script: {instanceID: 25172}
     - Class: 114
-      Script: {instanceID: 25690}
+      Script: {instanceID: 25276}
     - Class: 114
-      Script: {instanceID: 37756}
+      Script: {instanceID: 25468}
+    - Class: 114
+      Script: {instanceID: 25478}
+    - Class: 114
+      Script: {instanceID: 25696}
+    - Class: 114
+      Script: {instanceID: 38990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1140,7 +1148,7 @@ ScriptsOnlyBuild:
     className: MotionBlur
   - hash:
       serializedVersion: 2
-      Hash: 01334a1aae2bf42756f6ae6f385271ec
+      Hash: 100a959899af74916b9ed1c3e17f7c35
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SpeedController
@@ -1500,7 +1508,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: c13adf70ec9777b05527d1b32edc4c16
+      Hash: cb3dca6203228f527f4706de659f9619
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GenericEnemy
@@ -1608,10 +1616,22 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bat
+  - hash:
+      serializedVersion: 2
       Hash: f4f39b64f410b0cd98b49df4bad0eb7e
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 2fc527bb46ff593eaa1c9817cb1082a3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameDataController
   - hash:
       serializedVersion: 2
       Hash: 3018b4c2d44e59adba8f1178028b33a4
@@ -1842,7 +1862,7 @@ ScriptsOnlyBuild:
     className: PaniniProjection
   - hash:
       serializedVersion: 2
-      Hash: ac09e86ae5cd32c94df7a1bdc898d998
+      Hash: 3608eeb0598a1cad31f628eec389fa04
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: EnemySpawnController
@@ -1974,10 +1994,10 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: d787c4ccf575c98bd2a62158fd55ca56
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: Bat
+    className: Pterodactyl
   platform: 13
   scenePathNames:
   - Assets/Scenes/Game.unity

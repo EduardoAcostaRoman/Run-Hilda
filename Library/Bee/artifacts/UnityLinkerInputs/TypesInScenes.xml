@@ -8,9 +8,11 @@
 		<type fullname="CharacterMainController" preserve="nothing"/>
 		<type fullname="Death2Effect" preserve="nothing"/>
 		<type fullname="EnemySpawnController" preserve="nothing"/>
+		<type fullname="GameDataController" preserve="nothing"/>
 		<type fullname="GenericEnemy" preserve="nothing"/>
 		<type fullname="ItemSpawner" preserve="nothing"/>
 		<type fullname="MusicController" preserve="nothing"/>
+		<type fullname="Pterodactyl" preserve="nothing"/>
 		<type fullname="SelfDestructByPosition" preserve="nothing"/>
 		<type fullname="SelfDestructTimer" preserve="nothing"/>
 		<type fullname="SpeedController" preserve="nothing"/>
