@@ -400,6 +400,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CharacterMainController.cs"
 "Assets/Scripts/Death2Effect.cs"
+"Assets/Scripts/Demon.cs"
 "Assets/Scripts/EnemySpawnController.cs"
 "Assets/Scripts/GameData.cs"
 "Assets/Scripts/GameDataController.cs"
