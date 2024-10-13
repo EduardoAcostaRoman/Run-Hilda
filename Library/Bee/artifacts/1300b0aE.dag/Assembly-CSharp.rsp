@@ -410,6 +410,7 @@
 "Assets/Scripts/NotificationCenter.cs"
 "Assets/Scripts/ParticlesController.cs"
 "Assets/Scripts/Pterodactyl.cs"
+"Assets/Scripts/Puff.cs"
 "Assets/Scripts/SelfDestructByPosition.cs"
 "Assets/Scripts/SelfDestructTimer.cs"
 "Assets/Scripts/SpeedController.cs"

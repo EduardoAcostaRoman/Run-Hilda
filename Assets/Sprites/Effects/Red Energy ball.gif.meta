@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 45a614f3bcab9ca42830ef7661c07e02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1655414235541134767
+    second: Red Energy ball_0
+  - first:
+      213: 2051012899037669423
+    second: Red Energy ball_1
+  - first:
+      213: 1262256765227929487
+    second: Red Energy ball_2
+  - first:
+      213: 2758959852397883377
+    second: Red Energy ball_3
+  - first:
+      213: -4811757403460840902
+    second: Red Energy ball_4
+  - first:
+      213: -2493206624818712535
+    second: Red Energy ball_5
+  - first:
+      213: -4964580982837129112
+    second: Red Energy ball_6
+  - first:
+      213: -3571534597497656892
+    second: Red Energy ball_7
+  - first:
+      213: -835862967863601145
+    second: Red Energy ball_8
+  - first:
+      213: -5163501973807799958
+    second: Red Energy ball_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 74
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red Energy ball_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 417
+        width: 118
+        height: 118
+      alignment: 9
+      pivot: {x: 0.4921006, y: 0.52369845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faddd89f97639f610800000000000000
+      internalID: 1655414235541134767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 418
+        width: 122
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5152808, y: 0.4847192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2862ec6d59a67c10800000000000000
+      internalID: 2051012899037669423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 416
+        width: 122
+        height: 122
+      alignment: 9
+      pivot: {x: 0.5076404, y: 0.4923596}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f8eba17df648110800000000000000
+      internalID: 1262256765227929487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 410
+        width: 126
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff6dbf3e5bc94620800000000000000
+      internalID: 2758959852397883377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_4
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 415
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a325c55a224393db0800000000000000
+      internalID: -4811757403460840902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 288
+        width: 118
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920b708c8c9566dd0800000000000000
+      internalID: -2493206624818712535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860555b46e34a1bb0800000000000000
+      internalID: -4964580982837129112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 291
+        width: 110
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4915261, y: 0.48241267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c96225d43c5f6ec0800000000000000
+      internalID: -3571534597497656892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 284
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708169f2f0b6664f0800000000000000
+      internalID: -835862967863601145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red Energy ball_9
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 284
+        width: 114
+        height: 114
+      alignment: 9
+      pivot: {x: 0.51635313, y: 0.4754703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61682eef4e8758b0800000000000000
+      internalID: -5163501973807799958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fbd2f008c8f82064b9492921c6e4a8df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Red Energy ball_0: 1655414235541134767
+      Red Energy ball_1: 2051012899037669423
+      Red Energy ball_2: 1262256765227929487
+      Red Energy ball_3: 2758959852397883377
+      Red Energy ball_4: -4811757403460840902
+      Red Energy ball_5: -2493206624818712535
+      Red Energy ball_6: -4964580982837129112
+      Red Energy ball_7: -3571534597497656892
+      Red Energy ball_8: -835862967863601145
+      Red Energy ball_9: -5163501973807799958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

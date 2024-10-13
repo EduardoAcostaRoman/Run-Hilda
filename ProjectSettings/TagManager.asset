@@ -18,8 +18,8 @@ TagManager:
   - Enemy
   - Intangible
   - Item
-  - 
-  - 
+  - PlayerProjectile
+  - EnemyProjectile
   - 
   - 
   - 
