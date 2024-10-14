@@ -62,19 +62,19 @@ public class Buff : MonoBehaviour
         {
             if (buffActivated)
             {
-                //transform.position = new Vector3(Mathf.Lerp(transform.position.x, startPosX, 0.04f),
-                //                             Mathf.Lerp(transform.position.y, startPosY, 0.1f),
-                //                             transform.position.z);
-
-                transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, startPosX, changeRateAxisX),
+                if (transform.position.x >= (startPosX - 0.1f))
+                {
+                    transform.position = new Vector3(startPosX, startPosY, transform.position.z);
+                }
+                else
+                {
+                    transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, startPosX, changeRateAxisX),
                                              Mathf.MoveTowards(transform.position.y, startPosY, changeRateAxisY),
                                              transform.position.z);
+                }  
             }
             else
             {
-                //transform.position = new Vector3(Mathf.Lerp(transform.position.x, -13, 0.02f),
-                //                             transform.position.y,
-                //                             transform.position.z);
 
                 transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, -13, changeRateRetreat),
                                              transform.position.y,

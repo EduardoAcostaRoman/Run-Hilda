@@ -1385,7 +1385,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2138,7 +2138,7 @@ Transform:
   m_GameObject: {fileID: 459813630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.74, y: 0.01, z: -1}
+  m_LocalPosition: {x: 6.74, y: 7.24, z: -1}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2667,6 +2667,7 @@ GameObject:
   - component: {fileID: 634056263}
   - component: {fileID: 634056262}
   - component: {fileID: 634056265}
+  - component: {fileID: 634056266}
   m_Layer: 0
   m_Name: Puff
   m_TagString: Untagged
@@ -2775,10 +2776,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc3782420802a88419b8295d67340432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &634056266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634056261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb929b5a75c9414c8342aed61a7c32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   posOffsetX: -1
   posOffsetY: 3.8
-  changeRateAxisX: 1
-  changeRateAxisY: 1
+  changeRateAxisX: 0.1
+  changeRateAxisY: 0.1
   changeRateRetreat: 0.1
 --- !u!1 &743445295
 GameObject:
@@ -4951,8 +4964,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   posOffsetX: 1.25
   posOffsetY: 3.8
-  changeRateAxisX: 1
-  changeRateAxisY: 1
+  changeRateAxisX: 0.1
+  changeRateAxisY: 0.1
   changeRateRetreat: 0.1
 --- !u!1 &1874470650
 GameObject:

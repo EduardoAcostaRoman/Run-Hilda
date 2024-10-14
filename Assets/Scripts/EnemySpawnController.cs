@@ -66,9 +66,10 @@ public class EnemySpawnController : MonoBehaviour
 
         if (realtime - prevtime >= spawnRate && !player.GetComponent<Animator>().GetBool("death") && spawnTrigger)
         {
+            // POSITION SAMPLES:
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             // Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            // Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
+            Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
 
 
             //if (randomValue >= 0.5f)
