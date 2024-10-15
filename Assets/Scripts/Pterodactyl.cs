@@ -10,9 +10,8 @@ public class Pterodactyl : MonoBehaviour
     private BoxCollider2D boxCollider;
     private float randomValue;
     public float attackDistanceValue = 5;
+    public float speedValueX = -17f;
     public float attackSpeedValueY = -6;
-    public float attackVelocityDecreaseRatio = 0.1f;
-    public float attackSpeedValueX = -17;
 
     private bool wingSoundReset;
 
@@ -29,6 +28,8 @@ public class Pterodactyl : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         randomValue = Random.value;
 
+        body.gravityScale = 0;
+
         GetComponent<AudioSource>().Play();
     }
 
@@ -43,6 +44,8 @@ public class Pterodactyl : MonoBehaviour
             //transform.GetChild(1).GetComponent<AudioSource>().Play();
             timeReset = realTime;
             animator.SetBool("attack", true);
+            body.velocity = new Vector2(body.velocity.x, attackSpeedValueY);
+            body.gravityScale = -5;
         }
 
         if (body.velocityY > 0)
@@ -50,17 +53,7 @@ public class Pterodactyl : MonoBehaviour
             animator.SetBool("flyUp", true);
         }
 
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Stand"))
-        {
-            if (realTime - timeReset >= 0.01f)
-            {
-                attackSpeedValueY += attackVelocityDecreaseRatio;
-                timeReset = realTime;
-            }
-
-            body.velocity = new Vector2(0, 0);
-            body.velocity = new Vector2(attackSpeedValueX, attackSpeedValueY);
-        }
+        body.velocity = new Vector2(speedValueX, body.velocity.y);
     }
 
     private void FixedUpdate()
