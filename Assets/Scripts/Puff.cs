@@ -11,6 +11,7 @@ public class Puff : MonoBehaviour
     public GameObject puffBall;
     public float puffBallOffsetX = 0;
     public float puffBallOffsetY = 0;
+    public float puffBallSpawnRate = 3;
 
     private double realTime;
     private double timeReset;
@@ -56,7 +57,7 @@ public class Puff : MonoBehaviour
             timeReset = realTime;
         }
 
-        if (realTime - timeReset >= 3)
+        if (realTime - timeReset >= puffBallSpawnRate)
         {
             animator.SetBool("attack", true);
             Instantiate(puffBall, new Vector3(transform.position.x + puffBallOffsetX,

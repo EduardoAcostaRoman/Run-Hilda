@@ -114,6 +114,14 @@ public class CharacterMainController : MonoBehaviour
             Debug.Log("Invincibility: " + (characterIsInvincible ? "Active" : "Unactive"));
         }
 
+        if (Input.GetKeyDown(KeyCode.E))  // to get buff item
+        {
+            buffTrigger = true;
+            transform.GetChild(3).GetComponent<AudioSource>().Play();
+        }
+
+        
+
         // For PC tests (delete/comment for build)
 
         // --- MOVEMENT --- //

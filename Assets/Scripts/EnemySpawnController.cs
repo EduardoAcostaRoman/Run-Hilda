@@ -69,17 +69,21 @@ public class EnemySpawnController : MonoBehaviour
             // POSITION SAMPLES:
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             // Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
+            
 
 
-            //if (randomValue >= 0.5f)
-            //{
-            //    Instantiate(bat, new Vector3(14, -1f, -1), bat.transform.rotation);
-            //}
-            //else
-            //{
-            //    Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            //}
+            if (randomValue <= 0.33f)
+            {
+                Instantiate(bat, bat.transform.position, bat.transform.rotation);
+            }
+            else if (randomValue <= 0.66f)
+            {
+                Instantiate(wolf, wolf.transform.position, wolf.transform.rotation);
+            }
+            else
+            {
+                Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
+            }
 
             prevtime = realtime;
         }

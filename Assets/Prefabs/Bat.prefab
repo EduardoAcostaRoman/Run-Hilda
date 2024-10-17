@@ -200,6 +200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 11
   startingPosition: {x: 14, y: -3.35, z: -1}
+  explosion: {fileID: 3248865965150578439, guid: 0ea7076bc8419f640b22847342f7d139, type: 3}
+  explosionPosOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &223007097802556561
 MonoBehaviour:
   m_ObjectHideFlags: 0

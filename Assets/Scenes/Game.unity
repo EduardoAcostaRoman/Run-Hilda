@@ -2635,6 +2635,7 @@ MonoBehaviour:
   puffBall: {fileID: 5720620676184812463, guid: f18df0938bfec7149be004b2a9d03202, type: 3}
   puffBallOffsetX: 0
   puffBallOffsetY: 0
+  puffBallSpawnRate: 1
 --- !u!114 &634056266
 MonoBehaviour:
   m_ObjectHideFlags: 0

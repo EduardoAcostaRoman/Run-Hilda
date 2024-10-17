@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7168892130562229513}
   m_Layer: 10
   m_Name: PuffBall
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,5 +200,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocityX: 5
-  velocityY: -3
+  velocityY: 0
   layerToDestroyInContactWith: Enemy

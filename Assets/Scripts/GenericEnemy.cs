@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class GenericEnemy : MonoBehaviour
 {
-    public float speed = 11;
     private GameObject speedReference;
     private Rigidbody2D body;
+    private Animator animator;
+
+    public float speed = 11;
+    public Vector3 startingPosition;
+
+    public GameObject explosion;
+    public Vector3 explosionPosOffset;
 
     float lastVelocityValueX;
 
     bool playerIsDead;
 
-    public Vector3 startingPosition;
+    
+
+    private void OnTriggerEnter2D(Collider2D collisionObject)
+    {
+
+        // For projectile collision
+        if (collisionObject.tag == "PlayerProjectile")
+        {
+            Instantiate(explosion, new Vector3(transform.position.x + explosionPosOffset.x, 
+                                               transform.position.y + explosionPosOffset.y,
+                                               transform.position.z + explosionPosOffset.z), 
+                                               explosion.transform.rotation);
+            Object.Destroy(gameObject);
+        }
+    }
 
     void PlayerDead(Notification notificacion)
     {
@@ -43,8 +63,6 @@ public class GenericEnemy : MonoBehaviour
         {
             body.velocity = new Vector2(lastVelocityValueX, body.velocity.y);
         }
-        
-
 
         if (transform.position.x <= -18)
         {
