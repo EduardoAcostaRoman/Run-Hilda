@@ -56,12 +56,12 @@ public class GenericEnemy : MonoBehaviour
     {
         if (!playerIsDead)
         {
-            body.velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.velocity.y);
-            lastVelocityValueX = body.velocityX;
+            body.linearVelocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -speed, body.linearVelocity.y);
+            lastVelocityValueX = body.linearVelocityX;
         }
         else
         {
-            body.velocity = new Vector2(lastVelocityValueX, body.velocity.y);
+            body.linearVelocity = new Vector2(lastVelocityValueX, body.linearVelocity.y);
         }
 
         if (transform.position.x <= -18)

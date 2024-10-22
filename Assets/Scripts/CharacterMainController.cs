@@ -105,7 +105,7 @@ public class CharacterMainController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W) && boxCollider.IsTouchingLayers(groundLayer) && animator.GetCurrentAnimatorStateInfo(0).IsName("run") && Time.timeScale == 1f && !animator.GetBool("death"))
         {
             audioPlayer(audioJump, 0.5f);
-            body.velocity = new Vector2(0, jumpForce);       
+            body.linearVelocity = new Vector2(0, jumpForce);       
         }
 
         if (Input.GetKeyDown(KeyCode.Q))  // to make character invincible
@@ -134,7 +134,7 @@ public class CharacterMainController : MonoBehaviour
                 if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
                     return;         
                 audioPlayer(audioJump, 0.5f);
-                body.velocity = new Vector2(0, jumpForce);
+                body.linearVelocity = new Vector2(0, jumpForce);
             }
         }
 
@@ -148,7 +148,7 @@ public class CharacterMainController : MonoBehaviour
             if (animator.GetBool("fall"))
             {
                 audioPlayer(audioFall, 0.5f);
-                dust.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+                dust.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(0, 0);
                 dust.transform.position = new Vector3(transform.position.x -0.45f, dust.transform.position.y, dust.transform.position.z);
                 dust.GetComponent<Animator>().SetBool("dust", true);
             }
@@ -157,11 +157,11 @@ public class CharacterMainController : MonoBehaviour
         }
         else
         {
-            if (body.velocity.y <= 0)
+            if (body.linearVelocity.y <= 0)
             {
                 animator.SetBool("fall", true);
             }
-            else if (body.velocity.y > 0)
+            else if (body.linearVelocity.y > 0)
             {
                 animator.SetBool("jump", true);
             }
@@ -169,7 +169,7 @@ public class CharacterMainController : MonoBehaviour
 
         if (dust.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("dust"))
         {
-            dust.GetComponent<Rigidbody2D>().velocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -8, 0);
+            dust.GetComponent<Rigidbody2D>().linearVelocity = new Vector2((speedReference.GetComponent<Animator>().speed + 0.3f) * -8, 0);
             dust.GetComponent<Animator>().SetBool("dust", false);
         }
 
@@ -232,7 +232,7 @@ public class CharacterMainController : MonoBehaviour
             // if dead, make player not move
             if (animator.GetBool("death"))
             {
-                body.velocity = new Vector2(0, 0);
+                body.linearVelocity = new Vector2(0, 0);
                 body.gravityScale = 0;
             }
         }
@@ -269,7 +269,7 @@ public class CharacterMainController : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("death2"))
         {
-            body.velocity = new Vector2(0, 0);
+            body.linearVelocity = new Vector2(0, 0);
             body.gravityScale = 0;
 
             if (realtime - prevTimeDeath2Effect > 0.7 && death2EffectCounter < 2)
@@ -289,7 +289,7 @@ public class CharacterMainController : MonoBehaviour
 
                     //effect.transform.GetChild(0).transform.position = new Vector2(death2EffectAngle, 0);
 
-                    //death2EffectAngle += 0.785f; // 1.57 is 90° rotation, then 0.785 is 45°, which makes effect spawn in 8 ways
+                    //death2EffectAngle += 0.785f; // 1.57 is 90ï¿½ rotation, then 0.785 is 45ï¿½, which makes effect spawn in 8 ways
 
                     GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x,
                         transform.position.y + 1.08f,

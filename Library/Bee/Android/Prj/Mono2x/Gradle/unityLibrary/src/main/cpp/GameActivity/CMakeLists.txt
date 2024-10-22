@@ -1,1 +1,0 @@
-# Empty since GameActivity is disabled

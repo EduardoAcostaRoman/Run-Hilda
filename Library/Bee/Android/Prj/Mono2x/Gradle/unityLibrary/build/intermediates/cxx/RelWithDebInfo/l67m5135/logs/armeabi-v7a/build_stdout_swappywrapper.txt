@@ -1,2 +1,0 @@
-ninja: Entering directory `C:\Users\lalo_\Documents\Run Hilda!\.utmp\RelWithDebInfo\l67m5135\armeabi-v7a'
-ninja: no work to do.

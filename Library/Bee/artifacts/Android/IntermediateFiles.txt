@@ -1,5 +1,0 @@
-build.gradle.xml
-unityLibrary/build.gradle.xml
-launcher/build.gradle.xml
-gradle.properties.xml
-settings.gradle.xml

@@ -31,31 +31,31 @@ public class Death2Effect : MonoBehaviour
         switch (distanceAngle)
         {
             case 1:
-                body.velocity = new Vector2(0, 5);
+                body.linearVelocity = new Vector2(0, 5);
                 break;
             case 2:
-                body.velocity = new Vector2(3.5f, 3.5f);
+                body.linearVelocity = new Vector2(3.5f, 3.5f);
                 break;
             case 3:
-                body.velocity = new Vector2(5, 0);
+                body.linearVelocity = new Vector2(5, 0);
                 break;
             case 4:
-                body.velocity = new Vector2(3.5f, -3.5f);
+                body.linearVelocity = new Vector2(3.5f, -3.5f);
                 break;
             case 5:
-                body.velocity = new Vector2(0, -5);
+                body.linearVelocity = new Vector2(0, -5);
                 break;
             case 6:
-                body.velocity = new Vector2(-3.5f, -3.5f);
+                body.linearVelocity = new Vector2(-3.5f, -3.5f);
                 break;
             case 7:
-                body.velocity = new Vector2(-5, 0);
+                body.linearVelocity = new Vector2(-5, 0);
                 break;
             case 8:
-                body.velocity = new Vector2(-3.5f, 3.5f);
+                body.linearVelocity = new Vector2(-3.5f, 3.5f);
                 break;
             default:
-                body.velocity = new Vector2(3.5f, 3.5f);
+                body.linearVelocity = new Vector2(3.5f, 3.5f);
                 break;
         }
 

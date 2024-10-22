@@ -30,10 +30,11 @@ public class ProjectileController : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        body.linearVelocity = new Vector2(velocityX, velocityY);
     }
 
     void Update()
     {
-        body.velocity = new Vector2(velocityX, velocityY);
+        
     }
 }

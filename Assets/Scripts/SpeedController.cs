@@ -144,7 +144,7 @@ public class SpeedController : MonoBehaviour
         // buff item speed
         foreach (GameObject buffItem in GameObject.FindGameObjectsWithTag("Buff"))
         {
-            buffItem.GetComponent<Rigidbody2D>().velocity = new Vector2((speed + 0.3f) * -11, 0);
+            buffItem.GetComponent<Rigidbody2D>().linearVelocity = new Vector2((speed + 0.3f) * -11, 0);
         }
 
     }

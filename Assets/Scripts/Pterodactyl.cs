@@ -44,16 +44,16 @@ public class Pterodactyl : MonoBehaviour
             //transform.GetChild(1).GetComponent<AudioSource>().Play();
             timeReset = realTime;
             animator.SetBool("attack", true);
-            body.velocity = new Vector2(body.velocity.x, attackSpeedValueY);
+            body.linearVelocity = new Vector2(body.linearVelocity.x, attackSpeedValueY);
             body.gravityScale = -5;
         }
 
-        if (body.velocityY > 0)
+        if (body.linearVelocityY > 0)
         {
             animator.SetBool("flyUp", true);
         }
 
-        body.velocity = new Vector2(speedValueX, body.velocity.y);
+        body.linearVelocity = new Vector2(speedValueX, body.linearVelocity.y);
     }
 
     private void FixedUpdate()

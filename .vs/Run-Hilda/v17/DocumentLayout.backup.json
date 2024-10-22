@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\gamedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\charactermaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T23:50:41.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CharacterMainController.cs",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CharacterMainController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMainController.cs",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CharacterMainController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CharacterMainController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T21:41:00.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Buff.cs",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Buff.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Buff.cs",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Buff.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Buff.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwFAAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T21:33:39.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameDataController.cs",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\GameDataController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameDataController.cs",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\GameDataController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameDataController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T21:00:57.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

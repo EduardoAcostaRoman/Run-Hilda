@@ -35,11 +35,11 @@ public class Wolf : MonoBehaviour
             {
                 if (animator.GetCurrentAnimatorStateInfo(0).IsName("jump"))
                 {
-                    body.velocity = new Vector2(-17, body.velocity.y);
+                    body.linearVelocity = new Vector2(-17, body.linearVelocity.y);
                 }
                 else
                 {
-                    body.velocity = new Vector2(body.velocity.x + prepareSpeedValue, body.velocity.y);
+                    body.linearVelocity = new Vector2(body.linearVelocity.x + prepareSpeedValue, body.linearVelocity.y);
                 }
                 
 
@@ -58,7 +58,7 @@ public class Wolf : MonoBehaviour
                         animator.SetBool("jump", true);
                     }
                     
-                    body.velocity = new Vector2(body.velocity.x, jumpValue);
+                    body.linearVelocity = new Vector2(body.linearVelocity.x, jumpValue);
                 }
             }
 

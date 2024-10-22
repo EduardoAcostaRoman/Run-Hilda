@@ -8,6 +8,13 @@ SpriteLibCategory
 SpriteLibraryAsset
 SpriteResolver
 SpriteSkin
+RegisterGenericJobTypeAttribute
+Unity
+Entities
+DataStreamReader
+Networking
+Transport
+DataStreamWriter
 AssetModificationProcessor
 
 Sysroot
@@ -103,12 +110,8 @@ MuscleHandle
 ExpressionEvaluator
 UnityEditor
 NumericFieldDraggerUtility
-PixelPerfectRendering
-UnityEngine
-Experimental
-U2D
-SpriteBone
 Profiler
+UnityEngine
 PhotoCaptureFileOutputFormat
 XR
 WSA
@@ -120,6 +123,7 @@ CapturePixelFormat
 WebCamMode
 CameraParameters
 PlayerLoopSystemInternal
+Experimental
 LowLevel
 PlayerLoopSystem
 PlayerLoop
@@ -136,6 +140,8 @@ PlayerConnection
 IConnectionState
 VertexAttribute
 Rendering
+LightUnit
+HighDefinition
 RenderingThreadingMode
 RayTracingSubMeshFlags
 RayTracingInstanceCullingFlags
@@ -154,6 +160,9 @@ RendererList
 RendererUtils
 RendererListStatus
 RayTracingShader
+PixelPerfectRendering
+U2D
+SpriteBone
 LocalizationAsset
 UnityEditor
 SpriteShapeParameters

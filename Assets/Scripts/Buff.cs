@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Buff : MonoBehaviour
 {
-    private float startPosX;
-    private float startPosY;
+    private float activatedPosX;
+    private float activatedPosY;
     public float posOffsetX = 1.43f;
     public float posOffsetY = 3.11f;
+    public float startPosX = -11;
+    public float startPosY = 6.2f;
+
     private GameObject player;
     private Rigidbody2D body;
 
@@ -15,10 +18,11 @@ public class Buff : MonoBehaviour
 
     private bool buffActivated = false;
 
-    public float changeRateAxisX = 0.1f;
-    public float changeRateAxisY = 0.1f;
+    public float changeRateAxisX = 5;
+    public float changeRateAxisY = 5;
 
-    public float changeRateRetreat = 0.1f;
+    public float changeRateRetreatX = 2;
+    public float changeRateRetreatY = 2;
 
     void BuffActivated(Notification notificacion)
     {
@@ -55,30 +59,31 @@ public class Buff : MonoBehaviour
     
     void Update()
     {
-        startPosX = player.transform.position.x - posOffsetX;
-        startPosY = player.transform.position.y + posOffsetY;
+        activatedPosX = player.transform.position.x - posOffsetX;
+        activatedPosY = player.transform.position.y + posOffsetY;
+
+
+        // Clamps buff position
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, startPosX, activatedPosX),
+                                         Mathf.Clamp(transform.position.y, activatedPosY, startPosY),
+                                         transform.position.z);
 
         if (!gamePaused)
         {
             if (buffActivated)
             {
-                if (transform.position.x >= (startPosX - 0.1f))
-                {
-                    transform.position = new Vector3(startPosX, startPosY, transform.position.z);
+                if (transform.position.y <= (activatedPosY + 0.1f))           // to make sure the buff moves along with the player
+                {                                                             // once it reaches the final position point
+                    body.linearVelocity = new Vector2(changeRateAxisX, -30);
                 }
                 else
                 {
-                    transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, startPosX, changeRateAxisX),
-                                             Mathf.MoveTowards(transform.position.y, startPosY, changeRateAxisY),
-                                             transform.position.z);
-                }  
+                    body.linearVelocity = new Vector2(changeRateAxisX, -changeRateAxisY);
+                }
             }
             else
             {
-
-                transform.position = new Vector3(Mathf.MoveTowards(transform.position.x, -13, changeRateRetreat),
-                                             transform.position.y,
-                                             transform.position.z);
+                body.linearVelocity = new Vector2(-changeRateRetreatX, changeRateRetreatY);
             }
         }
         
