@@ -1,3 +1,7 @@
-# ignores library folder due to high file volume
+# ignores library folder due to high file volume and its not required as unity generates this folder as needed automatically
 
-Library/PackageCache/
+/Library/
+
+# ignores temporary folders
+
+/.utmp/

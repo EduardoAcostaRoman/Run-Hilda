@@ -48,6 +48,9 @@ public class GenericEnemy : MonoBehaviour
 
         gameObject.tag = "Enemy";
 
+        Physics2D.IgnoreLayerCollision(7, 7); // Ignores collision between layers: (7 = enemy || 7 = enemy) 
+        Physics2D.IgnoreLayerCollision(7, 8); // Ignores collision between layers: (7 = enemy || 8 = intangible)
+
         transform.position = startingPosition;
     }
 

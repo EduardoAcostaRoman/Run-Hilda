@@ -11,25 +11,40 @@ public class ProjectileController : MonoBehaviour
 
     private Rigidbody2D body;
 
+    public GameObject destroyEffect;
+
+    private void destroyObject()
+    {
+        Instantiate(destroyEffect,
+                    new Vector3(transform.position.x, transform.position.y, destroyEffect.transform.position.z),
+                    transform.rotation);
+
+        Destroy(gameObject);
+    }
+
     private void OnTriggerEnter2D(Collider2D collisionObject)
     {
-
         // For enemy collision
         if (collisionObject.tag == "Enemy" && layerToDestroyInContactWith == "Enemy")
         {
-            Destroy(gameObject);
+            destroyObject();
         }
 
         // For player collision
         if (collisionObject.tag == "Player" && layerToDestroyInContactWith == "Player")
         {
-            Destroy(gameObject);
+            destroyObject();
         }
     }
 
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+
+        Instantiate(destroyEffect,
+                    new Vector3(transform.position.x, transform.position.y, destroyEffect.transform.position.z),
+                    transform.rotation);
+
         body.linearVelocity = new Vector2(velocityX, velocityY);
     }
 
