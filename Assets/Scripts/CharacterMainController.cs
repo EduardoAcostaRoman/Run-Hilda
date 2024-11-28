@@ -51,6 +51,7 @@ public class CharacterMainController : MonoBehaviour
     public float death2EffectDistance = 0.1f;
     public float death2EffectAngle = 0;
 
+    private bool puffTrigger = false;
     private bool buffTrigger = false;
     public float shieldColor = 4;
     private bool shieldActivated = false;
@@ -66,6 +67,14 @@ public class CharacterMainController : MonoBehaviour
         if (collisionObject.tag == "Buff" && !animator.GetBool("death"))
         {
             buffTrigger = true;
+            transform.GetChild(3).GetComponent<AudioSource>().Play();
+            Destroy(collisionObject.gameObject);
+        }
+
+        // Puff item 
+        if (collisionObject.tag == "Puff" && !animator.GetBool("death"))
+        {
+            puffTrigger = true;
             transform.GetChild(3).GetComponent<AudioSource>().Play();
             Destroy(collisionObject.gameObject);
         }
@@ -120,7 +129,13 @@ public class CharacterMainController : MonoBehaviour
             transform.GetChild(3).GetComponent<AudioSource>().Play();
         }
 
-        
+        if (Input.GetKeyDown(KeyCode.R))  // to get puff item
+        {
+            puffTrigger = true;
+            transform.GetChild(3).GetComponent<AudioSource>().Play();
+        }
+
+
 
         // For PC tests (delete/comment for build)
 
@@ -282,15 +297,6 @@ public class CharacterMainController : MonoBehaviour
 
                 for (int i = 1; i < 9; i++)
                 {
-                    //GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x + (death2EffectDistance * Mathf.Sin(death2EffectAngle)),
-                    //    transform.position.y + 1.08f + (death2EffectDistance * Mathf.Cos(death2EffectAngle)),
-                    //    transform.position.z),
-                    //death2Effect.transform.rotation);
-
-                    //effect.transform.GetChild(0).transform.position = new Vector2(death2EffectAngle, 0);
-
-                    //death2EffectAngle += 0.785f; // 1.57 is 90� rotation, then 0.785 is 45�, which makes effect spawn in 8 ways
-
                     GameObject effect = Instantiate(death2Effect, new Vector3(transform.position.x,
                         transform.position.y + 1.08f,
                         transform.position.z),
@@ -327,6 +333,17 @@ public class CharacterMainController : MonoBehaviour
                 Mathf.Lerp(transform.GetChild(2).GetComponent<SpriteRenderer>().color.a, 0, 0.1f));
 
             NotificationCenter.DefaultCenter().PostNotification(this, "BuffNotActivated");
+        }
+
+        // Puff
+
+        if (puffTrigger && !animator.GetBool("death"))
+        {
+            NotificationCenter.DefaultCenter().PostNotification(this, "PuffActivated");
+        }
+        else
+        {
+            NotificationCenter.DefaultCenter().PostNotification(this, "PuffNotActivated");
         }
     }
 }

@@ -17,6 +17,7 @@ public class Buff : MonoBehaviour
     private bool gamePaused = false;
 
     private bool buffActivated = false;
+    private bool buffPlayerPosReached = false;
 
     public float changeRateAxisX = 5;
     public float changeRateAxisY = 5;
@@ -56,8 +57,7 @@ public class Buff : MonoBehaviour
         NotificationCenter.DefaultCenter().AddObserver(this, "BuffNotActivated");
     }
 
-    
-    void Update()
+    private void FixedUpdate()
     {
         activatedPosX = player.transform.position.x - posOffsetX;
         activatedPosY = player.transform.position.y + posOffsetY;
@@ -72,9 +72,12 @@ public class Buff : MonoBehaviour
         {
             if (buffActivated)
             {
-                if (transform.position.y <= (activatedPosY + 0.1f))           // to make sure the buff moves along with the player
-                {                                                             // once it reaches the final position point
-                    body.linearVelocity = new Vector2(changeRateAxisX, -30);
+                // to make sure the buff moves along with the player once it reaches the final position point
+                if (transform.position.x >= (activatedPosX - 0.1f) && transform.position.y <= (activatedPosY + 0.1f) || buffPlayerPosReached)
+                {
+                    transform.position = new Vector3(activatedPosX, activatedPosY, transform.position.z);
+                    body.linearVelocity = player.GetComponent<Rigidbody2D>().linearVelocity;
+                    buffPlayerPosReached = true;
                 }
                 else
                 {
@@ -86,8 +89,11 @@ public class Buff : MonoBehaviour
                 body.linearVelocity = new Vector2(-changeRateRetreatX, changeRateRetreatY);
             }
         }
-        
+    }
 
+
+    void Update()
+    {
         if (player.GetComponent<CharacterMainController>().blink || player.GetComponent<Animator>().GetBool("death"))
         {
             GetComponent<Animator>().SetBool("hurt", true);

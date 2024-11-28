@@ -1,7 +1,46 @@
-# ignores library folder due to high file volume and its not required as unity generates this folder as needed automatically
+# ============ Unity ============
 
-/Library/
+# Ignore the User-specific files
+UserSettings/
 
-# ignores temporary folders
+# ============ Build folders ============
 
-/.utmp/
+# Ignore build results
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+[Aa]ssets/AssetStoreTools*
+
+# ============ OS generated files ============
+
+.DS_Store
+Thumbs.db
+
+# ============ IDE folders ============
+
+# Ignore Visual Studio folders and files
+.vs/
+.vscode/
+.idea/
+
+# ============ Unity Cache ============
+
+# Unity's Package Manager folder (for Unity 2019.1 and above)
+[Pp]ackages/
+
+# ============ Misc ============
+
+# Ignore all Auto-generated file types
+*.apk
+*.unitypackage
+*.swp
+*.userprefs
+
+# ============ Unity's Serialized Files ============
+
+# Prevent checking in system-generated meta files
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj

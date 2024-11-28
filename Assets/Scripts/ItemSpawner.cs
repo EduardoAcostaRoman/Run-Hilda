@@ -13,6 +13,7 @@ public class ItemSpawner : MonoBehaviour
     private GameObject player;
 
     private bool buffActivated = false;
+    private bool puffActivated = false;
 
     void BuffActivated(Notification notificacion)
     {
@@ -24,26 +25,39 @@ public class ItemSpawner : MonoBehaviour
         buffActivated = false;
     }
 
+    void PuffActivated(Notification notificacion)
+    {
+        puffActivated = true;
+    }
+
+    void PuffNotActivated(Notification notificacion)
+    {
+        puffActivated = false;
+    }
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
 
         NotificationCenter.DefaultCenter().AddObserver(this, "BuffActivated");
         NotificationCenter.DefaultCenter().AddObserver(this, "BuffNotActivated");
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "PuffActivated");
+        NotificationCenter.DefaultCenter().AddObserver(this, "PuffNotActivated");
     }
 
     void Update()
     {
         realtime = Time.timeSinceLevelLoad;
 
-        if (buffActivated)
-        {
-            if (realtime - prevSpawnTime > buffItemSpawnTime)
-            {
-                Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z), buffItem.transform.rotation);
-                prevSpawnTime = realtime;
-            }
-        }
+        //if (buffActivated)
+        //{
+        //    if (realtime - prevSpawnTime > buffItemSpawnTime)
+        //    {
+        //        Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z), buffItem.transform.rotation);
+        //        prevSpawnTime = realtime;
+        //    }
+        //}
 
 
 
