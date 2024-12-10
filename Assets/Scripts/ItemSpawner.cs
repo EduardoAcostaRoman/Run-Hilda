@@ -5,6 +5,7 @@ using UnityEngine;
 public class ItemSpawner : MonoBehaviour
 {
     public GameObject buffItem;
+    public GameObject puffItem;
     public double buffItemSpawnTime = 3;
 
     private double realtime;
@@ -14,6 +15,9 @@ public class ItemSpawner : MonoBehaviour
 
     private bool buffActivated = false;
     private bool puffActivated = false;
+
+    private float randomValue;
+
 
     void BuffActivated(Notification notificacion)
     {
@@ -49,35 +53,31 @@ public class ItemSpawner : MonoBehaviour
     void Update()
     {
         realtime = Time.timeSinceLevelLoad;
-
-        //if (buffActivated)
-        //{
-        //    if (realtime - prevSpawnTime > buffItemSpawnTime)
-        //    {
-        //        Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z), buffItem.transform.rotation);
-        //        prevSpawnTime = realtime;
-        //    }
-        //}
-
+        randomValue = Random.value;
 
 
         // --- SPAWN CONTROL --- //
 
         // buff item control
-        if (!buffActivated && !player.GetComponent<Animator>().GetBool("death"))
+        
+        if (realtime - prevSpawnTime > buffItemSpawnTime && !player.GetComponent<Animator>().GetBool("death"))
         {
-            if (realtime - prevSpawnTime > buffItemSpawnTime)
+            if (randomValue <= 0.5f && !buffActivated)
             {
                 Instantiate(buffItem, new Vector3(13, 1.4f, buffItem.transform.position.z), buffItem.transform.rotation);
-                prevSpawnTime = realtime;
             }
-        }
-        else
-        {
+            else if (!puffActivated)
+            {
+                Instantiate(puffItem, new Vector3(13, 1.4f, puffItem.transform.position.z), puffItem.transform.rotation);
+            }
+            
             prevSpawnTime = realtime;
         }
 
-
-
+        //to reset timer when all activated
+        if (buffActivated && puffActivated)
+        {
+            prevSpawnTime = realtime;
+        }
     }
 }

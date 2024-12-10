@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\itemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\charactermaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\puff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +23,8 @@
       "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\pterodactyl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pterodactyl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\genericenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\genericenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\genericenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\charactermaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermaincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\puffball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puffball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\gamedatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pterodactyl.cs",
-              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Pterodactyl.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Pterodactyl.cs",
-              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Pterodactyl.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Pterodactyl.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA1wD8AAAAiAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ItemSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\ItemSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSpawner.cs",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\ItemSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSpawner.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwEsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:46:02.191Z",
+              "WhenOpened": "2024-11-28T03:09:42.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GenericEnemy.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\GenericEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenericEnemy.cs",
@@ -71,25 +67,24 @@
               "RelativeToolTip": "Assets\\Scripts\\GenericEnemy.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:32:26.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T04:32:26.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Puff.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Puff.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puff.cs",
               "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Puff.cs",
               "RelativeToolTip": "Assets\\Scripts\\Puff.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAA5wA8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T00:28:38.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ProjectileController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\ProjectileController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileController.cs",
@@ -97,25 +92,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ProjectileController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAA1wC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:28:28.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T00:28:28.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PuffBall.cs",
-              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\PuffBall.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PuffBall.cs",
-              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\PuffBall.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PuffBall.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:27:39.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
@@ -127,32 +108,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CharacterMainController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CharacterMainController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMainController.cs",
               "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CharacterMainController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterMainController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAAwFsAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAABwBAAAAAAAAAAAgwIUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T21:41:00.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Buff.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Buff.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Buff.cs",
               "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Buff.cs",
               "RelativeToolTip": "Assets\\Scripts\\Buff.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAwFAAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwE4AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T21:33:39.729Z"
+              "WhenOpened": "2024-10-19T21:33:39.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GameDataController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\GameDataController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameDataController.cs",

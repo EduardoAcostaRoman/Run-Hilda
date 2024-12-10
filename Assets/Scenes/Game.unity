@@ -227,6 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buffItem: {fileID: 1367517380509020588, guid: 8d548f9b2e5bd34418e3fc1cd306ad19, type: 3}
+  puffItem: {fileID: 6326117594568628482, guid: ba94d023ad060fc43b146497d1df45a2, type: 3}
   buffItemSpawnTime: 10
 --- !u!4 &78867749
 Transform:
@@ -2548,7 +2549,7 @@ GameObject:
   - component: {fileID: 634056266}
   m_Layer: 0
   m_Name: Puff
-  m_TagString: Untagged
+  m_TagString: Puff
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2660,7 +2661,7 @@ MonoBehaviour:
   puffBall: {fileID: 5720620676184812463, guid: f18df0938bfec7149be004b2a9d03202, type: 3}
   puffBallOffsetX: 0
   puffBallOffsetY: 0
-  puffBallSpawnRate: 4
+  puffBallSpawnRate: 6
 --- !u!114 &634056266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9682,7 +9683,7 @@ GameObject:
   - component: {fileID: 1871899994}
   m_Layer: 0
   m_Name: Buff
-  m_TagString: Untagged
+  m_TagString: Buff
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10951,12 +10952,12 @@ SceneRoots:
   - {fileID: 1948276744}
   - {fileID: 213709057}
   - {fileID: 1635303148}
+  - {fileID: 78867749}
   - {fileID: 359716288}
   - {fileID: 109751893}
   - {fileID: 778877742}
   - {fileID: 1681804729}
   - {fileID: 284256662}
-  - {fileID: 78867749}
   - {fileID: 1045451794}
   - {fileID: 1965694616}
   - {fileID: 459813633}

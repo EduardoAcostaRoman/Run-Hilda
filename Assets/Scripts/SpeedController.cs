@@ -142,9 +142,15 @@ public class SpeedController : MonoBehaviour
         }
 
         // buff item speed
-        foreach (GameObject buffItem in GameObject.FindGameObjectsWithTag("Buff"))
+        foreach (GameObject buffItem in GameObject.FindGameObjectsWithTag("BuffItem"))
         {
             buffItem.GetComponent<Rigidbody2D>().linearVelocity = new Vector2((speed + 0.3f) * -11, 0);
+        }
+
+        // puff item speed
+        foreach (GameObject puffItem in GameObject.FindGameObjectsWithTag("PuffItem"))
+        {
+            puffItem.GetComponent<Rigidbody2D>().linearVelocity = new Vector2((speed + 0.3f) * -11, 0);
         }
 
     }

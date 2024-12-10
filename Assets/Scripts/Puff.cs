@@ -18,16 +18,16 @@ public class Puff : MonoBehaviour
 
     private bool gamePaused = false;
 
-    private bool buffActivated = false;
+    private bool puffActivated = false;
 
-    void BuffActivated(Notification notificacion)
+    void PuffActivated(Notification notificacion)
     {
-        buffActivated = true;
+        puffActivated = true;
     }
 
-    void BuffNotActivated(Notification notificacion)
+    void PuffNotActivated(Notification notificacion)
     {
-        buffActivated = false;
+        puffActivated = false;
     }
 
     void GamePaused(Notification notificacion)
@@ -52,7 +52,7 @@ public class Puff : MonoBehaviour
     {
         realTime = Time.timeSinceLevelLoad;
 
-        if (!buffActivated)
+        if (!puffActivated)
         {
             timeReset = realTime;
         }

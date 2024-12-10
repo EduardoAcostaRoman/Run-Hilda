@@ -17,6 +17,7 @@ public class Buff : MonoBehaviour
     private bool gamePaused = false;
 
     private bool buffActivated = false;
+    private bool puffActivated = false;
     private bool buffPlayerPosReached = false;
 
     public float changeRateAxisX = 5;
@@ -33,6 +34,16 @@ public class Buff : MonoBehaviour
     void BuffNotActivated(Notification notificacion)
     {
         buffActivated = false;
+    }
+
+    void PuffActivated(Notification notificacion)
+    {
+        puffActivated = true;
+    }
+
+    void PuffNotActivated(Notification notificacion)
+    {
+        puffActivated = false;
     }
 
     void GamePaused(Notification notificacion)
@@ -55,6 +66,9 @@ public class Buff : MonoBehaviour
 
         NotificationCenter.DefaultCenter().AddObserver(this, "BuffActivated");
         NotificationCenter.DefaultCenter().AddObserver(this, "BuffNotActivated");
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "PuffActivated");
+        NotificationCenter.DefaultCenter().AddObserver(this, "PuffNotActivated");
     }
 
     private void FixedUpdate()
@@ -70,10 +84,10 @@ public class Buff : MonoBehaviour
 
         if (!gamePaused)
         {
-            if (buffActivated)
+            if ((gameObject.tag == "Buff" && buffActivated) || (gameObject.tag == "Puff" && puffActivated))
             {
                 // to make sure the buff moves along with the player once it reaches the final position point
-                if (transform.position.x >= (activatedPosX - 0.1f) && transform.position.y <= (activatedPosY + 0.1f) || buffPlayerPosReached)
+                if ((transform.position.x >= (activatedPosX - 0.1f) && transform.position.y <= (activatedPosY + 0.1f)) || buffPlayerPosReached)
                 {
                     transform.position = new Vector3(activatedPosX, activatedPosY, transform.position.z);
                     body.linearVelocity = player.GetComponent<Rigidbody2D>().linearVelocity;
@@ -87,6 +101,7 @@ public class Buff : MonoBehaviour
             else
             {
                 body.linearVelocity = new Vector2(-changeRateRetreatX, changeRateRetreatY);
+                buffPlayerPosReached = false;
             }
         }
     }

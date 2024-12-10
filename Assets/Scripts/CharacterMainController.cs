@@ -64,7 +64,7 @@ public class CharacterMainController : MonoBehaviour
     {
 
         // Buff item 
-        if (collisionObject.tag == "Buff" && !animator.GetBool("death"))
+        if (collisionObject.tag == "BuffItem" && !animator.GetBool("death"))
         {
             buffTrigger = true;
             transform.GetChild(3).GetComponent<AudioSource>().Play();
@@ -72,7 +72,7 @@ public class CharacterMainController : MonoBehaviour
         }
 
         // Puff item 
-        if (collisionObject.tag == "Puff" && !animator.GetBool("death"))
+        if (collisionObject.tag == "PuffItem" && !animator.GetBool("death"))
         {
             puffTrigger = true;
             transform.GetChild(3).GetComponent<AudioSource>().Play();
@@ -117,19 +117,19 @@ public class CharacterMainController : MonoBehaviour
             body.linearVelocity = new Vector2(0, jumpForce);       
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))  // to make character invincible
+        if (Input.GetKeyDown(KeyCode.I))  // to make character invincible
         {
             characterIsInvincible = !characterIsInvincible;
             Debug.Log("Invincibility: " + (characterIsInvincible ? "Active" : "Unactive"));
         }
 
-        if (Input.GetKeyDown(KeyCode.E))  // to get buff item
+        if (Input.GetKeyDown(KeyCode.Q))  // to get buff item
         {
             buffTrigger = true;
             transform.GetChild(3).GetComponent<AudioSource>().Play();
         }
 
-        if (Input.GetKeyDown(KeyCode.R))  // to get puff item
+        if (Input.GetKeyDown(KeyCode.E))  // to get puff item
         {
             puffTrigger = true;
             transform.GetChild(3).GetComponent<AudioSource>().Play();
@@ -265,6 +265,7 @@ public class CharacterMainController : MonoBehaviour
             }
             
             buffTrigger = false;
+            puffTrigger = false;
             animator.SetBool("hurt", false);
         }
 
