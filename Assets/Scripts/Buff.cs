@@ -6,6 +6,7 @@ public class Buff : MonoBehaviour
 {
     private float activatedPosX;
     private float activatedPosY;
+    private float randomValue;
     public float posOffsetX = 1.43f;
     public float posOffsetY = 3.11f;
     public float startPosX = -11;
@@ -76,6 +77,8 @@ public class Buff : MonoBehaviour
         activatedPosX = player.transform.position.x - posOffsetX;
         activatedPosY = player.transform.position.y + posOffsetY;
 
+        randomValue = Random.value;
+
 
         // Clamps buff position
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, startPosX, activatedPosX),
@@ -91,7 +94,21 @@ public class Buff : MonoBehaviour
                 {
                     transform.position = new Vector3(activatedPosX, activatedPosY, transform.position.z);
                     body.linearVelocity = player.GetComponent<Rigidbody2D>().linearVelocity;
-                    buffPlayerPosReached = true;
+
+                    if (!buffPlayerPosReached)
+                    {
+                        if (randomValue >= 0.5f)
+                        {
+                            transform.GetChild(0).GetComponent<AudioSource>().Play();
+                        }
+                        else
+                        {
+                            transform.GetChild(1).GetComponent<AudioSource>().Play();
+                        }
+                        
+                        buffPlayerPosReached = true;
+                    }
+                    
                 }
                 else
                 {
@@ -111,6 +128,18 @@ public class Buff : MonoBehaviour
     {
         if (player.GetComponent<CharacterMainController>().blink || player.GetComponent<Animator>().GetBool("death"))
         {
+            if (!GetComponent<Animator>().GetBool("hurt") && (gameObject.tag == "Buff" && buffActivated) || (gameObject.tag == "Puff" && puffActivated))
+            {
+                if (randomValue >= 0.5f)
+                {
+                    transform.GetChild(2).GetComponent<AudioSource>().Play();
+                }
+                else
+                {
+                    transform.GetChild(3).GetComponent<AudioSource>().Play();
+                }
+            }
+
             GetComponent<Animator>().SetBool("hurt", true);
         }
         else

@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocityX: 5
-  velocityY: 0
+  velocityY: -2
   layerToDestroyInContactWith: Enemy
   destroyEffect: {fileID: 4700975293998038298, guid: 5cf54fa7e386db64485485bde03a37bf, type: 3}
 --- !u!114 &5766674389181965821

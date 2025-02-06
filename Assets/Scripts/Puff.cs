@@ -69,6 +69,10 @@ public class Puff : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
+            if (animator.GetBool("attack"))
+            {
+                transform.GetChild(4).GetComponent<AudioSource>().Play();
+            }
             animator.SetBool("attack", false);
         }
     }
