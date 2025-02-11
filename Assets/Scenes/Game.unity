@@ -2181,6 +2181,7 @@ GameObject:
   - component: {fileID: 459813631}
   - component: {fileID: 459813635}
   - component: {fileID: 459813634}
+  - component: {fileID: 459813636}
   m_Layer: 8
   m_Name: Demon
   m_TagString: Enemy
@@ -2274,8 +2275,8 @@ Transform:
   m_GameObject: {fileID: 459813630}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.63, y: 6.62, z: -1}
-  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_LocalPosition: {x: 3.21, y: -1.57, z: -1}
+  m_LocalScale: {x: 6.3, y: 6.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1659643263}
@@ -2355,6 +2356,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &459813636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459813630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad87fac9aaf95041ab2917363c307b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  demonProjectile: {fileID: 7148518849960004446, guid: 6cf29c638685474409dc1faaae2cb81e, type: 3}
+  standMovementIncrementRatio: 3.5
+  standMovementVelocity: 3.5
+  startingPos: {x: 5.2, y: 0, z: -1}
 --- !u!1 &465967503
 GameObject:
   m_ObjectHideFlags: 0
@@ -9844,7 +9861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1635303147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9888,7 +9905,7 @@ GameObject:
   - component: {fileID: 1659643263}
   - component: {fileID: 1659643264}
   m_Layer: 7
-  m_Name: PunchCollider
+  m_Name: KickCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9943,7 +9960,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.10826586, y: 0.077624545}
+  m_Offset: {x: -0.14094605, y: -0.037899107}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9953,7 +9970,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.12978816, y: 0.3708326}
+  m_Size: {x: 0.3417152, y: 0.27842897}
   m_EdgeRadius: 0
 --- !u!1 &1672246031
 GameObject:
