@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 041e3434e50cc50439086cd6548a0c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocityX: -30
+  velocityX: -25
   velocityY: 0
   layerToDestroyInContactWith: Player
   destroyEffect: {fileID: 4700975293998038298, guid: d90a29d7fdf0af14b8ff0ec0ade3bd82, type: 3}

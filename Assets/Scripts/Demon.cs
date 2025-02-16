@@ -12,8 +12,6 @@ public class Demon : MonoBehaviour
     double realTime;
     double standResetTime;
 
-    bool standReset;
-
     float velocityX;
     float velocityY;
     public float standMovementIncrementRatio = 2;
@@ -22,9 +20,29 @@ public class Demon : MonoBehaviour
     bool shotReset;
     bool shotAnimReset;
 
+    bool flySoundReset;
+    bool teleportSoundReset;
+    bool shotSoundReset;
+    bool finalShotSoundReset;
+
+    int shotSoundCount = 6;
+
     public Vector3 startingPos = new Vector3(5.2f, 0, -1);
 
     private float randomValue;
+
+    void PlayAudio(string sprite, ref bool resetVar, int audioSourceObjectNum)
+    {
+        if (GetComponent<SpriteRenderer>().sprite.name == sprite && !resetVar)
+        {
+            transform.GetChild(audioSourceObjectNum).GetComponent<AudioSource>().Play();
+            resetVar = true;
+        }
+        else if (GetComponent<SpriteRenderer>().sprite.name != sprite)
+        {
+            resetVar = false;
+        }
+    }
 
     void Start()
     {
@@ -44,6 +62,8 @@ public class Demon : MonoBehaviour
         //base stand animation movement in a infinite character shape (lemniscate)
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("stand"))
         {
+            // wing flip auido play
+            PlayAudio("stand_4", ref flySoundReset, 4);
 
             velocityX = standMovementIncrementRatio * Mathf.Sin((float)realTime * standMovementVelocity);
             velocityY = standMovementIncrementRatio * Mathf.Cos(2 * ((float)realTime * standMovementVelocity));
@@ -77,20 +97,29 @@ public class Demon : MonoBehaviour
             standResetTime = realTime;
         }
 
-        //if (animator.GetCurrentAnimatorStateInfo(0).IsName("stand") && !standReset)
-        //{
-        //    standReset = true;
-        //}
-        //else if (!animator.GetCurrentAnimatorStateInfo(0).IsName("stand") && standReset)
-        //{
-        //    standReset = false;
-        //}
-
 
         // shot attack sequence
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("shot"))
         {
             body.linearVelocity = new Vector2(0, 0);
+
+            // charge sound
+            if (GetComponent<SpriteRenderer>().sprite.name == "shot_1" && !shotSoundReset)
+            {
+                transform.GetChild(shotSoundCount).GetComponent<AudioSource>().Play();
+
+                shotSoundCount++;
+                shotSoundCount = Mathf.Clamp(shotSoundCount, 6, 8); //to just make the 3 charge sounds
+
+                shotSoundReset = true;
+            }
+            else if (GetComponent<SpriteRenderer>().sprite.name != "shot_1")
+            {
+                shotSoundReset = false;
+            }
+
+            // final shot sound
+            PlayAudio("shot_7", ref finalShotSoundReset, 9);
 
             // to shoot 3 shots
             if (GetComponent<SpriteRenderer>().sprite.name == "blank" && !shotAnimReset)
@@ -130,6 +159,7 @@ public class Demon : MonoBehaviour
         }
         else
         {
+            shotSoundCount = 6;
             shotAnimReset = false;
         }
 
@@ -149,9 +179,14 @@ public class Demon : MonoBehaviour
         {
             transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = true;
 
+            if (body.linearVelocity.x != -30)
+            {
+                transform.GetChild(0).GetComponent<AudioSource>().Play();
+                transform.GetChild(5).GetComponent<AudioSource>().Play();
+            }
+
             if (transform.position.x <= -8.5f)
             {
-                body.linearVelocity = new Vector2(0, 0);
                 animator.SetBool("kick2", true);
                 animator.SetBool("kick1", false);
             }
@@ -167,6 +202,7 @@ public class Demon : MonoBehaviour
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("kick3"))
         {
+            body.linearVelocity = new Vector2(0, 0);
             animator.SetBool("teleportIn", true);
             animator.SetBool("kick2", false);
         }
@@ -175,8 +211,15 @@ public class Demon : MonoBehaviour
         // fly attack sequence
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("flyBack"))
         {
+            if (body.linearVelocity.x != 10)
+            {
+                transform.GetChild(2).GetComponent<AudioSource>().Play();
+            }
+
             if (transform.position.x >= 15)
             {
+                transform.GetChild(1).GetComponent<AudioSource>().Play(); 
+
                 body.linearVelocity = new Vector2(0, 0);
                 transform.position = new Vector3(transform.position.x, player.transform.position.y + 2, transform.position.z);
                 animator.SetBool("flyAttack", true);
@@ -214,6 +257,14 @@ public class Demon : MonoBehaviour
             body.linearVelocity = new Vector2(0, 0);
             transform.position = startingPos;
             animator.SetBool("teleportIn", false);
+        }
+
+
+        // teleport sound
+        PlayAudio("blank", ref teleportSoundReset, 3);
+
+        if (teleportSoundReset){
+            Debug.Log("activated");
         }
     }
 }
