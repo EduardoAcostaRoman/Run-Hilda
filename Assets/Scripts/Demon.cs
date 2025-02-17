@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class Demon : MonoBehaviour
 {
@@ -6,6 +7,12 @@ public class Demon : MonoBehaviour
     private Rigidbody2D body;
     private GameObject player;
     private BoxCollider2D boxCollider;
+
+    public Shader shaderGUItext;
+    public Shader shaderSpritesDefault;
+    SpriteRenderer sprite;
+
+    public LayerMask playerProjectileLayer;
 
     public GameObject demonProjectile;
 
@@ -31,6 +38,22 @@ public class Demon : MonoBehaviour
 
     private float randomValue;
 
+    bool blink;
+    int blinkCount = 1;
+    double blinkTimeReset;
+
+
+    private void OnTriggerEnter2D(Collider2D collisionObject)
+    {
+
+        // For projectile collision
+        if (collisionObject.tag == "PlayerProjectile")
+        {
+            // to change colors when hurt to white
+            blink = true;
+        }
+    }
+
     void PlayAudio(string sprite, ref bool resetVar, int audioSourceObjectNum)
     {
         if (GetComponent<SpriteRenderer>().sprite.name == sprite && !resetVar)
@@ -44,8 +67,21 @@ public class Demon : MonoBehaviour
         }
     }
 
+    void whiteSprite()
+    {
+        sprite.material.shader = shaderGUItext;
+        sprite.color = Color.white;
+    }
+
+    void normalSprite()
+    {
+        sprite.material.shader = shaderSpritesDefault;
+        sprite.color = Color.white;
+    }
+
     void Start()
     {
+        sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
@@ -263,8 +299,28 @@ public class Demon : MonoBehaviour
         // teleport sound
         PlayAudio("blank", ref teleportSoundReset, 3);
 
-        if (teleportSoundReset){
-            Debug.Log("activated");
+
+        // damage managing
+        if (blink && (realTime - blinkTimeReset >= 0.1f))
+        {
+            if (blinkCount % 2 == 0)
+            {
+                normalSprite();
+            }
+            else
+            {
+                whiteSprite();
+            }
+
+            blinkCount++;
+            blinkTimeReset = realTime;
+
+            if (blinkCount >= 5)
+            {
+                blink = false;
+                blinkCount = 1;
+                normalSprite();
+            }
         }
     }
 }

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4366734392375217766}
   - component: {fileID: 6089442779056452156}
   - component: {fileID: 9062896553886935609}
+  - component: {fileID: 3671652877149755015}
   m_Layer: 7
   m_Name: DemonShot
   m_TagString: EnemyProjectile
@@ -202,3 +203,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &3671652877149755015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7148518849960004446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567a64f09d0740c428b7761e38ca0293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  positionX: -15
+  positionY: 0
+  onlyAxisX: 1
+  greaterThanPosition: 0

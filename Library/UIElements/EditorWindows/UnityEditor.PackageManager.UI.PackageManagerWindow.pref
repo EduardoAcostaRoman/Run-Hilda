@@ -15,6 +15,10 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__package-list-scrollview-key__HorizontalScroller__Slider__UnityEngine.UIElements.Slider
   - __PanelContainer__rootVisualContainer__package-list-scrollview-key__VerticalScroller__Slider__UnityEngine.UIElements.Slider
+  - __PanelContainer__rootVisualContainer__package-list-scrollview-key__VerticalScroller__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__package-list-scrollview-key__HorizontalScroller__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
   m_Values:
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":2147483648.0}'
-  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":1580.0}'
+  - '{}'
+  - '{}'
+  - '{"m_Value":301.6000061035156,"m_LowValue":0.0,"m_HighValue":301.6000061035156}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
