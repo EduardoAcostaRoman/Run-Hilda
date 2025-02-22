@@ -31,6 +31,7 @@ public class Demon : MonoBehaviour
     bool teleportSoundReset;
     bool shotSoundReset;
     bool finalShotSoundReset;
+    bool shotPhraseReset;
 
     int shotSoundCount = 6;
 
@@ -42,6 +43,15 @@ public class Demon : MonoBehaviour
     int blinkCount = 1;
     double blinkTimeReset;
 
+    int damage = 0;
+    public int deathVal = 10;
+    double explosionTimeReset;
+    public GameObject explosion;
+    public GameObject finalExplosion;
+    public float explosionDistance = 2;
+    public float explosionOffset = 1;
+    int explosionCount;
+    int explosionCountForfinalExplosion = 8;
 
     private void OnTriggerEnter2D(Collider2D collisionObject)
     {
@@ -137,6 +147,12 @@ public class Demon : MonoBehaviour
         // shot attack sequence
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("shot"))
         {
+            if (!shotPhraseReset)
+            {
+                transform.GetChild(10).GetComponent<AudioSource>().Play();
+                shotPhraseReset = true;
+            }
+
             body.linearVelocity = new Vector2(0, 0);
 
             // charge sound
@@ -195,6 +211,7 @@ public class Demon : MonoBehaviour
         }
         else
         {
+            shotPhraseReset = false;
             shotSoundCount = 6;
             shotAnimReset = false;
         }
@@ -303,6 +320,11 @@ public class Demon : MonoBehaviour
         // damage managing
         if (blink && (realTime - blinkTimeReset >= 0.1f))
         {
+            if (blinkCount == 1)
+            {
+                transform.GetChild(11).GetComponent<AudioSource>().Play();
+            }
+
             if (blinkCount % 2 == 0)
             {
                 normalSprite();
@@ -317,10 +339,44 @@ public class Demon : MonoBehaviour
 
             if (blinkCount >= 5)
             {
+                damage++;
+                explosionTimeReset = realTime;
                 blink = false;
                 blinkCount = 1;
                 normalSprite();
             }
+        }
+
+        if (damage >= deathVal && explosionCount < explosionCountForfinalExplosion)
+        {
+            if (!animator.GetBool("death"))
+            {
+                transform.GetChild(12).GetComponent<AudioSource>().Play();
+            }
+
+            body.linearVelocity = new Vector2(0, 0);
+            animator.SetBool("death", true);
+
+            if (realTime - explosionTimeReset >= 0.4f)
+            {
+                Instantiate(explosion, new Vector3(transform.position.x + (randomValue * explosionDistance) - explosionOffset,
+                                                   transform.position.y + (Random.value * explosionDistance) - explosionOffset,
+                                                   -1.1f),
+                                                   explosion.transform.rotation);
+
+                explosionCount++;
+                explosionTimeReset = realTime;
+            }
+        }
+
+        if (explosionCount >= explosionCountForfinalExplosion)
+        {
+            Instantiate(finalExplosion, new Vector3(transform.position.x,
+                                                   transform.position.y,
+                                                   -1.1f),
+                                                   finalExplosion.transform.rotation);
+
+            Destroy(gameObject);
         }
     }
 }
