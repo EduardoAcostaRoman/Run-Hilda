@@ -237,22 +237,6 @@ public class CameraController : MonoBehaviour
         pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (Dead UI)
         pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(1).transform.GetChild(0).GetComponent<TMP_Text>().text = GameDataController.distanceRecordData + " m"; // distance printed in UI (Dead UI)
 
-        // For game pausing on PC
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            CameraShake(false);
-
-            if (pause)
-            {
-                ResumeGame();            
-            }
-            else
-            {
-                PauseGame();
-            }
-        }
-
 
         // to make the "DANGER" UI when boss appears
         if (bossSpawned)
@@ -288,6 +272,21 @@ public class CameraController : MonoBehaviour
             }
         }
 
+        // For game pausing on PC
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CameraShake(false);
+
+            if (pause)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
 
         // to reset game testing
 
