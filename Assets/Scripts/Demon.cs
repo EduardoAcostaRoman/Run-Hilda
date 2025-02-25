@@ -57,7 +57,10 @@ public class Demon : MonoBehaviour
     {
 
         // For projectile collision
-        if (collisionObject.tag == "PlayerProjectile")
+        if (collisionObject.tag == "PlayerProjectile" &&
+            !animator.GetBool("death") && 
+            !(animator.GetCurrentAnimatorStateInfo(0).IsName("entrance") ||
+            animator.GetCurrentAnimatorStateInfo(0).IsName("entrance2")))
         {
             // to change colors when hurt to white
             blink = true;
@@ -97,7 +100,7 @@ public class Demon : MonoBehaviour
         boxCollider = GetComponent<BoxCollider2D>();
         player = GameObject.FindGameObjectWithTag("Player");
 
-        transform.position = startingPos;
+        transform.position = new Vector3(15, 0, -1);
     }
 
     void Update()
@@ -105,12 +108,41 @@ public class Demon : MonoBehaviour
         realTime = Time.timeSinceLevelLoad;
         randomValue = Random.value;
 
+        //entrance animation movement and behavior
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("entrance"))
+        {
+            if (transform.position.x > startingPos.x)
+            {
+                body.linearVelocity = new Vector2(-3, 0);
+            }
+            else
+            {
+                body.linearVelocity = new Vector2(0, 0);
+                animator.SetBool("entrance", true);
+            }
+        }
+
+        //entrance laugh animation 
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("entrance2"))
+        {
+            if (animator.GetBool("entrance"))
+            {
+                transform.GetChild(2).GetComponent<AudioSource>().Play();
+                animator.SetBool("entrance", false);
+            }
+            else if (!transform.GetChild(2).GetComponent<AudioSource>().isPlaying)
+            {
+                animator.SetBool("entrance2", true);
+            }
+        }
+
+
+        // wing flip auido play
+        PlayAudio("stand_4", ref flySoundReset, 4);
+
         //base stand animation movement in a infinite character shape (lemniscate)
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("stand"))
         {
-            // wing flip auido play
-            PlayAudio("stand_4", ref flySoundReset, 4);
-
             velocityX = standMovementIncrementRatio * Mathf.Sin((float)realTime * standMovementVelocity);
             velocityY = standMovementIncrementRatio * Mathf.Cos(2 * ((float)realTime * standMovementVelocity));
 

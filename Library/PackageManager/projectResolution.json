@@ -120,12 +120,12 @@
       "version": "17.0.3",
       "source": "builtin"
     },
-    "com.unity.test-framework@1.4.5": {
+    "com.unity.test-framework@1.4.6": {
       "name": "com.unity.test-framework",
       "resolvedPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Library\\PackageCache\\com.unity.test-framework",
-      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
-      "editorCompatibility": "2019.4.0a10",
-      "version": "1.4.5",
+      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
+      "editorCompatibility": "2019.4.1f1",
+      "version": "1.4.6",
       "source": "registry"
     },
     "com.unity.timeline@1.8.7": {
@@ -380,20 +380,20 @@
       "version": "17.0.3",
       "source": "builtin"
     },
-    "com.unity.mathematics@1.3.2": {
-      "name": "com.unity.mathematics",
-      "resolvedPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Library\\PackageCache\\com.unity.mathematics",
-      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.3.2",
-      "source": "registry"
-    },
     "com.unity.2d.common@9.0.6": {
       "name": "com.unity.2d.common",
       "resolvedPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Library\\PackageCache\\com.unity.2d.common",
       "fingerprint": "a819feaf03690d15a1e56c9aaf0bcd8e7e275bc5",
       "editorCompatibility": "2023.1.0a1",
       "version": "9.0.6",
+      "source": "registry"
+    },
+    "com.unity.mathematics@1.3.2": {
+      "name": "com.unity.mathematics",
+      "resolvedPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Library\\PackageCache\\com.unity.mathematics",
+      "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.2",
       "source": "registry"
     },
     "com.unity.collections@2.5.1": {

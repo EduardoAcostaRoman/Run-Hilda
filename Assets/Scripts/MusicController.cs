@@ -13,7 +13,11 @@ public class MusicController : MonoBehaviour
 
     Object[] allAudioSourcesPlaying;
 
+    AudioSource presentAudioPlaying;
+
     bool gamePaused;
+
+    bool bossSpawned;
 
     void PlayerDead(Notification notificacion)
     {
@@ -75,6 +79,11 @@ public class MusicController : MonoBehaviour
         }
     }
 
+    void BossSpawned(Notification notificacion)
+    {
+        bossSpawned = true;
+    }
+
     void Start()
     {
         mainThemeStart.Play();
@@ -83,19 +92,41 @@ public class MusicController : MonoBehaviour
         NotificationCenter.DefaultCenter().AddObserver(this, "GameNotPaused");
 
         NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
+
+        NotificationCenter.DefaultCenter().AddObserver(this, "BossSpawned");
     }
 
 
     void Update()
     {
-        
+
     }
 
     private void FixedUpdate()
-    {       
+    {
         if (!mainThemeStart.isPlaying && !mainThemeLoop.isPlaying)
         {
             mainThemeLoop.Play();
+            presentAudioPlaying = mainThemeLoop;
+        }
+
+        if (mainThemeStart.isPlaying)
+        {
+            presentAudioPlaying = mainThemeStart;
+        }
+
+
+        if (bossSpawned )
+        {
+            if (presentAudioPlaying.volume != 0)
+            {
+                presentAudioPlaying.volume -= 0.01f;
+            }
+
+            if (presentAudioPlaying.volume < 0)
+            {
+                presentAudioPlaying.volume = 0;
+            }
         }
     }
 }

@@ -7,6 +7,7 @@ using TMPro;
 using System.IO;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class CameraController : MonoBehaviour
 {
@@ -39,6 +40,23 @@ public class CameraController : MonoBehaviour
     private GameObject speedReference;
 
     private int distancePersistantData;
+
+    public GameObject lightSource;
+    bool bossSpawned;
+    public int blinkCount = 1;
+    public float blinkSpeed = 0.5f;
+    public float colorChangeSpeed = 1;
+    double timeSinceDangerUIstarted;
+
+    AudioSource audioSource;
+    public AudioClip alertSound;
+
+    void audioPlayer(AudioClip clip, float volume)
+    {
+        audioSource.clip = clip;
+        audioSource.volume = volume;
+        audioSource.Play();
+    }
 
     void CameraShake(bool activate)
     {
@@ -133,10 +151,17 @@ public class CameraController : MonoBehaviour
         }
     }
 
+    void BossSpawned(Notification notificacion)
+    {
+        bossSpawned = true;
+        timeSinceDangerUIstarted = realtime;
+    }
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         speedReference = GameObject.FindGameObjectWithTag("Background");
+        audioSource = GetComponent<AudioSource>();
 
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
         pauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
@@ -152,6 +177,7 @@ public class CameraController : MonoBehaviour
         GameStop(1f, false, false);
 
         NotificationCenter.DefaultCenter().AddObserver(this, "PlayerDead");
+        NotificationCenter.DefaultCenter().AddObserver(this, "BossSpawned");
     }
 
 
@@ -226,6 +252,42 @@ public class CameraController : MonoBehaviour
                 PauseGame();
             }
         }
+
+
+        // to make the "DANGER" UI when boss appears
+        if (bossSpawned)
+        {
+            // to turn all light into red and back to white 3 times
+            double timeForColorChange = realtime - timeSinceDangerUIstarted;
+            float colorBG = Mathf.Cos((float)timeForColorChange * colorChangeSpeed) * 0.9f;
+            lightSource.GetComponent<Light2D>().color = new Color(1, colorBG, colorBG);
+
+            if (lightSource.GetComponent<Light2D>().color.b <= 0.2f)
+            {
+                if (!pauseCanvas.transform.GetChild(4).gameObject.activeSelf)
+                {
+                    audioPlayer(alertSound, 0.8f);
+                    pauseCanvas.transform.GetChild(4).gameObject.SetActive(true);
+                }
+            }
+            else
+            {
+                if (pauseCanvas.transform.GetChild(4).gameObject.activeSelf)
+                {
+                    blinkCount++;
+                    pauseCanvas.transform.GetChild(4).gameObject.SetActive(false);
+                }
+            }
+
+            if (blinkCount >= 4 && lightSource.GetComponent<Light2D>().color.b >= 0.85f)
+            {
+                pauseCanvas.transform.GetChild(4).gameObject.SetActive(false);
+                lightSource.GetComponent<Light2D>().color = new Color(1, 1, 1);
+                blinkCount = 1;
+                bossSpawned = false;
+            }
+        }
+
 
         // to reset game testing
 

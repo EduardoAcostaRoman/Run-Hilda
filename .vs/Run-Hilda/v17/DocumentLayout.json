@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\demon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5ED2BA8-44A6-5791-5CE4-49024AB781F1}|Tests.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\tests\\demontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ED2BA8-44A6-5791-5CE4-49024AB781F1}|Tests.csproj|solutionrelative:assets\\tests\\demontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ED2BA8-44A6-5791-5CE4-49024AB781F1}|Tests.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\tests\\tests.asmdef||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{E5ED2BA8-44A6-5791-5CE4-49024AB781F1}|Tests.csproj|solutionrelative:assets\\tests\\tests.asmdef||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\demon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\demon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|c:\\users\\lalo_\\documents\\run-hilda\\assets\\scripts\\selfdestructbyposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|C:\\Users\\lalo_\\Documents\\Run-Hilda\\assets\\scripts\\selfdestructbyposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D7DF19E-46CB-E6E4-54DE-C11DF01F66BA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selfdestructbyposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,6 +63,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Tests.asmdef",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Tests\\Tests.asmdef",
+              "RelativeDocumentMoniker": "Assets\\Tests\\Tests.asmdef",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Tests\\Tests.asmdef",
+              "RelativeToolTip": "Assets\\Tests\\Tests.asmdef",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001874|",
+              "WhenOpened": "2025-02-24T17:46:26.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DemonTests.cs",
+              "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Tests\\DemonTests.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\DemonTests.cs",
+              "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Tests\\DemonTests.cs",
+              "RelativeToolTip": "Assets\\Tests\\DemonTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T17:02:22.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SelfDestructByPosition.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\SelfDestructByPosition.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SelfDestructByPosition.cs",
@@ -62,25 +95,23 @@
               "RelativeToolTip": "Assets\\Scripts\\SelfDestructByPosition.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T06:28:20.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T06:28:20.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Demon.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Demon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Demon.cs",
               "ToolTip": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Demon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Demon.cs",
-              "ViewState": "AgIAAB4BAAAAAAAAAAAowC8BAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T19:22:02.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T19:22:02.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GenericEnemy.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\GenericEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GenericEnemy.cs",
@@ -88,12 +119,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GenericEnemy.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T04:32:26.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T04:32:26.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Puff.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Puff.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puff.cs",
@@ -105,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ProjectileController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\ProjectileController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileController.cs",
@@ -113,12 +143,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ProjectileController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwCMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T00:28:28.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T00:28:28.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
@@ -130,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "CharacterMainController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\CharacterMainController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMainController.cs",
@@ -142,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Buff.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\Buff.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Buff.cs",
@@ -154,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GameDataController.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\GameDataController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameDataController.cs",
@@ -166,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ItemSpawner.cs",
               "DocumentMoniker": "C:\\Users\\lalo_\\Documents\\Run-Hilda\\Assets\\Scripts\\ItemSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSpawner.cs",

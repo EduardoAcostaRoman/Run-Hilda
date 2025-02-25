@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class EnemySpawnController : MonoBehaviour
@@ -9,6 +10,10 @@ public class EnemySpawnController : MonoBehaviour
     public GameObject wolf;
     public GameObject bat;
     public GameObject pterodactyl;
+
+    public GameObject demon;
+
+    bool bossSpawned;
 
     float realtime;
     float prevtime;
@@ -69,24 +74,42 @@ public class EnemySpawnController : MonoBehaviour
             // POSITION SAMPLES:
             // Instantiate(rhyhorn, new Vector3(14, -3.35f, -1), rhyhorn.transform.rotation);
             // Instantiate(wolf, new Vector3(14, -3.35f, -1), wolf.transform.rotation);
-            
 
 
-            if (randomValue <= 0.33f)
+
+            //if (randomValue <= 0.33f)
+            //{
+            //    Instantiate(bat, bat.transform.position, bat.transform.rotation);
+            //}
+            //else if (randomValue <= 0.66f)
+            //{
+            //    Instantiate(wolf, wolf.transform.position, wolf.transform.rotation);
+            //}
+            //else
+            //{
+            //    Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
+            //}
+
+            // boss enemy check (so there is only one at a time)
+            bossSpawned = false;
+
+            GameObject[] Enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            foreach (GameObject enemy in Enemies)
             {
-                Instantiate(bat, bat.transform.position, bat.transform.rotation);
+                if (enemy.name.Contains("Demon"))
+                {
+                    bossSpawned = true;
+                }
             }
-            else if (randomValue <= 0.66f)
+
+            if (!bossSpawned)
             {
-                Instantiate(wolf, wolf.transform.position, wolf.transform.rotation);
-            }
-            else
-            {
-                Instantiate(pterodactyl, pterodactyl.transform.position, pterodactyl.transform.rotation);
+                Instantiate(demon, demon.transform.position, demon.transform.rotation);
+                NotificationCenter.DefaultCenter().PostNotification(this, "BossSpawned");
             }
 
             prevtime = realtime;
         }
-
     }
 }
