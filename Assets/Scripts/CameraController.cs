@@ -111,8 +111,8 @@ public class CameraController : MonoBehaviour
     private void GameStop(float timeScale, bool pauseState, bool blurEffectState)
     {
         // animation reset so it starts from scratch when game paused
-        pauseCanvas.transform.GetChild(3).gameObject.GetComponent<Animator>().Play("distancePanel", 0, 0.0f);
-        pauseCanvas.transform.GetChild(2).gameObject.GetComponent<Animator>().Play("pauseButton", 0, 0.0f);
+        pauseCanvas.transform.GetChild(4).gameObject.GetComponent<Animator>().Play("distancePanel", 0, 0.0f);
+        pauseCanvas.transform.GetChild(3).gameObject.GetComponent<Animator>().Play("pauseButton", 0, 0.0f);
 
         Time.timeScale = timeScale;
         pause = pauseState;
@@ -122,18 +122,18 @@ public class CameraController : MonoBehaviour
     private void PauseGame()
     {
         // animation reset so it starts from scratch when game paused
-        pauseCanvas.transform.GetChild(3).gameObject.GetComponent<Animator>().Play("distancePanel", 0, 0.0f);
-        pauseCanvas.transform.GetChild(2).gameObject.GetComponent<Animator>().Play("pauseButton", 0, 0.0f);
+        pauseCanvas.transform.GetChild(4).gameObject.GetComponent<Animator>().Play("distancePanel", 0, 0.0f);
+        pauseCanvas.transform.GetChild(3).gameObject.GetComponent<Animator>().Play("pauseButton", 0, 0.0f);
 
         GameStop(0f, true, true);
-        pauseCanvas.transform.GetChild(0).gameObject.SetActive(true);
+        pauseCanvas.transform.GetChild(1).gameObject.SetActive(true);
     }
 
     private void ResumeGame()
     {
         GameStop(1f, false, false);
-        pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
         pauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
+        pauseCanvas.transform.GetChild(2).gameObject.SetActive(false);
     }
 
     void PlayerDead(Notification notificacion)
@@ -146,8 +146,8 @@ public class CameraController : MonoBehaviour
         else if (realtime - deathWaitTime >= 3)
         {
             GameStop(0f, true, true);
-            pauseCanvas.transform.GetChild(1).gameObject.SetActive(true);
-            pauseCanvas.transform.GetChild(2).gameObject.GetComponentInChildren<Button>().interactable = false;
+            pauseCanvas.transform.GetChild(2).gameObject.SetActive(true);
+            pauseCanvas.transform.GetChild(3).gameObject.GetComponentInChildren<Button>().interactable = false;
         }
     }
 
@@ -165,6 +165,7 @@ public class CameraController : MonoBehaviour
 
         pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
         pauseCanvas.transform.GetChild(1).gameObject.SetActive(false);
+        pauseCanvas.transform.GetChild(2).gameObject.SetActive(false);
 
         if (globalVolume.profile.TryGet(out DepthOfField tmp))
         {
@@ -233,9 +234,9 @@ public class CameraController : MonoBehaviour
 
         distance = Mathf.RoundToInt(rawDistance);
 
-        pauseCanvas.transform.GetChild(3).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (up-left corner)
-        pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (Dead UI)
-        pauseCanvas.transform.GetChild(1).transform.GetChild(2).transform.GetChild(1).transform.GetChild(0).GetComponent<TMP_Text>().text = GameDataController.distanceRecordData + " m"; // distance printed in UI (Dead UI)
+        pauseCanvas.transform.GetChild(4).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (up-left corner)
+        pauseCanvas.transform.GetChild(2).transform.GetChild(2).transform.GetChild(0).transform.GetChild(0).GetComponent<TMP_Text>().text = distance + " m"; // distance printed in UI (Dead UI)
+        pauseCanvas.transform.GetChild(2).transform.GetChild(2).transform.GetChild(1).transform.GetChild(0).GetComponent<TMP_Text>().text = GameDataController.distanceRecordData + " m"; // distance printed in UI (Dead UI)
 
 
         // to make the "DANGER" UI when boss appears
@@ -248,24 +249,24 @@ public class CameraController : MonoBehaviour
 
             if (lightSource.GetComponent<Light2D>().color.b <= 0.2f)
             {
-                if (!pauseCanvas.transform.GetChild(4).gameObject.activeSelf)
+                if (!pauseCanvas.transform.GetChild(0).gameObject.activeSelf)
                 {
                     audioPlayer(alertSound, 0.8f);
-                    pauseCanvas.transform.GetChild(4).gameObject.SetActive(true);
+                    pauseCanvas.transform.GetChild(0).gameObject.SetActive(true);
                 }
             }
             else
             {
-                if (pauseCanvas.transform.GetChild(4).gameObject.activeSelf)
+                if (pauseCanvas.transform.GetChild(0).gameObject.activeSelf)
                 {
                     blinkCount++;
-                    pauseCanvas.transform.GetChild(4).gameObject.SetActive(false);
+                    pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
                 }
             }
 
             if (blinkCount >= 4 && lightSource.GetComponent<Light2D>().color.b >= 0.85f)
             {
-                pauseCanvas.transform.GetChild(4).gameObject.SetActive(false);
+                pauseCanvas.transform.GetChild(0).gameObject.SetActive(false);
                 lightSource.GetComponent<Light2D>().color = new Color(1, 1, 1);
                 blinkCount = 1;
                 bossSpawned = false;

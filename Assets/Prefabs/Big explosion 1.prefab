@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b074053ae44dcde4dbda7ebeade06e45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selfDestructTime: 1
+  selfDestructTime: 2
 --- !u!82 &1541512873105077734
 AudioSource:
   m_ObjectHideFlags: 0

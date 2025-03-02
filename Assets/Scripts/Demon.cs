@@ -53,6 +53,9 @@ public class Demon : MonoBehaviour
     int explosionCount;
     int explosionCountForfinalExplosion = 8;
 
+    string previousMove;
+    string currentMove = "shot";
+
     private void OnTriggerEnter2D(Collider2D collisionObject)
     {
 
@@ -154,18 +157,45 @@ public class Demon : MonoBehaviour
         // go to stand position and proceed to attack every X seconds
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("stand") && (realTime - standResetTime >= 3))
         {
-            if (randomValue < 0.33f)
+            //to make sure the boss performs same attack from previous iteration
+            switch (previousMove)
             {
-                animator.SetBool("flyBack", true);
+                case "flyBack":
+                    if (randomValue < 0.5f)
+                    {
+                        currentMove = "shot";
+                    }
+                    else 
+                    {
+                        currentMove = "kick1";
+                    }
+                    break;
+
+                case "kick1":
+                    if (randomValue < 0.5f)
+                    {
+                        currentMove = "shot";
+                    }
+                    else
+                    {
+                        currentMove = "flyBack";
+                    }
+                    break;
+
+                default:
+                    if (randomValue < 0.5f)
+                    {
+                        currentMove = "kick1";
+                    }
+                    else
+                    {
+                        currentMove = "flyBack";
+                    }
+                    break;
             }
-            else if (randomValue < 0.66f)
-            {
-                animator.SetBool("kick1", true);
-            }
-            else
-            {
-                animator.SetBool("shot", true);
-            }
+
+            animator.SetBool(currentMove, true);
+            previousMove = currentMove;
 
             standResetTime = realTime;
         }
@@ -407,6 +437,8 @@ public class Demon : MonoBehaviour
                                                    transform.position.y,
                                                    -1.1f),
                                                    finalExplosion.transform.rotation);
+
+            NotificationCenter.DefaultCenter().PostNotification(this, "BossDefeated");
 
             Destroy(gameObject);
         }
